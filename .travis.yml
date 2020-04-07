@@ -13,7 +13,7 @@ script:
 deploy:
   provider: script
   script:
-    - cd yarn install && yarn run deploy
+    - yarn install && yarn run deploy
   skip_cleanup: true
   on:
     branch: master
