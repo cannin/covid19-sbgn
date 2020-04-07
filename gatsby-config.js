@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  pathPrefix: "/covid19-listing",
+  pathPrefix: "/covid19-sbgn",
   siteMetadata: {
     title: "COVID19 File Listing",
     description: "COVID19 File Listing",
