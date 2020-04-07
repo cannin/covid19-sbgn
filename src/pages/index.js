@@ -15,8 +15,8 @@ export default ({ data }) => {
 				{ data.allFile.edges.map (({ node }) => (
 					<div key={ node.relativePath }>
 						{ node.name }:&nbsp;
-						<a href={ node.relativePath }>SBGNML</a>&nbsp;
-						<a href={ ( newtPrefix + node.relativePath ) }>Newt</a>
+						<a href={ node.relativePath } target="_blank" rel="noopener noreferrer">SBGNML</a>&nbsp;
+						<a href={ ( newtPrefix + node.relativePath ) } target="_blank" rel="noopener noreferrer">Newt</a>
 					</div>  
 				)) }
 			</div>
