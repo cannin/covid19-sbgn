@@ -1,19 +1,20 @@
-matrix:
-  include:
-    - language: java
-      jdk: openjdk8
-      script: 
-        - git clone https://git-r3lab.uni.lu/covid/models.git covid_models
-    - language: node_js
-      node_js: 12 
-      before_script:
-        - npm install -g gatsby
-      deploy:
-        provider: script
-        before_script: 
-          - sh java/cd2sbgnml.sh
-        script:
-          - cd npm install && npm run deploy
-        skip_cleanup: true
-        on:
-          branch: master
+language: java
+
+jdk: openjdk8
+node_js: 12
+
+before_script:
+  - npm install -g gatsby
+  - git clone https://git-r3lab.uni.lu/covid/models.git covid_models
+
+script: 
+  - sh java/cd2sbgnml.sh
+
+deploy:
+  provider: script
+  script:
+    - cd npm install && npm run deploy
+  skip_cleanup: true
+  on:
+    branch: master
+
