@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 export default ({ data }) => {
 	const url = typeof window !== 'undefined' ? window.location.href : '';
-	const newtPrefix = 'http://web.newteditor.org/?URL=';
+	const newtPrefix = 'http://web.newteditor.org/?URL=' + url;
 
 	return (
 		<div>
@@ -15,7 +15,7 @@ export default ({ data }) => {
 					<div key={ node.relativePath }>
 						{ node.name }:&nbsp;
 						<a href={ node.relativePath }>SBGNML</a>&nbsp;
-						<a href={ ( newtPrefix + url + node.publicURL ) }>Newt</a>
+						<a href={ ( newtPrefix + node.relativePath ) }>Newt</a>
 					</div>  
 				)) }
 			</div>
