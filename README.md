@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/cannin/covid19-listing.svg?branch=master)](https://travis-ci.org/cannin/covid19-listing)
+[![Build Status](https://travis-ci.org/cannin/covid19-sbgn.svg?branch=master)](https://travis-ci.org/cannin/covid19-sbgn)
 
 # COVID19 Pathways as Systems Biology Graphical Notation (SBGN) Diagrams
 
