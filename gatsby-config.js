@@ -7,19 +7,28 @@
 module.exports = {
   pathPrefix: "/covid19-sbgn",
   siteMetadata: {
-    title: "COVID19 File Listing",
+    title: "covid19-sbgn",
     description: "COVID19 File Listing",
-    url: "https://www.example.com", 
+    url: "https://cannin.github.io/covid19-sbgn/", 
     image: "/images/FIXME.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@canninl",
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-57486113-12",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `static`,
         path: `${__dirname}/static/`,
-      },
-    }
+      }
+    },
+    `gatsby-plugin-react-helmet`,
   ]
 }
