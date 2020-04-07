@@ -10,7 +10,7 @@ module.exports = {
     title: "covid19-sbgn",
     description: "COVID19 File Listing",
     url: "https://cannin.github.io/covid19-sbgn/", 
-    image: "/images/FIXME.jpg", // Path to your image you placed in the 'static' folder
+    image: "/images/TODO.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@canninl",
   },
   plugins: [
