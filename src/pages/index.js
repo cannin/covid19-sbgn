@@ -12,7 +12,7 @@ export default ({ data }) => {
 			<Helmet title="covid19-sbgn" defer={false} />
 			<h1>SBGN File Listing:</h1>
 			<p>COVID19 maps retrieved from <a href='https://git-r3lab.uni.lu/covid/models/' target="_blank" rel="noopener noreferrer">https://git-r3lab.uni.lu/covid/models/</a> 
-			  and converted using <a href='https://github.com/sbgn/cd2sbgnml' target="_blank" rel="noopener noreferrer">cd2sbgmnl</a>.</p>
+			  and converted using <a href='https://github.com/sbgn/cd2sbgnml' target="_blank" rel="noopener noreferrer">cd2sbgnml</a>.</p>
 			<div>{ console.log("files: " + JSON.stringify(data)) }</div>
 			<div>
 				{ data.allFile.edges.map (({ node }) => (
