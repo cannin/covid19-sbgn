@@ -2,7 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 
 export default ({ data }) => {
-	const url = typeof window !== 'undefined' ? window.location.href : '';
+	//const url = typeof window !== 'undefined' ? window.location.href : '';
+	const url = 'https://cannin.github.io/covid19-listing/';
 	const newtPrefix = 'http://web.newteditor.org/?URL=' + url;
 
 	return (
