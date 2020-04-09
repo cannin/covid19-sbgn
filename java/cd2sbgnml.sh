@@ -3,6 +3,7 @@ wget https://github.com/sbgn/cd2sbgnml/releases/download/0.4.5/cd2sbgnml-0.4.5-a
 
 # Move CellDesigner files 
 find covid_models/Curation -name "*.xml" -exec cp {} static \;
+ls -1 static
 
 # Convert files
 java -cp cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i static/COVID19_PAMP_signaling.xml -o static/COVID19_PAMP_signaling.sbgn
