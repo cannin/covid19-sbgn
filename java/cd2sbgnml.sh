@@ -19,7 +19,7 @@ for file in *.java; do
 
     tmp = $(basename "$file" | cut -d. -f1)
     
-    java -cp ../cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i "$file" -o "$tmp.sbgn"
+    java -cp cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i "static/$file" -o "static/$tmp.sbgn"
 done
 
 #java -cp ../cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i COVID19_PAMP_signaling.xml -o COVID19_PAMP_signaling.sbgn
