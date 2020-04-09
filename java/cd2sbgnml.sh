@@ -12,12 +12,14 @@ ls -1 static
 ls -lR .
 
 # Convert files
-cd static 
+#cd static 
 
 for file in *.java; do
     [ -f "$file" ] || break
 
     tmp = $(basename "$file" | cut -d. -f1)
+
+    echo $file $tmp
     
     java -cp cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i "static/$file" -o "static/$tmp.sbgn"
 done
