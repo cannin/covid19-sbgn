@@ -12,6 +12,16 @@ ls -1 static
 ls -lR .
 
 # Convert files
-java -cp cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i static/COVID19_PAMP_signaling.xml -o static/COVID19_PAMP_signaling.sbgn
-java -cp cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i static/Viral_entry_V01_3.xml -o static/Viral_entry_V01_3.sbgn
-java -cp cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i static/Orf10_Cul2_pathway.xml -o static/Orf10_Cul2_pathway.sbgn
+cd static 
+
+for file in *.java; do
+    [ -f "$file" ] || break
+
+    tmp = $(basename "$file" | cut -d. -f1)
+    
+    java -cp ../cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i "$file" -o "$tmp.sbgn"
+done
+
+#java -cp ../cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i COVID19_PAMP_signaling.xml -o COVID19_PAMP_signaling.sbgn
+#java -cp ../cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i Viral_entry_V01_3.xml -o Viral_entry_V01_3.sbgn
+#java -cp ../cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i Orf10_Cul2_pathway.xml -o Orf10_Cul2_pathway.sbgn
