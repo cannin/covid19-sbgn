@@ -24,6 +24,9 @@ for file in *.xml; do
     java -cp ../java/cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i "$file" -o "$tmp.sbgn"
 done
 
+cd ..
+ls -1R . 
+
 #java -cp ../cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i COVID19_PAMP_signaling.xml -o COVID19_PAMP_signaling.sbgn
 #java -cp ../cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i Viral_entry_V01_3.xml -o Viral_entry_V01_3.sbgn
 #java -cp ../cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i Orf10_Cul2_pathway.xml -o Orf10_Cul2_pathway.sbgn
