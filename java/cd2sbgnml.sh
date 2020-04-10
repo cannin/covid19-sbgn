@@ -17,11 +17,12 @@ cd static
 for file in *.xml; do
     [ -f "$file" ] || break
 
-    tmp = $(basename "$file" | cut -d. -f1)
+    #tmp = $(basename "$file" | cut -d. -f1)
 
-    echo $file $tmp
+    echo "XML: $file"
+    #echo "SBGN: $tmp"
     
-    java -cp ../java/cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i "$file" -o "$tmp.sbgn"
+    java -cp ../java/cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i "$file" -o "$file.sbgn"
 done
 
 cd ..
