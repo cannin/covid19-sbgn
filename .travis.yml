@@ -11,6 +11,8 @@ before_install:
 
 before_script:
   - npm install -g gatsby
+  - git clone https://git-r3lab.uni.lu/covid/models.git covid_models
+  - wget https://github.com/sbgn/cd2sbgnml/releases/download/0.4.5/cd2sbgnml-0.4.5-app.jar; mv cd2sbgnml-0.4.5-app.jar java/
 
 script: 
   - sh java/cd2sbgnml.sh
