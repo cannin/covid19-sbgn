@@ -1,0 +1,2455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <notes>
+            <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                <head>
+                    <title/>
+</head>
+                <body>
+                    <p> Authors: Arnau Montagud (arnau.montagud@bsc.es) and Miguel Ponce de León (miguel.ponce@bsc.es)</p>
+</body>
+</html>
+        </notes>
+        <extension>
+            <renderInformation backgroundColor="#ffffff" id="renderInformation" programName="cd2sbgnml" programVersion="0.1" xmlns="http://www.sbml.org/sbml/level3/version1/render/version1">
+                <listOfColorDefinitions>
+                    <colorDefinition id="color_9" value="#cc99ffff"/>
+                    <colorDefinition id="color_3" value="#66ff66ff"/>
+                    <colorDefinition id="color_2" value="#cccc00ff"/>
+                    <colorDefinition id="color_11" value="#ff00ffff"/>
+                    <colorDefinition id="color_6" value="#ccffccff"/>
+                    <colorDefinition id="color_4" value="#000000ff"/>
+                    <colorDefinition id="color_8" value="#f7f7f7ff"/>
+                    <colorDefinition id="color_5" value="#ffccccff"/>
+                    <colorDefinition id="color_1" value="#ffffff00"/>
+                    <colorDefinition id="color_7" value="#ffff66ff"/>
+                    <colorDefinition id="color_10" value="#ffff00ff"/>
+                </listOfColorDefinitions>
+                <listOfStyles>
+                    <style id="style_1.0ffff00ff12.0ff000000" idList="s304_sa187 s305_sa188 s308_sa190 s322_sa200 s349_sa216 s335_sa207 s344_sa212 s348_sa215">
+                        <g fill="color_11" fontSize="12.0" stroke="color_4" strokeWidth="1.0"/>
+                    </style>
+                    <style id="style_1.0ffffff0012.0ff000000" idList="s278_sa158">
+                        <g fill="color_10" fontSize="12.0" stroke="color_4" strokeWidth="1.0"/>
+                    </style>
+                    <style id="style_1.0ff66ff6612.0ff000000" idList="s2_sa3 s36_sa47 s279_sa160">
+                        <g fill="color_3" fontSize="12.0" stroke="color_4" strokeWidth="1.0"/>
+                    </style>
+                    <style id="style_1.0ffffcccc12.0ff000000" idList="s5_sa4 s7_sa5 s7_sa49 s8_sa6 s8_sa50 s101_sa16 s101_sa58 s53_sa23 s100_sa44 s37_sa48 s62_sa148 s239_sa144 s233_sa71 s156_sa108 s281_sa159 s282_sa161 s285_sa165 s286_sa166 s288_sa167 s283_sa163 s298_sa168 s258_sa162 s52_sa59 s66_sa63 s18_sa41 s60_sa73 s29_sa17 s34_sa27 s23_sa46 s94_sa38 s32_sa65 s13_sa39 s26_sa19 s310_sa192 s319_sa197 s320_sa198 s314_sa193 s321_sa199">
+                        <g fill="color_5" fontSize="12.0" stroke="color_4" strokeWidth="1.0"/>
+                    </style>
+                    <style id="style_1.0ffcc99ff12.0ff000000" idList="s212_sa164">
+                        <g fill="color_9" fontSize="12.0" stroke="color_4" strokeWidth="1.0"/>
+                    </style>
+                    <style id="style_1.0ffffff6612.0ff000000" idList="s3_sa15 s50_sa57">
+                        <g fill="color_7" fontSize="12.0" stroke="color_4" strokeWidth="1.0"/>
+                    </style>
+                    <style id="style_13.500ffffff12.0ffcccc00" idList="c1_ca1 c2_ca2 c3_ca3 c4_ca4 c5_ca5 c6_ca6 c7_ca7 c8_ca8">
+                        <g fill="color_1" fontSize="12.0" stroke="color_2" strokeWidth="13.5"/>
+                    </style>
+                    <style id="style_1.0ffccffcc12.0ff000000" idList="s24_sa8 s49_sa9 s91_sa13 s97_sa14 s54_sa24 s99_sa43 s43_sa53 s140_sa102 s141_sa103 s142_sa104 s143_sa105 s144_sa106 s145_sa107 s176_sa125 s177_sa126 s178_sa127 s179_sa128 s180_sa129 s230_sa56 s228_sa134 s229_sa135 s338_sa139 s339_sa140 s340_sa141 s329_sa150 s330_sa151 s331_sa152 s224_sa147 s259_sa175 s260_sa176 s237_sa142 s238_sa143 s240_sa145 s231_sa136 s234_sa137 s232_sa138 s203_sa109 s204_sa110 s205_sa111 s206_sa112 s207_sa113 s252_sa154 s299_sa169 s261_sa177 s262_sa178 s295_sa172 s263_sa179 s265_sa180 s38_sa51 s273_sa181 s274_sa182 s277_sa183 s280_sa184 s290_sa186 s67_sa64 s19_sa42 s21_sa22 s30_sa18 s35_sa28 s22_sa45 s93_sa37 s33_sa66 s14_sa40 s27_sa20 s220_sa203 s307_sa189 s309_sa191 s318_sa194 s317_sa195 s316_sa196 s324_sa201 s336_sa208 s333_sa204 s334_sa205 s342_sa209 s343_sa210 s346_sa213">
+                        <g fill="color_6" fontSize="12.0" stroke="color_4" strokeWidth="1.0"/>
+                    </style>
+                    <style id="style_1.000ffffff12.0ff000000" idList="pr_a5e17a92-e7a4-49ba-a634-96a4ffc96a98 cons_885c93d9-9b65-4717-8871-d6fbcb1edc0f prod_07f7763f-ed04-4d4e-801d-8fa6daeb6fc5 pr_c64665cf-04e9-4687-a9d4-a48046d04b21 cons_6a89372c-e479-4b2a-a894-500da55a260c prod_0ca288f1-c9da-4957-b60c-b009bdfbcc8e pr_7909fbb9-5deb-4d0e-af89-b5b0fe42ab00 cons_8830c84a-6093-428e-8b65-fcd0f641da1b prod_2f55f3e1-8786-4c3e-986f-1d254f7ad973 pr_e90ce612-213f-4235-abf2-9ac431576e3a cons_137f386f-d523-4680-b44d-40143c95686f prod_cbc66989-3d57-48b5-9b1e-1ff73aacc420 pr_c365e600-8b25-4c81-b57f-514cef3fe4d7 cons_53ca0937-6b99-4d6c-b095-22780536d34d cons_0e82aa03-5ca3-4522-843a-19a60e29a291 prod_84b9cd3b-da43-4d27-9841-ceba2c17353e pr_b2c555b0-ed3e-4052-ab5e-8031612735d9 cons_3ea6c53a-e49e-497f-bb91-07353a8d8eaa prod_3fbcdd2a-0877-47cb-a3f6-608655b34275 pr_999287de-b96f-4d2c-97e6-bc7aa126dfb5 cons_e27ee680-1b9c-4503-876f-8aaa4739b338 prod_fae15dc2-2459-48ac-8c53-890276476a98 pr_24be3309-278d-4eda-bb6c-7f62c435d03c cons_c029b909-9694-488a-acab-fc9f88a76ff2 cons_c8d462f8-fead-4ac1-9051-cdb8a51e41d2 prod_eef9e4e9-e426-49d5-8af4-73f3279af340 pr_7f0a07df-9684-4292-8f34-feaf7f1bb197 cons_4ee72570-d721-4bca-913d-63374abef40b prod_6e6017cd-1acc-4af4-8bdc-8f21b9ff1449 pr_f59a7ba6-75db-4972-914b-ac9826313a98 cons_4ad7ae9c-d43d-4203-81de-f624fa117a4a prod_b68a2f1a-3dab-4cc5-abb4-78bcb5ef8730 pr_68183903-ceed-47d8-b7e9-9a1316f8a59e cons_29259022-0f5a-4e23-bab6-30d7a48cd30e prod_b31ebfd6-600e-428b-bb2d-6063fbacc1e2 pr_ff6df95c-4c36-41d4-9241-a533ea72753e cons_a39cbe04-bdd1-46ea-9a8f-a9ffc6173f6e cons_60664889-5182-4877-bf4c-6e69ef9143cc prod_58658b36-a036-44af-abcd-4d9b2625bd2a pr_d41ef613-b592-486d-8ebc-1a94c8505008 cons_094c0510-9695-428c-841a-186f8fe6959f prod_2ae07e85-f2a8-4b3a-8ed1-e0ef3e68b9ed pr_475b02ae-521f-4d83-bcb9-be96d5b4834a cons_5af8144d-1408-472b-bfd7-f3b1b09a4af6 cons_b5babffa-d053-49aa-8c1b-1941ba9adfc8 prod_abc34a1d-ea75-42eb-9d17-bddfddfdf24e pr_4df4a1d6-a12b-4e2c-af60-f1430450aa92 cons_6fdb1d3c-599d-4341-931c-1f3a723ca23d prod_b5cfeda9-1ecc-46e5-b015-18510f4ed41d pr_32e29987-8ee2-41dc-af9d-da39b67742f9 cons_eb60a8c0-5e6f-486d-8f16-9c42d1499686 prod_b1280cc6-7626-45dc-a571-c97218d9b8d7 pr_36941998-4d4d-454f-89a9-cd093fbb6a54 cons_57763a9e-ad9d-4063-b72d-a0956fdf7a02 prod_521fa709-c3eb-4d94-8b37-c84a52cfa2ec pr_9ade4494-ee92-4dac-8b5c-6281c1682552 cons_e4eaa694-4c8a-4ade-8da9-387d20237852 prod_6deaf29f-e02e-4842-976a-225dea46c9cf pr_ad903363-3ed0-4a27-9ef6-1bdab489ae8d cons_1beebb87-1f2e-4914-99ee-b31d1c14de94 prod_c86a79d5-6f41-45ed-973d-8c0534ddfd99 pr_b9485d67-f3a7-403f-96c5-8b3c021d0659 cons_e374d8be-ad55-4782-bc39-ac2b351840c0 prod_692a3dfd-2ddf-41d1-b19e-d2435e86bfc9 pr_b6593a19-2b5c-41b4-ac89-aca8431809a5 cons_e97114fd-f8b0-42aa-a53e-2eeb0b7c008e cons_bcc7e887-3315-4cf8-ad53-8aa515a0877f prod_6ad66752-143c-4470-9161-e8214da9e0a0 pr_27e0d6cb-bddb-4315-b98d-7d2312d2584a cons_101a0bb5-247b-4b08-86d0-d97713eaaed0 cons_128281a3-3a51-4d8b-a89a-e0fa65969586 prod_61d53cbf-094d-4916-a274-60035eaf7220 pr_40082c3b-57be-414b-9309-1b7109f9aa89 cons_2064dda8-4742-414a-a1f0-dd110d89a8e0 cons_0d4ea5e5-cea7-4afb-9e61-2cddc91e27af prod_9879eb08-d83b-4cfa-9204-e15c8e4f790c pr_6a8e9f54-4e11-409a-9cdb-006f5bbb337a cons_c4374766-2bca-4425-afe9-7f17e1006883 prod_65942442-f965-4c1a-aaf7-beaaa48ff048 pr_addf0cdb-9eee-45c6-a300-292a2824ee5e cons_a6d5c66d-0174-437f-a48b-2ab47880bbe6 cons_ff54ad0f-00fd-4896-b974-9025795ef50f prod_45aff0b4-c831-49bd-808c-7bb52b303672 pr_3ddf0c1c-f056-4e5e-a1c9-debeda749709 cons_74f9f70a-94d1-412b-951c-dceb275afb91 cons_5217b25f-0e24-490e-a983-ba502c8cdaf0 prod_2c31ade4-d4b8-4770-8947-f26d59d0fe59 pr_86c40243-d8e5-45d3-8517-ff4e16b05f39 cons_03d64267-5f4b-4327-b7eb-da4cf142434b cons_0242008f-e291-472e-a4b0-53811677ba80 prod_cc6ad7f2-8943-4296-a43d-d13283dd921c pr_21bcd843-011b-497a-9216-71fca2ddf5e5 cons_10fa3425-fbba-43de-b785-36cb0dfa7de3 prod_865968a9-5ff4-4bc1-976b-6056c808d813 pr_c20d9e71-cfd7-4d0d-9311-b5fbad91002f cons_88fe6173-cac4-47e2-bf9b-b29fffea9496 prod_cfe10057-2655-4f22-a6b9-a814e9ce45dd pr_6a12d09a-dbfc-4af5-8746-0c3ec2915fe4 cons_70f57e18-d8be-4721-888b-b758241010cc cons_c48cff4d-0815-4e0b-a4b7-fe2a240c6cd4 prod_00df671a-8f7a-4827-bebc-e5e6d06f76d6 pr_370a58e4-4fd4-41aa-a8a1-e3cec0e37f89 cons_baf04320-c485-4a2a-8b1c-79b100ba3595 prod_8d4e9cad-926e-48fc-a218-ab6d5f9fcbe9 pr_62102f11-6890-4354-b5ce-9bcd9dcfa98a cons_56d9eaa9-0921-46f1-b022-7d870f59847a prod_833074da-277d-4707-8061-2dd3f3ac411b pr_662c8908-b8d5-4113-a6c7-5d4ab85fa1ef cons_1f44b4f8-01c5-491b-88de-6e0e8253a0d0 prod_2dced352-21d0-4e81-88f4-e00328b4d5ad pr_a704ca8c-7b56-44de-83d4-b3dbb80b09ac cons_3874776a-f264-4c1a-aab9-101e93632551 prod_482a3eaf-d4e0-4e48-b98a-2c4a64930899 pr_ceed7f86-0c77-40c7-bc2f-d97e159bdf18 cons_8c0fdac6-8807-4326-833d-953480863017 prod_06aa7e76-3b01-4c71-bd85-5f90fbb37972 pr_efd69c6c-477e-466d-8c37-341c217da6d6 cons_250374b7-d636-4195-a2e8-6fd5dac18a9f prod_5c9127b8-9650-4a9a-8675-09fa90849066 pr_b6936efa-ab33-44d5-b8c1-78b4debd244a cons_9cd3ebae-849d-4734-a0be-7b3c51559a68 prod_43f19d91-e224-4069-aca6-b5e6df5ac149 pr_5f572fc3-3d42-4c87-927a-b014adecb66b cons_da9eb534-05d3-4d24-99b3-01f285c14593 prod_6ff0f084-213e-4572-adff-ac41745e7098 addreact_02538127-b554-4aa6-83a1-44245ee43765 addreact_b7059adb-77ed-4c1a-9be3-2e67c2ded7ca pr_659a09aa-f35f-4873-a4d5-1b6e45816b32 cons_e8af1eda-02ee-4595-b5be-fa0d2b07a12d prod_d877ca07-c184-4e8b-b628-e00f7001b69c pr_7141d38b-9a4a-4386-aa43-4325133a475a cons_e35b60dd-a2e5-429c-9839-347e3f3a31cf cons_3499b8fc-0a06-4758-b015-8be3977e9dbc prod_c2589cc3-0b57-473a-8289-9fad11780cea pr_94d0d92b-fa20-47ad-84f1-7f7b27e73145 cons_cea55495-41af-459d-b7ef-6b0b4295acf6 cons_8cdb0fdc-35f4-4c09-955d-390573b09e7d prod_9251b947-9f7c-4971-b3b1-558b0b51f686 pr_b92723ba-1927-4b12-9cb3-210424d3accb cons_31088656-0faa-4ac6-b4ad-dccc22070e26 cons_555aa0ff-6ed5-4539-84a9-ea544894eb74 prod_bff6fae0-6719-47fc-a706-1f9a3b77c6e5 pr_950b8134-7c3b-467c-9d08-4e10b6ba30aa cons_e97857d9-30c6-4634-b75d-a80587569066 cons_5c0a12f1-1382-439a-8794-cdf4f278f5e4 prod_268b2900-bf7f-4ba5-ab6b-8bc89da4bf43 pr_6e1e8199-17a7-4db7-ac0c-66ee04911414 cons_5e18a60d-885e-4440-8ae4-d8c8f2be44d3 cons_79f958c4-3563-4b3b-87ac-13b925f495d5 prod_61fbfd1d-de31-47f5-9176-4bd493cb6473 pr_bac5df08-d126-4f65-a5a7-75ab6f75bc60 cons_ea60c145-d557-4db7-9519-3dd8c760cf8e cons_e48d8d16-91ec-4be4-8d1c-a2d2ae9fe734 prod_f781f143-6e9a-4c90-ac8a-4ea82a2f32cc pr_4bfd9c43-646c-4f25-be85-3fb8b28a55be cons_9a9ef62c-6b9c-456d-ac04-5ce240385bb2 cons_317bc3cf-98a2-41f2-a1d3-aabe98c57e23 prod_6e2c15d0-a872-465c-882b-30b6a81f0174 pr_443f13a3-f1f5-4a8e-b311-59d3f2eea0ca cons_d99c1732-c095-4c2a-95c5-c3ad51c36c1a cons_d4b0111f-0474-4526-8fb9-37f7e8ffdaae prod_b28a61f7-341f-49f9-bd6d-d8f365e03f39 pr_69ac2320-1048-4fdf-8f42-d990ed322b7d cons_544f87ad-8cbf-4a85-a781-93b6fac5a2d3 cons_d1e257eb-ca38-46bb-b0c8-81295128ac8a prod_0dc2a1d6-a3ee-446a-a1dc-be6276081eec">
+                        <g fill="color_1" fontSize="12.0" stroke="color_4" strokeWidth="1.0"/>
+                    </style>
+                    <style id="style_2.0fff7f7f712.0ff000000" idList="s55_csa5 s98_csa15 s70_csa24 s112_csa29 s213_csa30 s226_csa33 s236_csa36 s246_csa35 s247_csa34 s249_csa32 s250_csa27 s284_csa39 s257_csa40 s264_csa41 s272_csa42 s289_csa43 s291_csa18 s292_csa14 s293_csa4 s294_csa2 s296_csa7 s297_csa6 s300_csa12 s301_csa19 s302_csa13 s303_csa3 s306_csa44 s311_csa45 s313_csa47 s315_csa48 s323_csa49 s326_csa50 s332_csa51 s341_csa52 s345_csa53">
+                        <g fill="color_8" fontSize="12.0" stroke="color_4" strokeWidth="2.0"/>
+                    </style>
+                </listOfStyles>
+            </renderInformation>
+        </extension>
+        <glyph class="compartment" id="c1_ca1">
+            <label text="plasma membrane">
+                <bbox w="80.0" h="10.0" x="4.0" y="162.0"/>
+            </label>
+            <bbox w="3020.0" h="12.0" x="0.0" y="145.0"/>
+        </glyph>
+        <glyph class="compartment" id="c2_ca2" compartmentRef="c1_ca1">
+            <label text="ER">
+                <bbox w="15.0" h="10.0" x="56.0" y="1206.5"/>
+            </label>
+            <bbox w="363.0" h="961.0" x="26.0" y="329.0"/>
+        </glyph>
+        <glyph class="compartment" id="c3_ca3">
+            <label text="IMM">
+                <bbox w="20.0" h="10.0" x="1382.5" y="1581.5"/>
+            </label>
+            <bbox w="302.0" h="964.0" x="1180.0" y="654.0"/>
+        </glyph>
+        <glyph class="compartment" id="c4_ca4" compartmentRef="c1_ca1">
+            <label text="OMM">
+                <bbox w="20.0" h="10.0" x="1539.0" y="1700.5"/>
+            </label>
+            <bbox w="690.0" h="1152.0" x="895.0" y="585.0"/>
+        </glyph>
+        <glyph class="compartment" id="c5_ca5" compartmentRef="c1_ca1">
+            <label text="nucleus">
+                <bbox w="40.0" h="10.0" x="380.5" y="1530.5"/>
+            </label>
+            <bbox w="534.0" h="205.0" x="56.0" y="1362.0"/>
+        </glyph>
+        <glyph class="compartment" id="c6_ca6" compartmentRef="c1_ca1">
+            <label text="peroxisome">
+                <bbox w="55.0" h="10.0" x="469.0" y="341.5"/>
+            </label>
+            <bbox w="205.0" h="194.0" x="403.0" y="185.0"/>
+        </glyph>
+        <glyph class="compartment" id="c7_ca7" compartmentRef="c1_ca1">
+            <label text="endosome">
+                <bbox w="45.0" h="10.0" x="1331.5" y="517.5"/>
+            </label>
+            <bbox w="258.0" h="347.0" x="1313.0" y="209.0"/>
+        </glyph>
+        <glyph class="compartment" id="c8_ca8" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>double-membrane vesicles (DMV) from ER.
+From SARS-COV-1: The RTC is associated with modified host ER membranes that produce convoluted membranes (CMs) and double-membrane vesicles (DMVs) in SARS-CoV-, MHV (mouse hepatitis virus)- as well as MERS-CoV-infected cells (Snijder et al., 2006, Knoops et al., 2008, Hagemeijer et al., 2011, de Wilde et al., 2013). [PMID:29128390]
+From SARS-COV-1: Together, nsp3, nsp4, and nsp6 have the ability to induce double-membrane vesicles that are similar to those observed in SARS coronavirus-infected cells. [PMID:23943763]
+</body>
+</html>
+            </notes>
+            <label text="DMV">
+                <bbox w="20.0" h="10.0" x="1177.4819" y="396.85895"/>
+            </label>
+            <bbox w="229.0" h="230.0" x="1004.0" y="253.0"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="s2_sa3" compartmentRef="c1_ca1">
+            <label text="Nsp4"/>
+            <bbox w="90.0" h="25.0" x="571.0" y="833.0"/>
+            <glyph class="unit of information" id="_633d75ed-4a03-4aa2-9557-71ef2fe83140">
+                <label text="RNA"/>
+                <bbox w="20.0" h="10.0" x="606.0" y="828.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="s5_sa4" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Non-structural protein 4
+Nsp4 forms a complex with Nsp3 and Nsp6. [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <label text="Nsp4"/>
+            <bbox w="80.0" h="40.0" x="582.0" y="733.0"/>
+        </glyph>
+        <glyph class="source and sink" id="s7_sa5" compartmentRef="c1_ca1">
+            <label text="sa5_degraded"/>
+            <clone/>
+            <bbox w="30.0" h="30.0" x="506.0" y="741.0"/>
+        </glyph>
+        <glyph class="source and sink" id="s7_sa49" compartmentRef="c1_ca1">
+            <label text="sa5_degraded"/>
+            <clone/>
+            <bbox w="30.0" h="30.0" x="2108.1667" y="325.16666"/>
+        </glyph>
+        <glyph class="source and sink" id="s8_sa6" compartmentRef="c1_ca1">
+            <label text="sa2_degraded"/>
+            <clone/>
+            <bbox w="30.0" h="30.0" x="505.0" y="803.5"/>
+        </glyph>
+        <glyph class="source and sink" id="s8_sa50" compartmentRef="c1_ca1">
+            <label text="sa2_degraded"/>
+            <clone/>
+            <bbox w="30.0" h="30.0" x="1782.1666" y="430.66666"/>
+        </glyph>
+        <glyph class="macromolecule" id="s24_sa8" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>UNIPROT: P14735
+FUNCTION: Insulin Degrading Enzyme (EC 3.4.24.-). This gene encodes a zinc metallopeptidase that degrades intracellular insulin (DOI:10.1210/mend-4-8-1125 )
+Involved in antigen presentation via MHC class I. [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <label text="IDE"/>
+            <bbox w="80.0" h="40.0" x="628.0" y="572.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="s49_sa9" compartmentRef="c2_ca2">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>UNIPROT:Q8TEM1
+FUNCTION: Nucleoporin essential for nuclear pore assembly and fusion, nuclear pore spacing, as well as structural integrity. (DOI: 10.1091/mbc.e03-04-0260)
+</body>
+</html>
+            </notes>
+            <label text="NUP210"/>
+            <bbox w="80.0" h="40.0" x="113.5" y="688.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="s91_sa13" compartmentRef="c3_ca3">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>UNIPROT: Q9NVH1
+FUNCTION: Required for mitochondrial inner membrane organization. Seems to function through its association with the MICOS complex and the mitochondrial outer membrane sorting assembly machinery (SAM) complex.
+</body>
+</html>
+            </notes>
+            <label text="DNAJC11"/>
+            <bbox w="80.0" h="40.0" x="1141.0" y="789.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="s97_sa14" compartmentRef="c2_ca2">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>UNIPROT:Q2TAA5
+FUNCTION:Mannosyltransferase involved in the last steps of the synthesis of Man5GlcNAc2-PP-dolichol core oligosaccharide on the cytoplasmic face of the endoplasmic reticulum. Catalyzes the addition of the 4th and 5th mannose residues to the dolichol-linked oligosaccharide chain (DOI:10.1093/hmg/ddq016)
+Mannosyltransfer ase involved in the synthesis of core oligosaccharide.[PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <label text="ALG11"/>
+            <bbox w="80.0" h="40.0" x="125.0" y="357.0"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="s3_sa15" compartmentRef="c1_ca1">
+            <label text="Nsp4_anti"/>
+            <bbox w="70.0" h="25.0" x="581.0" y="911.0"/>
+            <glyph class="unit of information" id="_dc67e29e-b8c8-4d68-bca6-c866eaf63efd">
+                <label text="asRNA"/>
+                <bbox w="30.0" h="10.0" x="601.0" y="906.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="source and sink" id="s101_sa16" compartmentRef="c1_ca1">
+            <label text="sa3_degraded"/>
+            <clone/>
+            <bbox w="30.0" h="30.0" x="512.0" y="896.5"/>
+        </glyph>
+        <glyph class="source and sink" id="s101_sa58" compartmentRef="c1_ca1">
+            <label text="sa3_degraded"/>
+            <clone/>
+            <bbox w="30.0" h="30.0" x="1647.1666" y="445.66666"/>
+        </glyph>
+        <glyph class="complex" id="s55_csa5">
+            <label text="Nsp4_IDE"/>
+            <bbox w="100.0" h="120.0" x="306.5" y="7.0"/>
+            <glyph class="macromolecule" id="s53_sa23">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="317.0" y="14.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s54_sa24">
+                <label text="IDE"/>
+                <bbox w="80.0" h="40.0" x="317.5" y="61.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s98_csa15" compartmentRef="c2_ca2">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>doi:10.1101/2020.03.22.002386
+</body>
+</html>
+            </notes>
+            <label text="Nsp4_ALG11"/>
+            <bbox w="100.0" h="120.0" x="120.0" y="419.0"/>
+            <glyph class="macromolecule" id="s99_sa43">
+                <label text="ALG11"/>
+                <bbox w="80.0" h="40.0" x="129.5" y="473.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s100_sa44">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="132.5" y="426.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="nucleic acid feature" id="s36_sa47" compartmentRef="c1_ca1">
+            <label text="Nsp6"/>
+            <bbox w="90.0" h="25.0" x="1810.1666" y="383.16666"/>
+            <glyph class="unit of information" id="_d35c96c8-e982-460e-97c3-289344ebe8dd">
+                <label text="RNA"/>
+                <bbox w="20.0" h="10.0" x="1845.1666" y="378.16666"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="s37_sa48" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>UniProt: P0DTC6
+NS6_SARS2 Non-structural protein
+Nsp6 limits autophagasome expansion. Nsp6 may favor SARS-CoV infection by compromising the ability of autophagosomes to deliver lysosomes for degradation -Complexes with Nsp3 and Nsp4 to form double-membrane vesicles that anchor viral replication complexes. [PMID: 32353859]
+From SARS-COV-1: Coronavirus nsp6 is a multipass transmembrane protein implicated in the formation of DMVs during SARS-CoV infection (1). Overexpression of nsp6 of IBV, MHV, or SARS-CoV activated the formation of autophagosomes from the ER via an omegasome intermediate (18). However, autophagosomes induced by IBV infection or overexpression of coronavirus nsp6 had smaller diameters compared with those induced by starvation, indicating that nsp6 might also restrict the expansion of autophagosomes (19). [PMID: 31226023]
+</body>
+</html>
+            </notes>
+            <label text="Nsp6"/>
+            <bbox w="80.0" h="40.0" x="1938.0" y="291.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="s43_sa53" compartmentRef="c2_ca2">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>UNIPROT:Q99720
+FUNCTION:Functions in lipid transport from the endoplasmic reticulum and is involved in a wide array of cellular functions probably through regulation of the biogenesis of lipid microdomains at the plasma membrane. (DOI:10.1074/jbc.272.43.27107)
+Sigma Receptor 1 is an ER chaperone protein that modulates calcium signaling through its interaction with the IP3 receptor. It is targeted by a number of existing drugs including Chloroquine and haloperidol. [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <label text="SIGMAR1"/>
+            <bbox w="80.0" h="40.0" x="164.16667" y="1219.1666"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="s50_sa57" compartmentRef="c1_ca1">
+            <label text="Nsp6_anti"/>
+            <bbox w="95.0" h="27.0" x="1653.1666" y="386.16666"/>
+            <glyph class="unit of information" id="_47adac87-c570-42c1-81d3-08640dcdd2eb">
+                <label text="asRNA"/>
+                <bbox w="30.0" h="10.0" x="1685.6666" y="381.16666"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s70_csa24" compartmentRef="c4_ca4">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>TOM complex is made from TOMM 5, 7, 20, 22, 40 and 70.[https://www.genenames.org/data/genegroup/#!/group/1229]
+</body>
+</html>
+            </notes>
+            <label text="TOM complex"/>
+            <bbox w="94.0" h="294.0" x="852.0" y="1381.0"/>
+            <glyph class="macromolecule" id="s140_sa102">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q8N4H5
+</body>
+</html>
+                </notes>
+                <label text="TOMM5"/>
+                <bbox w="80.0" h="40.0" x="859.0" y="1390.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s141_sa103">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q9P0U1
+</body>
+</html>
+                </notes>
+                <label text="TOMM7"/>
+                <bbox w="80.0" h="40.0" x="859.0" y="1434.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s142_sa104">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q15388
+</body>
+</html>
+                </notes>
+                <label text="TOMM20"/>
+                <bbox w="80.0" h="40.0" x="858.0" y="1478.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s143_sa105">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q9NS69
+</body>
+</html>
+                </notes>
+                <label text="TOMM22"/>
+                <bbox w="80.0" h="40.0" x="858.0" y="1522.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s144_sa106">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:O96008
+</body>
+</html>
+                </notes>
+                <label text="TOMM40"/>
+                <bbox w="80.0" h="40.0" x="860.0" y="1566.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s145_sa107">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:O94826
+</body>
+</html>
+                </notes>
+                <label text="TOMM70"/>
+                <bbox w="80.0" h="40.0" x="859.0" y="1612.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s112_csa29" compartmentRef="c3_ca3">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>[PMID: 27554484]
+TIM Complex: Involved in the import and insertion of hydrophobic membrane proteins into the mitochondrial inner membrane. Regulates import of transmembrane proteins into the inner mitochondrial membrane. [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <label text="TIM complex"/>
+            <bbox w="210.0" h="215.0" x="1092.1875" y="1065.625"/>
+            <glyph class="macromolecule" id="s176_sa125">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPORT:Q9BSF4
+FUNCTION:Component of the TIM22 complex, a complex that mediates the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane.
+</body>
+</html>
+                </notes>
+                <label text="TIMM29"/>
+                <bbox w="82.0" h="42.0" x="1098.1875" y="1077.625"/>
+            </glyph>
+            <glyph class="macromolecule" id="s177_sa126">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q9Y584
+FUNCTION:Essential core component of the TIM22 complex, a complex that mediates the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. In the TIM22 complex, it constitutes the voltage-activated and signal-gated channel. Forms a twin-pore translocase that uses the membrane potential as external driving force in 2 voltage-dependent steps (By similarity).
+</body>
+</html>
+                </notes>
+                <label text="TIMM22"/>
+                <bbox w="103.0" h="132.0" x="1182.3125" y="1121.25"/>
+            </glyph>
+            <glyph class="macromolecule" id="s178_sa127">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q9Y5J6
+FUNCTION:Component of the TIM22 complex, a complex that mediates the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. The TIM22 complex forms a twin-pore translocase that uses the membrane potential as the external driving force. In the TIM22 complex, it may act as a docking point for the soluble 70 kDa complex that guides the target proteins in transit through the aqueous mitochondrial intermembrane space.
+</body>
+</html>
+                </notes>
+                <label text="TIMM10B"/>
+                <bbox w="78.0" h="41.0" x="1099.3125" y="1126.25"/>
+            </glyph>
+            <glyph class="macromolecule" id="s179_sa128">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q9Y5J7
+FUNCTION:Mitochondrial intermembrane chaperone that participates in the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane.
+</body>
+</html>
+                </notes>
+                <label text="TIMM9"/>
+                <bbox w="78.0" h="40.0" x="1099.3125" y="1212.25"/>
+            </glyph>
+            <glyph class="macromolecule" id="s180_sa129">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:P62072
+FUNCTION:Mitochondrial intermembrane chaperone that participates in the import and insertion of multi-pass transmembrane proteins into the mitochondrial inner membrane. May also be required for the transfer of beta-barrel precursors from the TOM complex to the sorting and assembly machinery (SAM complex) of the outer membrane. Acts as a chaperone-like protein that protects the hydrophobic precursors from aggregation and guide them through the mitochondrial intermembrane space.
+</body>
+</html>
+                </notes>
+                <label text="TIMM10"/>
+                <bbox w="78.0" h="39.0" x="1099.3125" y="1170.25"/>
+            </glyph>
+        </glyph>
+        <glyph class="phenotype" id="s212_sa164" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>From SARS-COV-1: nsp3, 4, and 6 also induce rearrangement of the cellular membrane to form double-membrane vesicles (DMVs) or spherules (1,77), where the coronavirus replication transcription complex (RTC) is assembled and anchored. [PMID: 31226023]
+From SARS-COV-1: Together, nsp3, nsp4, and nsp6 have the ability to induce double-membrane vesicles that are similar to those observed in SARS coronavirus-infected cells. [PMID:23943763]
+</body>
+</html>
+            </notes>
+            <label text="Rearrengement of plasma membrane"/>
+            <bbox w="256.0" h="43.0" x="679.75" y="307.83334"/>
+        </glyph>
+        <glyph class="complex" id="s213_csa30" compartmentRef="c2_ca2">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>http://www.ebi.ac.uk/interpro/entry/InterPro/IPR008388/
+</body>
+</html>
+            </notes>
+            <label text="V-ATPase"/>
+            <bbox w="164.0" h="114.0" x="245.0" y="968.0"/>
+            <glyph class="macromolecule" id="s230_sa56">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q15904
+V-Type Proton ATPase Subunit S1
+FUNCTION:Accessory subunit of the proton-transporting vacuolar (V)-ATPase protein pump, which is required for luminal acidification of secretory vesicles. Guides the V-type ATPase into specialized subcellular compartments
+</body>
+</html>
+                </notes>
+                <label text="ATP6AP1"/>
+                <bbox w="95.0" h="40.0" x="262.66666" y="977.1667"/>
+            </glyph>
+            <glyph class="macromolecule" id="s228_sa134">
+                <label text="V0"/>
+                <bbox w="39.0" h="84.0" x="361.0" y="978.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s229_sa135">
+                <label text="V1"/>
+                <bbox w="97.0" h="40.0" x="261.0" y="1021.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s226_csa33" compartmentRef="c7_ca7">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>http://www.ebi.ac.uk/interpro/entry/InterPro/IPR008388/
+</body>
+</html>
+            </notes>
+            <label text="V-ATPase"/>
+            <bbox w="164.0" h="114.0" x="1436.25" y="424.75"/>
+            <glyph class="macromolecule" id="s338_sa139">
+                <label text="V0"/>
+                <bbox w="39.0" h="84.0" x="1552.25" y="434.75"/>
+            </glyph>
+            <glyph class="macromolecule" id="s339_sa140">
+                <label text="V1"/>
+                <bbox w="97.0" h="40.0" x="1448.25" y="478.75"/>
+            </glyph>
+            <glyph class="macromolecule" id="s340_sa141">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q15904
+V-Type Proton ATPase Subunit S1
+</body>
+</html>
+                </notes>
+                <label text="ATP6AP1"/>
+                <bbox w="95.0" h="40.0" x="1449.9166" y="433.91666"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s236_csa36" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>http://www.ebi.ac.uk/interpro/entry/InterPro/IPR008388/
+</body>
+</html>
+            </notes>
+            <label text="V-ATPase"/>
+            <bbox w="156.0" h="176.0" x="1816.125" y="11.75"/>
+            <glyph class="macromolecule" id="s329_sa150">
+                <label text="V0"/>
+                <bbox w="48.0" h="34.0" x="1921.125" y="129.75"/>
+            </glyph>
+            <glyph class="macromolecule" id="s330_sa151">
+                <label text="V1"/>
+                <bbox w="50.0" h="101.0" x="1919.125" y="25.75"/>
+            </glyph>
+            <glyph class="macromolecule" id="s331_sa152">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q15904
+V-Type Proton ATPase Subunit S1
+Subunit of the vacuolar ATP synthase protein pump. Dysregulation results in impaired vesicle acidification and intracytoplasmic granules, resulting in a range of pathologies including an immunodeficiency syndrome and granular cell tumors. Identified as a potential host factor for IAV, WNV, and DENV. [PMID: 32353859]
+</body>
+</html>
+                </notes>
+                <label text="ATP6AP1"/>
+                <bbox w="95.0" h="40.0" x="1818.7916" y="48.916668"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s246_csa35" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds ATP6AP1 [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="V-ATPase:Nsp6"/>
+            <bbox w="165.0" h="161.0" x="1990.625" y="14.25"/>
+            <glyph class="macromolecule" id="s224_sa147">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+V-Type Proton ATPase Subunit S1
+</body>
+</html>
+                </notes>
+                <label text="ATP6AP1"/>
+                <bbox w="95.0" h="40.0" x="1995.2916" y="70.416664"/>
+            </glyph>
+            <glyph class="macromolecule" id="s62_sa148">
+                <label text="Nsp6"/>
+                <bbox w="95.0" h="39.0" x="1997.2916" y="22.916666"/>
+            </glyph>
+            <glyph class="macromolecule" id="s259_sa175">
+                <label text="V0"/>
+                <bbox w="48.0" h="34.0" x="2100.5642" y="123.44444"/>
+            </glyph>
+            <glyph class="macromolecule" id="s260_sa176">
+                <label text="V1"/>
+                <bbox w="50.0" h="101.0" x="2098.5642" y="19.444445"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s247_csa34" compartmentRef="c7_ca7">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds ATP6AP1 [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="V-ATPase:Nsp6"/>
+            <bbox w="165.0" h="161.0" x="1429.75" y="245.25"/>
+            <glyph class="macromolecule" id="s237_sa142">
+                <label text="V0"/>
+                <bbox w="39.0" h="84.0" x="1545.75" y="302.25"/>
+            </glyph>
+            <glyph class="macromolecule" id="s238_sa143">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+V-Type Proton ATPase Subunit S1
+</body>
+</html>
+                </notes>
+                <label text="ATP6AP1"/>
+                <bbox w="95.0" h="40.0" x="1447.4166" y="301.41666"/>
+            </glyph>
+            <glyph class="macromolecule" id="s239_sa144">
+                <label text="Nsp6"/>
+                <bbox w="95.0" h="39.0" x="1447.4166" y="256.91666"/>
+            </glyph>
+            <glyph class="macromolecule" id="s240_sa145">
+                <label text="V1"/>
+                <bbox w="94.0" h="40.0" x="1448.75" y="345.25"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s249_csa32" compartmentRef="c2_ca2">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds ATP6AP1 [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="V-ATPase:Nsp6"/>
+            <bbox w="165.0" h="161.0" x="244.5" y="798.5"/>
+            <glyph class="macromolecule" id="s233_sa71">
+                <label text="Nsp6"/>
+                <bbox w="95.0" h="39.0" x="262.16666" y="810.1667"/>
+            </glyph>
+            <glyph class="macromolecule" id="s231_sa136">
+                <label text="V0"/>
+                <bbox w="39.0" h="84.0" x="360.5" y="855.5"/>
+            </glyph>
+            <glyph class="macromolecule" id="s234_sa137">
+                <label text="V1"/>
+                <bbox w="94.0" h="40.0" x="263.5" y="898.5"/>
+            </glyph>
+            <glyph class="macromolecule" id="s232_sa138">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+V-Type Proton ATPase Subunit S1
+</body>
+</html>
+                </notes>
+                <label text="ATP6AP1"/>
+                <bbox w="95.0" h="40.0" x="262.16666" y="854.6667"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s250_csa27" compartmentRef="c3_ca3">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Tim29 is a novel subunit of the human TIM22 translocase and is involved in complex assembly and stability. [PMID:27554484]
+Nsp6 binds TIMM9, 10, 10B and 29. [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="TIM complex:Nsp4"/>
+            <bbox w="292.0" h="214.0" x="986.125" y="1357.625"/>
+            <glyph class="macromolecule" id="s156_sa108">
+                <label text="Nsp4"/>
+                <bbox w="77.0" h="174.0" x="996.25" y="1365.25"/>
+            </glyph>
+            <glyph class="macromolecule" id="s203_sa109">
+                <label text="TIMM29"/>
+                <bbox w="78.0" h="42.0" x="1079.125" y="1369.625"/>
+            </glyph>
+            <glyph class="macromolecule" id="s204_sa110">
+                <label text="TIMM22"/>
+                <bbox w="103.0" h="132.0" x="1163.25" y="1417.25"/>
+            </glyph>
+            <glyph class="macromolecule" id="s205_sa111">
+                <label text="TIMM10B"/>
+                <bbox w="78.0" h="41.0" x="1080.25" y="1418.25"/>
+            </glyph>
+            <glyph class="macromolecule" id="s206_sa112">
+                <label text="TIMM9"/>
+                <bbox w="78.0" h="40.0" x="1080.25" y="1504.25"/>
+            </glyph>
+            <glyph class="macromolecule" id="s207_sa113">
+                <label text="TIMM10"/>
+                <bbox w="78.0" h="39.0" x="1080.25" y="1462.25"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="s252_sa154">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>UNIPROT: P14735
+FUNCTION: Insulin Degrading Enzyme (EC 3.4.24.-). This gene encodes a zinc metallopeptidase that degrades intracellular insulin (DOI:10.1210/mend-4-8-1125 )
+</body>
+</html>
+            </notes>
+            <label text="IDE"/>
+            <bbox w="80.0" h="40.0" x="584.51636" y="52.0"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="s278_sa158" compartmentRef="c1_ca1">
+            <label text="Nsp3_anti"/>
+            <bbox w="90.0" h="25.0" x="721.75" y="233.33333"/>
+            <glyph class="unit of information" id="_a5a1e165-025c-4ed9-a956-4fadda6d888a">
+                <label text="asRNA"/>
+                <bbox w="30.0" h="10.0" x="751.75" y="228.33333"/>
+            </glyph>
+        </glyph>
+        <glyph class="source and sink" id="s281_sa159" compartmentRef="c1_ca1">
+            <label text="sa169_degraded"/>
+            <bbox w="30.0" h="30.0" x="804.75" y="173.83333"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="s279_sa160" compartmentRef="c1_ca1">
+            <label text="Nsp3"/>
+            <bbox w="90.0" h="25.0" x="865.75" y="232.33333"/>
+            <glyph class="unit of information" id="_dd492907-a4e0-4758-a4ed-50cc4347c3f5">
+                <label text="RNA"/>
+                <bbox w="20.0" h="10.0" x="900.75" y="227.33333"/>
+            </glyph>
+        </glyph>
+        <glyph class="source and sink" id="s282_sa161" compartmentRef="c1_ca1">
+            <label text="sa170_degraded"/>
+            <bbox w="30.0" h="30.0" x="947.75" y="174.83333"/>
+        </glyph>
+        <glyph class="complex" id="s284_csa39" compartmentRef="c8_ca8">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp4 forms a complex with Nsp3 and Nsp6. Together, these proteins are predicted to nucleate and anchor viral replication complexes on double-membrane vesicles in the cytoplasm. [PMID: 32353859]
+From SARS-COV-1: Through similar assays, the region PL2pro−NAB−βSM was found to interact with Nsp4 as well as Nsp12 (Pan et al., 2008). The SARS-CoV PL2pro was further shown to bind ORF7a and Nsp6 by using proteomics analysis (Neuman et al., 2008). [PMID:29128390]
+From SARS-COV-1: We demonstrated that binding of nsp4 with nsp3 is essential for membrane rearrangement and identified amino acid residues in nsp4 responsible for the interaction with nsp3. (DOI:10.1016/j.virol.2017.07.019)
+</body>
+</html>
+            </notes>
+            <label text="Nsp3:Nsp4:Nsp6"/>
+            <bbox w="99.0" h="165.0" x="954.75" y="320.83334"/>
+            <glyph class="macromolecule" id="s285_sa165">
+                <label text="Nsp3"/>
+                <bbox w="80.0" h="40.0" x="967.25" y="421.33334"/>
+            </glyph>
+            <glyph class="macromolecule" id="s286_sa166">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="967.25" y="374.33334"/>
+            </glyph>
+            <glyph class="macromolecule" id="s288_sa167">
+                <label text="Nsp6"/>
+                <bbox w="80.0" h="40.0" x="965.25" y="330.33334"/>
+            </glyph>
+        </glyph>
+        <glyph class="source and sink" id="s283_sa163" compartmentRef="c1_ca1">
+            <label text="sa171_degraded"/>
+            <bbox w="30.0" h="30.0" x="1204.75" y="208.83333"/>
+        </glyph>
+        <glyph class="complex" id="s257_csa40" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds ATP13A3 [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="P-ATPase:Nsp6"/>
+            <bbox w="163.0" h="185.0" x="2182.4167" y="8.0"/>
+            <glyph class="macromolecule" id="s298_sa168">
+                <label text="Nsp6"/>
+                <bbox w="80.0" h="40.0" x="2250.9167" y="35.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s299_sa169">
+                <label text="ATP13A3"/>
+                <bbox w="80.0" h="40.0" x="2253.4167" y="80.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s261_sa177">
+                <label text="P0"/>
+                <bbox w="53.0" h="41.0" x="2194.0" y="123.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s262_sa178">
+                <label text="P1"/>
+                <bbox w="57.0" h="102.0" x="2190.0" y="17.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s264_csa41" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>P-ATPases may also exist in organelles, but no evidence found for DMVs.
+</body>
+</html>
+            </notes>
+            <label text="P-ATPase"/>
+            <bbox w="163.0" h="185.0" x="2406.5833" y="13.833333"/>
+            <glyph class="macromolecule" id="s295_sa172">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q9H7F0
+FUNCTION:Probable cation-transporting ATPase 13A3
+</body>
+</html>
+                </notes>
+                <label text="ATP13A3"/>
+                <bbox w="80.0" h="40.0" x="2479.5833" y="82.833336"/>
+            </glyph>
+            <glyph class="macromolecule" id="s263_sa179">
+                <label text="P0"/>
+                <bbox w="53.0" h="41.0" x="2418.0642" y="132.94444"/>
+            </glyph>
+            <glyph class="macromolecule" id="s265_sa180">
+                <label text="P1"/>
+                <bbox w="57.0" h="102.0" x="2415.0642" y="23.944445"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="s258_sa162" compartmentRef="c8_ca8">
+            <label text="Nsp3"/>
+            <bbox w="80.0" h="40.0" x="1089.75" y="240.83333"/>
+        </glyph>
+        <glyph class="complex" id="s272_csa42" compartmentRef="c3_ca3">
+            <label text="F-ATPase"/>
+            <bbox w="187.0" h="120.0" x="1334.0" y="679.0"/>
+            <glyph class="macromolecule" id="s38_sa51">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:O75964
+ATP synthase membrane subunit g
+</body>
+</html>
+                </notes>
+                <label text="ATP5MG"/>
+                <bbox w="80.0" h="40.0" x="1373.1666" y="736.1667"/>
+            </glyph>
+            <glyph class="macromolecule" id="s273_sa181">
+                <label text="F0"/>
+                <bbox w="50.0" h="46.0" x="1460.0" y="687.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s274_sa182">
+                <label text="F1"/>
+                <bbox w="107.0" h="48.0" x="1349.0" y="686.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s289_csa43" compartmentRef="c3_ca3">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds ATP5MG [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="F-ATPase:Nsp6"/>
+            <bbox w="189.0" h="169.0" x="1338.7778" y="814.94446"/>
+            <glyph class="macromolecule" id="s52_sa59">
+                <label text="Nsp6"/>
+                <bbox w="80.0" h="40.0" x="1380.6666" y="921.1667"/>
+            </glyph>
+            <glyph class="macromolecule" id="s277_sa183">
+                <label text="F0"/>
+                <bbox w="50.0" h="46.0" x="1464.7778" y="825.94446"/>
+            </glyph>
+            <glyph class="macromolecule" id="s280_sa184">
+                <label text="F1"/>
+                <bbox w="107.0" h="48.0" x="1353.7778" y="824.94446"/>
+            </glyph>
+            <glyph class="macromolecule" id="s290_sa186">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:O75964
+ATP synthase membrane subunit g
+</body>
+</html>
+                </notes>
+                <label text="ATP5MG"/>
+                <bbox w="80.0" h="40.0" x="1382.7778" y="875.44446"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s291_csa18" compartmentRef="c2_ca2">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds SIGMAR1 [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="Nsp6:SIGMAR1"/>
+            <bbox w="100.0" h="120.0" x="47.666668" y="1133.1666"/>
+            <glyph class="macromolecule" id="s66_sa63">
+                <label text="Nsp6"/>
+                <bbox w="80.0" h="40.0" x="58.166668" y="1140.1666"/>
+            </glyph>
+            <glyph class="macromolecule" id="s67_sa64">
+                <label text="SIGMAR1"/>
+                <bbox w="80.0" h="40.0" x="59.666668" y="1184.1666"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s292_csa14" compartmentRef="c2_ca2">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds NUP210 [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="Nsp4:NUP210"/>
+            <bbox w="100.0" h="120.0" x="115.5" y="798.0"/>
+            <glyph class="macromolecule" id="s18_sa41">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="126.0" y="805.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s19_sa42">
+                <label text="NUP210"/>
+                <bbox w="80.0" h="40.0" x="129.5" y="851.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s293_csa4" compartmentRef="c2_ca2">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds IDE [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="Nsp4:IDE"/>
+            <bbox w="100.0" h="120.0" x="249.5" y="520.0"/>
+            <glyph class="macromolecule" id="s21_sa22">
+                <label text="IDE"/>
+                <bbox w="80.0" h="40.0" x="260.5" y="574.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s60_sa73">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="258.5" y="526.1667"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s294_csa2" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds IDE [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="Nsp4:IDE"/>
+            <bbox w="100.0" h="120.0" x="488.5" y="512.0"/>
+            <glyph class="macromolecule" id="s29_sa17">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="499.0" y="519.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s30_sa18">
+                <label text="IDE"/>
+                <bbox w="80.0" h="40.0" x="499.5" y="572.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s296_csa7" compartmentRef="c6_ca6">
+            <label text="Nsp4:IDE"/>
+            <bbox w="100.0" h="120.0" x="453.5" y="203.0"/>
+            <glyph class="macromolecule" id="s34_sa27">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="464.0" y="210.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s35_sa28">
+                <label text="IDE"/>
+                <bbox w="80.0" h="40.0" x="464.5" y="257.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s297_csa6" compartmentRef="c3_ca3">
+            <label text="Nsp4:IDE"/>
+            <bbox w="100.0" h="120.0" x="1199.5" y="877.0"/>
+            <glyph class="macromolecule" id="s22_sa45">
+                <label text="IDE"/>
+                <bbox w="80.0" h="40.0" x="1210.5" y="929.1667"/>
+            </glyph>
+            <glyph class="macromolecule" id="s23_sa46">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="1206.5" y="882.1667"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s300_csa12" compartmentRef="c3_ca3">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds DNAJC11 [doi:10.1101/2020.03.22.002386]
+</body>
+</html>
+            </notes>
+            <label text="Nsp4:DNAJC11"/>
+            <bbox w="100.0" h="120.0" x="1165.0" y="642.0"/>
+            <glyph class="macromolecule" id="s93_sa37">
+                <label text="DNAJC11"/>
+                <bbox w="80.0" h="40.0" x="1174.5" y="694.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s94_sa38">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="1174.5" y="649.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s301_csa19" compartmentRef="c5_ca5">
+            <label text="Nsp6:SIGMAR1"/>
+            <bbox w="100.0" h="120.0" x="95.666664" y="1395.1666"/>
+            <glyph class="macromolecule" id="s32_sa65">
+                <label text="Nsp6"/>
+                <bbox w="80.0" h="40.0" x="106.166664" y="1402.1666"/>
+            </glyph>
+            <glyph class="macromolecule" id="s33_sa66">
+                <label text="SIGMAR1"/>
+                <bbox w="80.0" h="40.0" x="106.666664" y="1449.1666"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s302_csa13" compartmentRef="c5_ca5">
+            <label text="Nsp4:NUP210"/>
+            <bbox w="100.0" h="120.0" x="214.5" y="1406.0"/>
+            <glyph class="macromolecule" id="s13_sa39">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="225.0" y="1413.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s14_sa40">
+                <label text="NUP210"/>
+                <bbox w="80.0" h="40.0" x="228.5" y="1459.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s303_csa3" compartmentRef="c5_ca5">
+            <label text="Nsp4:IDE"/>
+            <bbox w="100.0" h="120.0" x="446.5" y="1388.0"/>
+            <glyph class="macromolecule" id="s26_sa19">
+                <label text="Nsp4"/>
+                <bbox w="80.0" h="40.0" x="457.0" y="1395.0"/>
+            </glyph>
+            <glyph class="macromolecule" id="s27_sa20">
+                <label text="IDE"/>
+                <bbox w="80.0" h="40.0" x="457.5" y="1442.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="s220_sa203" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>UNIPROT:Q15904
+V-Type Proton ATPase Subunit S1
+Subunit of the vacuolar ATP synthase protein pump. Dysregulation results in impaired vesicle acidification and intracytoplasmic granules, resulting in a range of pathologies including an immunodeficiency syndrome and granular cell tumors. Identified as a potential host factor for IAV, WNV, and DENV. [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <label text="ATP6AP1"/>
+            <bbox w="95.0" h="40.0" x="1699.2727" y="288.9091"/>
+        </glyph>
+        <glyph class="simple chemical" id="s304_sa187" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>[PMID:32353859]
+</body>
+</html>
+            </notes>
+            <label text="Selinexor"/>
+            <bbox w="80.0" h="30.0" x="416.0" y="681.0"/>
+            <glyph class="unit of information" id="_a05db712-9ec5-41db-b5f0-3668490b8693">
+                <label text="drug"/>
+                <bbox w="25.0" h="10.0" x="443.5" y="676.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="simple chemical" id="s305_sa188" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>[PMID:9572882]
+[PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <label text="Bafilomycin A1"/>
+            <bbox w="80.0" h="30.0" x="1653.0" y="214.0"/>
+            <glyph class="unit of information" id="_cb3f1dc8-0264-4423-880f-c903c9a5fd63">
+                <label text="drug"/>
+                <bbox w="25.0" h="10.0" x="1680.5" y="209.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s306_csa44" compartmentRef="c2_ca2">
+            <label text="NUP210:Selinexor"/>
+            <bbox w="100.0" h="120.0" x="118.0" y="554.0"/>
+            <glyph class="macromolecule" id="s307_sa189">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q8TEM1
+FUNCTION: Nucleoporin essential for nuclear pore assembly and fusion, nuclear pore spacing, as well as structural integrity. (DOI: 10.1091/mbc.e03-04-0260)
+</body>
+</html>
+                </notes>
+                <label text="NUP210"/>
+                <bbox w="80.0" h="40.0" x="123.818184" y="563.7273"/>
+            </glyph>
+            <glyph class="simple chemical" id="s308_sa190">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+[PMID:32353859]
+</body>
+</html>
+                </notes>
+                <label text="Selinexor"/>
+                <bbox w="80.0" h="30.0" x="129.81818" y="619.7273"/>
+                <glyph class="unit of information" id="_58beb0e5-00f9-47cf-8b5b-43b903f9844f">
+                    <label text="drug"/>
+                    <bbox w="25.0" h="10.0" x="157.31818" y="614.7273"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="s309_sa191" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>While SLC15A3 was not identified as an interactor of Orf3a, we identified interactions between SARS-CoV-2 proteins and other members of the solute carrier superfamily including SLC25A17 (SARS-CoV-2 Orf9b and Orf9c) and SLC6A15 (SARS-CoV-2 Orf9c, M and Nsp6), although these interactions fall below our scoring thresholds  [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <label text="SLC6A15"/>
+            <bbox w="80.0" h="40.0" x="2042.0" y="439.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="s310_sa192" compartmentRef="c1_ca1">
+            <label text="Orf9c"/>
+            <bbox w="80.0" h="40.0" x="2210.0" y="500.0"/>
+        </glyph>
+        <glyph class="complex" id="s311_csa45" compartmentRef="c1_ca1">
+            <label text="SLC6A15:Nsp6"/>
+            <bbox w="100.0" h="120.0" x="2199.0" y="324.0"/>
+            <glyph class="macromolecule" id="s318_sa194">
+                <label text="SLC6A15"/>
+                <bbox w="80.0" h="40.0" x="2207.6365" y="328.81818"/>
+            </glyph>
+            <glyph class="macromolecule" id="s319_sa197">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UniProt: P0DTC6
+NS6_SARS2 Non-structural protein
+Nsp6 limits autophagasome expansion. Nsp6 may favor SARS-CoV infection by compromising the ability of autophagosomes to deliver lysosomes for degradation -Complexes with Nsp3 and Nsp4 to form double-membrane vesicles that anchor viral replication complexes. [PMID: 32353859]
+From SARS-COV-1: Coronavirus nsp6 is a multipass transmembrane protein implicated in the formation of DMVs during SARS-CoV infection (1). Overexpression of nsp6 of IBV, MHV, or SARS-CoV activated the formation of autophagosomes from the ER via an omegasome intermediate (18). However, autophagosomes induced by IBV infection or overexpression of coronavirus nsp6 had smaller diameters compared with those induced by starvation, indicating that nsp6 might also restrict the expansion of autophagosomes (19). [PMID: 31226023]
+</body>
+</html>
+                </notes>
+                <label text="Nsp6"/>
+                <bbox w="80.0" h="40.0" x="2210.6365" y="375.81818"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s313_csa47" compartmentRef="c1_ca1">
+            <label text="SLC6A15:Orf9c"/>
+            <bbox w="100.0" h="120.0" x="2307.0" y="421.0"/>
+            <glyph class="macromolecule" id="s317_sa195">
+                <label text="SLC6A15"/>
+                <bbox w="80.0" h="40.0" x="2313.6365" y="430.81818"/>
+            </glyph>
+            <glyph class="macromolecule" id="s320_sa198">
+                <label text="Orf9c"/>
+                <bbox w="80.0" h="40.0" x="2318.6365" y="477.81818"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="s314_sa193" compartmentRef="c1_ca1">
+            <label text="M"/>
+            <bbox w="80.0" h="40.0" x="2229.0" y="601.0"/>
+        </glyph>
+        <glyph class="complex" id="s315_csa48" compartmentRef="c1_ca1">
+            <label text="SLC6A15:M"/>
+            <bbox w="100.0" h="120.0" x="2412.0" y="495.0"/>
+            <glyph class="macromolecule" id="s316_sa196">
+                <label text="SLC6A15"/>
+                <bbox w="80.0" h="40.0" x="2421.6365" y="504.81818"/>
+            </glyph>
+            <glyph class="macromolecule" id="s321_sa199">
+                <label text="M"/>
+                <bbox w="80.0" h="40.0" x="2423.6365" y="550.8182"/>
+            </glyph>
+        </glyph>
+        <glyph class="simple chemical" id="s322_sa200" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>[PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <label text="Loratadine"/>
+            <bbox w="80.0" h="30.0" x="1914.0" y="486.0"/>
+            <glyph class="unit of information" id="_e6d16f88-2b01-4af2-b12d-8baec3b115df">
+                <label text="drug"/>
+                <bbox w="25.0" h="10.0" x="1941.5" y="481.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s323_csa49" compartmentRef="c1_ca1">
+            <label text="SLC6A15:Loratadine"/>
+            <bbox w="100.0" h="120.0" x="1997.0" y="550.0"/>
+            <glyph class="macromolecule" id="s324_sa201">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+While SLC15A3 was not identified as an interactor of Orf3a, we identified interactions between SARS-CoV-2 proteins and other members of the solute carrier superfamily including SLC25A17 (SARS-CoV-2 Orf9b and Orf9c) and SLC6A15 (SARS-CoV-2 Orf9c, M and Nsp6), although these interactions fall below our scoring thresholds  [PMID: 32353859]
+</body>
+</html>
+                </notes>
+                <label text="SLC6A15"/>
+                <bbox w="80.0" h="40.0" x="2005.1818" y="557.8182"/>
+            </glyph>
+            <glyph class="simple chemical" id="s349_sa216">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+[PMID: 32353859]
+</body>
+</html>
+                </notes>
+                <label text="Loratadine"/>
+                <bbox w="80.0" h="30.0" x="2005.8182" y="606.4545"/>
+                <glyph class="unit of information" id="_1152dd80-6b99-499c-8111-42a8d79b86f3">
+                    <label text="drug"/>
+                    <bbox w="25.0" h="10.0" x="2033.3182" y="601.4545"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s326_csa50" compartmentRef="c1_ca1">
+            <label text="ATP6AP1:Bafilomycin A1"/>
+            <bbox w="112.0" h="118.0" x="1503.0" y="64.0"/>
+            <glyph class="simple chemical" id="s335_sa207">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+Gordon 
+[PMID:9572882]
+</body>
+</html>
+                </notes>
+                <label text="Bafilomycin A1"/>
+                <bbox w="80.0" h="30.0" x="1526.909" y="128.90909"/>
+                <glyph class="unit of information" id="_3a9c89cd-db6d-4450-8987-3b533dcb2a4a">
+                    <label text="drug"/>
+                    <bbox w="25.0" h="10.0" x="1554.409" y="123.90909"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule" id="s336_sa208">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q15904
+V-Type Proton ATPase Subunit S1
+Subunit of the vacuolar ATP synthase protein pump. Dysregulation results in impaired vesicle acidification and intracytoplasmic granules, resulting in a range of pathologies including an immunodeficiency syndrome and granular cell tumors. Identified as a potential host factor for IAV, WNV, and DENV. [PMID: 32353859]
+</body>
+</html>
+                </notes>
+                <label text="ATP6AP1"/>
+                <bbox w="95.0" h="40.0" x="1514.909" y="74.90909"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s332_csa51" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>http://www.ebi.ac.uk/interpro/entry/InterPro/IPR008388/
+</body>
+</html>
+            </notes>
+            <label text="V-ATPase"/>
+            <bbox w="156.0" h="176.0" x="1641.2727" y="6.909091"/>
+            <glyph class="macromolecule" id="s333_sa204">
+                <label text="V0"/>
+                <bbox w="48.0" h="34.0" x="1746.2727" y="124.90909"/>
+            </glyph>
+            <glyph class="macromolecule" id="s334_sa205">
+                <label text="V1"/>
+                <bbox w="50.0" h="101.0" x="1744.2727" y="20.90909"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s341_csa52" compartmentRef="c7_ca7">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>http://www.ebi.ac.uk/interpro/entry/InterPro/IPR008388/
+</body>
+</html>
+            </notes>
+            <label text="V-ATPase"/>
+            <bbox w="164.0" h="114.0" x="1242.6364" y="437.72726"/>
+            <glyph class="macromolecule" id="s342_sa209">
+                <label text="V0"/>
+                <bbox w="39.0" h="84.0" x="1358.6364" y="447.72726"/>
+            </glyph>
+            <glyph class="macromolecule" id="s343_sa210">
+                <label text="V1"/>
+                <bbox w="97.0" h="40.0" x="1260.6364" y="486.72726"/>
+            </glyph>
+        </glyph>
+        <glyph class="simple chemical" id="s344_sa212" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>SIGMAR interacts with many drugs: BD1008, Carbapentane, Chloroquine, Clemastine, Cloperastine, Dextromethorphan, E-52862, Haloperidol, Hydroxychloroquine, Ifenprodil, Olanzapine, PB28, PD-144418, Pimozide, Progesterone, Rimcazole, RS-PPCC, Siramesine [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <label text="Several drugs"/>
+            <bbox w="80.0" h="30.0" x="411.0" y="1184.0"/>
+            <glyph class="unit of information" id="_0bb03af7-a165-45fd-a94a-1b211941f1e6">
+                <label text="drug"/>
+                <bbox w="25.0" h="10.0" x="438.5" y="1179.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="s345_csa53" compartmentRef="c2_ca2">
+            <label text="SIGMAR1:Drugs"/>
+            <bbox w="100.0" h="120.0" x="261.0" y="1106.0"/>
+            <glyph class="macromolecule" id="s346_sa213">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+UNIPROT:Q99720
+FUNCTION:Functions in lipid transport from the endoplasmic reticulum and is involved in a wide array of cellular functions probably through regulation of the biogenesis of lipid microdomains at the plasma membrane. (DOI:10.1074/jbc.272.43.27107)
+Sigma Receptor 1 is an ER chaperone protein that modulates calcium signaling through its interaction with the IP3 receptor. It is targeted by a number of existing drugs including Chloroquine and haloperidol. [PMID: 32353859]
+</body>
+</html>
+                </notes>
+                <label text="SIGMAR1"/>
+                <bbox w="80.0" h="40.0" x="271.81818" y="1114.6364"/>
+            </glyph>
+            <glyph class="simple chemical" id="s348_sa215">
+                <notes>
+                    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                        <head>
+                            <title/>
+</head>
+                        <body>
+SIGMAR interacts with many drugs: BD1008, Carbapentane, Chloroquine, Clemastine, Cloperastine, Dextromethorphan, E-52862, Haloperidol, Hydroxychloroquine, Ifenprodil, Olanzapine, PB28, PD-144418, Pimozide, Progesterone, Rimcazole, RS-PPCC, Siramesine [PMID: 32353859]
+</body>
+</html>
+                </notes>
+                <label text="Several drugs"/>
+                <bbox w="80.0" h="30.0" x="272.81818" y="1162.6364"/>
+                <glyph class="unit of information" id="_9a67cc4b-e092-4a3b-8016-0136182e4cb6">
+                    <label text="drug"/>
+                    <bbox w="25.0" h="10.0" x="300.31818" y="1157.6364"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_a5e17a92-e7a4-49ba-a634-96a4ffc96a98" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="617.875" y="879.5"/>
+            <port id="pr_a5e17a92-e7a4-49ba-a634-96a4ffc96a98_p1" x="622.875" y="899.5"/>
+            <port id="pr_a5e17a92-e7a4-49ba-a634-96a4ffc96a98_p2" x="622.875" y="869.5"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_c64665cf-04e9-4687-a9d4-a48046d04b21" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="613.7567" y="798.0"/>
+            <port id="pr_c64665cf-04e9-4687-a9d4-a48046d04b21_p1" x="618.7567" y="818.0"/>
+            <port id="pr_c64665cf-04e9-4687-a9d4-a48046d04b21_p2" x="618.7567" y="788.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_7909fbb9-5deb-4d0e-af89-b5b0fe42ab00" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="554.0" y="749.8713"/>
+            <port id="pr_7909fbb9-5deb-4d0e-af89-b5b0fe42ab00_p1" x="574.0" y="754.8713"/>
+            <port id="pr_7909fbb9-5deb-4d0e-af89-b5b0fe42ab00_p2" x="544.0" y="754.8713"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_e90ce612-213f-4235-abf2-9ac431576e3a" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="548.2778" y="822.8594"/>
+            <port id="pr_e90ce612-213f-4235-abf2-9ac431576e3a_p1" x="568.2778" y="827.8594"/>
+            <port id="pr_e90ce612-213f-4235-abf2-9ac431576e3a_p2" x="538.2778" y="827.8594"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_c365e600-8b25-4c81-b57f-514cef3fe4d7" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds IDE [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="576.4978" y="651.5"/>
+            <port id="pr_c365e600-8b25-4c81-b57f-514cef3fe4d7_p1" x="581.4978" y="671.5"/>
+            <port id="pr_c365e600-8b25-4c81-b57f-514cef3fe4d7_p2" x="581.4978" y="641.5"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_b2c555b0-ed3e-4052-ab5e-8031612735d9">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>IDE can be found in cytosol, extracellular region or secreted, mitochondrion, nucleus, peroxisome and plasma Membrane [https://www.uniprot.org/uniprot/P14735#subcellular_location]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="414.0" y="571.0"/>
+            <port id="pr_b2c555b0-ed3e-4052-ab5e-8031612735d9_p1" x="434.0" y="576.0"/>
+            <port id="pr_b2c555b0-ed3e-4052-ab5e-8031612735d9_p2" x="404.0" y="576.0"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_999287de-b96f-4d2c-97e6-bc7aa126dfb5">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>IDE can be found in cytosol, extracellular region or secreted, mitochondrion, nucleus, peroxisome and plasma Membrane [https://www.uniprot.org/uniprot/P14735#subcellular_location]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="512.5" y="1005.0"/>
+            <port id="pr_999287de-b96f-4d2c-97e6-bc7aa126dfb5_p1" x="517.5" y="995.0"/>
+            <port id="pr_999287de-b96f-4d2c-97e6-bc7aa126dfb5_p2" x="517.5" y="1025.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_24be3309-278d-4eda-bb6c-7f62c435d03c">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds NUP210 [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="247.5" y="763.1854"/>
+            <port id="pr_24be3309-278d-4eda-bb6c-7f62c435d03c_p1" x="267.5" y="768.1854"/>
+            <port id="pr_24be3309-278d-4eda-bb6c-7f62c435d03c_p2" x="237.5" y="768.1854"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_7f0a07df-9684-4292-8f34-feaf7f1bb197">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>IDE can be found in cytosol, extracellular region or secreted, mitochondrion, nucleus, peroxisome and plasma Membrane [https://www.uniprot.org/uniprot/P14735#subcellular_location]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="442.5" y="314.5"/>
+            <port id="pr_7f0a07df-9684-4292-8f34-feaf7f1bb197_p1" x="447.5" y="334.5"/>
+            <port id="pr_7f0a07df-9684-4292-8f34-feaf7f1bb197_p2" x="447.5" y="304.5"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_f59a7ba6-75db-4972-914b-ac9826313a98">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>IDE can be found in cytosol, extracellular region or secreted, mitochondrion, nucleus, peroxisome and plasma Membrane [https://www.uniprot.org/uniprot/P14735#subcellular_location]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="889.0" y="749.5"/>
+            <port id="pr_f59a7ba6-75db-4972-914b-ac9826313a98_p1" x="879.0" y="754.5"/>
+            <port id="pr_f59a7ba6-75db-4972-914b-ac9826313a98_p2" x="909.0" y="754.5"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_68183903-ceed-47d8-b7e9-9a1316f8a59e">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>IDE can be found in cytosol, extracellular region or secreted, mitochondrion, nucleus, peroxisome and plasma Membrane [https://www.uniprot.org/uniprot/P14735#subcellular_location]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="541.0" y="427.5"/>
+            <port id="pr_68183903-ceed-47d8-b7e9-9a1316f8a59e_p1" x="546.0" y="447.5"/>
+            <port id="pr_68183903-ceed-47d8-b7e9-9a1316f8a59e_p2" x="546.0" y="417.5"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_ff6df95c-4c36-41d4-9241-a533ea72753e">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds DNAJC11 [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="1107.5" y="730.23395"/>
+            <port id="pr_ff6df95c-4c36-41d4-9241-a533ea72753e_p1" x="1097.5" y="735.23395"/>
+            <port id="pr_ff6df95c-4c36-41d4-9241-a533ea72753e_p2" x="1127.5" y="735.23395"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_d41ef613-b592-486d-8ebc-1a94c8505008">
+            <bbox w="10.0" h="10.0" x="210.0" y="1157.0"/>
+            <port id="pr_d41ef613-b592-486d-8ebc-1a94c8505008_p1" x="215.0" y="1147.0"/>
+            <port id="pr_d41ef613-b592-486d-8ebc-1a94c8505008_p2" x="215.0" y="1177.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_475b02ae-521f-4d83-bcb9-be96d5b4834a">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>[PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="233.99998" y="401.08698"/>
+            <port id="pr_475b02ae-521f-4d83-bcb9-be96d5b4834a_p1" x="253.99998" y="406.08698"/>
+            <port id="pr_475b02ae-521f-4d83-bcb9-be96d5b4834a_p2" x="223.99998" y="406.08698"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_4df4a1d6-a12b-4e2c-af60-f1430450aa92" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="582.25" y="879.5"/>
+            <port id="pr_4df4a1d6-a12b-4e2c-af60-f1430450aa92_p1" x="587.25" y="869.5"/>
+            <port id="pr_4df4a1d6-a12b-4e2c-af60-f1430450aa92_p2" x="587.25" y="899.5"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_32e29987-8ee2-41dc-af9d-da39b67742f9" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="556.5" y="911.1517"/>
+            <port id="pr_32e29987-8ee2-41dc-af9d-da39b67742f9_p1" x="576.5" y="916.1517"/>
+            <port id="pr_32e29987-8ee2-41dc-af9d-da39b67742f9_p2" x="546.5" y="916.1517"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_36941998-4d4d-454f-89a9-cd093fbb6a54" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="1760.6666" y="379.9956"/>
+            <port id="pr_36941998-4d4d-454f-89a9-cd093fbb6a54_p1" x="1750.6666" y="384.9956"/>
+            <port id="pr_36941998-4d4d-454f-89a9-cd093fbb6a54_p2" x="1780.6666" y="384.9956"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_9ade4494-ee92-4dac-8b5c-6281c1682552" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="1906.1428" y="352.0833"/>
+            <port id="pr_9ade4494-ee92-4dac-8b5c-6281c1682552_p1" x="1896.1428" y="357.0833"/>
+            <port id="pr_9ade4494-ee92-4dac-8b5c-6281c1682552_p2" x="1926.1428" y="357.0833"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_ad903363-3ed0-4a27-9ef6-1bdab489ae8d" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="2058.0835" y="323.09482"/>
+            <port id="pr_ad903363-3ed0-4a27-9ef6-1bdab489ae8d_p1" x="2048.0835" y="328.09482"/>
+            <port id="pr_ad903363-3ed0-4a27-9ef6-1bdab489ae8d_p2" x="2078.0835" y="328.09482"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_b9485d67-f3a7-403f-96c5-8b3c021d0659" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="1821.4166" y="415.45114"/>
+            <port id="pr_b9485d67-f3a7-403f-96c5-8b3c021d0659_p1" x="1841.4166" y="420.45114"/>
+            <port id="pr_b9485d67-f3a7-403f-96c5-8b3c021d0659_p2" x="1811.4166" y="420.45114"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_b6593a19-2b5c-41b4-ac89-aca8431809a5">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds ATP5MG [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="1587.8" y="858.93054"/>
+            <port id="pr_b6593a19-2b5c-41b4-ac89-aca8431809a5_p1" x="1592.8" y="848.93054"/>
+            <port id="pr_b6593a19-2b5c-41b4-ac89-aca8431809a5_p2" x="1592.8" y="878.93054"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_27e0d6cb-bddb-4315-b98d-7d2312d2584a" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds ATP13A3 [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="2189.7915" y="233.27344"/>
+            <port id="pr_27e0d6cb-bddb-4315-b98d-7d2312d2584a_p1" x="2179.7915" y="238.27344"/>
+            <port id="pr_27e0d6cb-bddb-4315-b98d-7d2312d2584a_p2" x="2209.7915" y="238.27344"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_40082c3b-57be-414b-9309-1b7109f9aa89">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds SIGMAR1 [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="182.41666" y="1149.8464"/>
+            <port id="pr_40082c3b-57be-414b-9309-1b7109f9aa89_p1" x="202.41666" y="1154.8464"/>
+            <port id="pr_40082c3b-57be-414b-9309-1b7109f9aa89_p2" x="172.41666" y="1154.8464"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_6a8e9f54-4e11-409a-9cdb-006f5bbb337a">
+            <bbox w="10.0" h="10.0" x="116.666664" y="1319.1666"/>
+            <port id="pr_6a8e9f54-4e11-409a-9cdb-006f5bbb337a_p1" x="121.666664" y="1309.1666"/>
+            <port id="pr_6a8e9f54-4e11-409a-9cdb-006f5bbb337a_p2" x="121.666664" y="1339.1666"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_addf0cdb-9eee-45c6-a300-292a2824ee5e">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds ATP6AP1 [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="1625.4583" y="309.2245"/>
+            <port id="pr_addf0cdb-9eee-45c6-a300-292a2824ee5e_p1" x="1645.4583" y="314.2245"/>
+            <port id="pr_addf0cdb-9eee-45c6-a300-292a2824ee5e_p2" x="1615.4583" y="314.2245"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_3ddf0c1c-f056-4e5e-a1c9-debeda749709" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds ATP6AP1 [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="2007.6458" y="207.47647"/>
+            <port id="pr_3ddf0c1c-f056-4e5e-a1c9-debeda749709_p1" x="1997.6458" y="212.47647"/>
+            <port id="pr_3ddf0c1c-f056-4e5e-a1c9-debeda749709_p2" x="2027.6458" y="212.47647"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_86c40243-d8e5-45d3-8517-ff4e16b05f39">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds ATP6AP1 [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="440.22766" y="886.4583"/>
+            <port id="pr_86c40243-d8e5-45d3-8517-ff4e16b05f39_p1" x="445.22766" y="906.4583"/>
+            <port id="pr_86c40243-d8e5-45d3-8517-ff4e16b05f39_p2" x="445.22766" y="876.4583"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_21bcd843-011b-497a-9216-71fca2ddf5e5" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="1774.1666" y="405.66666"/>
+            <port id="pr_21bcd843-011b-497a-9216-71fca2ddf5e5_p1" x="1794.1666" y="410.66666"/>
+            <port id="pr_21bcd843-011b-497a-9216-71fca2ddf5e5_p2" x="1764.1666" y="410.66666"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_c20d9e71-cfd7-4d0d-9311-b5fbad91002f" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="1676.8899" y="424.41666"/>
+            <port id="pr_c20d9e71-cfd7-4d0d-9311-b5fbad91002f_p1" x="1681.8899" y="414.41666"/>
+            <port id="pr_c20d9e71-cfd7-4d0d-9311-b5fbad91002f_p2" x="1681.8899" y="444.41666"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_6a12d09a-dbfc-4af5-8746-0c3ec2915fe4">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>Nsp6 binds TIMM9, 10, 10B and 29. [PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="1011.47485" y="1255.8125"/>
+            <port id="pr_6a12d09a-dbfc-4af5-8746-0c3ec2915fe4_p1" x="1016.47485" y="1245.8125"/>
+            <port id="pr_6a12d09a-dbfc-4af5-8746-0c3ec2915fe4_p2" x="1016.47485" y="1275.8125"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_370a58e4-4fd4-41aa-a8a1-e3cec0e37f89">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>To confirm the extracellular occurrence of IDE in vivo, we identified intact IDE in human cerebrospinal fluid of both normal and Alzheimer subjects. [DOI:10.1074/jbc.273.49.32730]
+IDE can be found in cytosol, extracellular region or secreted, mitochondrion, nucleus, peroxisome and plasma membrane [https://www.uniprot.org/uniprot/P14735#subcellular_location]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="641.2582" y="327.0"/>
+            <port id="pr_370a58e4-4fd4-41aa-a8a1-e3cec0e37f89_p1" x="646.2582" y="347.0"/>
+            <port id="pr_370a58e4-4fd4-41aa-a8a1-e3cec0e37f89_p2" x="646.2582" y="317.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_62102f11-6890-4354-b5ce-9bcd9dcfa98a" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="821.25" y="227.95352"/>
+            <port id="pr_62102f11-6890-4354-b5ce-9bcd9dcfa98a_p1" x="811.25" y="232.95352"/>
+            <port id="pr_62102f11-6890-4354-b5ce-9bcd9dcfa98a_p2" x="841.25" y="232.95352"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_662c8908-b8d5-4113-a6c7-5d4ab85fa1ef" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="833.75" y="252.83331"/>
+            <port id="pr_662c8908-b8d5-4113-a6c7-5d4ab85fa1ef_p1" x="853.75" y="257.8333"/>
+            <port id="pr_662c8908-b8d5-4113-a6c7-5d4ab85fa1ef_p2" x="823.75" y="257.8333"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_a704ca8c-7b56-44de-83d4-b3dbb80b09ac">
+            <bbox w="10.0" h="10.0" x="1017.75" y="248.01598"/>
+            <port id="pr_a704ca8c-7b56-44de-83d4-b3dbb80b09ac_p1" x="1007.75" y="253.01598"/>
+            <port id="pr_a704ca8c-7b56-44de-83d4-b3dbb80b09ac_p2" x="1037.75" y="253.01598"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_ceed7f86-0c77-40c7-bc2f-d97e159bdf18" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="787.0877" y="213.58333"/>
+            <port id="pr_ceed7f86-0c77-40c7-bc2f-d97e159bdf18_p1" x="792.0877" y="233.58333"/>
+            <port id="pr_ceed7f86-0c77-40c7-bc2f-d97e159bdf18_p2" x="792.0877" y="203.58333"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_efd69c6c-477e-466d-8c37-341c217da6d6" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="930.5682" y="213.58333"/>
+            <port id="pr_efd69c6c-477e-466d-8c37-341c217da6d6_p1" x="935.5682" y="233.58333"/>
+            <port id="pr_efd69c6c-477e-466d-8c37-341c217da6d6_p2" x="935.5682" y="203.58333"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_b6936efa-ab33-44d5-b8c1-78b4debd244a">
+            <bbox w="10.0" h="10.0" x="1182.25" y="232.19443"/>
+            <port id="pr_b6936efa-ab33-44d5-b8c1-78b4debd244a_p1" x="1172.25" y="237.19443"/>
+            <port id="pr_b6936efa-ab33-44d5-b8c1-78b4debd244a_p2" x="1202.25" y="237.19443"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_5f572fc3-3d42-4c87-927a-b014adecb66b" compartmentRef="c8_ca8">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>From SARS-COV-1: Through similar assays, the region PL2pro−NAB−βSM was found to interact with Nsp4 as well as Nsp12 (Pan et al., 2008). The SARS-CoV PL2pro was further shown to bind ORF7a and Nsp6 by using proteomics analysis (Neuman et al., 2008). [PMID:29128390]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="1042.0" y="295.39508"/>
+            <port id="pr_5f572fc3-3d42-4c87-927a-b014adecb66b_p1" x="1062.0" y="300.39508"/>
+            <port id="pr_5f572fc3-3d42-4c87-927a-b014adecb66b_p2" x="1032.0" y="300.39508"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_659a09aa-f35f-4873-a4d5-1b6e45816b32">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>From SARS-COV-1: Co-expression of Nsp3, Nsp4, and Nsp6 can induce DMV formation in SARS-CoV-infected cells but the same result was not observed when Nsp3 lacking its C-terminal third (residues 1319–1922) was co-expressed with Nsp4 and Nsp6 (Angelini et al., 2013). [PMID:29128390]
+doi:10.1101/2020.03.22.002386
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="897.60474" y="372.08334"/>
+            <port id="pr_659a09aa-f35f-4873-a4d5-1b6e45816b32_p1" x="917.60474" y="377.08334"/>
+            <port id="pr_659a09aa-f35f-4873-a4d5-1b6e45816b32_p2" x="887.60474" y="377.08334"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_7141d38b-9a4a-4386-aa43-4325133a475a">
+            <bbox w="10.0" h="10.0" x="265.5" y="671.89404"/>
+            <port id="pr_7141d38b-9a4a-4386-aa43-4325133a475a_p1" x="285.5" y="676.89404"/>
+            <port id="pr_7141d38b-9a4a-4386-aa43-4325133a475a_p2" x="255.5" y="676.89404"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_94d0d92b-fa20-47ad-84f1-7f7b27e73145" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>[PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="2109.0" y="379.0"/>
+            <port id="pr_94d0d92b-fa20-47ad-84f1-7f7b27e73145_p1" x="2099.0" y="384.0"/>
+            <port id="pr_94d0d92b-fa20-47ad-84f1-7f7b27e73145_p2" x="2129.0" y="384.0"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_b92723ba-1927-4b12-9cb3-210424d3accb" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="2235.5" y="477.86896"/>
+            <port id="pr_b92723ba-1927-4b12-9cb3-210424d3accb_p1" x="2225.5" y="482.86896"/>
+            <port id="pr_b92723ba-1927-4b12-9cb3-210424d3accb_p2" x="2255.5" y="482.86896"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_950b8134-7c3b-467c-9d08-4e10b6ba30aa" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="2377.0" y="578.0702"/>
+            <port id="pr_950b8134-7c3b-467c-9d08-4e10b6ba30aa_p1" x="2367.0" y="583.0702"/>
+            <port id="pr_950b8134-7c3b-467c-9d08-4e10b6ba30aa_p2" x="2397.0" y="583.0702"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_6e1e8199-17a7-4db7-ac0c-66ee04911414" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>[PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="2035.9819" y="521.5"/>
+            <port id="pr_6e1e8199-17a7-4db7-ac0c-66ee04911414_p1" x="2040.9819" y="511.5"/>
+            <port id="pr_6e1e8199-17a7-4db7-ac0c-66ee04911414_p2" x="2040.9819" y="541.5"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_bac5df08-d126-4f65-a5a7-75ab6f75bc60" compartmentRef="c1_ca1">
+            <bbox w="10.0" h="10.0" x="1815.6943" y="211.1108"/>
+            <port id="pr_bac5df08-d126-4f65-a5a7-75ab6f75bc60_p1" x="1820.6943" y="231.1108"/>
+            <port id="pr_bac5df08-d126-4f65-a5a7-75ab6f75bc60_p2" x="1820.6943" y="201.1108"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_4bfd9c43-646c-4f25-be85-3fb8b28a55be" compartmentRef="c1_ca1">
+            <notes>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner">
+                    <head>
+                        <title/>
+</head>
+                    <body>[PMID: 32353859]
+</body>
+</html>
+            </notes>
+            <bbox w="10.0" h="10.0" x="1606.6399" y="208.45454"/>
+            <port id="pr_4bfd9c43-646c-4f25-be85-3fb8b28a55be_p1" x="1611.6399" y="228.45454"/>
+            <port id="pr_4bfd9c43-646c-4f25-be85-3fb8b28a55be_p2" x="1611.6399" y="198.45454"/>
+        </glyph>
+        <glyph class="process" orientation="horizontal" id="pr_443f13a3-f1f5-4a8e-b311-59d3f2eea0ca">
+            <bbox w="10.0" h="10.0" x="1618.3202" y="564.0165"/>
+            <port id="pr_443f13a3-f1f5-4a8e-b311-59d3f2eea0ca_p1" x="1638.3202" y="569.0165"/>
+            <port id="pr_443f13a3-f1f5-4a8e-b311-59d3f2eea0ca_p2" x="1608.3202" y="569.0165"/>
+        </glyph>
+        <glyph class="process" orientation="vertical" id="pr_69ac2320-1048-4fdf-8f42-d990ed322b7d">
+            <bbox w="10.0" h="10.0" x="311.52063" y="1237.5"/>
+            <port id="pr_69ac2320-1048-4fdf-8f42-d990ed322b7d_p1" x="316.52063" y="1257.5"/>
+            <port id="pr_69ac2320-1048-4fdf-8f42-d990ed322b7d_p2" x="316.52063" y="1227.5"/>
+        </glyph>
+        <arc class="consumption" id="cons_885c93d9-9b65-4717-8871-d6fbcb1edc0f" source="s3_sa15" target="pr_a5e17a92-e7a4-49ba-a634-96a4ffc96a98_p1">
+            <start x="626.0" y="911.0"/>
+            <end x="622.875" y="899.5"/>
+        </arc>
+        <arc class="production" id="prod_07f7763f-ed04-4d4e-801d-8fa6daeb6fc5" source="pr_a5e17a92-e7a4-49ba-a634-96a4ffc96a98_p2" target="s2_sa3">
+            <start x="622.875" y="869.5"/>
+            <end x="619.75" y="858.0"/>
+        </arc>
+        <arc class="consumption" id="cons_6a89372c-e479-4b2a-a894-500da55a260c" source="s2_sa3" target="pr_c64665cf-04e9-4687-a9d4-a48046d04b21_p1">
+            <start x="616.8108" y="833.0"/>
+            <end x="618.7567" y="818.0"/>
+        </arc>
+        <arc class="production" id="prod_0ca288f1-c9da-4957-b60c-b009bdfbcc8e" source="pr_c64665cf-04e9-4687-a9d4-a48046d04b21_p2" target="s5_sa4">
+            <start x="618.7567" y="788.0"/>
+            <end x="620.7027" y="773.0"/>
+        </arc>
+        <arc class="consumption" id="cons_8830c84a-6093-428e-8b65-fcd0f641da1b" source="s5_sa4" target="pr_7909fbb9-5deb-4d0e-af89-b5b0fe42ab00_p1">
+            <start x="582.0" y="754.1881"/>
+            <end x="574.0" y="754.8713"/>
+        </arc>
+        <arc class="production" id="prod_2f55f3e1-8786-4c3e-986f-1d254f7ad973" source="pr_7909fbb9-5deb-4d0e-af89-b5b0fe42ab00_p2" target="s7_sa5">
+            <start x="544.0" y="754.8713"/>
+            <end x="536.0" y="755.55444"/>
+        </arc>
+        <arc class="consumption" id="cons_137f386f-d523-4680-b44d-40143c95686f" source="s2_sa3" target="pr_e90ce612-213f-4235-abf2-9ac431576e3a_p1">
+            <start x="571.55554" y="833.0"/>
+            <end x="568.2778" y="827.8594"/>
+        </arc>
+        <arc class="production" id="prod_cbc66989-3d57-48b5-9b1e-1ff73aacc420" source="pr_e90ce612-213f-4235-abf2-9ac431576e3a_p2" target="s8_sa6">
+            <start x="538.2778" y="827.8594"/>
+            <end x="535.0" y="822.71875"/>
+        </arc>
+        <arc class="consumption" id="cons_53ca0937-6b99-4d6c-b095-22780536d34d" source="s5_sa4" target="pr_c365e600-8b25-4c81-b57f-514cef3fe4d7_p1">
+            <start x="622.0" y="753.0"/>
+            <next x="596.0" y="685.0"/>
+            <end x="581.4978" y="671.5"/>
+        </arc>
+        <arc class="consumption" id="cons_0e82aa03-5ca3-4522-843a-19a60e29a291" source="s24_sa8" target="pr_c365e600-8b25-4c81-b57f-514cef3fe4d7_p1">
+            <start x="668.0" y="592.0"/>
+            <next x="596.0" y="685.0"/>
+            <end x="581.4978" y="671.5"/>
+        </arc>
+        <arc class="production" id="prod_84b9cd3b-da43-4d27-9841-ceba2c17353e" source="pr_c365e600-8b25-4c81-b57f-514cef3fe4d7_p2" target="s294_csa2">
+            <start x="581.4978" y="641.5"/>
+            <end x="569.03094" y="632.0"/>
+        </arc>
+        <arc class="consumption" id="cons_3ea6c53a-e49e-497f-bb91-07353a8d8eaa" source="s294_csa2" target="pr_b2c555b0-ed3e-4052-ab5e-8031612735d9_p1">
+            <start x="488.5" y="572.0"/>
+            <end x="434.0" y="576.0"/>
+        </arc>
+        <arc class="production" id="prod_3fbcdd2a-0877-47cb-a3f6-608655b34275" source="pr_b2c555b0-ed3e-4052-ab5e-8031612735d9_p2" target="s293_csa4">
+            <start x="404.0" y="576.0"/>
+            <end x="349.5" y="580.0"/>
+        </arc>
+        <arc class="consumption" id="cons_e27ee680-1b9c-4503-876f-8aaa4739b338" source="s294_csa2" target="pr_999287de-b96f-4d2c-97e6-bc7aa126dfb5_p1">
+            <start x="538.5" y="632.0"/>
+            <end x="517.5" y="995.0"/>
+        </arc>
+        <arc class="production" id="prod_fae15dc2-2459-48ac-8c53-890276476a98" source="pr_999287de-b96f-4d2c-97e6-bc7aa126dfb5_p2" target="s303_csa3">
+            <start x="517.5" y="1025.0"/>
+            <end x="496.5" y="1388.0"/>
+        </arc>
+        <arc class="consumption" id="cons_c029b909-9694-488a-acab-fc9f88a76ff2" source="s5_sa4" target="pr_24be3309-278d-4eda-bb6c-7f62c435d03c_p1">
+            <start x="622.0" y="753.0"/>
+            <next x="343.5" y="737.0"/>
+            <end x="267.5" y="768.1854"/>
+        </arc>
+        <arc class="consumption" id="cons_c8d462f8-fead-4ac1-9051-cdb8a51e41d2" source="s49_sa9" target="pr_24be3309-278d-4eda-bb6c-7f62c435d03c_p1">
+            <start x="153.5" y="708.0"/>
+            <next x="343.5" y="737.0"/>
+            <end x="267.5" y="768.1854"/>
+        </arc>
+        <arc class="production" id="prod_eef9e4e9-e426-49d5-8af4-73f3279af340" source="pr_24be3309-278d-4eda-bb6c-7f62c435d03c_p2" target="s292_csa14">
+            <start x="237.5" y="768.1854"/>
+            <end x="165.5" y="798.0"/>
+        </arc>
+        <arc class="consumption" id="cons_4ee72570-d721-4bca-913d-63374abef40b" source="s294_csa2" target="pr_7f0a07df-9684-4292-8f34-feaf7f1bb197_p1">
+            <start x="538.5" y="512.0"/>
+            <end x="447.5" y="334.5"/>
+        </arc>
+        <arc class="production" id="prod_6e6017cd-1acc-4af4-8bdc-8f21b9ff1449" source="pr_7f0a07df-9684-4292-8f34-feaf7f1bb197_p2" target="s55_csa5">
+            <start x="447.5" y="304.5"/>
+            <end x="356.5" y="127.0"/>
+        </arc>
+        <arc class="consumption" id="cons_4ad7ae9c-d43d-4203-81de-f624fa117a4a" source="s294_csa2" target="pr_f59a7ba6-75db-4972-914b-ac9826313a98_p1">
+            <start x="588.5" y="572.0"/>
+            <end x="879.0" y="754.5"/>
+        </arc>
+        <arc class="production" id="prod_b68a2f1a-3dab-4cc5-abb4-78bcb5ef8730" source="pr_f59a7ba6-75db-4972-914b-ac9826313a98_p2" target="s297_csa6">
+            <start x="909.0" y="754.5"/>
+            <end x="1199.5" y="937.0"/>
+        </arc>
+        <arc class="consumption" id="cons_29259022-0f5a-4e23-bab6-30d7a48cd30e" source="s294_csa2" target="pr_68183903-ceed-47d8-b7e9-9a1316f8a59e_p1">
+            <start x="588.5" y="542.0"/>
+            <end x="546.0" y="447.5"/>
+        </arc>
+        <arc class="production" id="prod_b31ebfd6-600e-428b-bb2d-6063fbacc1e2" source="pr_68183903-ceed-47d8-b7e9-9a1316f8a59e_p2" target="s296_csa7">
+            <start x="546.0" y="417.5"/>
+            <end x="503.5" y="323.0"/>
+        </arc>
+        <arc class="consumption" id="cons_a39cbe04-bdd1-46ea-9a8f-a9ffc6173f6e" source="s5_sa4" target="pr_ff6df95c-4c36-41d4-9241-a533ea72753e_p1">
+            <start x="622.0" y="753.0"/>
+            <next x="1056.0" y="771.0"/>
+            <end x="1097.5" y="735.23395"/>
+        </arc>
+        <arc class="consumption" id="cons_60664889-5182-4877-bf4c-6e69ef9143cc" source="s91_sa13" target="pr_ff6df95c-4c36-41d4-9241-a533ea72753e_p1">
+            <start x="1181.0" y="809.0"/>
+            <next x="1056.0" y="771.0"/>
+            <end x="1097.5" y="735.23395"/>
+        </arc>
+        <arc class="production" id="prod_58658b36-a036-44af-abcd-4d9b2625bd2a" source="pr_ff6df95c-4c36-41d4-9241-a533ea72753e_p2" target="s300_csa12">
+            <start x="1127.5" y="735.23395"/>
+            <end x="1165.0" y="702.0"/>
+        </arc>
+        <arc class="consumption" id="cons_094c0510-9695-428c-841a-186f8fe6959f" source="s292_csa14" target="pr_d41ef613-b592-486d-8ebc-1a94c8505008_p1">
+            <start x="165.5" y="918.0"/>
+            <end x="215.0" y="1147.0"/>
+        </arc>
+        <arc class="production" id="prod_2ae07e85-f2a8-4b3a-8ed1-e0ef3e68b9ed" source="pr_d41ef613-b592-486d-8ebc-1a94c8505008_p2" target="s302_csa13">
+            <start x="215.0" y="1177.0"/>
+            <end x="264.5" y="1406.0"/>
+        </arc>
+        <arc class="consumption" id="cons_5af8144d-1408-472b-bfd7-f3b1b09a4af6" source="s5_sa4" target="pr_475b02ae-521f-4d83-bcb9-be96d5b4834a_p1">
+            <start x="622.0" y="753.0"/>
+            <next x="286.99997" y="392.0"/>
+            <end x="253.99998" y="406.08698"/>
+        </arc>
+        <arc class="consumption" id="cons_b5babffa-d053-49aa-8c1b-1941ba9adfc8" source="s97_sa14" target="pr_475b02ae-521f-4d83-bcb9-be96d5b4834a_p1">
+            <start x="165.0" y="377.0"/>
+            <next x="286.99997" y="392.0"/>
+            <end x="253.99998" y="406.08698"/>
+        </arc>
+        <arc class="production" id="prod_abc34a1d-ea75-42eb-9d17-bddfddfdf24e" source="pr_475b02ae-521f-4d83-bcb9-be96d5b4834a_p2" target="s98_csa15">
+            <start x="223.99998" y="406.08698"/>
+            <end x="195.0" y="419.0"/>
+        </arc>
+        <arc class="consumption" id="cons_6fdb1d3c-599d-4341-931c-1f3a723ca23d" source="s2_sa3" target="pr_4df4a1d6-a12b-4e2c-af60-f1430450aa92_p1">
+            <start x="587.25" y="858.0"/>
+            <end x="587.25" y="869.5"/>
+        </arc>
+        <arc class="production" id="prod_b5cfeda9-1ecc-46e5-b015-18510f4ed41d" source="pr_4df4a1d6-a12b-4e2c-af60-f1430450aa92_p2" target="s3_sa15">
+            <start x="587.25" y="899.5"/>
+            <end x="587.25" y="911.0"/>
+        </arc>
+        <arc class="consumption" id="cons_eb60a8c0-5e6f-486d-8f16-9c42d1499686" source="s3_sa15" target="pr_32e29987-8ee2-41dc-af9d-da39b67742f9_p1">
+            <start x="581.0" y="918.7809"/>
+            <end x="576.5" y="916.1517"/>
+        </arc>
+        <arc class="production" id="prod_b1280cc6-7626-45dc-a571-c97218d9b8d7" source="pr_32e29987-8ee2-41dc-af9d-da39b67742f9_p2" target="s101_sa16">
+            <start x="546.5" y="916.1517"/>
+            <end x="542.0" y="913.52246"/>
+        </arc>
+        <arc class="consumption" id="cons_57763a9e-ad9d-4063-b72d-a0956fdf7a02" source="s50_sa57" target="pr_36941998-4d4d-454f-89a9-cd093fbb6a54_p1">
+            <start x="1721.1666" y="386.16666"/>
+            <end x="1750.6666" y="384.9956"/>
+        </arc>
+        <arc class="production" id="prod_521fa709-c3eb-4d94-8b37-c84a52cfa2ec" source="pr_36941998-4d4d-454f-89a9-cd093fbb6a54_p2" target="s36_sa47">
+            <start x="1780.6666" y="384.9956"/>
+            <end x="1810.1666" y="383.82455"/>
+        </arc>
+        <arc class="consumption" id="cons_e4eaa694-4c8a-4ade-8da9-387d20237852" source="s36_sa47" target="pr_9ade4494-ee92-4dac-8b5c-6281c1682552_p1">
+            <start x="1873.3015" y="383.16666"/>
+            <end x="1896.1428" y="357.0833"/>
+        </arc>
+        <arc class="production" id="prod_6deaf29f-e02e-4842-976a-225dea46c9cf" source="pr_9ade4494-ee92-4dac-8b5c-6281c1682552_p2" target="s37_sa48">
+            <start x="1926.1428" y="357.0833"/>
+            <end x="1948.9843" y="331.0"/>
+        </arc>
+        <arc class="consumption" id="cons_1beebb87-1f2e-4914-99ee-b31d1c14de94" source="s37_sa48" target="pr_ad903363-3ed0-4a27-9ef6-1bdab489ae8d_p1">
+            <start x="2018.0" y="319.03674"/>
+            <end x="2048.0835" y="328.09482"/>
+        </arc>
+        <arc class="production" id="prod_c86a79d5-6f41-45ed-973d-8c0534ddfd99" source="pr_ad903363-3ed0-4a27-9ef6-1bdab489ae8d_p2" target="s7_sa49">
+            <start x="2078.0835" y="328.09482"/>
+            <end x="2108.1667" y="337.1529"/>
+        </arc>
+        <arc class="consumption" id="cons_e374d8be-ad55-4782-bc39-ac2b351840c0" source="s36_sa47" target="pr_b9485d67-f3a7-403f-96c5-8b3c021d0659_p1">
+            <start x="1840.6666" y="408.16666"/>
+            <end x="1841.4166" y="420.45114"/>
+        </arc>
+        <arc class="production" id="prod_692a3dfd-2ddf-41d1-b19e-d2435e86bfc9" source="pr_b9485d67-f3a7-403f-96c5-8b3c021d0659_p2" target="s8_sa50">
+            <start x="1811.4166" y="420.45114"/>
+            <end x="1812.1666" y="432.73563"/>
+        </arc>
+        <arc class="consumption" id="cons_e97114fd-f8b0-42aa-a53e-2eeb0b7c008e" source="s37_sa48" target="pr_b6593a19-2b5c-41b4-ac89-aca8431809a5_p1">
+            <start x="1978.0" y="311.0"/>
+            <next x="1661.1667" y="782.1667"/>
+            <end x="1592.8" y="848.93054"/>
+        </arc>
+        <arc class="consumption" id="cons_bcc7e887-3315-4cf8-ad53-8aa515a0877f" source="s272_csa42" target="pr_b6593a19-2b5c-41b4-ac89-aca8431809a5_p1">
+            <start x="1521.0" y="739.0"/>
+            <next x="1661.1667" y="782.1667"/>
+            <end x="1592.8" y="848.93054"/>
+        </arc>
+        <arc class="production" id="prod_6ad66752-143c-4470-9161-e8214da9e0a0" source="pr_b6593a19-2b5c-41b4-ac89-aca8431809a5_p2" target="s289_csa43">
+            <start x="1592.8" y="878.93054"/>
+            <end x="1527.7778" y="941.69446"/>
+        </arc>
+        <arc class="consumption" id="cons_101a0bb5-247b-4b08-86d0-d97713eaaed0" source="s37_sa48" target="pr_27e0d6cb-bddb-4315-b98d-7d2312d2584a_p1">
+            <start x="1978.0" y="311.0"/>
+            <next x="2121.6665" y="286.16666"/>
+            <end x="2179.7915" y="238.27344"/>
+        </arc>
+        <arc class="consumption" id="cons_128281a3-3a51-4d8b-a89a-e0fa65969586" source="s264_csa41" target="pr_27e0d6cb-bddb-4315-b98d-7d2312d2584a_p1">
+            <start x="2447.3333" y="198.83334"/>
+            <next x="2121.6665" y="286.16666"/>
+            <end x="2179.7915" y="238.27344"/>
+        </arc>
+        <arc class="production" id="prod_61d53cbf-094d-4916-a274-60035eaf7220" source="pr_27e0d6cb-bddb-4315-b98d-7d2312d2584a_p2" target="s257_csa40">
+            <start x="2209.7915" y="238.27344"/>
+            <end x="2263.9167" y="193.0"/>
+        </arc>
+        <arc class="consumption" id="cons_2064dda8-4742-414a-a1f0-dd110d89a8e0" source="s37_sa48" target="pr_40082c3b-57be-414b-9309-1b7109f9aa89_p1">
+            <start x="1978.0" y="311.0"/>
+            <next x="231.16664" y="1136.1666"/>
+            <end x="202.41666" y="1154.8464"/>
+        </arc>
+        <arc class="consumption" id="cons_0d4ea5e5-cea7-4afb-9e61-2cddc91e27af" source="s43_sa53" target="pr_40082c3b-57be-414b-9309-1b7109f9aa89_p1">
+            <start x="204.16667" y="1239.1666"/>
+            <next x="231.16664" y="1136.1666"/>
+            <end x="202.41666" y="1154.8464"/>
+        </arc>
+        <arc class="production" id="prod_9879eb08-d83b-4cfa-9204-e15c8e4f790c" source="pr_40082c3b-57be-414b-9309-1b7109f9aa89_p2" target="s291_csa18">
+            <start x="172.41666" y="1154.8464"/>
+            <end x="147.66667" y="1171.8184"/>
+        </arc>
+        <arc class="consumption" id="cons_c4374766-2bca-4425-afe9-7f17e1006883" source="s291_csa18" target="pr_6a8e9f54-4e11-409a-9cdb-006f5bbb337a_p1">
+            <start x="97.66667" y="1253.1666"/>
+            <end x="121.666664" y="1309.1666"/>
+        </arc>
+        <arc class="production" id="prod_65942442-f965-4c1a-aaf7-beaaa48ff048" source="pr_6a8e9f54-4e11-409a-9cdb-006f5bbb337a_p2" target="s301_csa19">
+            <start x="121.666664" y="1339.1666"/>
+            <end x="145.66666" y="1395.1666"/>
+        </arc>
+        <arc class="consumption" id="cons_a6d5c66d-0174-437f-a48b-2ab47880bbe6" source="s37_sa48" target="pr_addf0cdb-9eee-45c6-a300-292a2824ee5e_p1">
+            <start x="1978.0" y="311.0"/>
+            <next x="1670.1666" y="346.16666"/>
+            <end x="1645.4583" y="314.2245"/>
+        </arc>
+        <arc class="consumption" id="cons_ff54ad0f-00fd-4896-b974-9025795ef50f" source="s226_csa33" target="pr_addf0cdb-9eee-45c6-a300-292a2824ee5e_p1">
+            <start x="1600.25" y="481.75"/>
+            <next x="1670.1666" y="346.16666"/>
+            <end x="1645.4583" y="314.2245"/>
+        </arc>
+        <arc class="production" id="prod_45aff0b4-c831-49bd-808c-7bb52b303672" source="pr_addf0cdb-9eee-45c6-a300-292a2824ee5e_p2" target="s247_csa34">
+            <start x="1615.4583" y="314.2245"/>
+            <end x="1594.75" y="285.5"/>
+        </arc>
+        <arc class="consumption" id="cons_74f9f70a-94d1-412b-951c-dceb275afb91" source="s37_sa48" target="pr_3ddf0c1c-f056-4e5e-a1c9-debeda749709_p1">
+            <start x="1978.0" y="311.0"/>
+            <next x="1906.9166" y="251.16667"/>
+            <end x="1997.6458" y="212.47647"/>
+        </arc>
+        <arc class="consumption" id="cons_5217b25f-0e24-490e-a983-ba502c8cdaf0" source="s236_csa36" target="pr_3ddf0c1c-f056-4e5e-a1c9-debeda749709_p1">
+            <start x="1972.125" y="187.75"/>
+            <next x="1906.9166" y="251.16667"/>
+            <end x="1997.6458" y="212.47647"/>
+        </arc>
+        <arc class="production" id="prod_2c31ade4-d4b8-4770-8947-f26d59d0fe59" source="pr_3ddf0c1c-f056-4e5e-a1c9-debeda749709_p2" target="s246_csa35">
+            <start x="2027.6458" y="212.47647"/>
+            <end x="2114.375" y="175.25"/>
+        </arc>
+        <arc class="consumption" id="cons_03d64267-5f4b-4327-b7eb-da4cf142434b" source="s37_sa48" target="pr_86c40243-d8e5-45d3-8517-ff4e16b05f39_p1">
+            <start x="1978.0" y="311.0"/>
+            <next x="483.6667" y="948.1666"/>
+            <end x="445.22766" y="906.4583"/>
+        </arc>
+        <arc class="consumption" id="cons_0242008f-e291-472e-a4b0-53811677ba80" source="s213_csa30" target="pr_86c40243-d8e5-45d3-8517-ff4e16b05f39_p1">
+            <start x="409.0" y="1025.0"/>
+            <next x="483.6667" y="948.1666"/>
+            <end x="445.22766" y="906.4583"/>
+        </arc>
+        <arc class="production" id="prod_cc6ad7f2-8943-4296-a43d-d13283dd921c" source="pr_86c40243-d8e5-45d3-8517-ff4e16b05f39_p2" target="s249_csa32">
+            <start x="445.22766" y="876.4583"/>
+            <end x="409.5" y="838.75"/>
+        </arc>
+        <arc class="consumption" id="cons_10fa3425-fbba-43de-b785-36cb0dfa7de3" source="s36_sa47" target="pr_21bcd843-011b-497a-9216-71fca2ddf5e5_p1">
+            <start x="1810.1666" y="408.16666"/>
+            <end x="1794.1666" y="410.66666"/>
+        </arc>
+        <arc class="production" id="prod_865968a9-5ff4-4bc1-976b-6056c808d813" source="pr_21bcd843-011b-497a-9216-71fca2ddf5e5_p2" target="s50_sa57">
+            <start x="1764.1666" y="410.66666"/>
+            <end x="1748.1666" y="413.16666"/>
+        </arc>
+        <arc class="consumption" id="cons_88fe6173-cac4-47e2-bf9b-b29fffea9496" source="s50_sa57" target="pr_c20d9e71-cfd7-4d0d-9311-b5fbad91002f_p1">
+            <start x="1692.1461" y="413.16666"/>
+            <end x="1681.8899" y="414.41666"/>
+        </arc>
+        <arc class="production" id="prod_cfe10057-2655-4f22-a6b9-a814e9ce45dd" source="pr_c20d9e71-cfd7-4d0d-9311-b5fbad91002f_p2" target="s101_sa58">
+            <start x="1681.8899" y="444.41666"/>
+            <end x="1671.6338" y="445.66666"/>
+        </arc>
+        <arc class="consumption" id="cons_70f57e18-d8be-4721-888b-b758241010cc" source="s5_sa4" target="pr_6a12d09a-dbfc-4af5-8746-0c3ec2915fe4_p1">
+            <start x="622.0" y="753.0"/>
+            <next x="972.0625" y="1160.0"/>
+            <end x="1016.47485" y="1245.8125"/>
+        </arc>
+        <arc class="consumption" id="cons_c48cff4d-0815-4e0b-a4b7-fe2a240c6cd4" source="s112_csa29" target="pr_6a12d09a-dbfc-4af5-8746-0c3ec2915fe4_p1">
+            <start x="1092.1875" y="1226.875"/>
+            <next x="972.0625" y="1160.0"/>
+            <end x="1016.47485" y="1245.8125"/>
+        </arc>
+        <arc class="production" id="prod_00df671a-8f7a-4827-bebc-e5e6d06f76d6" source="pr_6a12d09a-dbfc-4af5-8746-0c3ec2915fe4_p2" target="s250_csa27">
+            <start x="1016.47485" y="1275.8125"/>
+            <end x="1059.125" y="1357.625"/>
+        </arc>
+        <arc class="consumption" id="cons_baf04320-c485-4a2a-8b1c-79b100ba3595" source="s24_sa8" target="pr_370a58e4-4fd4-41aa-a8a1-e3cec0e37f89_p1">
+            <start x="666.3276" y="572.0"/>
+            <end x="646.2582" y="347.0"/>
+        </arc>
+        <arc class="production" id="prod_8d4e9cad-926e-48fc-a218-ab6d5f9fcbe9" source="pr_370a58e4-4fd4-41aa-a8a1-e3cec0e37f89_p2" target="s252_sa154">
+            <start x="646.2582" y="317.0"/>
+            <end x="626.1888" y="92.0"/>
+        </arc>
+        <arc class="consumption" id="cons_56d9eaa9-0921-46f1-b022-7d870f59847a" source="s278_sa158" target="pr_62102f11-6890-4354-b5ce-9bcd9dcfa98a_p1">
+            <start x="786.75" y="233.33333"/>
+            <end x="811.25" y="232.95352"/>
+        </arc>
+        <arc class="production" id="prod_833074da-277d-4707-8061-2dd3f3ac411b" source="pr_62102f11-6890-4354-b5ce-9bcd9dcfa98a_p2" target="s279_sa160">
+            <start x="841.25" y="232.95352"/>
+            <end x="865.75" y="232.57372"/>
+        </arc>
+        <arc class="consumption" id="cons_1f44b4f8-01c5-491b-88de-6e0e8253a0d0" source="s279_sa160" target="pr_662c8908-b8d5-4113-a6c7-5d4ab85fa1ef_p1">
+            <start x="865.75" y="257.3333"/>
+            <end x="853.75" y="257.8333"/>
+        </arc>
+        <arc class="production" id="prod_2dced352-21d0-4e81-88f4-e00328b4d5ad" source="pr_662c8908-b8d5-4113-a6c7-5d4ab85fa1ef_p2" target="s278_sa158">
+            <start x="823.75" y="257.8333"/>
+            <end x="811.75" y="258.3333"/>
+        </arc>
+        <arc class="consumption" id="cons_3874776a-f264-4c1a-aab9-101e93632551" source="s279_sa160" target="pr_a704ca8c-7b56-44de-83d4-b3dbb80b09ac_p1">
+            <start x="955.75" y="248.121"/>
+            <end x="1007.75" y="253.01598"/>
+        </arc>
+        <arc class="production" id="prod_482a3eaf-d4e0-4e48-b98a-2c4a64930899" source="pr_a704ca8c-7b56-44de-83d4-b3dbb80b09ac_p2" target="s258_sa162">
+            <start x="1037.75" y="253.01598"/>
+            <end x="1089.75" y="257.91095"/>
+        </arc>
+        <arc class="consumption" id="cons_8c0fdac6-8807-4326-833d-953480863017" source="s278_sa158" target="pr_ceed7f86-0c77-40c7-bc2f-d97e159bdf18_p1">
+            <start x="778.3728" y="233.33333"/>
+            <end x="792.0877" y="233.58333"/>
+        </arc>
+        <arc class="production" id="prod_06aa7e76-3b01-4c71-bd85-5f90fbb37972" source="pr_ceed7f86-0c77-40c7-bc2f-d97e159bdf18_p2" target="s281_sa159">
+            <start x="792.0877" y="203.58333"/>
+            <end x="805.8026" y="203.83333"/>
+        </arc>
+        <arc class="consumption" id="cons_250374b7-d636-4195-a2e8-6fd5dac18a9f" source="s279_sa160" target="pr_efd69c6c-477e-466d-8c37-341c217da6d6_p1">
+            <start x="922.5682" y="232.33333"/>
+            <end x="935.5682" y="233.58333"/>
+        </arc>
+        <arc class="production" id="prod_5c9127b8-9650-4a9a-8675-09fa90849066" source="pr_efd69c6c-477e-466d-8c37-341c217da6d6_p2" target="s282_sa161">
+            <start x="935.5682" y="203.58333"/>
+            <end x="948.5682" y="204.83333"/>
+        </arc>
+        <arc class="consumption" id="cons_9cd3ebae-849d-4734-a0be-7b3c51559a68" source="s258_sa162" target="pr_b6936efa-ab33-44d5-b8c1-78b4debd244a_p1">
+            <start x="1169.75" y="244.38887"/>
+            <end x="1172.25" y="237.19443"/>
+        </arc>
+        <arc class="production" id="prod_43f19d91-e224-4069-aca6-b5e6df5ac149" source="pr_b6936efa-ab33-44d5-b8c1-78b4debd244a_p2" target="s283_sa163">
+            <start x="1202.25" y="237.19443"/>
+            <end x="1204.75" y="230.0"/>
+        </arc>
+        <arc class="consumption" id="cons_da9eb534-05d3-4d24-99b3-01f285c14593" source="s258_sa162" target="pr_5f572fc3-3d42-4c87-927a-b014adecb66b_p1">
+            <start x="1089.75" y="279.95682"/>
+            <end x="1062.0" y="300.39508"/>
+        </arc>
+        <arc class="production" id="prod_6ff0f084-213e-4572-adff-ac41745e7098" source="pr_5f572fc3-3d42-4c87-927a-b014adecb66b_p2" target="s284_csa39">
+            <start x="1032.0" y="300.39508"/>
+            <end x="1004.25" y="320.83334"/>
+        </arc>
+        <arc class="consumption" id="addreact_02538127-b554-4aa6-83a1-44245ee43765" source="s37_sa48" target="pr_5f572fc3-3d42-4c87-927a-b014adecb66b_p1">
+            <start x="1938.0" y="310.36288"/>
+            <end x="1062.0" y="300.39508"/>
+        </arc>
+        <arc class="consumption" id="addreact_b7059adb-77ed-4c1a-9be3-2e67c2ded7ca" source="s5_sa4" target="pr_5f572fc3-3d42-4c87-927a-b014adecb66b_p1">
+            <start x="640.9865" y="733.0"/>
+            <end x="1062.0" y="300.39508"/>
+        </arc>
+        <arc class="consumption" id="cons_e8af1eda-02ee-4595-b5be-fa0d2b07a12d" source="s284_csa39" target="pr_659a09aa-f35f-4873-a4d5-1b6e45816b32_p1">
+            <start x="954.75" y="403.33334"/>
+            <end x="917.60474" y="377.08334"/>
+        </arc>
+        <arc class="production" id="prod_d877ca07-c184-4e8b-b628-e00f7001b69c" source="pr_659a09aa-f35f-4873-a4d5-1b6e45816b32_p2" target="s212_sa164">
+            <start x="887.60474" y="377.08334"/>
+            <end x="850.4595" y="350.83334"/>
+        </arc>
+        <arc class="consumption" id="cons_e35b60dd-a2e5-429c-9839-347e3f3a31cf" source="s49_sa9" target="pr_7141d38b-9a4a-4386-aa43-4325133a475a_p1">
+            <start x="153.5" y="708.0"/>
+            <next x="327.0" y="711.5625"/>
+            <end x="285.5" y="676.89404"/>
+        </arc>
+        <arc class="consumption" id="cons_3499b8fc-0a06-4758-b015-8be3977e9dbc" source="s304_sa187" target="pr_7141d38b-9a4a-4386-aa43-4325133a475a_p1">
+            <start x="456.0" y="696.0"/>
+            <next x="327.0" y="711.5625"/>
+            <end x="285.5" y="676.89404"/>
+        </arc>
+        <arc class="production" id="prod_c2589cc3-0b57-473a-8289-9fad11780cea" source="pr_7141d38b-9a4a-4386-aa43-4325133a475a_p2" target="s306_csa44">
+            <start x="255.5" y="676.89404"/>
+            <end x="218.0" y="644.68005"/>
+        </arc>
+        <arc class="consumption" id="cons_cea55495-41af-459d-b7ef-6b0b4295acf6" source="s37_sa48" target="pr_94d0d92b-fa20-47ad-84f1-7f7b27e73145_p1">
+            <start x="1978.0" y="311.0"/>
+            <next x="2025.0" y="384.0"/>
+            <end x="2099.0" y="384.0"/>
+        </arc>
+        <arc class="consumption" id="cons_8cdb0fdc-35f4-4c09-955d-390573b09e7d" source="s309_sa191" target="pr_94d0d92b-fa20-47ad-84f1-7f7b27e73145_p1">
+            <start x="2082.0" y="459.0"/>
+            <next x="2025.0" y="384.0"/>
+            <end x="2099.0" y="384.0"/>
+        </arc>
+        <arc class="production" id="prod_9251b947-9f7c-4971-b3b1-558b0b51f686" source="pr_94d0d92b-fa20-47ad-84f1-7f7b27e73145_p2" target="s311_csa45">
+            <start x="2129.0" y="384.0"/>
+            <end x="2199.0" y="384.0"/>
+        </arc>
+        <arc class="consumption" id="cons_31088656-0faa-4ac6-b4ad-dccc22070e26" source="s309_sa191" target="pr_b92723ba-1927-4b12-9cb3-210424d3accb_p1">
+            <start x="2082.0" y="459.0"/>
+            <next x="2170.0" y="484.0"/>
+            <end x="2225.5" y="482.86896"/>
+        </arc>
+        <arc class="consumption" id="cons_555aa0ff-6ed5-4539-84a9-ea544894eb74" source="s310_sa192" target="pr_b92723ba-1927-4b12-9cb3-210424d3accb_p1">
+            <start x="2250.0" y="520.0"/>
+            <next x="2170.0" y="484.0"/>
+            <end x="2225.5" y="482.86896"/>
+        </arc>
+        <arc class="production" id="prod_bff6fae0-6719-47fc-a706-1f9a3b77c6e5" source="pr_b92723ba-1927-4b12-9cb3-210424d3accb_p2" target="s313_csa47">
+            <start x="2255.5" y="482.86896"/>
+            <end x="2307.0" y="481.80212"/>
+        </arc>
+        <arc class="consumption" id="cons_e97857d9-30c6-4634-b75d-a80587569066" source="s309_sa191" target="pr_950b8134-7c3b-467c-9d08-4e10b6ba30aa_p1">
+            <start x="2082.0" y="459.0"/>
+            <next x="2348.0" y="595.0"/>
+            <end x="2367.0" y="583.0702"/>
+        </arc>
+        <arc class="consumption" id="cons_5c0a12f1-1382-439a-8794-cdf4f278f5e4" source="s314_sa193" target="pr_950b8134-7c3b-467c-9d08-4e10b6ba30aa_p1">
+            <start x="2269.0" y="621.0"/>
+            <next x="2348.0" y="595.0"/>
+            <end x="2367.0" y="583.0702"/>
+        </arc>
+        <arc class="production" id="prod_268b2900-bf7f-4ba5-ab6b-8bc89da4bf43" source="pr_950b8134-7c3b-467c-9d08-4e10b6ba30aa_p2" target="s315_csa48">
+            <start x="2397.0" y="583.0702"/>
+            <end x="2412.0" y="572.5439"/>
+        </arc>
+        <arc class="consumption" id="cons_5e18a60d-885e-4440-8ae4-d8c8f2be44d3" source="s309_sa191" target="pr_6e1e8199-17a7-4db7-ac0c-66ee04911414_p1">
+            <start x="2082.0" y="459.0"/>
+            <next x="2039.0" y="499.0"/>
+            <end x="2040.9819" y="511.5"/>
+        </arc>
+        <arc class="consumption" id="cons_79f958c4-3563-4b3b-87ac-13b925f495d5" source="s322_sa200" target="pr_6e1e8199-17a7-4db7-ac0c-66ee04911414_p1">
+            <start x="1954.0" y="501.0"/>
+            <next x="2039.0" y="499.0"/>
+            <end x="2040.9819" y="511.5"/>
+        </arc>
+        <arc class="production" id="prod_61fbfd1d-de31-47f5-9176-4bd493cb6473" source="pr_6e1e8199-17a7-4db7-ac0c-66ee04911414_p2" target="s323_csa49">
+            <start x="2040.9819" y="541.5"/>
+            <end x="2042.6757" y="550.0"/>
+        </arc>
+        <arc class="consumption" id="cons_ea60c145-d557-4db7-9519-3dd8c760cf8e" source="s220_sa203" target="pr_bac5df08-d126-4f65-a5a7-75ab6f75bc60_p1">
+            <start x="1746.7727" y="308.9091"/>
+            <next x="1800.2727" y="248.47159"/>
+            <end x="1820.6943" y="231.1108"/>
+        </arc>
+        <arc class="consumption" id="cons_e48d8d16-91ec-4be4-8d1c-a2d2ae9fe734" source="s332_csa51" target="pr_bac5df08-d126-4f65-a5a7-75ab6f75bc60_p1">
+            <start x="1719.2727" y="94.90909"/>
+            <next x="1800.2727" y="248.47159"/>
+            <end x="1820.6943" y="231.1108"/>
+        </arc>
+        <arc class="production" id="prod_f781f143-6e9a-4c90-ac8a-4ea82a2f32cc" source="pr_bac5df08-d126-4f65-a5a7-75ab6f75bc60_p2" target="s236_csa36">
+            <start x="1820.6943" y="201.1108"/>
+            <end x="1838.5917" y="187.75"/>
+        </arc>
+        <arc class="consumption" id="cons_9a9ef62c-6b9c-456d-ac04-5ce240385bb2" source="s220_sa203" target="pr_4bfd9c43-646c-4f25-be85-3fb8b28a55be_p1">
+            <start x="1746.7727" y="308.9091"/>
+            <next x="1632.2727" y="248.90909"/>
+            <end x="1611.6399" y="228.45454"/>
+        </arc>
+        <arc class="consumption" id="cons_317bc3cf-98a2-41f2-a1d3-aabe98c57e23" source="s305_sa188" target="pr_4bfd9c43-646c-4f25-be85-3fb8b28a55be_p1">
+            <start x="1693.0" y="229.0"/>
+            <next x="1632.2727" y="248.90909"/>
+            <end x="1611.6399" y="228.45454"/>
+        </arc>
+        <arc class="production" id="prod_6e2c15d0-a872-465c-882b-30b6a81f0174" source="pr_4bfd9c43-646c-4f25-be85-3fb8b28a55be_p2" target="s326_csa50">
+            <start x="1611.6399" y="198.45454"/>
+            <end x="1593.335" y="182.0"/>
+        </arc>
+        <arc class="consumption" id="cons_d99c1732-c095-4c2a-95c5-c3ad51c36c1a" source="s220_sa203" target="pr_443f13a3-f1f5-4a8e-b311-59d3f2eea0ca_p1">
+            <start x="1746.7727" y="308.9091"/>
+            <next x="1663.7615" y="602.6051"/>
+            <end x="1638.3202" y="569.0165"/>
+        </arc>
+        <arc class="consumption" id="cons_d4b0111f-0474-4526-8fb9-37f7e8ffdaae" source="s341_csa52" target="pr_443f13a3-f1f5-4a8e-b311-59d3f2eea0ca_p1">
+            <start x="1324.6364" y="494.72726"/>
+            <next x="1663.7615" y="602.6051"/>
+            <end x="1638.3202" y="569.0165"/>
+        </arc>
+        <arc class="production" id="prod_b28a61f7-341f-49f9-bd6d-d8f365e03f39" source="pr_443f13a3-f1f5-4a8e-b311-59d3f2eea0ca_p2" target="s226_csa33">
+            <start x="1608.3202" y="569.0165"/>
+            <end x="1586.8789" y="538.75"/>
+        </arc>
+        <arc class="consumption" id="cons_544f87ad-8cbf-4a85-a781-93b6fac5a2d3" source="s344_sa212" target="pr_69ac2320-1048-4fdf-8f42-d990ed322b7d_p1">
+            <start x="451.0" y="1199.0"/>
+            <next x="318.0" y="1263.0"/>
+            <end x="316.52063" y="1257.5"/>
+        </arc>
+        <arc class="consumption" id="cons_d1e257eb-ca38-46bb-b0c8-81295128ac8a" source="s43_sa53" target="pr_69ac2320-1048-4fdf-8f42-d990ed322b7d_p1">
+            <start x="204.16667" y="1239.1666"/>
+            <next x="318.0" y="1263.0"/>
+            <end x="316.52063" y="1257.5"/>
+        </arc>
+        <arc class="production" id="prod_0dc2a1d6-a3ee-446a-a1dc-be6276081eec" source="pr_69ac2320-1048-4fdf-8f42-d990ed322b7d_p2" target="s345_csa53">
+            <start x="316.52063" y="1227.5"/>
+            <end x="315.3299" y="1226.0"/>
+        </arc>
+    </map>
+</sbgn>
+
