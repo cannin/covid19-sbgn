@@ -23,7 +23,7 @@ for file in *.xml; do
     #echo "SBGN: $tmp"
     
     java -cp ../scripts/cd2sbgnml-0.4.5-app.jar fr.curie.cd2sbgnml.Cd2SbgnmlScript -i "$file" -o "$file.sbgn"
-    python ../sbgn2sif/main.py -s "$file.sbgn" -c -v 
+    python ../sbgn2sif/main.py -s "$file.sbgn" -c
 done
 
 cd ..
