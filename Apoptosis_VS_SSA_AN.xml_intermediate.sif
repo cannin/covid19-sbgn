@@ -1,0 +1,60 @@
+PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	ANNOTATION_SOURCE	ANNOTATION_INTERACTION	ANNOTATION_TARGET	SOURCE_TYPE	TARGET_TYPE	SOURCE_CLASS	TARGET_CLASS
+FASL	consumption	pr_a9fd90ea-c8f9-47e6-a788-28b48f2d927e				entity_pool	process	macromolecule	process
+FAS	consumption	pr_a9fd90ea-c8f9-47e6-a788-28b48f2d927e				entity_pool	process	macromolecule	process
+pr_a9fd90ea-c8f9-47e6-a788-28b48f2d927e	production	FAS/FASL				process	entity_pool	process	complex
+TNFA	consumption	pr_dc798737-c77b-4b5c-bb66-eefb0b2c8d2d				entity_pool	process	macromolecule	process
+TNFR1	consumption	pr_dc798737-c77b-4b5c-bb66-eefb0b2c8d2d				entity_pool	process	macromolecule	process
+pr_dc798737-c77b-4b5c-bb66-eefb0b2c8d2d	production	TNFA/TNFR1				process	entity_pool	process	complex
+FADD	consumption	pr_f82cbabe-ebd2-41a7-b343-bd220dc186e8				entity_pool	process	macromolecule	process
+pr_f82cbabe-ebd2-41a7-b343-bd220dc186e8	production	FADD				process	entity_pool	process	macromolecule
+FAS/FASL	catalysis	pr_f82cbabe-ebd2-41a7-b343-bd220dc186e8		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	complex	process
+CASP8	consumption	pr_ad5dc395-34f2-40ce-a364-690fe053dad4				entity_pool	process	macromolecule	process
+pr_ad5dc395-34f2-40ce-a364-690fe053dad4	production	CASP8				process	entity_pool	process	macromolecule
+FADD	catalysis	pr_ad5dc395-34f2-40ce-a364-690fe053dad4		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	macromolecule	process
+TRADD/FADD	catalysis	pr_ad5dc395-34f2-40ce-a364-690fe053dad4		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	complex	process
+CASP3	consumption	pr_4eb4ae8c-5cd4-4cff-8798-9eb750330f48				entity_pool	process	macromolecule	process
+pr_4eb4ae8c-5cd4-4cff-8798-9eb750330f48	production	CASP3				process	entity_pool	process	macromolecule
+CASP8	catalysis	pr_4eb4ae8c-5cd4-4cff-8798-9eb750330f48		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	macromolecule	process
+CASP9	catalysis	pr_4eb4ae8c-5cd4-4cff-8798-9eb750330f48		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	macromolecule	process
+CASP9	consumption	pr_41fb667f-684c-4b5e-8bd9-067eda303705				entity_pool	process	macromolecule	process
+pr_41fb667f-684c-4b5e-8bd9-067eda303705	production	CASP9				process	entity_pool	process	macromolecule
+Apoptosome	catalysis	pr_41fb667f-684c-4b5e-8bd9-067eda303705		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	complex	process
+AKT	inhibition	pr_41fb667f-684c-4b5e-8bd9-067eda303705		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	macromolecule	process
+BID	consumption	pr_a11005c7-20dc-43ad-b0d4-493da5b7b6f4				entity_pool	process	macromolecule	process
+pr_a11005c7-20dc-43ad-b0d4-493da5b7b6f4	production	BID				process	entity_pool	process	macromolecule
+CASP8	catalysis	pr_a11005c7-20dc-43ad-b0d4-493da5b7b6f4		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	macromolecule	process
+BAX	consumption	pr_78f7b0fb-5ed3-48ac-81c0-c1bafd1ba091				entity_pool	process	macromolecule	process
+pr_78f7b0fb-5ed3-48ac-81c0-c1bafd1ba091	production	BAX				process	entity_pool	process	macromolecule
+BID	catalysis	pr_78f7b0fb-5ed3-48ac-81c0-c1bafd1ba091		urn:miriam:pubmed:31226023		entity_pool	process	macromolecule	process
+BIM/BAD/PUMA	catalysis	pr_78f7b0fb-5ed3-48ac-81c0-c1bafd1ba091		urn:miriam:pubmed:31226023		entity_pool	process	complex	process
+BCL2/BCL-XL/MCL1	inhibition	pr_78f7b0fb-5ed3-48ac-81c0-c1bafd1ba091		urn:miriam:pubmed:31226023		entity_pool	process	complex	process
+Cytochrome C	consumption	pr_84de3f14-b734-46ab-a53f-bd25f4ab0af7				entity_pool	process	macromolecule	process
+pr_84de3f14-b734-46ab-a53f-bd25f4ab0af7	production	Cytochrome C				process	entity_pool	process	macromolecule
+MAPK14	catalysis	pr_84de3f14-b734-46ab-a53f-bd25f4ab0af7		urn:miriam:kegg.pathway:hsa04210|urn:miriam:pubmed:31226023		entity_pool	process	macromolecule	process
+APAF1	consumption	pr_26223d47-8adc-4f51-b144-3c61508c6012				entity_pool	process	macromolecule	process
+Cytochrome C	consumption	pr_26223d47-8adc-4f51-b144-3c61508c6012				entity_pool	process	macromolecule	process
+pr_26223d47-8adc-4f51-b144-3c61508c6012	production	Apoptosome				process	entity_pool	process	complex
+AKT	inhibition	pr_26223d47-8adc-4f51-b144-3c61508c6012		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	macromolecule	process
+Pro-casp9	consumption	pr_26223d47-8adc-4f51-b144-3c61508c6012				entity_pool	process	macromolecule	process
+CASP7	consumption	pr_d9e93fa5-93a7-4cab-adbf-b4eb6692d580				entity_pool	process	macromolecule	process
+pr_d9e93fa5-93a7-4cab-adbf-b4eb6692d580	production	CASP7				process	entity_pool	process	macromolecule
+CASP9	catalysis	pr_d9e93fa5-93a7-4cab-adbf-b4eb6692d580		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	macromolecule	process
+CASP8	catalysis	pr_d9e93fa5-93a7-4cab-adbf-b4eb6692d580		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	macromolecule	process
+CASP7	stimulation	Apoptosis				entity_pool	entity_pool	macromolecule	phenotype
+Apoptosome	stimulation	Apoptosis				entity_pool	entity_pool	complex	phenotype
+AKT	consumption	pr_9af79b71-53b5-498e-b421-2efa11df513b				entity_pool	process	macromolecule	process
+pr_9af79b71-53b5-498e-b421-2efa11df513b	production	AKT				process	entity_pool	process	macromolecule
+SARS M	inhibition	pr_9af79b71-53b5-498e-b421-2efa11df513b		urn:miriam:pubmed:31226023		entity_pool	process	macromolecule	process
+FADD	consumption	pr_0e98e42f-49e0-4320-b163-11535cf9726e				entity_pool	process	macromolecule	process
+TRADD	consumption	pr_0e98e42f-49e0-4320-b163-11535cf9726e				entity_pool	process	macromolecule	process
+pr_0e98e42f-49e0-4320-b163-11535cf9726e	production	TRADD/FADD				process	entity_pool	process	complex
+TNFA/TNFR1	catalysis	pr_0e98e42f-49e0-4320-b163-11535cf9726e		urn:miriam:kegg.pathway:hsa04210		entity_pool	process	complex	process
+MAPK14	consumption	pr_e2f89732-6e87-4f39-b430-5b2e705da567				entity_pool	process	macromolecule	process
+pr_e2f89732-6e87-4f39-b430-5b2e705da567	production	MAPK14				process	entity_pool	process	macromolecule
+SARS 3a	catalysis	pr_e2f89732-6e87-4f39-b430-5b2e705da567		urn:miriam:pubmed:31226023		entity_pool	process	macromolecule	process
+BIM/BAD/PUMA	consumption	pr_b184eb30-03bc-408d-a1e9-868415ed42ce				entity_pool	process	complex	process
+pr_b184eb30-03bc-408d-a1e9-868415ed42ce	production	BIM/BAD/PUMA				process	entity_pool	process	complex
+BCL2/BCL-XL/MCL1	inhibition	pr_b184eb30-03bc-408d-a1e9-868415ed42ce				entity_pool	process	complex	process
+BCL2/BCL-XL/MCL1	consumption	pr_d827ff7d-b8c1-42b3-8249-b63aaf8e18ec				entity_pool	process	complex	process
+pr_d827ff7d-b8c1-42b3-8249-b63aaf8e18ec	production	BCL2/BCL-XL/MCL1				process	entity_pool	process	complex
+SARS E,7a	inhibition	pr_d827ff7d-b8c1-42b3-8249-b63aaf8e18ec				entity_pool	process	macromolecule	process
