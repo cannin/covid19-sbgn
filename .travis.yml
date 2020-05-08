@@ -1,3 +1,9 @@
+dist: xenial
+addons:
+  apt:
+    packages:
+    - graphviz
+
 language: java
 
 jdk: openjdk8
@@ -8,14 +14,17 @@ env:
 before_install:
   - nvm install $NODE_VERSION
   - node --version
+  - 
 
 before_script:
   - npm install -g gatsby
   - git clone https://git-r3lab.uni.lu/covid/models.git covid_models
-  - wget https://github.com/sbgn/cd2sbgnml/releases/download/0.4.5/cd2sbgnml-0.4.5-app.jar; mv cd2sbgnml-0.4.5-app.jar java/
+  - wget https://github.com/sbgn/cd2sbgnml/releases/download/0.4.5/cd2sbgnml-0.4.5-app.jar; mv cd2sbgnml-0.4.5-app.jar scripts/
+  - git clone https://github.com/cannin/sbgn2sif.git
+  - pip3 install -r sbgn2sif/requirements.txt 
 
 script: 
-  - sh java/cd2sbgnml.sh
+  - sh scripts/convert.sh
 
 deploy:
   provider: script

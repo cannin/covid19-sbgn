@@ -13,12 +13,14 @@ export default ({ data }) => {
 			<h1>SBGN File Listing:</h1>
 			<p>COVID19 maps retrieved from <a href='https://git-r3lab.uni.lu/covid/models/' target="_blank" rel="noopener noreferrer">https://git-r3lab.uni.lu/covid/models/</a> 
 			  and converted using <a href='https://github.com/sbgn/cd2sbgnml' target="_blank" rel="noopener noreferrer">cd2sbgnml</a>.</p>
+              <p><a href='https://github.com/cannin/covid19-sbgn' target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
 			<div>{ console.log("files: " + JSON.stringify(data)) }</div>
 			<div>
 				{ data.allFile.edges.map (({ node }) => (
 					<div key={ node.relativePath }>
 						{ node.name }:&nbsp;
 						<a href={ node.relativePath } target="_blank" rel="noopener noreferrer">SBGNML</a>&nbsp;
+                        <a href={ node.name + '_simplified.sif' } target="_blank" rel="noopener noreferrer">SIF</a>&nbsp;
 						<a href={ ( newtPrefix + node.relativePath ) } target="_blank" rel="noopener noreferrer">Newt</a>
 					</div>  
 				)) }
