@@ -18,10 +18,11 @@ export default ({ data }) => {
 			<div>
 				{ data.allFile.edges.map (({ node }) => (
 					<div key={ node.relativePath }>
-						{ node.name }:&nbsp;
+						{ node.name }:&nbsp;Text:&nbsp;
 						<a href={ node.relativePath } target="_blank" rel="noopener noreferrer">SBGNML</a>&nbsp;
-                        <a href={ node.name + '_simplified.sif' } target="_blank" rel="noopener noreferrer">SIF</a>&nbsp;
-						<a href={ ( newtPrefix + node.relativePath ) } target="_blank" rel="noopener noreferrer">Newt</a>
+                        <a href={ node.name + '_simplified.sif' } target="_blank" rel="noopener noreferrer">SIF</a>&nbsp;Graphical:&nbsp;
+						<a href={ newtPrefix + node.relativePath } target="_blank" rel="noopener noreferrer">Newt</a>&nbsp;
+                        <a href={ node.name + '_projected.svg' } target="_blank" rel="noopener noreferrer">SIF SVG</a>
 					</div>  
 				)) }
 			</div>

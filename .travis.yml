@@ -10,11 +10,12 @@ jdk: openjdk8
 
 env:
   - NODE_VERSION="12.16.1"
+  - PYTHON_VERSION="3.6.10"
 
 before_install:
   - nvm install $NODE_VERSION
   - node --version
-  - pyenv global 3.6.10
+  - pyenv global $PYTHON_VERSION
 
 before_script:
   - npm install -g gatsby
