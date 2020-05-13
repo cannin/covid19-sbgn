@@ -32,7 +32,7 @@ export default ({ data }) => {
 
 export const query = graphql`
     query {
-        allFile(filter: {extension: {eq: "sbgn"}}, , sort: {fields: name, order: DESC}) {
+        allFile(filter: {extension: {eq: "sbgn"}}, , sort: {fields: name, order: ASC}) {
             edges {
                 node {
 					name
