@@ -1,23 +1,23 @@
 strict digraph  {
-"(+)sRNA" [annotation="", bipartite=0, cls="nucleic acid feature", fontsize=4, label="(+)sRNA", shape=circle];
-nsp7 [annotation="", bipartite=0, cls=macromolecule, fontsize=4, label=nsp7, shape=circle];
-" " [annotation="", bipartite=0, cls=complex, fontsize=4, label=" ", shape=circle];
-nsp9 [annotation="", bipartite=0, cls=macromolecule, fontsize=4, label=nsp9, shape=circle];
-"CoV polymerase complex" [annotation="", bipartite=0, cls=complex, fontsize=4, label="CoV polymerase complex", shape=circle];
-"(-)sRNA" [annotation="", bipartite=0, cls="nucleic acid feature", fontsize=4, label="(-)sRNA", shape=circle];
 "Replication transcription complex " [annotation="", bipartite=0, cls=complex, fontsize=4, label="Replication transcription complex ", shape=circle];
+" " [annotation="", bipartite=0, cls=complex, fontsize=4, label=" ", shape=circle];
+"CoV polymerase complex" [annotation="", bipartite=0, cls=complex, fontsize=4, label="CoV polymerase complex", shape=circle];
+nsp7 [annotation="", bipartite=0, cls=macromolecule, fontsize=4, label=nsp7, shape=circle];
+"(-)sRNA" [annotation="", bipartite=0, cls="nucleic acid feature", fontsize=4, label="(-)sRNA", shape=circle];
 "nsp8 (I)" [annotation="", bipartite=0, cls=macromolecule, fontsize=4, label="nsp8 (I)", shape=circle];
+nsp9 [annotation="", bipartite=0, cls=macromolecule, fontsize=4, label=nsp9, shape=circle];
+"(+)sRNA" [annotation="", bipartite=0, cls="nucleic acid feature", fontsize=4, label="(+)sRNA", shape=circle];
 "nsp8 (II)" [annotation="", bipartite=0, cls=macromolecule, fontsize=4, label="nsp8 (II)", shape=circle];
-"(+)sRNA" -> "Replication transcription complex "  [annotation="", interaction_type=production];
-nsp7 -> " "  [annotation="", interaction_type=production];
-" " -> "Replication transcription complex "  [annotation="", interaction_type=production];
-nsp9 -> "Replication transcription complex "  [annotation="", interaction_type=production];
-"CoV polymerase complex" -> "Replication transcription complex "  [annotation="", interaction_type=production];
-"Replication transcription complex " -> "(+)sRNA"  [annotation="", interaction_type=production];
 "Replication transcription complex " -> " "  [annotation="", interaction_type=production];
 "Replication transcription complex " -> nsp9  [annotation="", interaction_type=production];
-"Replication transcription complex " -> "CoV polymerase complex"  [annotation="", interaction_type=production];
 "Replication transcription complex " -> "(-)sRNA"  [annotation="", interaction_type=production];
+"Replication transcription complex " -> "CoV polymerase complex"  [annotation="", interaction_type=production];
+"Replication transcription complex " -> "(+)sRNA"  [annotation="", interaction_type=production];
+" " -> "Replication transcription complex "  [annotation="", interaction_type=production];
+"CoV polymerase complex" -> "Replication transcription complex "  [annotation="", interaction_type=production];
+nsp7 -> " "  [annotation="", interaction_type=production];
 "nsp8 (I)" -> " "  [annotation="", interaction_type=production];
+nsp9 -> "Replication transcription complex "  [annotation="", interaction_type=production];
+"(+)sRNA" -> "Replication transcription complex "  [annotation="", interaction_type=production];
 "nsp8 (II)" -> " "  [annotation="", interaction_type=production];
 }
