@@ -22,7 +22,7 @@ export default ({ data }) => {
                         <th>SBGNML</th>
                         <th>SIF</th>
                         <th>Newt Web Editor</th>
-                        <th>SVG</th>
+                        <th>SVG (SIF)</th>
                     </tr>
     				{ data.allFile.edges.map (({ node }) => (
     					<tr key={ node.relativePath }>
@@ -30,7 +30,7 @@ export default ({ data }) => {
     						<td><a href={ url + node.relativePath } target="_blank" rel="noopener noreferrer">SBGNML</a></td>
                             <td><a href={ url + node.name + '_simplified.sif' } target="_blank" rel="noopener noreferrer">SIF</a></td>
     						<td><a href={ url + newtPrefix + node.relativePath } target="_blank" rel="noopener noreferrer">Newt</a></td>
-                            <td><a href={ url + node.name + '_projected.svg' } target="_blank" rel="noopener noreferrer">SIF SVG</a></td>
+                            <td><a href={ url + node.name + '_projected.svg' } target="_blank" rel="noopener noreferrer">SVG</a></td>
     					</tr>  
     				)) }
                 </table>
