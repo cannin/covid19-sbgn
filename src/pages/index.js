@@ -21,7 +21,7 @@ export default ({ data }) => {
                         <th>Pathway</th>
                         <th>SBGNML</th>
                         <th>SIF</th>
-                        <th>Newt Web Editor</th>
+                        <th>Newt (SBGN Web Editor)</th>
                         <th>SVG (SIF)</th>
                     </tr>
     				{ data.allFile.edges.map (({ node }) => (
