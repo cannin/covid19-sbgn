@@ -12,7 +12,15 @@ COVID-19 Disease Map, building a computational repository of SARS-CoV-2 virus-ho
 
 COVID19 maps retrieved from [https://git-r3lab.uni.lu/covid/models/](https://git-r3lab.uni.lu/covid/models/) and converted to the SBGN using [https://github.com/sbgn/cd2sbgnml](cd2sbgnml). Maps are automatically retrieved daily and made available at [https://cannin.github.io/covid19-sbgn/](https://cannin.github.io/covid19-sbgn/). 
 
-More information on SBGN: [http://sbgn.org/](http://sbgn.org/)
+# Links to Conversion Descriptions
+
+Users that new to this diagrams should start with SBGN and Newt: 
+
+* Newt (Open source viewer and editor for pathways in SBGN): http://newteditor.org/index.html 
+* SBGN: Systems Biology Graphical Notation (SBGN) [http://sbgn.org/](http://sbgn.org/)
+* SBGNML: https://pubmed.ncbi.nlm.nih.gov/22581176/
+* SIF: https://github.com/cannin/sbgn2sif
+* SVG (Scalable Vector Graphics) of the SIF interactions from Graphviz
 
 # COVID19 Disease Maps Conversions 
 
