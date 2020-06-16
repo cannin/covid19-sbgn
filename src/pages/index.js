@@ -16,15 +16,24 @@ export default ({ data }) => {
               <p><a href='https://github.com/cannin/covid19-sbgn' target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
 			<div>{ console.log("files: " + JSON.stringify(data)) }</div>
 			<div>
-				{ data.allFile.edges.map (({ node }) => (
-					<div key={ node.relativePath }>
-						{ node.name }:&nbsp;Text:&nbsp;
-						<a href={ node.relativePath } target="_blank" rel="noopener noreferrer">SBGNML</a>&nbsp;
-                        <a href={ node.name + '_simplified.sif' } target="_blank" rel="noopener noreferrer">SIF</a>&nbsp;Graphical:&nbsp;
-						<a href={ newtPrefix + node.relativePath } target="_blank" rel="noopener noreferrer">Newt</a>&nbsp;
-                        <a href={ node.name + '_projected.svg' } target="_blank" rel="noopener noreferrer">SIF SVG</a>
-					</div>  
-				)) }
+                <table>
+                    <tr>
+                        <th>Pathway</th>
+                        <th>SBGNML</th>
+                        <th>SIF</th>
+                        <th>Newt Web Editor</th>
+                        <th>SVG</th>
+                    </tr>
+    				{ data.allFile.edges.map (({ node }) => (
+    					<tr key={ node.relativePath }>
+    						<td>{ node.name }</td>
+    						<td><a href={ url + node.relativePath } target="_blank" rel="noopener noreferrer">SBGNML</a></td>
+                            <td><a href={ url + node.name + '_simplified.sif' } target="_blank" rel="noopener noreferrer">SIF</a></td>
+    						<td><a href={ url + newtPrefix + node.relativePath } target="_blank" rel="noopener noreferrer">Newt</a></td>
+                            <td><a href={ url + node.name + '_projected.svg' } target="_blank" rel="noopener noreferrer">SIF SVG</a></td>
+    					</tr>  
+    				)) }
+                </table>
 			</div>
 		</div>
 	);
