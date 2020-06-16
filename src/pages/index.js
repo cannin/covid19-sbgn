@@ -29,7 +29,7 @@ export default ({ data }) => {
     						<td>{ node.name }</td>
     						<td><a href={ url + node.relativePath } target="_blank" rel="noopener noreferrer">SBGNML</a></td>
                             <td><a href={ url + node.name + '_simplified.sif' } target="_blank" rel="noopener noreferrer">SIF</a></td>
-    						<td><a href={ url + newtPrefix + node.relativePath } target="_blank" rel="noopener noreferrer">Newt</a></td>
+    						<td><a href={ newtPrefix + node.relativePath } target="_blank" rel="noopener noreferrer">Newt</a></td>
                             <td><a href={ url + node.name + '_projected.svg' } target="_blank" rel="noopener noreferrer">SVG</a></td>
     					</tr>  
     				)) }
