@@ -1,0 +1,256 @@
+PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	ANNOTATION_SOURCE	ANNOTATION_INTERACTION	ANNOTATION_TARGET	SOURCE_TYPE	TARGET_TYPE	SOURCE_CLASS	TARGET_CLASS
+C4b	consumption	pr_2d98dc12-4de1-4602-bec5-c6b3ce5cabf7				entity_pool	process	macromolecule	process
+C2a	consumption	pr_2d98dc12-4de1-4602-bec5-c6b3ce5cabf7				entity_pool	process	macromolecule	process
+pr_2d98dc12-4de1-4602-bec5-c6b3ce5cabf7	production	C2a:C4b				process	entity_pool	process	complex
+C3b	consumption	pr_fb0f4e80-d5ac-4f81-b7fc-d738bb44db81				entity_pool	process	macromolecule	process
+C3b:Bb	consumption	pr_fb0f4e80-d5ac-4f81-b7fc-d738bb44db81	urn:miriam:pubmed:12440962|urn:miriam:brenda:3.4.21.47			entity_pool	process	complex	process
+pr_fb0f4e80-d5ac-4f81-b7fc-d738bb44db81	production	C3b:Bb:C3b			urn:miriam:pubmed:12440962|urn:miriam:brenda:34.4.21.47	process	entity_pool	process	complex
+C4b	consumption	pr_626ffe1e-edee-486c-94dc-116a385b9c86				entity_pool	process	macromolecule	process
+pr_626ffe1e-edee-486c-94dc-116a385b9c86	production	C4d				process	entity_pool	process	macromolecule
+CFI	catalysis	pr_626ffe1e-edee-486c-94dc-116a385b9c86	urn:miriam:hgnc:HGNC%3A2771	urn:miriam:pubmed:19362461		entity_pool	process	macromolecule	process
+C4d	necessary stimulation	C4d deposition				entity_pool	entity_pool	macromolecule	phenotype
+C5b-9	necessary stimulation	C5b-9 deposition				entity_pool	entity_pool	complex	phenotype
+s534	consumption	pr_eb46ceb6-9e92-47f6-b2a0-75d0a3acf25d				entity_pool	process	source and sink	process
+pr_eb46ceb6-9e92-47f6-b2a0-75d0a3acf25d	production	F8			urn:miriam:hgnc:HGNC%3A3546	process	entity_pool	process	macromolecule
+s553	consumption	pr_dcbe28b3-b0e2-416a-b85c-005eeca8f73e				entity_pool	process	source and sink	process
+pr_dcbe28b3-b0e2-416a-b85c-005eeca8f73e	production	Antithrombin			urn:miriam:hgnc:HGNC%3A775	process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	necessary stimulation	pr_dcbe28b3-b0e2-416a-b85c-005eeca8f73e	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:32302438		entity_pool	process	phenotype	process
+S	consumption	pr_696361b6-9ffd-45e5-9772-b628627b48ee	urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:P59594			entity_pool	process	macromolecule	omitted process
+pr_696361b6-9ffd-45e5-9772-b628627b48ee	production	ACE2:Spike				process	entity_pool	omitted process	complex
+Bradykinin	consumption	pr_4e883555-9dca-4184-a504-b1eeefe2adb6	urn:miriam:obo.chebi:CHEBI%3A3165			entity_pool	process	macromolecule	process
+pr_4e883555-9dca-4184-a504-b1eeefe2adb6	production	Bradykinin(1-5)				process	entity_pool	process	macromolecule
+pr_4e883555-9dca-4184-a504-b1eeefe2adb6	production	?				process	entity_pool	process	macromolecule
+ACE	catalysis	pr_4e883555-9dca-4184-a504-b1eeefe2adb6	urn:miriam:hgnc:HGNC%3A2707	urn:miriam:pubmed:10969042		entity_pool	process	macromolecule	process
+ACE2	consumption	pr_9f3fd319-4e7d-4f57-9b49-d7ed3011404b	urn:miriam:hgnc:HGNC%3A13557			entity_pool	process	macromolecule	process
+pr_9f3fd319-4e7d-4f57-9b49-d7ed3011404b	production	ACE2			urn:miriam:hgnc:HGNC%3A13557	process	entity_pool	process	macromolecule
+ACE2	consumption	pr_fdef0a7c-1d99-4e33-9990-bfcdba5730e4	urn:miriam:hgnc:HGNC%3A13557			entity_pool	process	macromolecule	process
+S	consumption	pr_fdef0a7c-1d99-4e33-9990-bfcdba5730e4	urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:P59594			entity_pool	process	macromolecule	process
+pr_fdef0a7c-1d99-4e33-9990-bfcdba5730e4	production	ACE2:Spike				process	entity_pool	process	complex
+s86	consumption	pr_066330be-fa11-49b5-b18b-d8278a925b73				entity_pool	process	source and sink	process
+pr_066330be-fa11-49b5-b18b-d8278a925b73	production	ACE2			urn:miriam:hgnc:HGNC%3A13557	process	entity_pool	process	macromolecule
+angiotensin I	consumption	pr_2cc3d3a4-a9d8-4881-928c-2edefe5ecdf5	urn:miriam:obo.chebi:CHEBI%3A2718			entity_pool	process	simple chemical	process
+pr_2cc3d3a4-a9d8-4881-928c-2edefe5ecdf5	production	angiotensin I-7			urn:miriam:obo.chebi:CHEBI%3A55438	process	entity_pool	process	simple chemical
+SARS-CoV-2 infection	inhibition	pr_2cc3d3a4-a9d8-4881-928c-2edefe5ecdf5	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:23392115		entity_pool	process	phenotype	process
+S	consumption	pr_ad3ae955-4ce2-4da4-9a1a-3cee5ecdf51e	urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:P59594			entity_pool	process	macromolecule	process
+pr_ad3ae955-4ce2-4da4-9a1a-3cee5ecdf51e	production	C4d				process	entity_pool	process	macromolecule
+S	consumption	pr_087de345-676c-406e-b7d7-6367f824ad4b	urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:P59594			entity_pool	process	macromolecule	process
+pr_087de345-676c-406e-b7d7-6367f824ad4b	production	C5b-9				process	entity_pool	process	complex
+s534	consumption	pr_1172c797-f9f5-4054-948a-3075e42b2d5b				entity_pool	process	source and sink	process
+pr_1172c797-f9f5-4054-948a-3075e42b2d5b	production	CRP			urn:miriam:hgnc:HGNC%3A2367	process	entity_pool	process	macromolecule
+VWF	consumption	pr_0d69351b-578a-4483-b3e2-169cbfd0c03d	urn:miriam:hgnc:HGNC%3A12726			entity_pool	process	macromolecule	process
+pr_0d69351b-578a-4483-b3e2-169cbfd0c03d	production	VWF				process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	necessary stimulation	pr_0d69351b-578a-4483-b3e2-169cbfd0c03d	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:32367170		entity_pool	process	phenotype	process
+CRP	necessary stimulation	Thrombosis	urn:miriam:hgnc:HGNC%3A2367		urn:miriam:mesh:D013923|urn:miriam:mesh:D055806	entity_pool	entity_pool	macromolecule	phenotype
+VWF	necessary stimulation	Thrombosis			urn:miriam:mesh:D013923|urn:miriam:mesh:D055806	entity_pool	entity_pool	macromolecule	phenotype
+PROC	consumption	pr_915daba2-ed4d-4166-99cf-7fa979431f70	urn:miriam:hgnc:HGNC%3A9451			entity_pool	process	macromolecule	process
+pr_915daba2-ed4d-4166-99cf-7fa979431f70	production	PROC			urn:miriam:hgnc:HGNC%3A9451	process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	necessary stimulation	pr_915daba2-ed4d-4166-99cf-7fa979431f70	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:32302438		entity_pool	process	phenotype	process
+s537	consumption	pr_059b2aac-660e-412d-b85f-c78f8623173b				entity_pool	process	source and sink	process
+pr_059b2aac-660e-412d-b85f-c78f8623173b	production	C4d				process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	stimulation	pr_059b2aac-660e-412d-b85f-c78f8623173b	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:32299776		entity_pool	process	phenotype	process
+Plasmin	consumption	pr_c3eee1c4-4935-477a-a778-c9b4abf304f1	urn:miriam:hgnc:HGNC%3A9051			entity_pool	process	macromolecule	process
+SERPINF2	consumption	pr_c3eee1c4-4935-477a-a778-c9b4abf304f1	urn:miriam:hgnc:HGNC%3A9075			entity_pool	process	macromolecule	process
+pr_c3eee1c4-4935-477a-a778-c9b4abf304f1	production	SERPINF2:Plasmin				process	entity_pool	process	complex
+SARS-CoV-2 infection	stimulation	pr_c3eee1c4-4935-477a-a778-c9b4abf304f1	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:2437112|urn:miriam:doi:10.1101%2F2020.04.25.20077842		entity_pool	process	phenotype	process
+s552	consumption	pr_793a31ee-7a76-4a8c-b53c-d9fc6bf593c5				entity_pool	process	source and sink	process
+pr_793a31ee-7a76-4a8c-b53c-d9fc6bf593c5	production	Thrombomodulin			urn:miriam:hgnc:HGNC%3A11784	process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	necessary stimulation	pr_793a31ee-7a76-4a8c-b53c-d9fc6bf593c5	urn:miriam:taxonomy:2697049	urn:miriam:doi:10.1101%2F2020.04.25.20077842		entity_pool	process	phenotype	process
+KLKB1	consumption	pr_7cea46b8-512d-4645-9bbe-aac2321ba0cc	urn:miriam:hgnc:6371			entity_pool	process	macromolecule	process
+pr_7cea46b8-512d-4645-9bbe-aac2321ba0cc	production	Kallikrein			urn:miriam:hgnc:6371	process	entity_pool	process	macromolecule
+F12a	catalysis	pr_7cea46b8-512d-4645-9bbe-aac2321ba0cc	urn:miriam:hgnc:HGNC%3A3530	urn:miriam:pubmed:21304106		entity_pool	process	macromolecule	process
+KNG1:KLKB1	consumption	pr_2db35825-d8e7-4320-9b9f-75ab20dddcae	urn:miriam:pubmed:17598838			entity_pool	process	complex	process
+pr_2db35825-d8e7-4320-9b9f-75ab20dddcae	production	Kininogen			urn:miriam:hgnc:HGNC%3A6383	process	entity_pool	process	macromolecule
+pr_2db35825-d8e7-4320-9b9f-75ab20dddcae	production	Bradykinin			urn:miriam:obo.chebi:CHEBI%3A3165	process	entity_pool	process	macromolecule
+KNG1:KLKB1	catalysis	pr_2db35825-d8e7-4320-9b9f-75ab20dddcae	urn:miriam:pubmed:17598838	urn:miriam:isbn:9781482204049		entity_pool	process	complex	process
+pr_2db35825-d8e7-4320-9b9f-75ab20dddcae	production	Kallikrein			urn:miriam:hgnc:6371	process	entity_pool	process	macromolecule
+s539	consumption	pr_7852efce-072d-41c7-9702-ce467e7d362f				entity_pool	process	source and sink	process
+pr_7852efce-072d-41c7-9702-ce467e7d362f	production	C5b-9				process	entity_pool	process	complex
+SARS-CoV-2 infection	necessary stimulation	pr_7852efce-072d-41c7-9702-ce467e7d362f	urn:miriam:taxonomy:2697049	urn:miriam:pmc:PMC7260598		entity_pool	process	phenotype	process
+s538	consumption	pr_3f86229f-6ce1-4dff-9d06-ba0d5a523364				entity_pool	process	source and sink	process
+pr_3f86229f-6ce1-4dff-9d06-ba0d5a523364	production	C5a				process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	necessary stimulation	pr_3f86229f-6ce1-4dff-9d06-ba0d5a523364	urn:miriam:taxonomy:2697049	urn:miriam:pmc:PMC7260598		entity_pool	process	phenotype	process
+PLAT	consumption	pr_cdf2c742-6678-4eb0-bb1a-8f76d635b02c	urn:miriam:hgnc:HGNC%3A9051			entity_pool	process	macromolecule	process
+pr_cdf2c742-6678-4eb0-bb1a-8f76d635b02c	production	PLAT			urn:miriam:hgnc:HGNC%3A9051	process	entity_pool	process	macromolecule
+SERPINE1	inhibition	pr_cdf2c742-6678-4eb0-bb1a-8f76d635b02c	urn:miriam:hgnc:HGNC%3A8593	urn:miriam:pubmed:10373228|urn:miriam:pubmed:2769655		entity_pool	process	macromolecule	process
+Bradykinin	catalysis	pr_cdf2c742-6678-4eb0-bb1a-8f76d635b02c	urn:miriam:obo.chebi:CHEBI%3A3165	urn:miriam:pubmed:10373228|urn:miriam:pubmed:2769655		entity_pool	process	macromolecule	process
+AGT	consumption	pr_3e5e5076-dfc5-46f1-ad1b-e94c5807ba68	urn:miriam:hgnc:HGNC%3A333			entity_pool	process	macromolecule	process
+pr_3e5e5076-dfc5-46f1-ad1b-e94c5807ba68	production	angiotensin I			urn:miriam:obo.chebi:CHEBI%3A2718	process	entity_pool	process	simple chemical
+REN	catalysis	pr_3e5e5076-dfc5-46f1-ad1b-e94c5807ba68	urn:miriam:hgnc:HGNC%3A9958	urn:miriam:pubmed:10585461|urn:miriam:pubmed:30934934|urn:miriam:pubmed:6172448|urn:miriam:taxonomy:9606		entity_pool	process	macromolecule	process
+C2	consumption	pr_009ad33f-22f6-4500-8660-d73369ca9269	urn:miriam:hgnc:HGNC%3A1248			entity_pool	process	macromolecule	process
+pr_009ad33f-22f6-4500-8660-d73369ca9269	production	C2a				process	entity_pool	process	macromolecule
+pr_009ad33f-22f6-4500-8660-d73369ca9269	production	C2b				process	entity_pool	process	macromolecule
+MASP1	catalysis	pr_009ad33f-22f6-4500-8660-d73369ca9269		urn:miriam:pubmed:10946292		entity_pool	process	macromolecule	process
+MASP2	consumption	pr_77ac542a-3173-47e9-80fb-f5a39207226d	urn:miriam:hgnc:6902			entity_pool	process	macromolecule	process
+pr_77ac542a-3173-47e9-80fb-f5a39207226d	production	MASP2				process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	stimulation	pr_77ac542a-3173-47e9-80fb-f5a39207226d	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:11290788|urn:miriam:pubmed:32299776		entity_pool	process	phenotype	process
+MASP1	consumption	pr_dc09ca1d-a392-4719-9942-548a19384833	urn:miriam:hgnc:HGNC%3A6901			entity_pool	process	macromolecule	process
+pr_dc09ca1d-a392-4719-9942-548a19384833	production	MASP1				process	entity_pool	process	macromolecule
+MBL2	stimulation	pr_dc09ca1d-a392-4719-9942-548a19384833	urn:miriam:hgnc:6902	urn:miriam:pubmed:11290788		entity_pool	process	macromolecule	process
+F10	consumption	pr_b50dd4a2-928a-43e0-9e85-18c38b84520d	urn:miriam:hgnc:HGNC%3A3528			entity_pool	process	macromolecule	process
+pr_b50dd4a2-928a-43e0-9e85-18c38b84520d	production	F10a			urn:miriam:hgnc:HGNC%3A3528	process	entity_pool	process	macromolecule
+pr_b50dd4a2-928a-43e0-9e85-18c38b84520d	production	?				process	entity_pool	process	macromolecule
+F9a	catalysis	pr_b50dd4a2-928a-43e0-9e85-18c38b84520d		urn:miriam:pubmed:11551226|urn:miriam:pubmed:15853774		entity_pool	process	macromolecule	process
+Antithrombin	inhibition	pr_b50dd4a2-928a-43e0-9e85-18c38b84520d	urn:miriam:hgnc:HGNC%3A775	urn:miriam:pubmed:11551226|urn:miriam:pubmed:15853774		entity_pool	process	macromolecule	process
+C3	consumption	pr_e8d31f1f-d148-470e-802e-ed969ca9a8b7	urn:miriam:hgnc:HGNC%3A1318			entity_pool	process	macromolecule	process
+pr_e8d31f1f-d148-470e-802e-ed969ca9a8b7	production	C3a				process	entity_pool	process	macromolecule
+pr_e8d31f1f-d148-470e-802e-ed969ca9a8b7	production	C3b				process	entity_pool	process	macromolecule
+C3b:Bb	catalysis	pr_e8d31f1f-d148-470e-802e-ed969ca9a8b7	urn:miriam:pubmed:12440962|urn:miriam:brenda:3.4.21.47	urn:miriam:pubmed:12440962		entity_pool	process	complex	process
+C2a:C4b	catalysis	pr_e8d31f1f-d148-470e-802e-ed969ca9a8b7		urn:miriam:pubmed:12440962		entity_pool	process	complex	process
+Prorenin	consumption	pr_db31b97b-6c15-4c2c-8f04-037a328edaeb				entity_pool	process	macromolecule	process
+pr_db31b97b-6c15-4c2c-8f04-037a328edaeb	production	REN			urn:miriam:hgnc:HGNC%3A9958	process	entity_pool	process	macromolecule
+Kallikrein	catalysis	pr_db31b97b-6c15-4c2c-8f04-037a328edaeb	urn:miriam:hgnc:6371	urn:miriam:pubmed:12793984		entity_pool	process	macromolecule	process
+F8a	consumption	pr_a975a52f-fc52-46b5-86cc-ee38e39b4b5c	urn:miriam:hgnc:HGNC%3A3546			entity_pool	process	macromolecule	process
+pr_a975a52f-fc52-46b5-86cc-ee38e39b4b5c	production	F8			urn:miriam:hgnc:HGNC%3A3546	process	entity_pool	process	macromolecule
+pr_a975a52f-fc52-46b5-86cc-ee38e39b4b5c	production	?				process	entity_pool	process	macromolecule
+Thrombin	catalysis	pr_a975a52f-fc52-46b5-86cc-ee38e39b4b5c	urn:miriam:hgnc:HGNC%3A3535	urn:miriam:pubmed:15746105		entity_pool	process	macromolecule	process
+Thrombin	consumption	pr_b5599585-a3a3-4496-96de-b6c06e82298b	urn:miriam:hgnc:HGNC%3A3535			entity_pool	process	macromolecule	process
+pr_b5599585-a3a3-4496-96de-b6c06e82298b	production	Thrombin			urn:miriam:hgnc:HGNC%3A3535	process	entity_pool	process	macromolecule
+Antithrombin	inhibition	pr_b5599585-a3a3-4496-96de-b6c06e82298b	urn:miriam:hgnc:HGNC%3A775	urn:miriam:pubmed:15853774		entity_pool	process	macromolecule	process
+Heparin	catalysis	pr_b5599585-a3a3-4496-96de-b6c06e82298b	urn:miriam:pubmed:708377|urn:miriam:obo.chebi:CHEBI%3A28304	urn:miriam:pubmed:15853774		entity_pool	process	simple chemical	process
+angiotensin I	consumption	pr_771d4f33-5b5c-4cca-a14a-ebd242543448	urn:miriam:obo.chebi:CHEBI%3A2718			entity_pool	process	simple chemical	process
+pr_771d4f33-5b5c-4cca-a14a-ebd242543448	production	angiotensin II			urn:miriam:obo.chebi:CHEBI%3A2718	process	entity_pool	process	simple chemical
+ACE	catalysis	pr_771d4f33-5b5c-4cca-a14a-ebd242543448	urn:miriam:hgnc:HGNC%3A2707	urn:miriam:taxonomy:9606|urn:miriam:pubmed:190881|urn:miriam:pubmed:10969042		entity_pool	process	macromolecule	process
+IL2RA	necessary stimulation	Thrombosis	urn:miriam:hgnc:HGNC%3A6008		urn:miriam:mesh:D013923|urn:miriam:mesh:D055806	entity_pool	entity_pool	macromolecule	phenotype
+PLAU	consumption	pr_6e4baa0c-158f-4110-9931-e9729ce5b1ee	urn:miriam:hgnc:HGNC%3A9052			entity_pool	process	macromolecule	process
+pr_6e4baa0c-158f-4110-9931-e9729ce5b1ee	production	PLAU				process	entity_pool	process	macromolecule
+SERPINE1	inhibition	pr_6e4baa0c-158f-4110-9931-e9729ce5b1ee	urn:miriam:hgnc:HGNC%3A8593	urn:miriam:pubmed:21199867		entity_pool	process	macromolecule	process
+F12	consumption	pr_4cb87413-1eb7-43ba-9eeb-09f3c36f2eaa	urn:miriam:hgnc:HGNC%3A3530			entity_pool	process	macromolecule	process
+pr_4cb87413-1eb7-43ba-9eeb-09f3c36f2eaa	production	F12a			urn:miriam:hgnc:HGNC%3A3530	process	entity_pool	process	macromolecule
+pr_4cb87413-1eb7-43ba-9eeb-09f3c36f2eaa	production	?				process	entity_pool	process	macromolecule
+KLKB1	catalysis	pr_4cb87413-1eb7-43ba-9eeb-09f3c36f2eaa	urn:miriam:hgnc:6371	urn:miriam:pubmed:21304106		entity_pool	process	macromolecule	process
+F12a	consumption	pr_2845578d-b53b-4347-90ca-693d4b80973d	urn:miriam:hgnc:HGNC%3A3530			entity_pool	process	macromolecule	process
+pr_2845578d-b53b-4347-90ca-693d4b80973d	production	F11			urn:miriam:hgnc:HGNC%3A3529	process	entity_pool	process	macromolecule
+pr_2845578d-b53b-4347-90ca-693d4b80973d	production	F11a			urn:miriam:hgnc:HGNC%3A3529	process	entity_pool	process	macromolecule
+Thrombin	catalysis	pr_2845578d-b53b-4347-90ca-693d4b80973d	urn:miriam:hgnc:HGNC%3A3535	urn:miriam:pubmed:21304106|urn:miriam:pubmed:8631976		entity_pool	process	macromolecule	process
+C4	consumption	pr_34bf9c4a-5610-4b13-aeff-5d05fed025f4				entity_pool	process	macromolecule	process
+pr_34bf9c4a-5610-4b13-aeff-5d05fed025f4	production	C4b				process	entity_pool	process	macromolecule
+pr_34bf9c4a-5610-4b13-aeff-5d05fed025f4	production	C4a				process	entity_pool	process	macromolecule
+MASP2	catalysis	pr_34bf9c4a-5610-4b13-aeff-5d05fed025f4		urn:miriam:pubmed:21664989		entity_pool	process	macromolecule	process
+SERPINE1	consumption	pr_f844d673-bd9e-4e63-8c9c-5a5b2d545668	urn:miriam:hgnc:HGNC%3A8593			entity_pool	process	macromolecule	process
+PLAT	consumption	pr_f844d673-bd9e-4e63-8c9c-5a5b2d545668	urn:miriam:hgnc:HGNC%3A9051			entity_pool	process	macromolecule	process
+pr_f844d673-bd9e-4e63-8c9c-5a5b2d545668	production	PLAT:SERPINE1			urn:miriam:pubmed:22449964	process	entity_pool	process	complex
+SARS-CoV-2 infection	necessary stimulation	pr_f844d673-bd9e-4e63-8c9c-5a5b2d545668	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:22449964|urn:miriam:doi:10.1101%2F2020.04.25.20077842		entity_pool	process	phenotype	process
+F9a	consumption	pr_efd5e1b9-3d6c-42c8-b492-7c3668cb5bb6				entity_pool	process	macromolecule	process
+F8a	consumption	pr_efd5e1b9-3d6c-42c8-b492-7c3668cb5bb6	urn:miriam:hgnc:HGNC%3A3546			entity_pool	process	macromolecule	process
+pr_efd5e1b9-3d6c-42c8-b492-7c3668cb5bb6	production	F8:F9			urn:miriam:pubmed:22471307	process	entity_pool	process	complex
+F10a	consumption	pr_3ef2ed72-56a9-4e99-bc5e-95f9833eb067	urn:miriam:hgnc:HGNC%3A3528			entity_pool	process	macromolecule	process
+F5a	consumption	pr_3ef2ed72-56a9-4e99-bc5e-95f9833eb067	urn:miriam:hgnc:HGNC%3A3542			entity_pool	process	macromolecule	process
+pr_3ef2ed72-56a9-4e99-bc5e-95f9833eb067	production	F5a:F10a			urn:miriam:pubmed:2303476	process	entity_pool	process	complex
+F5	consumption	pr_12077786-be51-4efa-9241-15ad232066e2	urn:miriam:hgnc:HGNC%3A3541			entity_pool	process	macromolecule	process
+pr_12077786-be51-4efa-9241-15ad232066e2	production	F5a			urn:miriam:hgnc:HGNC%3A3542	process	entity_pool	process	macromolecule
+Thrombin:Thrombomodulin	inhibition	pr_12077786-be51-4efa-9241-15ad232066e2	urn:miriam:pubmed:6282863|urn:miriam:taxonomy:9986	urn:miriam:pubmed:6282863|urn:miriam:pubmed:6572921|urn:miriam:pubmed:2322551		entity_pool	process	complex	process
+PROC	inhibition	pr_12077786-be51-4efa-9241-15ad232066e2	urn:miriam:hgnc:HGNC%3A9451	urn:miriam:pubmed:6282863|urn:miriam:pubmed:6572921|urn:miriam:pubmed:2322551		entity_pool	process	macromolecule	process
+SERPINH1	consumption	pr_aaa152c3-11cd-417f-b3bc-32770afc63bb	urn:miriam:hgnc:HGNC%3A1546			entity_pool	process	macromolecule	process
+pr_aaa152c3-11cd-417f-b3bc-32770afc63bb	production	SERPINH1			urn:miriam:hgnc:HGNC%3A1546	process	entity_pool	process	macromolecule
+Thrombin	catalysis	pr_aaa152c3-11cd-417f-b3bc-32770afc63bb	urn:miriam:hgnc:HGNC%3A3535	urn:miriam:pubmed:23809134		entity_pool	process	macromolecule	process
+IL1B	necessary stimulation	Thrombosis	urn:miriam:hgnc:5992		urn:miriam:mesh:D013923|urn:miriam:mesh:D055806	entity_pool	entity_pool	macromolecule	phenotype
+IL6	necessary stimulation	Thrombosis	urn:miriam:hgnc:6018		urn:miriam:mesh:D013923|urn:miriam:mesh:D055806	entity_pool	entity_pool	macromolecule	phenotype
+TNF	necessary stimulation	Thrombosis	urn:miriam:hgnc:11892		urn:miriam:mesh:D013923|urn:miriam:mesh:D055806	entity_pool	entity_pool	macromolecule	phenotype
+IL8	necessary stimulation	Thrombosis	urn:miriam:hgnc:HGNC%3A6025		urn:miriam:mesh:D013923|urn:miriam:mesh:D055806	entity_pool	entity_pool	macromolecule	phenotype
+Fibrinogen	consumption	pr_dba9939f-5f0f-466b-9830-de720c3d1a89	urn:miriam:pubmed:19296670			entity_pool	process	complex	process
+pr_dba9939f-5f0f-466b-9830-de720c3d1a89	production	Fibrin monomer				process	entity_pool	process	macromolecule
+Thrombin	catalysis	pr_dba9939f-5f0f-466b-9830-de720c3d1a89	urn:miriam:hgnc:HGNC%3A3535	urn:miriam:pubmed:6282863|urn:miriam:pubmed:28228446|urn:miriam:pubmed:2117226		entity_pool	process	macromolecule	process
+Thrombin:Thrombomodulin	inhibition	pr_dba9939f-5f0f-466b-9830-de720c3d1a89	urn:miriam:pubmed:6282863|urn:miriam:taxonomy:9986	urn:miriam:pubmed:6282863|urn:miriam:pubmed:28228446|urn:miriam:pubmed:2117226		entity_pool	process	complex	process
+SARS-CoV-2 infection	necessary stimulation	pr_dba9939f-5f0f-466b-9830-de720c3d1a89	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:6282863|urn:miriam:pubmed:28228446|urn:miriam:pubmed:2117226		entity_pool	process	phenotype	process
+C5	consumption	pr_6f9fb9b3-5305-4b8d-a19f-73b9b9c280bf	urn:miriam:hgnc:HGNC%3A1331			entity_pool	process	macromolecule	process
+pr_6f9fb9b3-5305-4b8d-a19f-73b9b9c280bf	production	C5b				process	entity_pool	process	macromolecule
+pr_6f9fb9b3-5305-4b8d-a19f-73b9b9c280bf	production	C5a				process	entity_pool	process	macromolecule
+C2a:C4b	catalysis	pr_6f9fb9b3-5305-4b8d-a19f-73b9b9c280bf		urn:miriam:pubmed:28630159		entity_pool	process	complex	process
+C3b:Bb:C3b	catalysis	pr_6f9fb9b3-5305-4b8d-a19f-73b9b9c280bf	urn:miriam:pubmed:12440962|urn:miriam:brenda:34.4.21.47	urn:miriam:pubmed:28630159		entity_pool	process	complex	process
+C5b	consumption	pr_dfeaad6d-727b-4caa-ac9a-73752ba1dee6				entity_pool	process	macromolecule	process
+C6	consumption	pr_dfeaad6d-727b-4caa-ac9a-73752ba1dee6	urn:miriam:hgnc:HGNC%3A1339			entity_pool	process	macromolecule	process
+pr_dfeaad6d-727b-4caa-ac9a-73752ba1dee6	production	C5b:C6				process	entity_pool	process	complex
+C5b:C6	consumption	pr_67ec30b6-3ae0-463d-8de9-061c05d43f75				entity_pool	process	complex	process
+C7	consumption	pr_67ec30b6-3ae0-463d-8de9-061c05d43f75	urn:miriam:hgnc:HGNC%3A1346			entity_pool	process	macromolecule	process
+pr_67ec30b6-3ae0-463d-8de9-061c05d43f75	production	C5b:C6:C7			urn:miriam:pubmed:28630159	process	entity_pool	process	complex
+C5b:C6:C7	consumption	pr_478f5021-796f-4d20-a51f-fbf13d817190	urn:miriam:pubmed:28630159			entity_pool	process	complex	process
+C8A:C8B:C8G	consumption	pr_478f5021-796f-4d20-a51f-fbf13d817190				entity_pool	process	complex	process
+pr_478f5021-796f-4d20-a51f-fbf13d817190	production	C5b:C6:C7:C8A:C8B:C8G			urn:miriam:pubmed:28630159	process	entity_pool	process	complex
+C5b:C6:C7:C8A:C8B:C8G	consumption	pr_7510d4f5-8404-488e-a94e-715118e4e597	urn:miriam:pubmed:28630159			entity_pool	process	complex	process
+C9	consumption	pr_7510d4f5-8404-488e-a94e-715118e4e597	urn:miriam:hgnc:HGNC%3A1358			entity_pool	process	macromolecule	process
+pr_7510d4f5-8404-488e-a94e-715118e4e597	production	C5b-9				process	entity_pool	process	complex
+angiotensin I	consumption	pr_9162cc97-1489-4ff2-8f29-80fdf6401b2c	urn:miriam:obo.chebi:CHEBI%3A2718			entity_pool	process	simple chemical	process
+pr_9162cc97-1489-4ff2-8f29-80fdf6401b2c	production	angiotensin II			urn:miriam:obo.chebi:CHEBI%3A2718	process	entity_pool	process	simple chemical
+SARS-CoV-2 infection	catalysis	pr_9162cc97-1489-4ff2-8f29-80fdf6401b2c	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:32048163		entity_pool	process	phenotype	process
+s534	consumption	pr_d7969ea1-8b48-4dc3-8c26-e5e1fad33bba				entity_pool	process	source and sink	process
+pr_d7969ea1-8b48-4dc3-8c26-e5e1fad33bba	production	IL1B			urn:miriam:hgnc:5992	process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	stimulation	pr_d7969ea1-8b48-4dc3-8c26-e5e1fad33bba	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:32171193		entity_pool	process	phenotype	process
+cytokine storm	stimulation	pr_d7969ea1-8b48-4dc3-8c26-e5e1fad33bba	urn:miriam:pubmed:2504360	urn:miriam:pubmed:32171193		entity_pool	process	phenotype	process
+SARS-CoV-2 infection	consumption	pr_5faa0e6e-48aa-47d4-bff9-ebe7b99bb4a0	urn:miriam:taxonomy:2697049			entity_pool	process	phenotype	process
+pr_5faa0e6e-48aa-47d4-bff9-ebe7b99bb4a0	production	Fibrinogen			urn:miriam:pubmed:19296670	process	entity_pool	process	complex
+s534	consumption	pr_61abad33-4da8-4f67-9f64-229e045bb147				entity_pool	process	source and sink	process
+pr_61abad33-4da8-4f67-9f64-229e045bb147	production	IL6			urn:miriam:hgnc:6018	process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	stimulation	pr_61abad33-4da8-4f67-9f64-229e045bb147	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:32286245		entity_pool	process	phenotype	process
+cytokine storm	stimulation	pr_61abad33-4da8-4f67-9f64-229e045bb147	urn:miriam:pubmed:2504360	urn:miriam:pubmed:32286245		entity_pool	process	phenotype	process
+s534	consumption	pr_01b79553-a111-4cd0-b459-4178b17ba8d0				entity_pool	process	source and sink	process
+pr_01b79553-a111-4cd0-b459-4178b17ba8d0	production	IL8			urn:miriam:hgnc:HGNC%3A6025	process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	stimulation	pr_01b79553-a111-4cd0-b459-4178b17ba8d0	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:32286245		entity_pool	process	phenotype	process
+cytokine storm	stimulation	pr_01b79553-a111-4cd0-b459-4178b17ba8d0	urn:miriam:pubmed:2504360	urn:miriam:pubmed:32286245		entity_pool	process	phenotype	process
+s534	consumption	pr_5c96a9d1-6511-4bf8-b000-0aa4e9c7e01e				entity_pool	process	source and sink	process
+pr_5c96a9d1-6511-4bf8-b000-0aa4e9c7e01e	production	IL2RA			urn:miriam:hgnc:HGNC%3A6008	process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	stimulation	pr_5c96a9d1-6511-4bf8-b000-0aa4e9c7e01e	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:32286245		entity_pool	process	phenotype	process
+cytokine storm	stimulation	pr_5c96a9d1-6511-4bf8-b000-0aa4e9c7e01e	urn:miriam:pubmed:2504360	urn:miriam:pubmed:32286245		entity_pool	process	phenotype	process
+Plasminogen	consumption	pr_4876db59-1476-43a1-b7df-cb0e9c81678f	urn:miriam:hgnc:HGNC%3A9071			entity_pool	process	macromolecule	process
+pr_4876db59-1476-43a1-b7df-cb0e9c81678f	production	Plasmin			urn:miriam:hgnc:HGNC%3A9051	process	entity_pool	process	macromolecule
+PLAT	catalysis	pr_4876db59-1476-43a1-b7df-cb0e9c81678f	urn:miriam:hgnc:HGNC%3A9051	urn:miriam:pubmed:3850647		entity_pool	process	macromolecule	process
+PLAU	catalysis	pr_4876db59-1476-43a1-b7df-cb0e9c81678f		urn:miriam:pubmed:3850647		entity_pool	process	macromolecule	process
+F11a	catalysis	pr_4876db59-1476-43a1-b7df-cb0e9c81678f	urn:miriam:hgnc:HGNC%3A3529	urn:miriam:pubmed:3850647		entity_pool	process	macromolecule	process
+KLKB1	catalysis	pr_4876db59-1476-43a1-b7df-cb0e9c81678f	urn:miriam:hgnc:6371	urn:miriam:pubmed:3850647		entity_pool	process	macromolecule	process
+Antithrombin	consumption	pr_097bad0a-73ed-4796-8bb7-3e40ee2922ed	urn:miriam:hgnc:HGNC%3A775			entity_pool	process	macromolecule	process
+Thrombin	consumption	pr_097bad0a-73ed-4796-8bb7-3e40ee2922ed	urn:miriam:hgnc:HGNC%3A3535			entity_pool	process	macromolecule	process
+pr_097bad0a-73ed-4796-8bb7-3e40ee2922ed	production	TAT complex			urn:miriam:pubmed:22930518	process	entity_pool	process	complex
+SARS-CoV-2 infection	necessary stimulation	pr_097bad0a-73ed-4796-8bb7-3e40ee2922ed	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:22930518|urn:miriam:doi:10.1101%2F2020.04.25.20077842		entity_pool	process	phenotype	process
+Prothrombin	consumption	pr_f8c12aa9-a8e9-47af-8c60-d01c671e43c7	urn:miriam:hgnc:HGNC%3A3535			entity_pool	process	macromolecule	process
+pr_f8c12aa9-a8e9-47af-8c60-d01c671e43c7	production	Thrombin			urn:miriam:hgnc:HGNC%3A3535	process	entity_pool	process	macromolecule
+F5a:F10a	catalysis	pr_f8c12aa9-a8e9-47af-8c60-d01c671e43c7	urn:miriam:pubmed:2303476	urn:miriam:pubmed:4430674|urn:miriam:pubmed:3818642		entity_pool	process	complex	process
+PROC	consumption	pr_4de8776c-242a-41c6-9632-8ce9071af71c	urn:miriam:hgnc:HGNC%3A9451			entity_pool	process	macromolecule	process
+pr_4de8776c-242a-41c6-9632-8ce9071af71c	production	F8a			urn:miriam:hgnc:HGNC%3A3546	process	entity_pool	process	macromolecule
+angiotensin II	consumption	pr_dd112ff7-d435-4a0e-b7ea-dddbbd16ff3e	urn:miriam:obo.chebi:CHEBI%3A2718			entity_pool	process	simple chemical	process
+pr_dd112ff7-d435-4a0e-b7ea-dddbbd16ff3e	production	SERPINE1			urn:miriam:hgnc:HGNC%3A8593	process	entity_pool	process	macromolecule
+Thrombin	consumption	pr_2503d315-536f-449e-99d9-fd06e17a4185	urn:miriam:hgnc:HGNC%3A3535			entity_pool	process	macromolecule	process
+Thrombomodulin	consumption	pr_2503d315-536f-449e-99d9-fd06e17a4185	urn:miriam:hgnc:HGNC%3A11784			entity_pool	process	macromolecule	process
+pr_2503d315-536f-449e-99d9-fd06e17a4185	production	Thrombin:Thrombomodulin			urn:miriam:pubmed:6282863|urn:miriam:taxonomy:9986	process	entity_pool	process	complex
+F9	consumption	pr_34b1e7a1-04b2-4ec1-b44a-1a0bfb27a0f0	urn:miriam:hgnc:HGNC%3A35531			entity_pool	process	macromolecule	process
+pr_34b1e7a1-04b2-4ec1-b44a-1a0bfb27a0f0	production	F9a				process	entity_pool	process	macromolecule
+F11a	catalysis	pr_34b1e7a1-04b2-4ec1-b44a-1a0bfb27a0f0	urn:miriam:hgnc:HGNC%3A3529	urn:miriam:pubmed:9100000		entity_pool	process	macromolecule	process
+KLKB1	consumption	pr_ab3cb966-040b-4b4f-b2b6-86596b5b0f25	urn:miriam:hgnc:6371			entity_pool	process	macromolecule	process
+KNG1	consumption	pr_ab3cb966-040b-4b4f-b2b6-86596b5b0f25	urn:miriam:hgnc.symbol:6383			entity_pool	process	macromolecule	process
+pr_ab3cb966-040b-4b4f-b2b6-86596b5b0f25	production	KNG1:KLKB1			urn:miriam:pubmed:17598838	process	entity_pool	process	complex
+F12a	catalysis	pr_ab3cb966-040b-4b4f-b2b6-86596b5b0f25	urn:miriam:hgnc:HGNC%3A3530	urn:miriam:pubmed:7944388		entity_pool	process	macromolecule	process
+MASP2	necessary stimulation	MASP2 deposition				entity_pool	entity_pool	macromolecule	phenotype
+C4d	necessary stimulation	Thrombosis			urn:miriam:mesh:D013923|urn:miriam:mesh:D055806	entity_pool	entity_pool	macromolecule	phenotype
+C5b-9	consumption	pr_b07806fd-d8f6-4ad8-86ba-13ac52e8d8d6				entity_pool	process	complex	process
+pr_b07806fd-d8f6-4ad8-86ba-13ac52e8d8d6	production	Plasminogen			urn:miriam:hgnc:HGNC%3A9071	process	entity_pool	process	macromolecule
+C5b-9	necessary stimulation	Thrombosis			urn:miriam:mesh:D013923|urn:miriam:mesh:D055806	entity_pool	entity_pool	complex	phenotype
+s546	consumption	pr_37f439bb-7956-4cf0-94a7-385d670c1e88				entity_pool	process	source and sink	process
+pr_37f439bb-7956-4cf0-94a7-385d670c1e88	production	C5a				process	entity_pool	process	macromolecule
+Plasmin	necessary stimulation	pr_37f439bb-7956-4cf0-94a7-385d670c1e88	urn:miriam:hgnc:HGNC%3A9051	urn:miriam:pubmed:27077125|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
+s534	consumption	pr_e42e05d7-9488-4775-a2f5-e5a5f7f7a465				entity_pool	process	source and sink	process
+pr_e42e05d7-9488-4775-a2f5-e5a5f7f7a465	production	TNF			urn:miriam:hgnc:11892	process	entity_pool	process	macromolecule
+SARS-CoV-2 infection	stimulation	pr_e42e05d7-9488-4775-a2f5-e5a5f7f7a465	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:32504360		entity_pool	process	phenotype	process
+cytokine storm	stimulation	pr_e42e05d7-9488-4775-a2f5-e5a5f7f7a465	urn:miriam:pubmed:2504360	urn:miriam:pubmed:32504360		entity_pool	process	phenotype	process
+Fibrin monomer	consumption	pr_ed7d6489-a9e9-40a0-9e40-6b0df3ad3f05				entity_pool	process	macromolecule	process
+pr_ed7d6489-a9e9-40a0-9e40-6b0df3ad3f05	production	Fibrin polymer				process	entity_pool	process	macromolecule
+F13B	catalysis	pr_ed7d6489-a9e9-40a0-9e40-6b0df3ad3f05		urn:miriam:pubmed:29096812|urn:miriam:pubmed:7577232		entity_pool	process	macromolecule	process
+Fibrin polymer	consumption	pr_5d5b52e7-fd59-41ef-8d7d-aa109d99daed				entity_pool	process	macromolecule	process
+pr_5d5b52e7-fd59-41ef-8d7d-aa109d99daed	production	D-dimer			urn:miriam:pubmed:19008457	process	entity_pool	process	macromolecule
+Plasmin	catalysis	pr_5d5b52e7-fd59-41ef-8d7d-aa109d99daed	urn:miriam:hgnc:HGNC%3A9051	urn:miriam:pubmed:29096812|urn:miriam:pubmed:10574983|urn:miriam:pubmed:32172226		entity_pool	process	macromolecule	process
+SERPINH1	catalysis	pr_5d5b52e7-fd59-41ef-8d7d-aa109d99daed	urn:miriam:hgnc:HGNC%3A1546	urn:miriam:pubmed:29096812|urn:miriam:pubmed:10574983|urn:miriam:pubmed:32172226		entity_pool	process	macromolecule	process
+SARS-CoV-2 infection	necessary stimulation	pr_5d5b52e7-fd59-41ef-8d7d-aa109d99daed	urn:miriam:taxonomy:2697049	urn:miriam:pubmed:29096812|urn:miriam:pubmed:10574983|urn:miriam:pubmed:32172226		entity_pool	process	phenotype	process
+GP6:alpha2beta1:VWF	consumption	pr_6af18655-77a1-4897-8f3e-540600ded33a				entity_pool	process	complex	omitted process
+pr_6af18655-77a1-4897-8f3e-540600ded33a	production	s521				process	entity_pool	omitted process	source and sink
+GP6:alpha2beta1:VWF	necessary stimulation	platelet activation			urn:miriam:obo.go:GO%3A0030168	entity_pool	entity_pool	complex	phenotype
+platelet activation	necessary stimulation	thrombus formation	urn:miriam:obo.go:GO%3A0030168			entity_pool	entity_pool	phenotype	phenotype
+Fibrinogen:GP6	necessary stimulation	platelet activation	urn:miriam:pubmed:19296670		urn:miriam:obo.go:GO%3A0030168	entity_pool	entity_pool	complex	phenotype
+GP6	consumption	pr_fc0571fe-f971-473a-bc22-432363b8ba5d	urn:miriam:hgnc:14388			entity_pool	process	macromolecule	process
+ITGA2:ITGAB1	consumption	pr_fc0571fe-f971-473a-bc22-432363b8ba5d	urn:miriam:intact:EBI-16428357			entity_pool	process	complex	process
+pr_fc0571fe-f971-473a-bc22-432363b8ba5d	production	GP6:Fibrinogen				process	entity_pool	process	complex
+GP6:Fibrinogen	consumption	pr_b4ee8498-77c2-4a4c-bc18-60a4c3b9b046				entity_pool	process	complex	process
+VWF	consumption	pr_b4ee8498-77c2-4a4c-bc18-60a4c3b9b046				entity_pool	process	macromolecule	process
+pr_b4ee8498-77c2-4a4c-bc18-60a4c3b9b046	production	GP6:alpha2beta1:VWF				process	entity_pool	process	complex
+C5b-9 deposition	necessary stimulation	platelet aggregation			urn:miriam:obo.go:GO%3A0030168	entity_pool	entity_pool	phenotype	phenotype
+C5b-9 deposition	necessary stimulation	apoptosis			urn:miriam:obo.go:GO%3A0006915	entity_pool	entity_pool	phenotype	phenotype
+C4d deposition	necessary stimulation	septal capillary necrosis				entity_pool	entity_pool	phenotype	phenotype
+Fibrinogen	consumption	pr_afc0e490-de96-42fc-9914-ea4ea9e4e090	urn:miriam:pubmed:19296670			entity_pool	process	complex	process
+GP6	consumption	pr_afc0e490-de96-42fc-9914-ea4ea9e4e090	urn:miriam:hgnc:14388			entity_pool	process	macromolecule	process
+pr_afc0e490-de96-42fc-9914-ea4ea9e4e090	production	Fibrinogen:GP6			urn:miriam:pubmed:19296670	process	entity_pool	process	complex
