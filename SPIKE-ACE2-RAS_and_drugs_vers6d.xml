@@ -949,7 +949,7 @@ Description:
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa70" species="s22">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1017.5" y="1756.5" w="113.0" h="29.0"/>
+<celldesigner:bounds x="1048.5" y="1725.5" w="113.0" h="29.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -2603,6 +2603,9 @@ PMID:15283675
 <celldesigner:class>DRUG</celldesigner:class>
 <celldesigner:name>CGP42112A</celldesigner:name>
 </celldesigner:speciesIdentity>
+<celldesigner:listOfCatalyzedReactions>
+<celldesigner:catalyzed reaction="re67"/>
+</celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
 <rdf:Description rdf:about="#s22">
@@ -4880,11 +4883,13 @@ Angiotensin peptides are metabolized by several subsequent enzymatic steps: Firs
 <celldesigner:extension>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s22" alias="sa70"/>
+<celldesigner:baseReactant species="s156" alias="sa79">
+<celldesigner:linkAnchor position="SE"/>
+</celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
 <celldesigner:baseProduct species="s157" alias="sa25">
-<celldesigner:linkAnchor position="SSW"/>
+<celldesigner:linkAnchor position="SW"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
@@ -4893,6 +4898,19 @@ Angiotensin peptides are metabolized by several subsequent enzymatic steps: Firs
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
+<celldesigner:listOfModification>
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s22" aliases="sa70" targetLineIndex="-1,3">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="s22" alias="sa70">
+<celldesigner:linkAnchor position="INACTIVE"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+</celldesigner:listOfModification>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
 <rdf:Description rdf:about="#re67">
@@ -4905,10 +4923,10 @@ Angiotensin peptides are metabolized by several subsequent enzymatic steps: Firs
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00111" species="s22">
+<speciesReference metaid="CDMT00111" species="s156">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>sa70</celldesigner:alias>
+<celldesigner:alias>sa79</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
@@ -4922,6 +4940,15 @@ Angiotensin peptides are metabolized by several subsequent enzymatic steps: Firs
 </annotation>
 </speciesReference>
 </listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00003" species="s22">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa70</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
 </reaction>
 <reaction metaid="re68" id="re68" reversible="false">
 <notes>
@@ -5087,7 +5114,7 @@ Angiotensin II type 1 receptors promote ADAM17-mediated ACE2 shedding in the bra
 </celldesigner:extension>
 </annotation>
 </modifierSpeciesReference>
-<modifierSpeciesReference metaid="CDMT00003" species="s120">
+<modifierSpeciesReference metaid="CDMT00015" species="s120">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa167</celldesigner:alias>
@@ -6011,7 +6038,7 @@ PMID:26171856
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s30" aliases="sa44" targetLineIndex="-1,3" editPoints="0.13213303769872686,-0.39036425330245983 1.0293375173021857,-0.08667263112142987">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s30" aliases="sa44" targetLineIndex="-1,3" editPoints="0.13213303769872708,-0.3903642533024603 1.0293375173021857,-0.08667263112143031">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -6461,7 +6488,7 @@ Ang A has the same affinity to the AT1 receptor as Ang II, but a higher affinity
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00015" species="s42">
+<modifierSpeciesReference metaid="CDMT00017" species="s42">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa165</celldesigner:alias>
@@ -6748,7 +6775,7 @@ Since angiotensin-(1-12) [Ang-(1-12)] is a non-renin dependent alternate precurs
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s18" aliases="sa39" targetLineIndex="-1,3" editPoints="0.6244349142892038,0.0757672643283811 0.8346940788527868,-0.019027244251953346">
+<celldesigner:modification type="CATALYSIS" modifiers="s18" aliases="sa39" targetLineIndex="-1,3" editPoints="0.6244349142892038,0.0757672643283811 0.8346940788527866,-0.019027244251953235">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -6914,7 +6941,7 @@ Since angiotensin-(1-12) [Ang-(1-12)] is a non-renin dependent alternate precurs
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s146" aliases="csa9" targetLineIndex="-1,3" editPoints="-0.04162110429876087,-0.15656558042369806 0.8923735651253732,-0.404856995723212">
+<celldesigner:modification type="INHIBITION" modifiers="s146" aliases="csa9" targetLineIndex="-1,3" editPoints="-0.04162110429876087,-0.15656558042369717 0.8923735651253732,-0.404856995723212">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -7274,7 +7301,7 @@ Since angiotensin-(1-12) [Ang-(1-12)] is a non-renin dependent alternate precurs
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s18" aliases="sa39" targetLineIndex="-1,2" editPoints="0.8294639387593881,0.18249782967991202">
+<celldesigner:modification type="CATALYSIS" modifiers="s18" aliases="sa39" targetLineIndex="-1,2" editPoints="0.8294639387593878,0.18249782967991224">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -7372,7 +7399,7 @@ Since angiotensin-(1-12) [Ang-(1-12)] is a non-renin dependent alternate precurs
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00017" species="s15">
+<speciesReference metaid="CDMT00018" species="s15">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa26</celldesigner:alias>
@@ -7678,7 +7705,7 @@ A human neutrophil protease, initially termed neutral peptide-generating proteas
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00018" species="s1">
+<speciesReference metaid="CDMT00019" species="s1">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa34</celldesigner:alias>
@@ -8244,12 +8271,12 @@ A human neutrophil protease, initially termed neutral peptide-generating proteas
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s156" alias="sa79">
-<celldesigner:linkAnchor position="ESE"/>
+<celldesigner:linkAnchor position="E"/>
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
 <celldesigner:baseProduct species="s157" alias="sa25">
-<celldesigner:linkAnchor position="WSW"/>
+<celldesigner:linkAnchor position="W"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
@@ -8309,12 +8336,12 @@ The study investigated whether a vasodepressor effect of Ang-(1-7) could be unma
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s156" alias="sa79">
-<celldesigner:linkAnchor position="ENE"/>
+<celldesigner:linkAnchor position="NE"/>
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
 <celldesigner:baseProduct species="s157" alias="sa25">
-<celldesigner:linkAnchor position="WNW"/>
+<celldesigner:linkAnchor position="NW"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
@@ -8411,7 +8438,7 @@ The study investigated whether a vasodepressor effect of Ang-(1-7) could be unma
 <celldesigner:lineDirection index="3" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.07936507936503467,-0.23809523809524435 0.3412692334903227,-0.23838989938526112 0.843525066792381,-0.24014615747289092</celldesigner:editPoints>
+<celldesigner:editPoints>0.07936507936501336,-0.23809523809524435 0.3412692334903227,-0.23838989938526112 0.8435250667923597,-0.24014615747289092</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
 <celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s10" aliases="sa22" targetLineIndex="-1,5">
@@ -9369,7 +9396,7 @@ Angiotensin (Ang)-(1-7) has cardiovascular protective effects and is the opponen
 </celldesigner:extension>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00019" species="s132">
+<speciesReference metaid="CDMT00022" species="s132">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>csa5</celldesigner:alias>
@@ -9378,7 +9405,7 @@ Angiotensin (Ang)-(1-7) has cardiovascular protective effects and is the opponen
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00022" species="s237">
+<speciesReference metaid="CDMT00041" species="s237">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa166</celldesigner:alias>
