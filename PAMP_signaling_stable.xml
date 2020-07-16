@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner" level="2" version="4">
 <model metaid="PRR" id="PRR" sboTerm="SBO:0000231">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
+Author:
+Matti Hoch, University of Rostock, Germany
+Description:
+The pathway of PAMP signalling affected by human coronavirus proteins
+</body>
+</html>
+</notes>
 <annotation>
 <celldesigner:extension>
 <celldesigner:modelVersion>4.0</celldesigner:modelVersion>
@@ -2762,11 +2775,11 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa357" species="s497" compartmentAlias="ca1">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="300.0" y="1275.0" w="80.0" h="40.0"/>
+<celldesigner:bounds x="250.0" y="1214.0" w="80.0" h="40.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="215.0" y="1200.0"/>
+<celldesigner:innerPosition x="165.0" y="1139.0"/>
 <celldesigner:boxSize width="80.0" height="40.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffffcccc" scheme="Color"/>
@@ -3868,11 +3881,11 @@
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa435" species="s142" compartmentAlias="ca1">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="915.0" y="1165.0" w="80.0" h="40.0"/>
+<celldesigner:bounds x="914.0" y="1165.0" w="80.0" h="40.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="830.0" y="1090.0"/>
+<celldesigner:innerPosition x="829.0" y="1090.0"/>
 <celldesigner:boxSize width="80.0" height="40.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
@@ -5519,6 +5532,7 @@ cytoplasmic pattern recognition receptor (PRR)
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
 <celldesigner:catalyzed reaction="re252"/>
+<celldesigner:catalyzed reaction="re260"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 </annotation>
@@ -5740,8 +5754,8 @@ cytoplasmic pattern recognition receptor (PRR)
 <celldesigner:proteinReference>pr92</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re61"/>
 <celldesigner:catalyzed reaction="re280"/>
+<celldesigner:catalyzed reaction="re61"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -6875,6 +6889,173 @@ cytoplasmic pattern recognition receptor (PRR)
 </species>
 </listOfSpecies>
 <listOfReactions>
+<reaction metaid="re280" id="re280" reversible="false" fast="false">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>&quot;Our results showed that the SARS-CoV N protein can significantly activate NF-kappaB only in Vero E6 cells, which are susceptible to SARS-CoV infection, but not in Vero or HeLa cells. This suggests that NF-kappaB activation is cell-specific.&quot;
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>DISSOCIATION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s644" alias="csa102">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s530" alias="csa80">
+<celldesigner:linkAnchor position="W"/>
+</celldesigner:baseProduct>
+<celldesigner:baseProduct species="s647" alias="sa475">
+<celldesigner:linkAnchor position="E"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.41860465116278966,0.5813953488372094</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+<celldesigner:listOfModification>
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s500" aliases="sa381" targetLineIndex="0,3">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="s500" alias="sa381">
+<celldesigner:linkAnchor position="E"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+</celldesigner:listOfModification>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re280">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:16143815"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:694009"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00147" species="s644">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa102</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00148" species="s530">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa80</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00150" species="s647">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa475</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00151" species="s500">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa381</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
+</reaction>
+<reaction metaid="re250" id="re250" reversible="false" fast="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s5" alias="sa5">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+<celldesigner:baseReactant species="s574" alias="sa6">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s589" alias="csa88">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="square">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection arm="0" index="0" value="vertical"/>
+<celldesigner:lineDirection arm="0" index="1" value="horizontal"/>
+<celldesigner:lineDirection arm="0" index="2" value="vertical"/>
+<celldesigner:lineDirection arm="1" index="0" value="horizontal"/>
+<celldesigner:lineDirection arm="1" index="1" value="vertical"/>
+<celldesigner:lineDirection arm="2" index="0" value="vertical"/>
+<celldesigner:lineDirection arm="2" index="1" value="horizontal"/>
+<celldesigner:lineDirection arm="2" index="2" value="vertical"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints num0="2" num1="1" num2="2" tShapeIndex="0">-8.881784197001252E-16,-1.3322676295501878E-15 0.3395250411474251,-0.47354808370562074 0.9545597980435474,0.2082675923004098 0.44776785714285605,0.0 0.44776785714285605,8.881784197001252E-16 0.18145563310069823,0.3260219341974077</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re250">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:20303872"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00014" species="s5">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa5</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00015" species="s574">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa6</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00016" species="s589">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa88</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
 <reaction metaid="re13" id="re13" reversible="false" sboTerm="SBO:0000176">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -7429,54 +7610,6 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re72" id="re72" reversible="false" sboTerm="SBO:0000185">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>TRANSPORT</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s530" alias="csa80"/>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s648" alias="csa103">
-<celldesigner:linkAnchor position="N"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re72">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:20303872"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00157" sboTerm="SBO:0000010" species="s530">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa80</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00158" sboTerm="SBO:0000011" species="s648">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa103</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
 <reaction metaid="re73" id="re73" reversible="false" sboTerm="SBO:0000176">
 <annotation>
 <celldesigner:extension>
@@ -7611,52 +7744,6 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re76" id="re76" reversible="false" sboTerm="SBO:0000185">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>TRANSPORT</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s496" alias="sa156"/>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s135" alias="sa157"/>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re76">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:25581309"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00166" sboTerm="SBO:0000010" species="s496">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa156</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00167" sboTerm="SBO:0000011" species="s135">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa157</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
 <reaction metaid="re132" id="re132" reversible="false" sboTerm="SBO:0000176">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -7699,16 +7786,15 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s497" aliases="sa357" targetLineIndex="-1,3" editPoints="0.3787278550707551,-0.15782080859154668 0.5266848631253289,0.19723655553728392">
-<celldesigner:connectScheme connectPolicy="square">
+<celldesigner:modification type="INHIBITION" modifiers="s497" aliases="sa357" targetLineIndex="-1,3" editPoints="0.47404036978010033,0.5099628992742424">
+<celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
-<celldesigner:lineDirection index="1" value="horizontal"/>
-<celldesigner:lineDirection index="2" value="vertical"/>
+<celldesigner:lineDirection index="1" value="vertical"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
 <celldesigner:linkTarget species="s497" alias="sa357">
-<celldesigner:linkAnchor position="N"/>
+<celldesigner:linkAnchor position="E"/>
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
@@ -7838,7 +7924,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s478" aliases="csa56" targetLineIndex="-1,2" editPoints="0.584121782643081,-0.49306797548461656">
+<celldesigner:modification type="CATALYSIS" modifiers="s478" aliases="csa56" targetLineIndex="-1,2" editPoints="0.5841217826430815,-0.4930679754846157">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -7897,106 +7983,6 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re134" id="re134" reversible="false" sboTerm="SBO:0000185">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>TRANSPORT</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s496" alias="sa119">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s206" alias="sa256">
-<celldesigner:linkAnchor position="N"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re134">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:20303872"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00249" sboTerm="SBO:0000010" species="s496">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa119</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00257" sboTerm="SBO:0000011" species="s206">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa256</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re135" id="re135" reversible="false" sboTerm="SBO:0000185">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>TRANSPORT</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s93" alias="sa120">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s205" alias="sa255">
-<celldesigner:linkAnchor position="N"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re135">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:20303872"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00258" sboTerm="SBO:0000010" species="s93">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa120</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00259" sboTerm="SBO:0000011" species="s205">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa255</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
 <reaction metaid="re176" id="re176" reversible="false" sboTerm="SBO:0000176">
 <annotation>
 <celldesigner:extension>
@@ -8029,7 +8015,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s481" aliases="sa331" targetLineIndex="-1,0" editPoints="0.32135135135135684,-0.10189189189189563 0.4127027027027079,0.18621621621621642">
+<celldesigner:modification type="CATALYSIS" modifiers="s481" aliases="sa331" targetLineIndex="-1,0" editPoints="0.3213513513513586,-0.10189189189189563 0.4127027027027097,0.18621621621621287">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -8118,58 +8104,6 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re237" id="re237" reversible="false" sboTerm="SBO:0000397">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s424" alias="csa9">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s597" alias="sa367">
-<celldesigner:linkAnchor position="W"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="square">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="vertical"/>
-<celldesigner:lineDirection index="1" value="horizontal"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints>0.4161669333632001,0.4929219176890696</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re237">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:19366914"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00315" sboTerm="SBO:0000010" species="s424">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa9</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00316" sboTerm="SBO:0000011" species="s597">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa367</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
 <reaction metaid="re241" id="re241" reversible="false" sboTerm="SBO:0000176">
 <annotation>
 <celldesigner:extension>
@@ -8187,7 +8121,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s598" aliases="sa405" targetLineIndex="-1,3" editPoints="0.023649113088308304,0.10615193296710634 0.9790165097923573,-0.10669008482786246">
+<celldesigner:modification type="CATALYSIS" modifiers="s598" aliases="sa405" targetLineIndex="-1,3" editPoints="0.023649113088308304,0.10615193296710634 0.9790165097923564,-0.10669008482786291">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -8450,74 +8384,6 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </annotation>
 </modifierSpeciesReference>
 </listOfModifiers>
-</reaction>
-<reaction metaid="re250" id="re250" reversible="false" fast="false">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s5" alias="sa5">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-<celldesigner:baseReactant species="s574" alias="sa6">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s589" alias="csa88">
-<celldesigner:linkAnchor position="N"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="square">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection arm="0" index="0" value="vertical"/>
-<celldesigner:lineDirection arm="0" index="1" value="horizontal"/>
-<celldesigner:lineDirection arm="0" index="2" value="vertical"/>
-<celldesigner:lineDirection arm="1" index="0" value="horizontal"/>
-<celldesigner:lineDirection arm="1" index="1" value="vertical"/>
-<celldesigner:lineDirection arm="2" index="0" value="vertical"/>
-<celldesigner:lineDirection arm="2" index="1" value="horizontal"/>
-<celldesigner:lineDirection arm="2" index="2" value="vertical"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints num0="2" num1="1" num2="2" tShapeIndex="0">-8.881784197001252E-16,-1.3322676295501878E-15 0.3395250411474251,-0.47354808370562074 0.9545597980435474,0.2082675923004098 0.44776785714285605,0.0 0.44776785714285605,8.881784197001252E-16 0.18145563310069823,0.3260219341974077</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re250">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:20303872"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00014" species="s5">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa5</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00015" species="s574">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa6</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00016" species="s589">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa88</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
 </reaction>
 <reaction metaid="re251" id="re251" reversible="false" fast="false">
 <annotation>
@@ -8940,7 +8806,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 <celldesigner:lineDirection index="2" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.3021438836425584,0.2905350324537981 0.7825643123072324,-0.20908146085514367</celldesigner:editPoints>
+<celldesigner:editPoints>0.3021438836425575,0.2905350324537981 0.7825643123072316,-0.20908146085514367</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -9164,7 +9030,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 <celldesigner:editPoints>0.9063583815028906,0.29132947976878576</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s588" aliases="csa90" targetLineIndex="-1,7" editPoints="0.06418650937624815,0.18545464222757135 0.9572129566132386,-0.12362497821394136">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s588" aliases="csa90" targetLineIndex="-1,7" editPoints="0.06418650937624815,0.1854546422275709 0.9572129566132377,-0.1236249782139418">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -9251,14 +9117,16 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 <celldesigner:linkAnchor position="N"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
+<celldesigner:editPoints>0.478598030712746,-0.003724299780609286</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s64" aliases="sa337" targetLineIndex="-1,2" editPoints="0.5041474042239829,0.13444827101113077 0.5705457107916123,-0.11452877904083714">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s64" aliases="sa337" targetLineIndex="-1,2" editPoints="0.43543966258790867,0.21337965997874342 0.6290738993733678,-0.18176590703419038">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -9268,6 +9136,18 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:connectScheme>
 <celldesigner:linkTarget species="s64" alias="sa337">
 <celldesigner:linkAnchor position="WSW"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s424" aliases="csa9" targetLineIndex="-1,3" editPoints="0.34591362115621616,0.4756652056381775">
+<celldesigner:connectScheme connectPolicy="square">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="vertical"/>
+<celldesigner:lineDirection index="1" value="horizontal"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="s424" alias="csa9">
+<celldesigner:linkAnchor position="S"/>
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
@@ -9306,6 +9186,13 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa337</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+<modifierSpeciesReference metaid="CDMT00032" species="s424">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa9</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </modifierSpeciesReference>
@@ -9477,7 +9364,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00032" species="s148">
+<speciesReference metaid="CDMT00033" species="s148">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa436</celldesigner:alias>
@@ -9486,7 +9373,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00033" species="s598">
+<speciesReference metaid="CDMT00034" species="s598">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa405</celldesigner:alias>
@@ -9495,7 +9382,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00034" species="s506">
+<modifierSpeciesReference metaid="CDMT00040" species="s506">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa362</celldesigner:alias>
@@ -9545,14 +9432,14 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00040" species="s131">
+<speciesReference metaid="CDMT00041" species="s131">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa128</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00041" species="s547">
+<speciesReference metaid="CDMT00042" species="s547">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa400</celldesigner:alias>
@@ -9634,7 +9521,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00042" species="s64">
+<speciesReference metaid="CDMT00043" species="s64">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa337</celldesigner:alias>
@@ -9643,7 +9530,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00043" species="s60">
+<speciesReference metaid="CDMT00044" species="s60">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa265</celldesigner:alias>
@@ -9652,7 +9539,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00044" species="s497">
+<modifierSpeciesReference metaid="CDMT00059" species="s497">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa363</celldesigner:alias>
@@ -9695,7 +9582,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s613" aliases="csa94" targetLineIndex="-1,5" editPoints="0.08362790380068397,-0.130448004981087 0.7923519148629063,0.3239023963680232">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s613" aliases="csa94" targetLineIndex="-1,5" editPoints="0.08362790380068574,-0.13044800498108877 0.7923519148629081,0.32390239636802143">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -9788,7 +9675,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s665" aliases="sa452" targetLineIndex="-1,4" editPoints="0.0888928395061539,3.950968465282756E-6 0.08890864338001503,-0.35556740705616185 1.0000158018983774,-0.3555269116048754">
+<celldesigner:modification type="CATALYSIS" modifiers="s665" aliases="sa452" targetLineIndex="-1,4" editPoints="0.08889283950615212,3.950968465282756E-6 0.08890864338001414,-0.35556740705616274 1.0000158018983774,-0.3555269116048754">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10564,359 +10451,6 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re280" id="re280" reversible="false" fast="false">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>&quot;Our results showed that the SARS-CoV N protein can significantly activate NF-kappaB only in Vero E6 cells, which are susceptible to SARS-CoV infection, but not in Vero or HeLa cells. This suggests that NF-kappaB activation is cell-specific.&quot;
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>DISSOCIATION</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s644" alias="csa102">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s530" alias="csa80">
-<celldesigner:linkAnchor position="W"/>
-</celldesigner:baseProduct>
-<celldesigner:baseProduct species="s647" alias="sa475">
-<celldesigner:linkAnchor position="E"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.41860465116278966,0.5813953488372094</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-<celldesigner:listOfModification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s500" aliases="sa381" targetLineIndex="0,3">
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:linkTarget species="s500" alias="sa381">
-<celldesigner:linkAnchor position="E"/>
-</celldesigner:linkTarget>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:modification>
-</celldesigner:listOfModification>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re280">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:16143815"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:taxonomy:694009"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00147" species="s644">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa102</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00148" species="s530">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa80</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00150" species="s647">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa475</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-<listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00151" species="s500">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa381</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</modifierSpeciesReference>
-</listOfModifiers>
-</reaction>
-<reaction metaid="re281" id="re281" reversible="false">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>TRANSPORT</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s610" alias="csa79">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s651" alias="csa104">
-<celldesigner:linkAnchor position="N"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00152" species="s610">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa79</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00153" species="s651">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa104</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re282" id="re282" reversible="false">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s651" alias="csa104">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s654" alias="sa480">
-<celldesigner:linkAnchor position="N"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00154" species="s651">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa104</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00155" species="s654">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa480</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re283" id="re283" reversible="false">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s648" alias="csa103">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s654" alias="sa480">
-<celldesigner:linkAnchor position="ENE"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="square">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="vertical"/>
-<celldesigner:lineDirection index="1" value="horizontal"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints>0.024985456024705588,-0.15608069391165103</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00156" species="s648">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa103</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00161" species="s654">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa480</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re284" id="re284" reversible="false">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s135" alias="sa157">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s654" alias="sa480">
-<celldesigner:linkAnchor position="ESE"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="square">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="vertical"/>
-<celldesigner:lineDirection index="1" value="horizontal"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints>0.03636123396989488,-0.18718732498243895</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00162" species="s135">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa157</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00163" species="s654">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa480</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re285" id="re285" reversible="false">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s205" alias="sa255">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s654" alias="sa480">
-<celldesigner:linkAnchor position="WNW"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="square">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="vertical"/>
-<celldesigner:lineDirection index="1" value="horizontal"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints>0.16954336919793533,0.3752311489721345</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00168" species="s205">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa255</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00169" species="s654">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa480</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re286" id="re286" reversible="false">
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s206" alias="sa256">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s654" alias="sa480">
-<celldesigner:linkAnchor position="WSW"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="square">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="vertical"/>
-<celldesigner:lineDirection index="1" value="horizontal"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints>0.10791044114580339,0.3102672683953651</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00170" species="s206">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa256</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00171" species="s654">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa480</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
 <reaction metaid="re279" id="re279" reversible="false" fast="false">
 <annotation>
 <celldesigner:extension>
@@ -11284,7 +10818,7 @@ the expression of M protein prevents the formation of TRAF3·TANK·TBK1/IKKϵ co
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s501" aliases="sa408" targetLineIndex="-1,5" editPoints="0.47141574424392374,-0.1378018417201492 0.5501371529668972,0.1315016089291987">
+<celldesigner:modification type="INHIBITION" modifiers="s501" aliases="sa408" targetLineIndex="-1,5" editPoints="0.47141574424392374,-0.1378018417201492 0.5501371529668972,0.1315016089292005">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -11565,7 +11099,7 @@ the expression of M protein prevents the formation of TRAF3·TANK·TBK1/IKKϵ co
 <celldesigner:lineDirection index="2" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.15979333561322662,-0.06600971775137277 0.3055647956475074,0.2868672317278409</celldesigner:editPoints>
+<celldesigner:editPoints>0.15979333561322484,-0.06600971775137232 0.3055647956475074,0.28686723172784134</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -11605,6 +11139,454 @@ the expression of M protein prevents the formation of TRAF3·TANK·TBK1/IKKϵ co
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>csa89</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re72" id="re72" reversible="false" sboTerm="SBO:0000185">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>TRANSPORT</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s530" alias="csa80"/>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s648" alias="csa103">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re72">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:20303872"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00157" sboTerm="SBO:0000010" species="s530">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa80</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00158" sboTerm="SBO:0000011" species="s648">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa103</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re76" id="re76" reversible="false" sboTerm="SBO:0000185">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>TRANSPORT</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s496" alias="sa156"/>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s135" alias="sa157"/>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re76">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:25581309"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00166" sboTerm="SBO:0000010" species="s496">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa156</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00167" sboTerm="SBO:0000011" species="s135">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa157</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re134" id="re134" reversible="false" sboTerm="SBO:0000185">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>TRANSPORT</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s496" alias="sa119">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s206" alias="sa256">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re134">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:20303872"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00249" sboTerm="SBO:0000010" species="s496">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa119</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00257" sboTerm="SBO:0000011" species="s206">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa256</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re135" id="re135" reversible="false" sboTerm="SBO:0000185">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>TRANSPORT</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s93" alias="sa120">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s205" alias="sa255">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re135">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:20303872"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00258" sboTerm="SBO:0000010" species="s93">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa120</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00259" sboTerm="SBO:0000011" species="s205">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa255</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re281" id="re281" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>TRANSPORT</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s610" alias="csa79">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s651" alias="csa104">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00152" species="s610">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa79</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00153" species="s651">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa104</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re282" id="re282" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s651" alias="csa104">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s654" alias="sa480">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00154" species="s651">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa104</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00155" species="s654">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa480</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re283" id="re283" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s648" alias="csa103">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s654" alias="sa480">
+<celldesigner:linkAnchor position="ENE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.024985456024705588,-0.15608069391165103</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00156" species="s648">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa103</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00161" species="s654">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa480</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re284" id="re284" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s135" alias="sa157">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s654" alias="sa480">
+<celldesigner:linkAnchor position="ESE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.03636123396989488,-0.18718732498243895</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00162" species="s135">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa157</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00163" species="s654">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa480</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re285" id="re285" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s205" alias="sa255">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s654" alias="sa480">
+<celldesigner:linkAnchor position="WNW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.16954336919793533,0.3752311489721345</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00168" species="s205">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa255</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00169" species="s654">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa480</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re286" id="re286" reversible="false">
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s206" alias="sa256">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s654" alias="sa480">
+<celldesigner:linkAnchor position="WSW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.10791044114580339,0.3102672683953651</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00170" species="s206">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa256</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00171" species="s654">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa480</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
