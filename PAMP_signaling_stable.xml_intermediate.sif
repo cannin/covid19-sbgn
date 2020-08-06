@@ -1,192 +1,192 @@
 PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	ANNOTATION_SOURCE	ANNOTATION_INTERACTION	ANNOTATION_TARGET	SOURCE_TYPE	TARGET_TYPE	SOURCE_CLASS	TARGET_CLASS
-NFKB:NFKBIA	consumption	pr_41cf7edd-a590-45f4-8444-be35e8bbe33a				entity_pool	process	complex	process
-pr_41cf7edd-a590-45f4-8444-be35e8bbe33a	production	NFKB				process	entity_pool	process	complex
-pr_41cf7edd-a590-45f4-8444-be35e8bbe33a	production	NFKBIA			urn:miriam:hgnc:7797	process	entity_pool	process	macromolecule
-N	stimulation	pr_41cf7edd-a590-45f4-8444-be35e8bbe33a	urn:miriam:ncbiprotein:1798174255	urn:miriam:pubmed:16143815|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-TLR3	consumption	pr_fe78f495-f268-41e6-b94c-662ac686f02a	urn:miriam:hgnc:11849			entity_pool	process	macromolecule multimer	process
-dsRNA	consumption	pr_fe78f495-f268-41e6-b94c-662ac686f02a				entity_pool	process	nucleic acid feature	process
-pr_fe78f495-f268-41e6-b94c-662ac686f02a	production	TLR3:dsRNA				process	entity_pool	process	complex
-dsRNA	consumption	pr_8e6db489-5ef9-4a78-88ed-75288d5720fc				entity_pool	process	nucleic acid feature	process
-pr_8e6db489-5ef9-4a78-88ed-75288d5720fc	production	DDX58:dsRNA				process	entity_pool	process	complex
-M	inhibition	pr_8e6db489-5ef9-4a78-88ed-75288d5720fc	urn:miriam:ncbiprotein:1796318601	urn:miriam:pubmed:20303872|urn:miriam:pubmed:19380580|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-Nsp3	inhibition	pr_8e6db489-5ef9-4a78-88ed-75288d5720fc	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:20303872|urn:miriam:pubmed:19380580|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-DDX58	consumption	pr_8e6db489-5ef9-4a78-88ed-75288d5720fc	urn:miriam:hgnc:19102			entity_pool	process	macromolecule	process
-dsRNA	consumption	pr_312a5b37-cc72-40d8-8f88-2d11f4ddf569				entity_pool	process	nucleic acid feature	process
-pr_312a5b37-cc72-40d8-8f88-2d11f4ddf569	production	IFIH1:dsRNA				process	entity_pool	process	complex
-M	inhibition	pr_312a5b37-cc72-40d8-8f88-2d11f4ddf569	urn:miriam:ncbiprotein:1796318601	urn:miriam:pubmed:28484023|urn:miriam:pubmed:19380580|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-Nsp3	inhibition	pr_312a5b37-cc72-40d8-8f88-2d11f4ddf569	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:28484023|urn:miriam:pubmed:19380580|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-Nsp15	inhibition	pr_312a5b37-cc72-40d8-8f88-2d11f4ddf569	urn:miriam:ncbiprotein:1802476818	urn:miriam:pubmed:28484023|urn:miriam:pubmed:19380580|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-IFIH1	consumption	pr_312a5b37-cc72-40d8-8f88-2d11f4ddf569	urn:miriam:hgnc:18873			entity_pool	process	macromolecule	process
-DDX58	consumption	pr_79b6f6a2-ec29-4ccd-87cf-f8d0f4f6997b	urn:miriam:hgnc:19102			entity_pool	process	macromolecule	process
-pr_79b6f6a2-ec29-4ccd-87cf-f8d0f4f6997b	production	DDX58			urn:miriam:hgnc:19102	process	entity_pool	process	macromolecule
-logicglyph_6f14a67e-eb92-4e0c-81ab-51deda095f4b	catalysis	pr_79b6f6a2-ec29-4ccd-87cf-f8d0f4f6997b		urn:miriam:pubmed:25581309|urn:miriam:pubmed:28148787|urn:miriam:taxonomy:694009		logic	process	or	process
-RNF135	logic arc	logicglyph_6f14a67e-eb92-4e0c-81ab-51deda095f4b	urn:miriam:hgnc:21158			entity_pool	logic	macromolecule	or
-TRIM25	logic arc	logicglyph_6f14a67e-eb92-4e0c-81ab-51deda095f4b	urn:miriam:hgnc:12932			entity_pool	logic	macromolecule	or
-N	inhibition	pr_79b6f6a2-ec29-4ccd-87cf-f8d0f4f6997b	urn:miriam:ncbiprotein:1798174255	urn:miriam:pubmed:25581309|urn:miriam:pubmed:28148787|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-DDX58:dsRNA	catalysis	pr_79b6f6a2-ec29-4ccd-87cf-f8d0f4f6997b		urn:miriam:pubmed:25581309|urn:miriam:pubmed:28148787|urn:miriam:taxonomy:694009		entity_pool	process	complex	process
-MAVS	consumption	pr_e528bf80-7e91-4272-b016-b1aefef77484	urn:miriam:hgnc:29233			entity_pool	process	macromolecule	process
-pr_e528bf80-7e91-4272-b016-b1aefef77484	production	MAVS			urn:miriam:hgnc:29233	process	entity_pool	process	macromolecule multimer
-DDX58	catalysis	pr_e528bf80-7e91-4272-b016-b1aefef77484	urn:miriam:hgnc:19102	urn:miriam:pubmed:25581309		entity_pool	process	macromolecule	process
-IFIH1:dsRNA	catalysis	pr_e528bf80-7e91-4272-b016-b1aefef77484		urn:miriam:pubmed:25581309		entity_pool	process	complex	process
-NFKBIA	consumption	pr_a169108c-5c2a-4c0d-a9ed-f37821e17c7f	urn:miriam:hgnc:7797			entity_pool	process	macromolecule	process
-pr_a169108c-5c2a-4c0d-a9ed-f37821e17c7f	production	Degradation of NFKBIA				process	entity_pool	process	source and sink
-ubiquitin-proteasome complex	catalysis	pr_a169108c-5c2a-4c0d-a9ed-f37821e17c7f		urn:miriam:pubmed:20303872		entity_pool	process	complex	process
-IRF3	consumption	pr_7d318176-f4f9-47e1-a1cd-ce2588804f9a	urn:miriam:hgnc:6118			entity_pool	process	macromolecule	process
-pr_7d318176-f4f9-47e1-a1cd-ce2588804f9a	production	IRF3			urn:miriam:hgnc:6118	process	entity_pool	process	macromolecule
-TBK1	catalysis	pr_7d318176-f4f9-47e1-a1cd-ce2588804f9a		urn:miriam:pubmed:25581309		entity_pool	process	macromolecule	process
-IRF3	consumption	pr_02464f2d-7ea3-4901-b8c2-8a7cfaf614e6	urn:miriam:hgnc:6118			entity_pool	process	macromolecule	process
-pr_02464f2d-7ea3-4901-b8c2-8a7cfaf614e6	production	IRF3			urn:miriam:hgnc:6118	process	entity_pool	process	macromolecule
-TBK1	catalysis	pr_02464f2d-7ea3-4901-b8c2-8a7cfaf614e6		urn:miriam:pubmed:17761676|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-Nsp3	inhibition	pr_02464f2d-7ea3-4901-b8c2-8a7cfaf614e6	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:17761676|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-Orf3b	inhibition	pr_02464f2d-7ea3-4901-b8c2-8a7cfaf614e6	urn:miriam:uniprot:P59633	urn:miriam:pubmed:17761676|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-Orf8	inhibition	pr_02464f2d-7ea3-4901-b8c2-8a7cfaf614e6	urn:miriam:ncbiprotein:1796318604	urn:miriam:pubmed:17761676|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-IRF7	consumption	pr_ac340199-9ffb-4ac0-8440-efe4985daa46	urn:miriam:hgnc:6122			entity_pool	process	macromolecule	process
-pr_ac340199-9ffb-4ac0-8440-efe4985daa46	production	IRF7			urn:miriam:hgnc:6122	process	entity_pool	process	macromolecule
-IKBKE	catalysis	pr_ac340199-9ffb-4ac0-8440-efe4985daa46		urn:miriam:pubmed:20303872		entity_pool	process	macromolecule	process
-MYD88:IRAK:TRAF	catalysis	pr_ac340199-9ffb-4ac0-8440-efe4985daa46		urn:miriam:pubmed:20303872		entity_pool	process	complex	process
-TRAF6	consumption	pr_fb04b1fd-7d50-4cd6-902f-223b200f4eda	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
-pr_fb04b1fd-7d50-4cd6-902f-223b200f4eda	production	TRAF6			urn:miriam:hgnc:12036	process	entity_pool	process	macromolecule
-logicglyph_7923486a-843c-4b1e-a7c3-128c8cd45fba	catalysis	pr_fb04b1fd-7d50-4cd6-902f-223b200f4eda		urn:miriam:pubmed:19366914		logic	process	and	process
-UBE2N	logic arc	logicglyph_7923486a-843c-4b1e-a7c3-128c8cd45fba	urn:miriam:hgnc:12492			entity_pool	logic	macromolecule	and
-MYD88:IRAK:TRAF	logic arc	logicglyph_7923486a-843c-4b1e-a7c3-128c8cd45fba				entity_pool	logic	complex	and
-MAVS:TRAF	catalysis	pr_fb04b1fd-7d50-4cd6-902f-223b200f4eda		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
-MAVS	consumption	pr_7533d1f7-9483-40ce-a757-bb8a32269986	urn:miriam:hgnc:29233			entity_pool	process	macromolecule	process
-pr_7533d1f7-9483-40ce-a757-bb8a32269986	production	s552				process	entity_pool	process	source and sink
-ITCH	catalysis	pr_7533d1f7-9483-40ce-a757-bb8a32269986		urn:miriam:pubmed:25135833		entity_pool	process	macromolecule	process
-TRAF5	consumption	pr_8ed74a5e-a1ac-456d-bd75-9a0f19e65342	urn:miriam:hgnc:12035			entity_pool	process	macromolecule	process
-pr_8ed74a5e-a1ac-456d-bd75-9a0f19e65342	production	s550				process	entity_pool	process	source and sink
-ITCH	catalysis	pr_8ed74a5e-a1ac-456d-bd75-9a0f19e65342		urn:miriam:pubmed:25135833		entity_pool	process	macromolecule	process
-TRAF6	consumption	pr_c361ce0e-9da7-448e-9483-66f3b7426d76	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
-pr_c361ce0e-9da7-448e-9483-66f3b7426d76	production	s551				process	entity_pool	process	source and sink
-ITCH	catalysis	pr_c361ce0e-9da7-448e-9483-66f3b7426d76		urn:miriam:pubmed:25135833		entity_pool	process	macromolecule	process
-TICAM1	consumption	pr_5fbea79f-3a8a-4172-9fe7-913e218e236c	urn:miriam:hgnc:18348			entity_pool	process	macromolecule	process
-pr_5fbea79f-3a8a-4172-9fe7-913e218e236c	production	TICAM1				process	entity_pool	process	macromolecule
-TLR3:dsRNA	stimulation	pr_5fbea79f-3a8a-4172-9fe7-913e218e236c		urn:miriam:pubmed:20303872		entity_pool	process	complex	process
-TICAM1	consumption	pr_ee721d50-6aa9-4b9c-9e80-d65be27a2ba0				entity_pool	process	macromolecule	process
-pr_ee721d50-6aa9-4b9c-9e80-d65be27a2ba0	production	TICAM1:TRAF3:TRAF6				process	entity_pool	process	complex
-TRAF6	consumption	pr_ee721d50-6aa9-4b9c-9e80-d65be27a2ba0	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
-TICAM1	consumption	pr_ee721d50-6aa9-4b9c-9e80-d65be27a2ba0	urn:miriam:hgnc:18348			entity_pool	process	macromolecule	process
-TANK:TRAF3:IKBKE	consumption	pr_efe1741f-dfe9-4674-98c9-cd17c05411f2				entity_pool	process	complex	process
-pr_efe1741f-dfe9-4674-98c9-cd17c05411f2	production	TANK:TRAF3:IKBKE				process	entity_pool	process	complex
-M	inhibition	pr_efe1741f-dfe9-4674-98c9-cd17c05411f2	urn:miriam:ncbiprotein:1796318601	urn:miriam:pubmed:19380580|urn:miriam:pubmed:19366914|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-TICAM1:TRAF3:TRAF6	stimulation	pr_efe1741f-dfe9-4674-98c9-cd17c05411f2		urn:miriam:pubmed:19380580|urn:miriam:pubmed:19366914|urn:miriam:taxonomy:694009		entity_pool	process	complex	process
-TBK1	consumption	pr_33491cd0-4592-4b53-ace2-4670233b94f5	urn:miriam:hgnc:11584			entity_pool	process	macromolecule	process
-pr_33491cd0-4592-4b53-ace2-4670233b94f5	production	TBK1				process	entity_pool	process	macromolecule
-TANK:TRAF3:IKBKE	stimulation	pr_33491cd0-4592-4b53-ace2-4670233b94f5		urn:miriam:pubmed:20303872		entity_pool	process	complex	process
-IKBKE	consumption	pr_4cbd19df-adc3-4b5d-b896-5f9051010a92	urn:miriam:hgnc:14552			entity_pool	process	macromolecule	process
-pr_4cbd19df-adc3-4b5d-b896-5f9051010a92	production	IKBKE				process	entity_pool	process	macromolecule
-TANK:TRAF3:IKBKE	stimulation	pr_4cbd19df-adc3-4b5d-b896-5f9051010a92		urn:miriam:pubmed:20303872|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	complex	process
-Nsp3	inhibition	pr_4cbd19df-adc3-4b5d-b896-5f9051010a92	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:20303872|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-MYD88	consumption	pr_78c4ee45-51a1-4a72-ac62-2a1a8c911b6d				entity_pool	process	macromolecule	process
-pr_78c4ee45-51a1-4a72-ac62-2a1a8c911b6d	production	MYD88:IRAK:TRAF				process	entity_pool	process	complex
-IRAK1	consumption	pr_78c4ee45-51a1-4a72-ac62-2a1a8c911b6d	urn:miriam:hgnc:6112			entity_pool	process	macromolecule	process
-IRAK4	consumption	pr_78c4ee45-51a1-4a72-ac62-2a1a8c911b6d	urn:miriam:hgnc:17967			entity_pool	process	macromolecule	process
-TRAF6	consumption	pr_78c4ee45-51a1-4a72-ac62-2a1a8c911b6d	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
-TLR7	consumption	pr_0995c994-fd73-4f17-b401-e80e567d7084	urn:miriam:hgnc:15631			entity_pool	process	macromolecule	process
-pr_0995c994-fd73-4f17-b401-e80e567d7084	production	TLR7:ssRNA				process	entity_pool	process	complex
-ssRNA	consumption	pr_0995c994-fd73-4f17-b401-e80e567d7084				entity_pool	process	nucleic acid feature	process
-TLR8	consumption	pr_a3321183-a76f-49bb-8c59-0737191abe38	urn:miriam:hgnc:15632			entity_pool	process	macromolecule	process
-pr_a3321183-a76f-49bb-8c59-0737191abe38	production	TLR8:ssRNA				process	entity_pool	process	complex
-ssRNA	consumption	pr_a3321183-a76f-49bb-8c59-0737191abe38				entity_pool	process	nucleic acid feature	process
-MYD88	consumption	pr_f282ac20-1c7d-4774-8922-a11835acee3d	urn:miriam:pubmed:19366914			entity_pool	process	macromolecule	process
-pr_f282ac20-1c7d-4774-8922-a11835acee3d	production	MYD88				process	entity_pool	process	macromolecule
-TLR7:ssRNA	stimulation	pr_f282ac20-1c7d-4774-8922-a11835acee3d		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
-TLR8:ssRNA	stimulation	pr_f282ac20-1c7d-4774-8922-a11835acee3d		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
-MAP3K7	consumption	pr_e1592e1e-ac7c-4934-8287-fdb349999f26	urn:miriam:hgnc:6859			entity_pool	process	macromolecule	process
-pr_e1592e1e-ac7c-4934-8287-fdb349999f26	production	MAP3K7				process	entity_pool	process	macromolecule
-TRAF6	stimulation	pr_e1592e1e-ac7c-4934-8287-fdb349999f26	urn:miriam:hgnc:12036	urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
-TICAM1:TRAF3:TRAF6	stimulation	pr_e1592e1e-ac7c-4934-8287-fdb349999f26		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
-TRAF2	consumption	pr_e70967b2-576d-4761-847d-d1b6ea96bb8e	urn:miriam:hgnc:12032			entity_pool	process	macromolecule	process
-pr_e70967b2-576d-4761-847d-d1b6ea96bb8e	production	MAVS:TRAF				process	entity_pool	process	complex
-TRAF5	consumption	pr_e70967b2-576d-4761-847d-d1b6ea96bb8e	urn:miriam:hgnc:12035			entity_pool	process	macromolecule	process
-TRAF6	consumption	pr_e70967b2-576d-4761-847d-d1b6ea96bb8e	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
-MAVS	consumption	pr_e70967b2-576d-4761-847d-d1b6ea96bb8e	urn:miriam:hgnc:29233			entity_pool	process	macromolecule multimer	process
-ITCH	consumption	pr_8f835731-ff11-47f3-9b2c-5779743cb261	urn:miriam:hgnc:13890			entity_pool	process	macromolecule	process
-pr_8f835731-ff11-47f3-9b2c-5779743cb261	production	ITCH				process	entity_pool	process	macromolecule
-Orf9	stimulation	pr_8f835731-ff11-47f3-9b2c-5779743cb261	urn:miriam:uniprot:P59636	urn:miriam:pubmed:25135833|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-MAVS	consumption	pr_b69c0900-c694-4c3d-a446-73df3bebe881	urn:miriam:hgnc:29233			entity_pool	process	macromolecule multimer	process
-pr_b69c0900-c694-4c3d-a446-73df3bebe881	production	MAVS:TRADD				process	entity_pool	process	complex
-TRADD	consumption	pr_b69c0900-c694-4c3d-a446-73df3bebe881	urn:miriam:hgnc:12030			entity_pool	process	macromolecule	process
-TRAF6	consumption	pr_5dcd0f6d-4119-4ae9-a461-8df64a943ed0	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
-pr_5dcd0f6d-4119-4ae9-a461-8df64a943ed0	production	TRAF6			urn:miriam:hgnc:12036	process	entity_pool	process	macromolecule
-Nsp3	catalysis	pr_5dcd0f6d-4119-4ae9-a461-8df64a943ed0	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:27164085|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-AP1	consumption	pr_1c0f7511-efd0-42de-bdd3-2f6f31d291f0				entity_pool	process	complex	process
-pr_1c0f7511-efd0-42de-bdd3-2f6f31d291f0	production	AP1				process	entity_pool	process	complex
-MAPK14	stimulation	pr_1c0f7511-efd0-42de-bdd3-2f6f31d291f0		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
-JNK	stimulation	pr_1c0f7511-efd0-42de-bdd3-2f6f31d291f0		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
-JNK	consumption	pr_79897bb0-6037-4d73-9aad-9b45a962e202				entity_pool	process	complex	process
-pr_79897bb0-6037-4d73-9aad-9b45a962e202	production	JNK				process	entity_pool	process	complex
-MAP2K7	catalysis	pr_79897bb0-6037-4d73-9aad-9b45a962e202		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
-MAP2K4	catalysis	pr_79897bb0-6037-4d73-9aad-9b45a962e202		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
-MAP2K4	consumption	pr_1ebcd6a4-730e-4efe-b55a-2bdb6e2edfe2	urn:miriam:hgnc:6844			entity_pool	process	macromolecule	process
-pr_1ebcd6a4-730e-4efe-b55a-2bdb6e2edfe2	production	MAP2K4				process	entity_pool	process	macromolecule
-MAP3K7	catalysis	pr_1ebcd6a4-730e-4efe-b55a-2bdb6e2edfe2		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
-MAP2K7	consumption	pr_d758bebe-295c-4dbd-a59e-e9d1d8d3557d	urn:miriam:hgnc:6847			entity_pool	process	macromolecule	process
-pr_d758bebe-295c-4dbd-a59e-e9d1d8d3557d	production	MAP2K7				process	entity_pool	process	macromolecule
-MAP3K7	catalysis	pr_d758bebe-295c-4dbd-a59e-e9d1d8d3557d		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
-MAP2K3	consumption	pr_b471486e-f3ac-42b7-a8a5-66d6888cc112	urn:miriam:hgnc:6843			entity_pool	process	macromolecule	process
-pr_b471486e-f3ac-42b7-a8a5-66d6888cc112	production	MAP2K3				process	entity_pool	process	macromolecule
-MAP3K7	catalysis	pr_b471486e-f3ac-42b7-a8a5-66d6888cc112		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
-MAP2K6	consumption	pr_a409e583-0056-43b5-9e98-9f06e258d187	urn:miriam:hgnc:6846			entity_pool	process	macromolecule	process
-pr_a409e583-0056-43b5-9e98-9f06e258d187	production	MAP2K6				process	entity_pool	process	macromolecule
-EIF2AK2:dsRNA	stimulation	pr_a409e583-0056-43b5-9e98-9f06e258d187		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
-MAP3K7	catalysis	pr_a409e583-0056-43b5-9e98-9f06e258d187		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
-dsRNA	consumption	pr_6e0451cd-bbe6-4c63-b400-19752a555bf3				entity_pool	process	nucleic acid feature	process
-pr_6e0451cd-bbe6-4c63-b400-19752a555bf3	production	EIF2AK2:dsRNA				process	entity_pool	process	complex
-Nsp15	inhibition	pr_6e0451cd-bbe6-4c63-b400-19752a555bf3	urn:miriam:ncbiprotein:1802476818	urn:miriam:pubmed:28484023|urn:miriam:pubmed:19366914|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-EIF2AK2	consumption	pr_6e0451cd-bbe6-4c63-b400-19752a555bf3	urn:miriam:hgnc:9437			entity_pool	process	macromolecule	process
-RIPK1:FADD	consumption	pr_797e6497-7129-49eb-b654-86d50bfd2741				entity_pool	process	complex	process
-pr_797e6497-7129-49eb-b654-86d50bfd2741	production	RIPK1:FADD				process	entity_pool	process	complex
-MAVS:TRADD	stimulation	pr_797e6497-7129-49eb-b654-86d50bfd2741		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
-CASP8	consumption	pr_77697309-2010-467d-aa95-e10c6416c3a2	urn:miriam:hgnc:1509			entity_pool	process	macromolecule	process
-pr_77697309-2010-467d-aa95-e10c6416c3a2	production	CASP8				process	entity_pool	process	macromolecule
-RIPK1:FADD	stimulation	pr_77697309-2010-467d-aa95-e10c6416c3a2		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
-CASP10	consumption	pr_efb5648b-be55-4875-9c51-a221f1840521	urn:miriam:hgnc:1500			entity_pool	process	macromolecule	process
-pr_efb5648b-be55-4875-9c51-a221f1840521	production	CASP10				process	entity_pool	process	macromolecule
-RIPK1:FADD	stimulation	pr_efb5648b-be55-4875-9c51-a221f1840521		urn:miriam:pubmed:20303872		entity_pool	process	complex	process
-NFKB:NFKBIA	consumption	pr_6d0e1ffb-1554-446c-97e9-6fbc36141bc9				entity_pool	process	complex	process
-pr_6d0e1ffb-1554-446c-97e9-6fbc36141bc9	production	NFKB:NFKBIA				process	entity_pool	process	complex
-IKK Complex	catalysis	pr_6d0e1ffb-1554-446c-97e9-6fbc36141bc9		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
-IKK Complex	consumption	pr_18e2c370-17bb-43a8-9162-3f2e1c60418c				entity_pool	process	complex	process
-pr_18e2c370-17bb-43a8-9162-3f2e1c60418c	production	IKK Complex				process	entity_pool	process	complex
-TRAF6	stimulation	pr_18e2c370-17bb-43a8-9162-3f2e1c60418c	urn:miriam:hgnc:12036	urn:miriam:pubmed:19366914|urn:miriam:pubmed:20303872|urn:miriam:pubmed:17705188|urn:miriam:pubmed:694009		entity_pool	process	macromolecule	process
-CASP8	stimulation	pr_18e2c370-17bb-43a8-9162-3f2e1c60418c		urn:miriam:pubmed:19366914|urn:miriam:pubmed:20303872|urn:miriam:pubmed:17705188|urn:miriam:pubmed:694009		entity_pool	process	macromolecule	process
-M	inhibition	pr_18e2c370-17bb-43a8-9162-3f2e1c60418c	urn:miriam:ncbiprotein:1796318601	urn:miriam:pubmed:19366914|urn:miriam:pubmed:20303872|urn:miriam:pubmed:17705188|urn:miriam:pubmed:694009		entity_pool	process	macromolecule	process
-CASP10	stimulation	pr_18e2c370-17bb-43a8-9162-3f2e1c60418c		urn:miriam:pubmed:19366914|urn:miriam:pubmed:20303872|urn:miriam:pubmed:17705188|urn:miriam:pubmed:694009		entity_pool	process	macromolecule	process
-NFKBIA	consumption	pr_2536c2b7-1ba3-488b-b516-a9a45c0dba3c	urn:miriam:hgnc:7797			entity_pool	process	macromolecule	process
-pr_2536c2b7-1ba3-488b-b516-a9a45c0dba3c	production	NFKB:NFKBIA				process	entity_pool	process	complex
-RELA	consumption	pr_2536c2b7-1ba3-488b-b516-a9a45c0dba3c				entity_pool	process	macromolecule	process
-NFKB1	consumption	pr_2536c2b7-1ba3-488b-b516-a9a45c0dba3c				entity_pool	process	macromolecule	process
-IKBKG	consumption	pr_e5ee0415-c83c-49fd-b992-795f1e9f453d				entity_pool	process	macromolecule	process
-pr_e5ee0415-c83c-49fd-b992-795f1e9f453d	production	IKK Complex				process	entity_pool	process	complex
-CHUK	consumption	pr_e5ee0415-c83c-49fd-b992-795f1e9f453d				entity_pool	process	macromolecule	process
-IKBKB	consumption	pr_e5ee0415-c83c-49fd-b992-795f1e9f453d				entity_pool	process	macromolecule	process
-TANK:TRAF3:IKBKE	consumption	pr_34760afb-1e38-490e-bf8a-ad0fe9580b87				entity_pool	process	complex	process
-pr_34760afb-1e38-490e-bf8a-ad0fe9580b87	production	TANK:TRAF3:IKBKE				process	entity_pool	process	complex
-MAVS:TRADD	stimulation	pr_34760afb-1e38-490e-bf8a-ad0fe9580b87		urn:miriam:pubmed:19366914|urn:miriam:pubmed:27164085|urn:miriam:pubmed:19380580|urn:miriam:taxonomy:694009		entity_pool	process	complex	process
-Nsp3	inhibition	pr_34760afb-1e38-490e-bf8a-ad0fe9580b87	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:19366914|urn:miriam:pubmed:27164085|urn:miriam:pubmed:19380580|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-M	inhibition	pr_34760afb-1e38-490e-bf8a-ad0fe9580b87	urn:miriam:ncbiprotein:1796318601	urn:miriam:pubmed:19366914|urn:miriam:pubmed:27164085|urn:miriam:pubmed:19380580|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-TBK1	consumption	pr_7d82fde3-d6f2-4fa3-8a19-7d250b22b2dd	urn:miriam:hgnc:11584			entity_pool	process	macromolecule	process
-pr_7d82fde3-d6f2-4fa3-8a19-7d250b22b2dd	production	TBK1				process	entity_pool	process	macromolecule
-TANK:TRAF3:IKBKE	stimulation	pr_7d82fde3-d6f2-4fa3-8a19-7d250b22b2dd		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
-MAPK14	consumption	pr_2ab0f50a-e3ac-44fa-99fe-1981b59908d6	urn:miriam:hgnc:6876			entity_pool	process	macromolecule	process
-pr_2ab0f50a-e3ac-44fa-99fe-1981b59908d6	production	MAPK14				process	entity_pool	process	macromolecule
-MAP2K6	catalysis	pr_2ab0f50a-e3ac-44fa-99fe-1981b59908d6		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
-MAP2K3	catalysis	pr_2ab0f50a-e3ac-44fa-99fe-1981b59908d6		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
-TRAF3	consumption	pr_ca8b30e1-7b9d-4d35-9f62-bba65666b226				entity_pool	process	macromolecule	process
-pr_ca8b30e1-7b9d-4d35-9f62-bba65666b226	production	TANK:TRAF3:IKBKE				process	entity_pool	process	complex
-TANK	consumption	pr_ca8b30e1-7b9d-4d35-9f62-bba65666b226				entity_pool	process	macromolecule	process
-IKBKE	consumption	pr_ca8b30e1-7b9d-4d35-9f62-bba65666b226	urn:miriam:hgnc:14552			entity_pool	process	macromolecule	process
-NFKB	consumption	pr_361dcbc7-bf3c-438e-9179-d3ff108c5c41				entity_pool	process	complex	process
-pr_361dcbc7-bf3c-438e-9179-d3ff108c5c41	production	NFKB				process	entity_pool	process	complex
-IRF3	consumption	pr_f5289fa5-928d-4012-80da-953100a208f1	urn:miriam:hgnc:6118			entity_pool	process	macromolecule	process
-pr_f5289fa5-928d-4012-80da-953100a208f1	production	IRF3			urn:miriam:hgnc:6118	process	entity_pool	process	macromolecule
-IRF3	consumption	pr_4a535c36-5a37-4c86-a837-e55a79901580	urn:miriam:hgnc:6118			entity_pool	process	macromolecule	process
-pr_4a535c36-5a37-4c86-a837-e55a79901580	production	IRF3			urn:miriam:hgnc:6118	process	entity_pool	process	macromolecule multimer
-IRF7	consumption	pr_0c74d0ef-8942-4f2d-9d33-754655ff0b1d	urn:miriam:hgnc:6122			entity_pool	process	macromolecule	process
-pr_0c74d0ef-8942-4f2d-9d33-754655ff0b1d	production	IRF7			urn:miriam:hgnc:6122	process	entity_pool	process	macromolecule multimer
-AP1	consumption	pr_12803a69-04b5-4cc2-8997-a42a70b80b64				entity_pool	process	complex	process
-pr_12803a69-04b5-4cc2-8997-a42a70b80b64	production	AP1				process	entity_pool	process	complex
+NFKB:NFKBIA	consumption	pr_feaf3f5a-699b-44a9-8a83-f391d38c5b0c				entity_pool	process	complex	process
+pr_feaf3f5a-699b-44a9-8a83-f391d38c5b0c	production	NFKB				process	entity_pool	process	complex
+pr_feaf3f5a-699b-44a9-8a83-f391d38c5b0c	production	NFKBIA			urn:miriam:hgnc:7797	process	entity_pool	process	macromolecule
+N	stimulation	pr_feaf3f5a-699b-44a9-8a83-f391d38c5b0c	urn:miriam:ncbiprotein:1798174255	urn:miriam:pubmed:16143815|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+TLR3	consumption	pr_58c6d3c8-820e-4db8-b58d-c584bc8f56b2	urn:miriam:hgnc:11849			entity_pool	process	macromolecule multimer	process
+dsRNA	consumption	pr_58c6d3c8-820e-4db8-b58d-c584bc8f56b2				entity_pool	process	nucleic acid feature	process
+pr_58c6d3c8-820e-4db8-b58d-c584bc8f56b2	production	TLR3:dsRNA				process	entity_pool	process	complex
+dsRNA	consumption	pr_9229efda-90ea-4f9a-9bb0-af605e474be4				entity_pool	process	nucleic acid feature	process
+pr_9229efda-90ea-4f9a-9bb0-af605e474be4	production	DDX58:dsRNA				process	entity_pool	process	complex
+M	inhibition	pr_9229efda-90ea-4f9a-9bb0-af605e474be4	urn:miriam:ncbiprotein:1796318601	urn:miriam:pubmed:20303872|urn:miriam:pubmed:19380580|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+Nsp3	inhibition	pr_9229efda-90ea-4f9a-9bb0-af605e474be4	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:20303872|urn:miriam:pubmed:19380580|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+DDX58	consumption	pr_9229efda-90ea-4f9a-9bb0-af605e474be4	urn:miriam:hgnc:19102			entity_pool	process	macromolecule	process
+dsRNA	consumption	pr_a783b6fd-5f86-47d0-9158-04008c833286				entity_pool	process	nucleic acid feature	process
+pr_a783b6fd-5f86-47d0-9158-04008c833286	production	IFIH1:dsRNA				process	entity_pool	process	complex
+M	inhibition	pr_a783b6fd-5f86-47d0-9158-04008c833286	urn:miriam:ncbiprotein:1796318601	urn:miriam:pubmed:28484023|urn:miriam:pubmed:19380580|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+Nsp3	inhibition	pr_a783b6fd-5f86-47d0-9158-04008c833286	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:28484023|urn:miriam:pubmed:19380580|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+Nsp15	inhibition	pr_a783b6fd-5f86-47d0-9158-04008c833286	urn:miriam:ncbiprotein:1802476818	urn:miriam:pubmed:28484023|urn:miriam:pubmed:19380580|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+IFIH1	consumption	pr_a783b6fd-5f86-47d0-9158-04008c833286	urn:miriam:hgnc:18873			entity_pool	process	macromolecule	process
+DDX58	consumption	pr_7b59681c-90ab-4cdb-bcb8-e6754d3a4d44	urn:miriam:hgnc:19102			entity_pool	process	macromolecule	process
+pr_7b59681c-90ab-4cdb-bcb8-e6754d3a4d44	production	DDX58			urn:miriam:hgnc:19102	process	entity_pool	process	macromolecule
+logicglyph_46b5872d-1894-41d4-a160-faa8930dc9a9	catalysis	pr_7b59681c-90ab-4cdb-bcb8-e6754d3a4d44		urn:miriam:pubmed:25581309|urn:miriam:pubmed:28148787|urn:miriam:taxonomy:694009		logic	process	or	process
+RNF135	logic arc	logicglyph_46b5872d-1894-41d4-a160-faa8930dc9a9	urn:miriam:hgnc:21158			entity_pool	logic	macromolecule	or
+TRIM25	logic arc	logicglyph_46b5872d-1894-41d4-a160-faa8930dc9a9	urn:miriam:hgnc:12932			entity_pool	logic	macromolecule	or
+N	inhibition	pr_7b59681c-90ab-4cdb-bcb8-e6754d3a4d44	urn:miriam:ncbiprotein:1798174255	urn:miriam:pubmed:25581309|urn:miriam:pubmed:28148787|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+DDX58:dsRNA	catalysis	pr_7b59681c-90ab-4cdb-bcb8-e6754d3a4d44		urn:miriam:pubmed:25581309|urn:miriam:pubmed:28148787|urn:miriam:taxonomy:694009		entity_pool	process	complex	process
+MAVS	consumption	pr_f04036c0-9fa1-4793-9b2f-fcc8866d0808	urn:miriam:hgnc:29233			entity_pool	process	macromolecule	process
+pr_f04036c0-9fa1-4793-9b2f-fcc8866d0808	production	MAVS			urn:miriam:hgnc:29233	process	entity_pool	process	macromolecule multimer
+DDX58	catalysis	pr_f04036c0-9fa1-4793-9b2f-fcc8866d0808	urn:miriam:hgnc:19102	urn:miriam:pubmed:25581309		entity_pool	process	macromolecule	process
+IFIH1:dsRNA	catalysis	pr_f04036c0-9fa1-4793-9b2f-fcc8866d0808		urn:miriam:pubmed:25581309		entity_pool	process	complex	process
+NFKBIA	consumption	pr_051958d0-9f93-499d-a33f-4febed764147	urn:miriam:hgnc:7797			entity_pool	process	macromolecule	process
+pr_051958d0-9f93-499d-a33f-4febed764147	production	Degradation of NFKBIA				process	entity_pool	process	source and sink
+ubiquitin-proteasome complex	catalysis	pr_051958d0-9f93-499d-a33f-4febed764147		urn:miriam:pubmed:20303872		entity_pool	process	complex	process
+IRF3	consumption	pr_5e79eb3b-7eba-4962-a75b-a5f88070619c	urn:miriam:hgnc:6118			entity_pool	process	macromolecule	process
+pr_5e79eb3b-7eba-4962-a75b-a5f88070619c	production	IRF3			urn:miriam:hgnc:6118	process	entity_pool	process	macromolecule
+TBK1	catalysis	pr_5e79eb3b-7eba-4962-a75b-a5f88070619c		urn:miriam:pubmed:25581309		entity_pool	process	macromolecule	process
+IRF3	consumption	pr_9a75b9c9-74b2-49f6-bcc1-141ea039210f	urn:miriam:hgnc:6118			entity_pool	process	macromolecule	process
+pr_9a75b9c9-74b2-49f6-bcc1-141ea039210f	production	IRF3			urn:miriam:hgnc:6118	process	entity_pool	process	macromolecule
+TBK1	catalysis	pr_9a75b9c9-74b2-49f6-bcc1-141ea039210f		urn:miriam:pubmed:17761676|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+Nsp3	inhibition	pr_9a75b9c9-74b2-49f6-bcc1-141ea039210f	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:17761676|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+Orf3b	inhibition	pr_9a75b9c9-74b2-49f6-bcc1-141ea039210f	urn:miriam:uniprot:P59633	urn:miriam:pubmed:17761676|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+Orf8	inhibition	pr_9a75b9c9-74b2-49f6-bcc1-141ea039210f	urn:miriam:ncbiprotein:1796318604	urn:miriam:pubmed:17761676|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+IRF7	consumption	pr_ab97ca97-64ef-4595-8b1b-e3cf884ff07d	urn:miriam:hgnc:6122			entity_pool	process	macromolecule	process
+pr_ab97ca97-64ef-4595-8b1b-e3cf884ff07d	production	IRF7			urn:miriam:hgnc:6122	process	entity_pool	process	macromolecule
+IKBKE	catalysis	pr_ab97ca97-64ef-4595-8b1b-e3cf884ff07d		urn:miriam:pubmed:20303872		entity_pool	process	macromolecule	process
+MYD88:IRAK:TRAF	catalysis	pr_ab97ca97-64ef-4595-8b1b-e3cf884ff07d		urn:miriam:pubmed:20303872		entity_pool	process	complex	process
+TRAF6	consumption	pr_0022cff1-2ddd-4088-a9c0-2855f928e574	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
+pr_0022cff1-2ddd-4088-a9c0-2855f928e574	production	TRAF6			urn:miriam:hgnc:12036	process	entity_pool	process	macromolecule
+logicglyph_378eaf32-4060-4c1d-9da7-4edf305adea4	catalysis	pr_0022cff1-2ddd-4088-a9c0-2855f928e574		urn:miriam:pubmed:19366914		logic	process	and	process
+UBE2N	logic arc	logicglyph_378eaf32-4060-4c1d-9da7-4edf305adea4	urn:miriam:hgnc:12492			entity_pool	logic	macromolecule	and
+MYD88:IRAK:TRAF	logic arc	logicglyph_378eaf32-4060-4c1d-9da7-4edf305adea4				entity_pool	logic	complex	and
+MAVS:TRAF	catalysis	pr_0022cff1-2ddd-4088-a9c0-2855f928e574		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
+MAVS	consumption	pr_efe91ab4-887b-468f-86d6-d995a88069a6	urn:miriam:hgnc:29233			entity_pool	process	macromolecule	process
+pr_efe91ab4-887b-468f-86d6-d995a88069a6	production	s552				process	entity_pool	process	source and sink
+ITCH	catalysis	pr_efe91ab4-887b-468f-86d6-d995a88069a6		urn:miriam:pubmed:25135833		entity_pool	process	macromolecule	process
+TRAF5	consumption	pr_bff75ade-49ce-4e7c-87e6-9df12c7f274a	urn:miriam:hgnc:12035			entity_pool	process	macromolecule	process
+pr_bff75ade-49ce-4e7c-87e6-9df12c7f274a	production	s550				process	entity_pool	process	source and sink
+ITCH	catalysis	pr_bff75ade-49ce-4e7c-87e6-9df12c7f274a		urn:miriam:pubmed:25135833		entity_pool	process	macromolecule	process
+TRAF6	consumption	pr_a8d441c8-b333-42c6-95af-43b337c2d588	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
+pr_a8d441c8-b333-42c6-95af-43b337c2d588	production	s551				process	entity_pool	process	source and sink
+ITCH	catalysis	pr_a8d441c8-b333-42c6-95af-43b337c2d588		urn:miriam:pubmed:25135833		entity_pool	process	macromolecule	process
+TICAM1	consumption	pr_a5b2aaa5-aa2c-4c34-888b-600ca20dd011	urn:miriam:hgnc:18348			entity_pool	process	macromolecule	process
+pr_a5b2aaa5-aa2c-4c34-888b-600ca20dd011	production	TICAM1				process	entity_pool	process	macromolecule
+TLR3:dsRNA	stimulation	pr_a5b2aaa5-aa2c-4c34-888b-600ca20dd011		urn:miriam:pubmed:20303872		entity_pool	process	complex	process
+TICAM1	consumption	pr_3d85be2e-67d4-44dc-9c11-9414a1aa5a74				entity_pool	process	macromolecule	process
+pr_3d85be2e-67d4-44dc-9c11-9414a1aa5a74	production	TICAM1:TRAF3:TRAF6				process	entity_pool	process	complex
+TRAF6	consumption	pr_3d85be2e-67d4-44dc-9c11-9414a1aa5a74	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
+TICAM1	consumption	pr_3d85be2e-67d4-44dc-9c11-9414a1aa5a74	urn:miriam:hgnc:18348			entity_pool	process	macromolecule	process
+TANK:TRAF3:IKBKE	consumption	pr_e150a4c8-cabd-4014-988e-a36981adef6b				entity_pool	process	complex	process
+pr_e150a4c8-cabd-4014-988e-a36981adef6b	production	TANK:TRAF3:IKBKE				process	entity_pool	process	complex
+M	inhibition	pr_e150a4c8-cabd-4014-988e-a36981adef6b	urn:miriam:ncbiprotein:1796318601	urn:miriam:pubmed:19380580|urn:miriam:pubmed:19366914|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+TICAM1:TRAF3:TRAF6	stimulation	pr_e150a4c8-cabd-4014-988e-a36981adef6b		urn:miriam:pubmed:19380580|urn:miriam:pubmed:19366914|urn:miriam:taxonomy:694009		entity_pool	process	complex	process
+TBK1	consumption	pr_b30f33ab-d973-47f6-a701-8cba5a87e92c	urn:miriam:hgnc:11584			entity_pool	process	macromolecule	process
+pr_b30f33ab-d973-47f6-a701-8cba5a87e92c	production	TBK1				process	entity_pool	process	macromolecule
+TANK:TRAF3:IKBKE	stimulation	pr_b30f33ab-d973-47f6-a701-8cba5a87e92c		urn:miriam:pubmed:20303872		entity_pool	process	complex	process
+IKBKE	consumption	pr_0d6653dc-dee8-403d-b0d0-9845c515ca11	urn:miriam:hgnc:14552			entity_pool	process	macromolecule	process
+pr_0d6653dc-dee8-403d-b0d0-9845c515ca11	production	IKBKE				process	entity_pool	process	macromolecule
+TANK:TRAF3:IKBKE	stimulation	pr_0d6653dc-dee8-403d-b0d0-9845c515ca11		urn:miriam:pubmed:20303872|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	complex	process
+Nsp3	inhibition	pr_0d6653dc-dee8-403d-b0d0-9845c515ca11	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:20303872|urn:miriam:pubmed:31226023|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+MYD88	consumption	pr_3c69f5fa-cb8d-43fb-8106-8d1020c45248				entity_pool	process	macromolecule	process
+pr_3c69f5fa-cb8d-43fb-8106-8d1020c45248	production	MYD88:IRAK:TRAF				process	entity_pool	process	complex
+IRAK1	consumption	pr_3c69f5fa-cb8d-43fb-8106-8d1020c45248	urn:miriam:hgnc:6112			entity_pool	process	macromolecule	process
+IRAK4	consumption	pr_3c69f5fa-cb8d-43fb-8106-8d1020c45248	urn:miriam:hgnc:17967			entity_pool	process	macromolecule	process
+TRAF6	consumption	pr_3c69f5fa-cb8d-43fb-8106-8d1020c45248	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
+TLR7	consumption	pr_25ae86d7-ec54-4bf7-9306-7a78d90cf755	urn:miriam:hgnc:15631			entity_pool	process	macromolecule	process
+pr_25ae86d7-ec54-4bf7-9306-7a78d90cf755	production	TLR7:ssRNA				process	entity_pool	process	complex
+ssRNA	consumption	pr_25ae86d7-ec54-4bf7-9306-7a78d90cf755				entity_pool	process	nucleic acid feature	process
+TLR8	consumption	pr_4ad84d5d-8fab-428b-bd64-1069b09ee75d	urn:miriam:hgnc:15632			entity_pool	process	macromolecule	process
+pr_4ad84d5d-8fab-428b-bd64-1069b09ee75d	production	TLR8:ssRNA				process	entity_pool	process	complex
+ssRNA	consumption	pr_4ad84d5d-8fab-428b-bd64-1069b09ee75d				entity_pool	process	nucleic acid feature	process
+MYD88	consumption	pr_581ee2ac-e5a2-4f08-9aaa-a9e08a108d94	urn:miriam:pubmed:19366914			entity_pool	process	macromolecule	process
+pr_581ee2ac-e5a2-4f08-9aaa-a9e08a108d94	production	MYD88				process	entity_pool	process	macromolecule
+TLR7:ssRNA	stimulation	pr_581ee2ac-e5a2-4f08-9aaa-a9e08a108d94		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
+TLR8:ssRNA	stimulation	pr_581ee2ac-e5a2-4f08-9aaa-a9e08a108d94		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
+MAP3K7	consumption	pr_92077c49-f5dc-4aa9-92e3-5f7ac7ae39df	urn:miriam:hgnc:6859			entity_pool	process	macromolecule	process
+pr_92077c49-f5dc-4aa9-92e3-5f7ac7ae39df	production	MAP3K7				process	entity_pool	process	macromolecule
+TRAF6	stimulation	pr_92077c49-f5dc-4aa9-92e3-5f7ac7ae39df	urn:miriam:hgnc:12036	urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
+TICAM1:TRAF3:TRAF6	stimulation	pr_92077c49-f5dc-4aa9-92e3-5f7ac7ae39df		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
+TRAF2	consumption	pr_630df661-3e69-4ca6-9970-72b49fe4251c	urn:miriam:hgnc:12032			entity_pool	process	macromolecule	process
+pr_630df661-3e69-4ca6-9970-72b49fe4251c	production	MAVS:TRAF				process	entity_pool	process	complex
+TRAF5	consumption	pr_630df661-3e69-4ca6-9970-72b49fe4251c	urn:miriam:hgnc:12035			entity_pool	process	macromolecule	process
+TRAF6	consumption	pr_630df661-3e69-4ca6-9970-72b49fe4251c	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
+MAVS	consumption	pr_630df661-3e69-4ca6-9970-72b49fe4251c	urn:miriam:hgnc:29233			entity_pool	process	macromolecule multimer	process
+ITCH	consumption	pr_2058fb0f-c8d0-490e-a89e-5596c3a63fd3	urn:miriam:hgnc:13890			entity_pool	process	macromolecule	process
+pr_2058fb0f-c8d0-490e-a89e-5596c3a63fd3	production	ITCH				process	entity_pool	process	macromolecule
+Orf9	stimulation	pr_2058fb0f-c8d0-490e-a89e-5596c3a63fd3	urn:miriam:uniprot:P59636	urn:miriam:pubmed:25135833|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+MAVS	consumption	pr_e9f339bc-b8ba-4107-9564-99f6297080c4	urn:miriam:hgnc:29233			entity_pool	process	macromolecule multimer	process
+pr_e9f339bc-b8ba-4107-9564-99f6297080c4	production	MAVS:TRADD				process	entity_pool	process	complex
+TRADD	consumption	pr_e9f339bc-b8ba-4107-9564-99f6297080c4	urn:miriam:hgnc:12030			entity_pool	process	macromolecule	process
+TRAF6	consumption	pr_c9e50d80-2c5a-44fa-b716-99b9bfd30f0c	urn:miriam:hgnc:12036			entity_pool	process	macromolecule	process
+pr_c9e50d80-2c5a-44fa-b716-99b9bfd30f0c	production	TRAF6			urn:miriam:hgnc:12036	process	entity_pool	process	macromolecule
+Nsp3	catalysis	pr_c9e50d80-2c5a-44fa-b716-99b9bfd30f0c	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:27164085|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+AP1	consumption	pr_953fd9e1-4dbd-4965-8849-cb19893275f9				entity_pool	process	complex	process
+pr_953fd9e1-4dbd-4965-8849-cb19893275f9	production	AP1				process	entity_pool	process	complex
+MAPK14	stimulation	pr_953fd9e1-4dbd-4965-8849-cb19893275f9		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
+JNK	stimulation	pr_953fd9e1-4dbd-4965-8849-cb19893275f9		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
+JNK	consumption	pr_4e1442f2-12e7-40b8-a05d-1ceb42efd62b				entity_pool	process	complex	process
+pr_4e1442f2-12e7-40b8-a05d-1ceb42efd62b	production	JNK				process	entity_pool	process	complex
+MAP2K7	catalysis	pr_4e1442f2-12e7-40b8-a05d-1ceb42efd62b		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
+MAP2K4	catalysis	pr_4e1442f2-12e7-40b8-a05d-1ceb42efd62b		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
+MAP2K4	consumption	pr_26728bc9-04e1-4603-be33-1f3d45a29886	urn:miriam:hgnc:6844			entity_pool	process	macromolecule	process
+pr_26728bc9-04e1-4603-be33-1f3d45a29886	production	MAP2K4				process	entity_pool	process	macromolecule
+MAP3K7	catalysis	pr_26728bc9-04e1-4603-be33-1f3d45a29886		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
+MAP2K7	consumption	pr_4a141fe0-31f2-459b-82ce-135163250068	urn:miriam:hgnc:6847			entity_pool	process	macromolecule	process
+pr_4a141fe0-31f2-459b-82ce-135163250068	production	MAP2K7				process	entity_pool	process	macromolecule
+MAP3K7	catalysis	pr_4a141fe0-31f2-459b-82ce-135163250068		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
+MAP2K3	consumption	pr_4400acdf-13ee-49ca-8c34-c8a3cc0d9d75	urn:miriam:hgnc:6843			entity_pool	process	macromolecule	process
+pr_4400acdf-13ee-49ca-8c34-c8a3cc0d9d75	production	MAP2K3				process	entity_pool	process	macromolecule
+MAP3K7	catalysis	pr_4400acdf-13ee-49ca-8c34-c8a3cc0d9d75		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
+MAP2K6	consumption	pr_d6aada87-c2c2-47de-bfb9-c2829a0f4d31	urn:miriam:hgnc:6846			entity_pool	process	macromolecule	process
+pr_d6aada87-c2c2-47de-bfb9-c2829a0f4d31	production	MAP2K6				process	entity_pool	process	macromolecule
+EIF2AK2:dsRNA	stimulation	pr_d6aada87-c2c2-47de-bfb9-c2829a0f4d31		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
+MAP3K7	catalysis	pr_d6aada87-c2c2-47de-bfb9-c2829a0f4d31		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
+dsRNA	consumption	pr_bc032920-2e90-4143-aa54-d6a910df7066				entity_pool	process	nucleic acid feature	process
+pr_bc032920-2e90-4143-aa54-d6a910df7066	production	EIF2AK2:dsRNA				process	entity_pool	process	complex
+Nsp15	inhibition	pr_bc032920-2e90-4143-aa54-d6a910df7066	urn:miriam:ncbiprotein:1802476818	urn:miriam:pubmed:28484023|urn:miriam:pubmed:19366914|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+EIF2AK2	consumption	pr_bc032920-2e90-4143-aa54-d6a910df7066	urn:miriam:hgnc:9437			entity_pool	process	macromolecule	process
+RIPK1:FADD	consumption	pr_4234ceee-44dc-4f1e-93be-f8931360a81c				entity_pool	process	complex	process
+pr_4234ceee-44dc-4f1e-93be-f8931360a81c	production	RIPK1:FADD				process	entity_pool	process	complex
+MAVS:TRADD	stimulation	pr_4234ceee-44dc-4f1e-93be-f8931360a81c		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
+CASP8	consumption	pr_f366deae-ff05-406c-a1b9-0fc0d6f4d970	urn:miriam:hgnc:1509			entity_pool	process	macromolecule	process
+pr_f366deae-ff05-406c-a1b9-0fc0d6f4d970	production	CASP8				process	entity_pool	process	macromolecule
+RIPK1:FADD	stimulation	pr_f366deae-ff05-406c-a1b9-0fc0d6f4d970		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
+CASP10	consumption	pr_cc91bfba-107f-4a11-a90d-6dc684a3a3ac	urn:miriam:hgnc:1500			entity_pool	process	macromolecule	process
+pr_cc91bfba-107f-4a11-a90d-6dc684a3a3ac	production	CASP10				process	entity_pool	process	macromolecule
+RIPK1:FADD	stimulation	pr_cc91bfba-107f-4a11-a90d-6dc684a3a3ac		urn:miriam:pubmed:20303872		entity_pool	process	complex	process
+NFKB:NFKBIA	consumption	pr_5ee071d4-5192-4142-b254-78dacd024f7a				entity_pool	process	complex	process
+pr_5ee071d4-5192-4142-b254-78dacd024f7a	production	NFKB:NFKBIA				process	entity_pool	process	complex
+IKK Complex	catalysis	pr_5ee071d4-5192-4142-b254-78dacd024f7a		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
+IKK Complex	consumption	pr_ec53e6ab-7c21-4479-b58a-591794fd7c3c				entity_pool	process	complex	process
+pr_ec53e6ab-7c21-4479-b58a-591794fd7c3c	production	IKK Complex				process	entity_pool	process	complex
+TRAF6	stimulation	pr_ec53e6ab-7c21-4479-b58a-591794fd7c3c	urn:miriam:hgnc:12036	urn:miriam:pubmed:19366914|urn:miriam:pubmed:20303872|urn:miriam:pubmed:17705188|urn:miriam:pubmed:694009		entity_pool	process	macromolecule	process
+CASP8	stimulation	pr_ec53e6ab-7c21-4479-b58a-591794fd7c3c		urn:miriam:pubmed:19366914|urn:miriam:pubmed:20303872|urn:miriam:pubmed:17705188|urn:miriam:pubmed:694009		entity_pool	process	macromolecule	process
+M	inhibition	pr_ec53e6ab-7c21-4479-b58a-591794fd7c3c	urn:miriam:ncbiprotein:1796318601	urn:miriam:pubmed:19366914|urn:miriam:pubmed:20303872|urn:miriam:pubmed:17705188|urn:miriam:pubmed:694009		entity_pool	process	macromolecule	process
+CASP10	stimulation	pr_ec53e6ab-7c21-4479-b58a-591794fd7c3c		urn:miriam:pubmed:19366914|urn:miriam:pubmed:20303872|urn:miriam:pubmed:17705188|urn:miriam:pubmed:694009		entity_pool	process	macromolecule	process
+NFKBIA	consumption	pr_9e0e0d5d-ca69-4e3a-8ad2-0c9db288bbbc	urn:miriam:hgnc:7797			entity_pool	process	macromolecule	process
+pr_9e0e0d5d-ca69-4e3a-8ad2-0c9db288bbbc	production	NFKB:NFKBIA				process	entity_pool	process	complex
+RELA	consumption	pr_9e0e0d5d-ca69-4e3a-8ad2-0c9db288bbbc				entity_pool	process	macromolecule	process
+NFKB1	consumption	pr_9e0e0d5d-ca69-4e3a-8ad2-0c9db288bbbc				entity_pool	process	macromolecule	process
+IKBKG	consumption	pr_00b57daf-c81f-48b1-9028-ea209060d4ea				entity_pool	process	macromolecule	process
+pr_00b57daf-c81f-48b1-9028-ea209060d4ea	production	IKK Complex				process	entity_pool	process	complex
+CHUK	consumption	pr_00b57daf-c81f-48b1-9028-ea209060d4ea				entity_pool	process	macromolecule	process
+IKBKB	consumption	pr_00b57daf-c81f-48b1-9028-ea209060d4ea				entity_pool	process	macromolecule	process
+TANK:TRAF3:IKBKE	consumption	pr_1b936a0c-6a3a-47ef-a88f-fa02d5255026				entity_pool	process	complex	process
+pr_1b936a0c-6a3a-47ef-a88f-fa02d5255026	production	TANK:TRAF3:IKBKE				process	entity_pool	process	complex
+MAVS:TRADD	stimulation	pr_1b936a0c-6a3a-47ef-a88f-fa02d5255026		urn:miriam:pubmed:19366914|urn:miriam:pubmed:27164085|urn:miriam:pubmed:19380580|urn:miriam:taxonomy:694009		entity_pool	process	complex	process
+Nsp3	inhibition	pr_1b936a0c-6a3a-47ef-a88f-fa02d5255026	urn:miriam:ncbiprotein:1802476807	urn:miriam:pubmed:19366914|urn:miriam:pubmed:27164085|urn:miriam:pubmed:19380580|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+M	inhibition	pr_1b936a0c-6a3a-47ef-a88f-fa02d5255026	urn:miriam:ncbiprotein:1796318601	urn:miriam:pubmed:19366914|urn:miriam:pubmed:27164085|urn:miriam:pubmed:19380580|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+TBK1	consumption	pr_0e12c73a-afd7-4c29-9a02-9aa32caf6273	urn:miriam:hgnc:11584			entity_pool	process	macromolecule	process
+pr_0e12c73a-afd7-4c29-9a02-9aa32caf6273	production	TBK1				process	entity_pool	process	macromolecule
+TANK:TRAF3:IKBKE	stimulation	pr_0e12c73a-afd7-4c29-9a02-9aa32caf6273		urn:miriam:pubmed:19366914		entity_pool	process	complex	process
+MAPK14	consumption	pr_0e18c351-b908-4361-a6fc-c4ea938d27e0	urn:miriam:hgnc:6876			entity_pool	process	macromolecule	process
+pr_0e18c351-b908-4361-a6fc-c4ea938d27e0	production	MAPK14				process	entity_pool	process	macromolecule
+MAP2K6	catalysis	pr_0e18c351-b908-4361-a6fc-c4ea938d27e0		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
+MAP2K3	catalysis	pr_0e18c351-b908-4361-a6fc-c4ea938d27e0		urn:miriam:pubmed:19366914		entity_pool	process	macromolecule	process
+TRAF3	consumption	pr_cf1c2968-0dac-429e-b28a-b3d3d9e5d94f				entity_pool	process	macromolecule	process
+pr_cf1c2968-0dac-429e-b28a-b3d3d9e5d94f	production	TANK:TRAF3:IKBKE				process	entity_pool	process	complex
+TANK	consumption	pr_cf1c2968-0dac-429e-b28a-b3d3d9e5d94f				entity_pool	process	macromolecule	process
+IKBKE	consumption	pr_cf1c2968-0dac-429e-b28a-b3d3d9e5d94f	urn:miriam:hgnc:14552			entity_pool	process	macromolecule	process
+NFKB	consumption	pr_d22c02a2-b6d3-44d1-8934-7df5fdbdd1d7				entity_pool	process	complex	process
+pr_d22c02a2-b6d3-44d1-8934-7df5fdbdd1d7	production	NFKB				process	entity_pool	process	complex
+IRF3	consumption	pr_8f3bf39a-ef01-41f8-85a3-b14f9a546731	urn:miriam:hgnc:6118			entity_pool	process	macromolecule	process
+pr_8f3bf39a-ef01-41f8-85a3-b14f9a546731	production	IRF3			urn:miriam:hgnc:6118	process	entity_pool	process	macromolecule
+IRF3	consumption	pr_09049ee6-ae9f-420f-83db-a7b0601fdf42	urn:miriam:hgnc:6118			entity_pool	process	macromolecule	process
+pr_09049ee6-ae9f-420f-83db-a7b0601fdf42	production	IRF3			urn:miriam:hgnc:6118	process	entity_pool	process	macromolecule multimer
+IRF7	consumption	pr_bbfa6cb0-b646-48b5-ae4e-3f1ef0d4cd0c	urn:miriam:hgnc:6122			entity_pool	process	macromolecule	process
+pr_bbfa6cb0-b646-48b5-ae4e-3f1ef0d4cd0c	production	IRF7			urn:miriam:hgnc:6122	process	entity_pool	process	macromolecule multimer
+AP1	consumption	pr_222cf1ca-aecc-442a-957f-e70ef7ec3f93				entity_pool	process	complex	process
+pr_222cf1ca-aecc-442a-957f-e70ef7ec3f93	production	AP1				process	entity_pool	process	complex
 AP1	necessary stimulation	transcription of proinflammatory proteins				entity_pool	entity_pool	complex	phenotype
 NFKB	necessary stimulation	transcription of proinflammatory proteins				entity_pool	entity_pool	complex	phenotype
 IRF3	necessary stimulation	transcription of proinflammatory proteins	urn:miriam:hgnc:6118			entity_pool	entity_pool	macromolecule	phenotype
