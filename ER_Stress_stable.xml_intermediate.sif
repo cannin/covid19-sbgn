@@ -1,346 +1,347 @@
 PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	ANNOTATION_SOURCE	ANNOTATION_INTERACTION	ANNOTATION_TARGET	SOURCE_TYPE	TARGET_TYPE	SOURCE_CLASS	TARGET_CLASS
-ACE2-SARS-CoV interaction	logic arc	viral entry into host cell	urn:miriam:pubmed:19411314|urn:miriam:taxonomy:9606|urn:miriam:uniprot:P59594			entity_pool	entity_pool	complex	phenotype
-SIGMAR1:HSPA5	consumption	pr_a63439ef-1df7-472b-b324-aedd490c8654	urn:miriam:pubmed:30590907|urn:miriam:pubmed:25704011|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029			entity_pool	process	complex	process
-pr_a63439ef-1df7-472b-b324-aedd490c8654	production	HSPA5			urn:miriam:hgnc:5238	process	entity_pool	process	macromolecule
-pr_a63439ef-1df7-472b-b324-aedd490c8654	production	SIGMAR1			urn:miriam:hgnc:8157|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029|urn:miriam:pubmed:25704011	process	entity_pool	process	macromolecule
-ER stress	necessary stimulation	pr_a63439ef-1df7-472b-b324-aedd490c8654		urn:miriam:pubmed:30590907|urn:miriam:pubmed:25704011|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029		entity_pool	process	phenotype	process
-ATF6:HSPA5	consumption	pr_f7e747e2-c95f-40c0-a4e5-3e188bace659				entity_pool	process	complex	process
-pr_f7e747e2-c95f-40c0-a4e5-3e188bace659	production	ATF6			urn:miriam:hgnc.symbol:ATF6	process	entity_pool	process	macromolecule
-pr_f7e747e2-c95f-40c0-a4e5-3e188bace659	production	HSPA5			urn:miriam:hgnc:5238	process	entity_pool	process	macromolecule
-Unfolded protein	catalysis	pr_f7e747e2-c95f-40c0-a4e5-3e188bace659		urn:miriam:pubmed:23850759|urn:miriam:pubmed:17090218		entity_pool	process	macromolecule	process
-ACE2	consumption	pr_8202579d-0910-498d-a026-77eb0427cad4	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314			entity_pool	process	macromolecule	process
-pr_8202579d-0910-498d-a026-77eb0427cad4	production	ACE2, soluble			urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:hgnc.symbol:ACE2	process	entity_pool	process	macromolecule
-pr_8202579d-0910-498d-a026-77eb0427cad4	production	ACE2, membrane-bound			urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:hgnc.symbol:ACE2	process	entity_pool	process	macromolecule
-ADAM17	catalysis	pr_8202579d-0910-498d-a026-77eb0427cad4	urn:miriam:pubmed:32264791|urn:miriam:hgnc:HGNC%3A195	urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:taxonomy:9606|urn:miriam:pubmed:15983030		entity_pool	process	macromolecule	process
-MFN2	consumption	pr_81aed0c7-f6c8-4df3-8e33-6c96a3598ec1	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620			entity_pool	process	macromolecule	process
-MFN2	consumption	pr_81aed0c7-f6c8-4df3-8e33-6c96a3598ec1	urn:miriam:hgnc:16877			entity_pool	process	macromolecule	process
-pr_81aed0c7-f6c8-4df3-8e33-6c96a3598ec1	production	MFN2:MFN2			urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606|urn:miriam:pubmed:29491369	process	entity_pool	process	complex
-Met-tRNA	consumption	pr_62447b0e-0be9-49f3-932f-bad263afcbf7	urn:miriam:hgnc:34779			entity_pool	process	nucleic acid feature	process
-EIF2:GDP	consumption	pr_62447b0e-0be9-49f3-932f-bad263afcbf7				entity_pool	process	complex	process
-pr_62447b0e-0be9-49f3-932f-bad263afcbf7	production	EIF2:GDP:Met-tRNA				process	entity_pool	process	complex
-ERN1	consumption	pr_e2a29899-0cee-4e3d-bd5a-d1b03de9fbca	urn:miriam:hgnc.symbol:ERN1			entity_pool	process	macromolecule	process
-Unfolded protein	consumption	pr_e2a29899-0cee-4e3d-bd5a-d1b03de9fbca				entity_pool	process	macromolecule	process
-pr_e2a29899-0cee-4e3d-bd5a-d1b03de9fbca	production	ERN1:Unfolded protein				process	entity_pool	process	complex
-MCU	consumption	pr_d7ca79a4-503a-451a-a518-84e32a535192	urn:miriam:hgnc:23526|urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606			entity_pool	process	macromolecule	process
-SMDT1	consumption	pr_d7ca79a4-503a-451a-a518-84e32a535192	urn:miriam:pubmed:24231807|urn:miriam:hgnc:25055|urn:miriam:taxonomy:9606			entity_pool	process	macromolecule	process
-pr_d7ca79a4-503a-451a-a518-84e32a535192	production	MCU:MICU1:MICU2:SMDT1			urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
-EIF2S1	consumption	pr_bcb62ada-3083-45ec-b8ad-77284cac1f2e	urn:miriam:hgnc.symbol:EIF2S1			entity_pool	process	macromolecule	process
-EIF2S2	consumption	pr_bcb62ada-3083-45ec-b8ad-77284cac1f2e	urn:miriam:hgnc.symbol:EIF2S2			entity_pool	process	macromolecule	process
-pr_bcb62ada-3083-45ec-b8ad-77284cac1f2e	production	EIF2-P:GDP				process	entity_pool	process	complex
-EIF2S3:GDP	consumption	pr_bcb62ada-3083-45ec-b8ad-77284cac1f2e				entity_pool	process	complex	process
-MCU2	consumption	pr_dc6b4f88-f819-48c8-9576-01b2bc0b43f8	urn:miriam:hgnc:31830|urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606			entity_pool	process	macromolecule	process
-MCU1	consumption	pr_dc6b4f88-f819-48c8-9576-01b2bc0b43f8	urn:miriam:hgnc:1530|urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606			entity_pool	process	macromolecule	process
-pr_dc6b4f88-f819-48c8-9576-01b2bc0b43f8	production	MCU:MICU1:MICU2:SMDT1			urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
-ERN1	consumption	pr_a004fb26-450e-4ee8-a137-02b2184615cc	urn:miriam:hgnc.symbol:ERN1			entity_pool	process	macromolecule	process
-BCL2L11	consumption	pr_a004fb26-450e-4ee8-a137-02b2184615cc	urn:miriam:hgnc.symbol:BCL2L11			entity_pool	process	macromolecule	process
-pr_a004fb26-450e-4ee8-a137-02b2184615cc	production	ERN1:BCL2L11				process	entity_pool	process	complex
-Persistant ER Stress	inhibition	pr_a004fb26-450e-4ee8-a137-02b2184615cc	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:23430059		entity_pool	process	phenotype	process
-CAPN1	consumption	pr_ac5d884c-aa67-4734-a7fb-5321873a7bde	urn:miriam:hgnc.symbol:CAPN1			entity_pool	process	macromolecule	process
-Ca2+	consumption	pr_ac5d884c-aa67-4734-a7fb-5321873a7bde	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
-pr_ac5d884c-aa67-4734-a7fb-5321873a7bde	production	CAPN1:Ca2+				process	entity_pool	process	complex
-high Ca2+ cytosolic concentration	catalysis	pr_ac5d884c-aa67-4734-a7fb-5321873a7bde	urn:miriam:obo.go:GO%3A1902656	urn:miriam:pubmed:19931333		entity_pool	process	phenotype	process
-HSPA5	consumption	pr_a16955f0-00d1-44d2-9183-b4802bfff989	urn:miriam:hgnc:5238			entity_pool	process	macromolecule	process
-SIGMAR1	consumption	pr_a16955f0-00d1-44d2-9183-b4802bfff989	urn:miriam:hgnc:8157			entity_pool	process	macromolecule	process
-pr_a16955f0-00d1-44d2-9183-b4802bfff989	production	SIGMAR1:HSPA5			urn:miriam:pubmed:30590907|urn:miriam:pubmed:25704011|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029	process	entity_pool	process	complex
-ERN1	consumption	pr_3570d2ab-99a6-4000-8327-ba820209fc91	urn:miriam:hgnc.symbol:ERN1			entity_pool	process	macromolecule	process
-BBC3	consumption	pr_3570d2ab-99a6-4000-8327-ba820209fc91	urn:miriam:hgnc.symbol:BBC3			entity_pool	process	macromolecule	process
-pr_3570d2ab-99a6-4000-8327-ba820209fc91	production	ERN1:BBC3				process	entity_pool	process	complex
-Persistant ER Stress	inhibition	pr_3570d2ab-99a6-4000-8327-ba820209fc91	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:17991856|urn:miriam:pubmed:23430059		entity_pool	process	phenotype	process
-VAPB	consumption	pr_9012854a-fcdc-4667-855c-68392661cf1e	urn:miriam:hgnc:12649			entity_pool	process	macromolecule	process
-RMDN3	consumption	pr_9012854a-fcdc-4667-855c-68392661cf1e	urn:miriam:hgnc:25550			entity_pool	process	macromolecule	process
-pr_9012854a-fcdc-4667-855c-68392661cf1e	production	VAPB:RMDN3			urn:miriam:pubmed:29491369|urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
-EIF2S2	consumption	pr_ca4db994-9c0a-4114-a087-ee9695e3fb0c	urn:miriam:hgnc.symbol:EIF2S2			entity_pool	process	macromolecule	process
-EIF2S3:GDP	consumption	pr_ca4db994-9c0a-4114-a087-ee9695e3fb0c				entity_pool	process	complex	process
-pr_ca4db994-9c0a-4114-a087-ee9695e3fb0c	production	EIF2:GDP				process	entity_pool	process	complex
-EIF2S1	consumption	pr_ca4db994-9c0a-4114-a087-ee9695e3fb0c	urn:miriam:hgnc.symbol:EIF2S1			entity_pool	process	macromolecule	process
-SIGMAR1	consumption	pr_01ce9ed0-1ba1-45ee-a5eb-58a59a495cc7	urn:miriam:hgnc:8157|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029|urn:miriam:pubmed:25704011			entity_pool	process	macromolecule	process
-ITPR3	consumption	pr_01ce9ed0-1ba1-45ee-a5eb-58a59a495cc7	urn:miriam:hgnc:6182|urn:miriam:pubmed:17981125			entity_pool	process	macromolecule	process
-pr_01ce9ed0-1ba1-45ee-a5eb-58a59a495cc7	production	SIGMAR1:ITPR3			urn:miriam:pubmed:30590907|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029	process	entity_pool	process	complex
-ER stress	necessary stimulation	pr_01ce9ed0-1ba1-45ee-a5eb-58a59a495cc7		urn:miriam:pubmed:30590907|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029		entity_pool	process	phenotype	process
-Ca2+ ER concentration	necessary stimulation	pr_01ce9ed0-1ba1-45ee-a5eb-58a59a495cc7		urn:miriam:pubmed:30590907|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029		entity_pool	process	phenotype	process
-BCAP31	consumption	pr_2a2778f5-b9ad-4b56-bcb2-e2e003b11555	urn:miriam:hgnc:16695			entity_pool	process	macromolecule	process
-FIS1	consumption	pr_2a2778f5-b9ad-4b56-bcb2-e2e003b11555	urn:miriam:hgnc:21689			entity_pool	process	macromolecule	process
-pr_2a2778f5-b9ad-4b56-bcb2-e2e003b11555	production	FIS1:BCAP31			urn:miriam:pubmed:15692567	process	entity_pool	process	complex
-MFN2	consumption	pr_a35ed82e-cb1f-40e6-83fa-0590fd9ca811	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620			entity_pool	process	macromolecule	process
-MFN1	consumption	pr_a35ed82e-cb1f-40e6-83fa-0590fd9ca811	urn:miriam:hgnc:1826			entity_pool	process	macromolecule	process
-pr_a35ed82e-cb1f-40e6-83fa-0590fd9ca811	production	MFN1:MFN2			urn:miriam:pubmed:29491369|urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
-PACS2	consumption	pr_96cdd64d-6b6a-468f-ab53-059c29d87039	urn:miriam:pubmed:15692567|urn:miriam:hgnc:23794|urn:miriam:pubmed:26108729			entity_pool	process	macromolecule	process
-ADAM17	consumption	pr_96cdd64d-6b6a-468f-ab53-059c29d87039	urn:miriam:hgnc:195|urn:miriam:pubmed:32264791|urn:miriam:pubmed:26108729			entity_pool	process	macromolecule	process
-pr_96cdd64d-6b6a-468f-ab53-059c29d87039	production	PACS2-ADAM17 interaction			urn:miriam:pubmed:26108729|urn:miriam:pubmed:32264791|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
-ACE2	consumption	pr_3094ff24-a934-45a3-8f0d-71035a5840d1	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314			entity_pool	process	macromolecule	process
-S	consumption	pr_3094ff24-a934-45a3-8f0d-71035a5840d1	urn:miriam:uniprot:P59594|urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:W6A028			entity_pool	process	macromolecule	process
-pr_3094ff24-a934-45a3-8f0d-71035a5840d1	production	ACE2:Spike				process	entity_pool	process	complex
-S	consumption	pr_13145b03-c149-48d7-9bff-61373bbb6291	urn:miriam:uniprot:P59594|urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:W6A028			entity_pool	process	macromolecule	process
-HSPA5	consumption	pr_13145b03-c149-48d7-9bff-61373bbb6291	urn:miriam:pubmed:32340551|urn:miriam:hgnc:HGNC%3A5238|urn:miriam:pubmed:32169481|urn:miriam:pubmed:30978349			entity_pool	process	macromolecule	process
-pr_13145b03-c149-48d7-9bff-61373bbb6291	production	HSPA5-Spike interaction			urn:miriam:pubmed:32340551	process	entity_pool	process	complex
-ACE2, membrane-bound	consumption	pr_21114608-d06d-4d04-a276-3d23d43f6acb	urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:hgnc.symbol:ACE2			entity_pool	process	macromolecule	process
-S	consumption	pr_21114608-d06d-4d04-a276-3d23d43f6acb	urn:miriam:uniprot:P59594|urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:W6A028			entity_pool	process	macromolecule	process
-pr_21114608-d06d-4d04-a276-3d23d43f6acb	production	ACE2-SARS-CoV interaction			urn:miriam:pubmed:19411314|urn:miriam:taxonomy:9606|urn:miriam:uniprot:P59594	process	entity_pool	process	complex
-ACE2, soluble	inhibition	pr_21114608-d06d-4d04-a276-3d23d43f6acb	urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:hgnc.symbol:ACE2	urn:miriam:pubmed:19411314|urn:miriam:taxonomy:9606|urn:miriam:uniprot:P59594|urn:miriam:pubmed:15983030|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
-SIGMAR1	inhibition	ER stress	urn:miriam:hgnc:8157|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029|urn:miriam:pubmed:25704011			entity_pool	entity_pool	macromolecule	phenotype
-SIGMAR1	inhibition	Apoptosis	urn:miriam:hgnc:8157|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029|urn:miriam:pubmed:25704011			entity_pool	entity_pool	macromolecule	phenotype
-ACE2, soluble	inhibition	viral entry into host cell	urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:hgnc.symbol:ACE2			entity_pool	entity_pool	macromolecule	phenotype
-ATF6	modulation	retrograde transport from ER to cytosol	urn:miriam:hgnc.symbol:ATF6		urn:miriam:obo.go:GO%3A0030970	entity_pool	entity_pool	macromolecule	phenotype
-Apoptosis	modulation	Cell survival	urn:miriam:obo.go:GO%3A0006921		urn:miriam:obo.go:GO%3A0043066	entity_pool	entity_pool	phenotype	phenotype
-Cell survival	modulation	Apoptosis	urn:miriam:obo.go:GO%3A0043066		urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	phenotype	phenotype
-ER Stress	modulation	Persistant ER Stress	urn:miriam:obo.go:GO%3A0034976		urn:miriam:obo.go:GO%3A0034976	entity_pool	entity_pool	phenotype	phenotype
-ERAD	modulation	accumulation of misfolded protein in ER	urn:miriam:obo.go:GO%3A0036503		urn:miriam:obo.go:GO%3A0006986	entity_pool	entity_pool	phenotype	phenotype
-VAPB	inhibition	Ca2+ cytosolic concentration	urn:miriam:hgnc:12649			entity_pool	entity_pool	macromolecule	phenotype
-RMDN3	inhibition	autophagy	urn:miriam:hgnc:25550			entity_pool	entity_pool	macromolecule	phenotype
-VAPB	inhibition	autophagy	urn:miriam:hgnc:12649			entity_pool	entity_pool	macromolecule	phenotype
-ITPR3	inhibition	autophagy	urn:miriam:hgnc:6182|urn:miriam:pubmed:17981125			entity_pool	entity_pool	macromolecule	phenotype
-PACS2	inhibition	mitochondrial fission	urn:miriam:pubmed:15692567|urn:miriam:hgnc:23794			entity_pool	entity_pool	macromolecule	phenotype
-mitochondrion-endoplasmic reticulum membrane tethering 	inhibition	autophagy				entity_pool	entity_pool	phenotype	phenotype
-RMDN3	inhibition	Ca2+ cytosolic concentration	urn:miriam:hgnc:25550			entity_pool	entity_pool	macromolecule	phenotype
-RMDN3	stimulation	Ca2+ mitochondrial concentration	urn:miriam:hgnc:25550			entity_pool	entity_pool	macromolecule	phenotype
-ATF6	consumption	pr_c728d163-db4f-4348-a332-66f24e49fec8	urn:miriam:hgnc.symbol:ATF6			entity_pool	process	macromolecule	process
-pr_c728d163-db4f-4348-a332-66f24e49fec8	production	ATF6			urn:miriam:hgnc.symbol:ATF6	process	entity_pool	process	macromolecule
-MBTPS2	catalysis	pr_c728d163-db4f-4348-a332-66f24e49fec8	urn:miriam:hgnc.symbol:MBTPS2	urn:miriam:pubmed:23850759|urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
-MAP3K4	consumption	pr_1f97fce3-7770-4dca-b01a-0e1ad59ea2c2	urn:miriam:hgnc.symbol:MAP3K4			entity_pool	process	macromolecule	process
-pr_1f97fce3-7770-4dca-b01a-0e1ad59ea2c2	production	MAP3K4			urn:miriam:hgnc.symbol:MAP3K4	process	entity_pool	process	macromolecule
-CDK5	catalysis	pr_1f97fce3-7770-4dca-b01a-0e1ad59ea2c2	urn:miriam:hgnc.symbol:CDK5	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
-BCAP31	consumption	pr_9f902b00-6784-4090-bcc7-6bce7e4a6184	urn:miriam:hgnc:16695			entity_pool	process	macromolecule	process
-pr_9f902b00-6784-4090-bcc7-6bce7e4a6184	production	p20			urn:miriam:hgnc.symbol:BCAP31	process	entity_pool	process	macromolecule
-PACS2	inhibition	pr_9f902b00-6784-4090-bcc7-6bce7e4a6184	urn:miriam:pubmed:15692567|urn:miriam:hgnc:23794	urn:miriam:pubmed:15692567|urn:miriam:taxonomy:9606		entity_pool	process	macromolecule	process
-Apoptosis	stimulation	pr_9f902b00-6784-4090-bcc7-6bce7e4a6184		urn:miriam:pubmed:15692567|urn:miriam:taxonomy:9606		entity_pool	process	phenotype	process
-DDIT3	consumption	pr_15c20dd5-e09e-4e30-beea-f7461528d7a1	urn:miriam:hgnc.symbol:DDIT3			entity_pool	process	macromolecule	process
-pr_15c20dd5-e09e-4e30-beea-f7461528d7a1	production	DDIT3			urn:miriam:hgnc.symbol:DDIT3	process	entity_pool	process	macromolecule
-MAPK14	catalysis	pr_15c20dd5-e09e-4e30-beea-f7461528d7a1	urn:miriam:hgnc.symbol:MAPK14	urn:miriam:pubmed:26137585|urn:miriam:pubmed:23850759|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
-CASP9	consumption	pr_87c3767f-3295-48af-b8fa-69bd25da15b8	urn:miriam:hgnc.symbol:CSAP9			entity_pool	process	macromolecule	process
-pr_87c3767f-3295-48af-b8fa-69bd25da15b8	production	cleaved~CASP9			urn:miriam:hgnc.symbol:CASP9	process	entity_pool	process	macromolecule
-cleaved~CASP4	catalysis	pr_87c3767f-3295-48af-b8fa-69bd25da15b8	urn:miriam:hgnc.symbol:CASP4	urn:miriam:pubmed:18955970|urn:miriam:pubmed:19931333|urn:miriam:pubmed:24373849		entity_pool	process	macromolecule	process
-BCL2L11	consumption	pr_05a54da1-f04d-4ceb-8203-1b91d45b44f8	urn:miriam:hgnc.symbol:BCL2L11			entity_pool	process	macromolecule	process
-pr_05a54da1-f04d-4ceb-8203-1b91d45b44f8	production	BCL2L11			urn:miriam:hgnc.symbol:BCL2L11	process	entity_pool	process	macromolecule
-MAPK8	catalysis	pr_05a54da1-f04d-4ceb-8203-1b91d45b44f8	urn:miriam:hgnc.symbol:MAPK8	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
-EIF2S1	consumption	pr_fa426892-f3e9-4df3-98e1-f80c024b3411	urn:miriam:hgnc.symbol:EIF2S1			entity_pool	process	macromolecule	process
-pr_fa426892-f3e9-4df3-98e1-f80c024b3411	production	EIF2S1			urn:miriam:hgnc.symbol:EIF2S1	process	entity_pool	process	macromolecule
-EIF2AK3:EIF2AK3	catalysis	pr_fa426892-f3e9-4df3-98e1-f80c024b3411		urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012|urn:miriam:pubmed:18360008		entity_pool	process	complex	process
-GCN2:ATP	catalysis	pr_fa426892-f3e9-4df3-98e1-f80c024b3411		urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012|urn:miriam:pubmed:18360008		entity_pool	process	complex	process
-EIF2AK2	catalysis	pr_fa426892-f3e9-4df3-98e1-f80c024b3411	urn:miriam:hgnc.symbol:EIF2AK2	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
-DNAJC3	inhibition	pr_fa426892-f3e9-4df3-98e1-f80c024b3411	urn:miriam:hgnc.symbol:DNAJC3	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
-EIF2AK3:EIF2AK3	consumption	pr_f492b112-c329-4731-affe-673b65310f4b				entity_pool	process	complex	process
-pr_f492b112-c329-4731-affe-673b65310f4b	production	retrograde transport from ER to cytosol			urn:miriam:obo.go:GO%3A0030970	process	entity_pool	process	phenotype
-CASP3	consumption	pr_34c18464-d2bd-4b86-ad21-f3d24a1fb2c9	urn:miriam:hgnc.symbol:CASP3			entity_pool	process	macromolecule	process
-pr_34c18464-d2bd-4b86-ad21-f3d24a1fb2c9	production	cleaved~CASP3			urn:miriam:hgnc.symbol:CASP3	process	entity_pool	process	macromolecule
-cleaved~CASP4	catalysis	pr_34c18464-d2bd-4b86-ad21-f3d24a1fb2c9	urn:miriam:hgnc.symbol:CASP4	urn:miriam:pubmed:18955970|urn:miriam:pubmed:19931333|urn:miriam:pubmed:24373849		entity_pool	process	macromolecule	process
-BCL2L11	consumption	pr_7c5d8a11-f4a2-4752-9394-5c3a029d66ee	urn:miriam:hgnc.symbol:BCL2L11			entity_pool	process	macromolecule	process
-pr_7c5d8a11-f4a2-4752-9394-5c3a029d66ee	production	BCL2L11			urn:miriam:hgnc.symbol:BCL2L11	process	entity_pool	process	macromolecule
-PPP2CA	catalysis	pr_7c5d8a11-f4a2-4752-9394-5c3a029d66ee	urn:miriam:hgnc.symbol:PPP2CA	urn:miriam:pubmed:23850759|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
-AP-1	consumption	pr_21703f6e-69d4-457d-9f55-4bc8655b58fc	urn:miriam:hgnc.symbol:JUNB|urn:miriam:hgnc.symbol:FOSL1|urn:miriam:hgnc.symbol:FOSL2|urn:miriam:hgnc.symbol:JUND|urn:miriam:hgnc.symbol:JUN|urn:miriam:hgnc.symbol:FOSB|urn:miriam:hgnc.symbol:FOS			entity_pool	process	macromolecule	process
-pr_21703f6e-69d4-457d-9f55-4bc8655b58fc	production	AP-1			urn:miriam:hgnc.symbol:JUNB|urn:miriam:hgnc.symbol:FOSL1|urn:miriam:hgnc.symbol:FOSL2|urn:miriam:hgnc.symbol:JUND|urn:miriam:hgnc.symbol:JUN|urn:miriam:hgnc.symbol:FOSB|urn:miriam:hgnc.symbol:FOS	process	entity_pool	process	macromolecule
-MAPK8	catalysis	pr_21703f6e-69d4-457d-9f55-4bc8655b58fc	urn:miriam:hgnc.symbol:MAPK8	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781		entity_pool	process	macromolecule	process
-DDIT3	catalysis	pr_21703f6e-69d4-457d-9f55-4bc8655b58fc	urn:miriam:hgnc.symbol:DDIT3	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781		entity_pool	process	macromolecule	process
-HSPA5	consumption	pr_3ae92162-f50b-45c1-99c6-dd6816f181a2	urn:miriam:hgnc.symbol:HSPA5			entity_pool	process	nucleic acid feature	process
-pr_3ae92162-f50b-45c1-99c6-dd6816f181a2	production	HSPA5			urn:miriam:hgnc:5238	process	entity_pool	process	macromolecule
-ER stress	necessary stimulation	pr_3ae92162-f50b-45c1-99c6-dd6816f181a2		urn:miriam:pubmed:31775868|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090		entity_pool	process	phenotype	process
-ACE2	inhibition	pr_3ae92162-f50b-45c1-99c6-dd6816f181a2	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314	urn:miriam:pubmed:31775868|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
-EIF2S1	consumption	pr_c0da1a62-5d2b-4a1a-85d3-3ba7aee87248	urn:miriam:hgnc.symbol:EIF2S1			entity_pool	process	macromolecule	process
-pr_c0da1a62-5d2b-4a1a-85d3-3ba7aee87248	production	EIF2S1			urn:miriam:hgnc.symbol:EIF2S1	process	entity_pool	process	macromolecule
-PPP1R15A	catalysis	pr_c0da1a62-5d2b-4a1a-85d3-3ba7aee87248	urn:miriam:hgnc.symbol:PPP1R15A	urn:miriam:pubmed:23850759|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012		entity_pool	process	macromolecule	process
-EIF2AK1	catalysis	pr_c0da1a62-5d2b-4a1a-85d3-3ba7aee87248	urn:miriam:hgnc.symbol:EIF2AK1	urn:miriam:pubmed:23850759|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012		entity_pool	process	macromolecule	process
-EIF2AK2	consumption	pr_11031c1a-2cb7-4334-b70e-a28f85a102da	urn:miriam:hgnc.symbol:EIF2AK2			entity_pool	process	macromolecule	process
-pr_11031c1a-2cb7-4334-b70e-a28f85a102da	production	EIF2AK2			urn:miriam:hgnc.symbol:EIF2AK2	process	entity_pool	process	macromolecule
-presence of dsRNA	catalysis	pr_11031c1a-2cb7-4334-b70e-a28f85a102da	urn:miriam:obo.go:GO%3A0071359	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12601012		entity_pool	process	phenotype	process
-DNAJC3	inhibition	pr_11031c1a-2cb7-4334-b70e-a28f85a102da	urn:miriam:hgnc.symbol:DNAJC3	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12601012		entity_pool	process	macromolecule	process
-Ternary Complex	consumption	pr_13016d1c-67a3-496b-ae71-21dfa993e934				entity_pool	process	complex	process
-pr_13016d1c-67a3-496b-ae71-21dfa993e934	production	EIF2:GDP:Met-tRNA				process	entity_pool	process	complex
-GDP	consumption	pr_13016d1c-67a3-496b-ae71-21dfa993e934	urn:miriam:obo.chebi:CHEBI%3A65180			entity_pool	process	simple chemical	process
-pr_13016d1c-67a3-496b-ae71-21dfa993e934	production	GTP			urn:miriam:obo.chebi:CHEBI%3A57600	process	entity_pool	process	simple chemical
-ERN1:Unfolded protein	consumption	pr_7bfae21e-0313-457e-b343-766e839f9e7c				entity_pool	process	complex	process
-pr_7bfae21e-0313-457e-b343-766e839f9e7c	production	TRAF2:ERN1				process	entity_pool	process	complex
-BAK1:ERN1	catalysis	pr_7bfae21e-0313-457e-b343-766e839f9e7c		urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	complex	process
-BAX:ERN1	catalysis	pr_7bfae21e-0313-457e-b343-766e839f9e7c		urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	complex	process
-BCL2	inhibition	pr_7bfae21e-0313-457e-b343-766e839f9e7c	urn:miriam:hgnc.symbol:BCL2	urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
-BCL2L1	inhibition	pr_7bfae21e-0313-457e-b343-766e839f9e7c	urn:miriam:hgnc.symbol:BCL2L1	urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
-Persistant ER Stress	inhibition	pr_7bfae21e-0313-457e-b343-766e839f9e7c	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	phenotype	process
-BAX	catalysis	pr_7bfae21e-0313-457e-b343-766e839f9e7c	urn:miriam:hgnc.symbol:BAX	urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
-BAK1	catalysis	pr_7bfae21e-0313-457e-b343-766e839f9e7c	urn:miriam:hgnc.symbol:BAK1	urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
-TRAF2	consumption	pr_7bfae21e-0313-457e-b343-766e839f9e7c	urn:miriam:hgnc.symbol:TRAF2			entity_pool	process	macromolecule	process
-MCU:MICU1:MICU2:SMDT1	consumption	pr_266ffc96-d5a8-419e-a9d3-73c7f2bf3124	urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606			entity_pool	process	complex	process
-pr_266ffc96-d5a8-419e-a9d3-73c7f2bf3124	production	Mitochondrial calcium uniporter complex			urn:miriam:pubmed:26968367|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
-ATF4	consumption	pr_31c13adf-0ff6-4726-9ff1-f4ed2d8330bc	urn:miriam:hgnc.symbol:ATF4			entity_pool	process	nucleic acid feature	process
-pr_31c13adf-0ff6-4726-9ff1-f4ed2d8330bc	production	ATF4			urn:miriam:hgnc.symbol:ATF4	process	entity_pool	process	nucleic acid feature
-EIF2-P:GDP	catalysis	pr_31c13adf-0ff6-4726-9ff1-f4ed2d8330bc		urn:miriam:pubmed:23850759|urn:miriam:taxonomy:10090|urn:miriam:pubmed:15277680		entity_pool	process	complex	process
-retrograde transport from ER to cytosol	consumption	pr_cd2c6890-4b4a-46eb-a55a-d85f917c64fa	urn:miriam:obo.go:GO%3A0030970			entity_pool	process	phenotype	process
-pr_cd2c6890-4b4a-46eb-a55a-d85f917c64fa	production	protein ubiquitination and destruction				process	entity_pool	process	phenotype
-EIF2AK3	consumption	pr_b7c76f94-d957-4530-8f77-0c0bb0fa1d54	urn:miriam:hgnc.symbol:EIF2AK3			entity_pool	process	macromolecule	process
-pr_b7c76f94-d957-4530-8f77-0c0bb0fa1d54	production	EIF2AK3:EIF2AK3				process	entity_pool	process	complex
-Unfolded protein	catalysis	pr_b7c76f94-d957-4530-8f77-0c0bb0fa1d54		urn:miriam:pubmed:17991856		entity_pool	process	macromolecule	process
-Persistant ER Stress	catalysis	pr_b7c76f94-d957-4530-8f77-0c0bb0fa1d54	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:17991856		entity_pool	process	phenotype	process
-ITPR	consumption	pr_82e93ad0-d790-49e0-8f32-71f1fdaad87f	urn:miriam:hgnc.symbol:ITPR1|urn:miriam:hgnc.symbol:ITPR3|urn:miriam:hgnc.symbol:ITPR2			entity_pool	process	macromolecule	process
-pr_82e93ad0-d790-49e0-8f32-71f1fdaad87f	production	ITPR			urn:miriam:hgnc.symbol:ITPR1|urn:miriam:hgnc.symbol:ITPR3|urn:miriam:hgnc.symbol:ITPR2	process	entity_pool	process	macromolecule
-TMBIM6	catalysis	pr_82e93ad0-d790-49e0-8f32-71f1fdaad87f	urn:miriam:hgnc.symbol:TMBIM6	urn:miriam:pubmed:23850759|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
-ERO1A	catalysis	pr_82e93ad0-d790-49e0-8f32-71f1fdaad87f	urn:miriam:hgnc.symbol:ERO1A	urn:miriam:pubmed:23850759|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
-MAP3K5	consumption	pr_33a8efff-27d9-4832-864b-6fcea3bb70d6	urn:miriam:hgnc.symbol:MAP3K5			entity_pool	process	macromolecule	process
-pr_33a8efff-27d9-4832-864b-6fcea3bb70d6	production	MAP3K5			urn:miriam:hgnc.symbol:MAP3K5	process	entity_pool	process	macromolecule
-TRAF2	catalysis	pr_33a8efff-27d9-4832-864b-6fcea3bb70d6	urn:miriam:hgnc.symbol:TRAF2	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
-TRAF2:ERN1	catalysis	pr_33a8efff-27d9-4832-864b-6fcea3bb70d6		urn:miriam:pubmed:23850759		entity_pool	process	complex	process
-EIF2:GDP:Met-tRNA	consumption	pr_61aaea18-74f5-41ee-a8fe-74ece03d653c				entity_pool	process	complex	process
-pr_61aaea18-74f5-41ee-a8fe-74ece03d653c	production	Ternary Complex				process	entity_pool	process	complex
-EIF2B	catalysis	pr_61aaea18-74f5-41ee-a8fe-74ece03d653c		urn:miriam:pubmed:23850759		entity_pool	process	complex	process
-GTP	consumption	pr_61aaea18-74f5-41ee-a8fe-74ece03d653c	urn:miriam:obo.chebi:CHEBI%3A57600			entity_pool	process	simple chemical	process
-pr_61aaea18-74f5-41ee-a8fe-74ece03d653c	production	GDP			urn:miriam:obo.chebi:CHEBI%3A65180	process	entity_pool	process	simple chemical
-BAX	consumption	pr_88b4b836-75cd-4872-91ba-7cbd0b7cfee9	urn:miriam:hgnc.symbol:BAX			entity_pool	process	macromolecule	process
-pr_88b4b836-75cd-4872-91ba-7cbd0b7cfee9	production	BAX			urn:miriam:hgnc.symbol:BAX	process	entity_pool	process	macromolecule
-MAPK8	catalysis	pr_88b4b836-75cd-4872-91ba-7cbd0b7cfee9	urn:miriam:hgnc.symbol:MAPK8	urn:miriam:pubmed:18191217|urn:miriam:pubmed:23430059|urn:miriam:pubmed:29450140		entity_pool	process	macromolecule	process
-MAPK14	catalysis	pr_88b4b836-75cd-4872-91ba-7cbd0b7cfee9	urn:miriam:hgnc.symbol:MAPK14	urn:miriam:pubmed:18191217|urn:miriam:pubmed:23430059|urn:miriam:pubmed:29450140		entity_pool	process	macromolecule	process
-TRAF2	consumption	pr_71823ed9-4bb5-413c-af62-e8e273dbb976	urn:miriam:hgnc.symbol:TRAF2			entity_pool	process	macromolecule	process
-pr_71823ed9-4bb5-413c-af62-e8e273dbb976	production	TRAF2			urn:miriam:hgnc.symbol:TRAF2	process	entity_pool	process	macromolecule
-TRAF2:ERN1	catalysis	pr_71823ed9-4bb5-413c-af62-e8e273dbb976		urn:miriam:pubmed:23850759		entity_pool	process	complex	process
-MAPK14	consumption	pr_77c7e1fa-fd28-4a24-9736-0441db53a998	urn:miriam:hgnc.symbol:MAPK14			entity_pool	process	macromolecule	process
-pr_77c7e1fa-fd28-4a24-9736-0441db53a998	production	MAPK14			urn:miriam:hgnc.symbol:MAPK14	process	entity_pool	process	macromolecule
-MAP3K5	catalysis	pr_77c7e1fa-fd28-4a24-9736-0441db53a998	urn:miriam:hgnc.symbol:MAP3K5	urn:miriam:pubmed:23850759|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12215209		entity_pool	process	macromolecule	process
-CASP8:CASP8-ubq:FADD	consumption	pr_a7936fd1-e220-4b47-9f24-73dca049f5fe				entity_pool	process	complex	process
-pr_a7936fd1-e220-4b47-9f24-73dca049f5fe	production	CASP8:FADD:MAP1LC3A:SQSTM1:ATG5				process	entity_pool	process	complex
-TRIM13	catalysis	pr_a7936fd1-e220-4b47-9f24-73dca049f5fe	urn:miriam:hgnc.symbol:TRIM13	urn:miriam:pubmed:17991856		entity_pool	process	macromolecule	process
-Persistant ER Stress	catalysis	pr_a7936fd1-e220-4b47-9f24-73dca049f5fe	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:17991856		entity_pool	process	phenotype	process
-SQSTM1 	consumption	pr_a7936fd1-e220-4b47-9f24-73dca049f5fe	urn:miriam:hgnc.symbol:SQSTM1			entity_pool	process	macromolecule	process
-MAP1LC3A	consumption	pr_a7936fd1-e220-4b47-9f24-73dca049f5fe	urn:miriam:hgnc.symbol:MAP1LC3A			entity_pool	process	macromolecule	process
-ATG5	consumption	pr_a7936fd1-e220-4b47-9f24-73dca049f5fe	urn:miriam:hgnc.symbol:ATG5			entity_pool	process	macromolecule	process
-MAPK8	consumption	pr_25ae51d0-2786-4302-b04c-354752cf3042	urn:miriam:hgnc.symbol:MAPK8			entity_pool	process	macromolecule	process
-pr_25ae51d0-2786-4302-b04c-354752cf3042	production	MAPK8			urn:miriam:hgnc.symbol:MAPK8	process	entity_pool	process	macromolecule
-MAP3K4	catalysis	pr_25ae51d0-2786-4302-b04c-354752cf3042	urn:miriam:hgnc.symbol:MAP3K4	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:18191217		entity_pool	process	macromolecule	process
-MAP3K5	catalysis	pr_25ae51d0-2786-4302-b04c-354752cf3042	urn:miriam:hgnc.symbol:MAP3K5	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:18191217		entity_pool	process	macromolecule	process
-CASP4	consumption	pr_1c3ac3c1-2a2b-438b-b46e-5dadd767c2ca	urn:miriam:hgnc.symbol:CASP4			entity_pool	process	macromolecule	process
-pr_1c3ac3c1-2a2b-438b-b46e-5dadd767c2ca	production	cleaved~CASP4			urn:miriam:hgnc.symbol:CASP4	process	entity_pool	process	macromolecule
-CAPN1:Ca2+	catalysis	pr_1c3ac3c1-2a2b-438b-b46e-5dadd767c2ca		urn:miriam:pubmed:18955970|urn:miriam:pubmed:19931333|urn:miriam:pubmed:24373849		entity_pool	process	complex	process
-DDIT3	consumption	pr_21d2eb74-93b0-451b-93f7-2c332b658351	urn:miriam:hgnc.symbol:DDIT3			entity_pool	process	macromolecule	process
-pr_21d2eb74-93b0-451b-93f7-2c332b658351	production	DDIT3			urn:miriam:hgnc.symbol:DDIT3	process	entity_pool	process	macromolecule
-MAPK14	catalysis	pr_21d2eb74-93b0-451b-93f7-2c332b658351	urn:miriam:hgnc.symbol:MAPK14	urn:miriam:pubmed:26137585|urn:miriam:pubmed:23850759|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
-BID	consumption	pr_acb6c03c-68d4-4034-a85f-0835e692c731	urn:miriam:hgnc.symbol:BID			entity_pool	process	macromolecule	process
-pr_acb6c03c-68d4-4034-a85f-0835e692c731	production	BID			urn:miriam:hgnc.symbol:BID	process	entity_pool	process	macromolecule
-MAPK8	catalysis	pr_acb6c03c-68d4-4034-a85f-0835e692c731	urn:miriam:hgnc.symbol:MAPK8	urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059|urn:miriam:pubmed:11583631		entity_pool	process	macromolecule	process
-ATF6	consumption	pr_4f2ec543-179b-4b3f-8ff1-8904f285b87c	urn:miriam:hgnc.symbol:ATF6			entity_pool	process	macromolecule	process
-pr_4f2ec543-179b-4b3f-8ff1-8904f285b87c	production	ATF6			urn:miriam:hgnc.symbol:ATF6	process	entity_pool	process	macromolecule
-MBTPS1	catalysis	pr_4f2ec543-179b-4b3f-8ff1-8904f285b87c	urn:miriam:hgnc.symbol:MBTPS1	urn:miriam:pubmed:23850759|urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
-HSPA5	consumption	pr_318ae305-7fd5-49c1-bcb4-736487def4dc	urn:miriam:hgnc.symbol:HSPA5			entity_pool	process	nucleic acid feature	process
-pr_318ae305-7fd5-49c1-bcb4-736487def4dc	production	HSPA5			urn:miriam:hgnc.symbol:HSPA5	process	entity_pool	process	nucleic acid feature
-ACE2	inhibition	pr_318ae305-7fd5-49c1-bcb4-736487def4dc	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314	urn:miriam:pubmed:22511781|urn:miriam:pubmed:31775868|urn:miriam:pubmed:16940539|urn:miriam:taxonomy:9606|urn:miriam:uniprot:P59594|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
-S	necessary stimulation	pr_318ae305-7fd5-49c1-bcb4-736487def4dc	urn:miriam:uniprot:P59594|urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:W6A028	urn:miriam:pubmed:22511781|urn:miriam:pubmed:31775868|urn:miriam:pubmed:16940539|urn:miriam:taxonomy:9606|urn:miriam:uniprot:P59594|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
-MFN2	consumption	pr_eaeadcb7-59a8-4e14-bd68-65b99b71b596	urn:miriam:hgnc.symbol:MFN2			entity_pool	process	nucleic acid feature	process
-pr_eaeadcb7-59a8-4e14-bd68-65b99b71b596	production	MFN2			urn:miriam:hgnc.symbol:MFN2	process	entity_pool	process	nucleic acid feature
-XBP1	consumption	pr_20481a97-f254-4eb3-b4f1-8cbf2a970fe0	urn:miriam:hgnc.symbol:XBP1			entity_pool	process	nucleic acid feature	process
-pr_20481a97-f254-4eb3-b4f1-8cbf2a970fe0	production	XBP1			urn:miriam:hgnc.symbol:XBP1	process	entity_pool	process	nucleic acid feature
-ATF6	catalysis	pr_20481a97-f254-4eb3-b4f1-8cbf2a970fe0	urn:miriam:hgnc.symbol:ATF6	urn:miriam:pubmed:26587781|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
-TRAF2:ERN1	catalysis	pr_20481a97-f254-4eb3-b4f1-8cbf2a970fe0		urn:miriam:pubmed:26587781|urn:miriam:pubmed:23430059		entity_pool	process	complex	process
-ERN1:BBC3	catalysis	pr_20481a97-f254-4eb3-b4f1-8cbf2a970fe0		urn:miriam:pubmed:26587781|urn:miriam:pubmed:23430059		entity_pool	process	complex	process
-ERN1:BCL2L11	catalysis	pr_20481a97-f254-4eb3-b4f1-8cbf2a970fe0		urn:miriam:pubmed:26587781|urn:miriam:pubmed:23430059		entity_pool	process	complex	process
-ERO1A	consumption	pr_21b24eb2-a2ff-4529-bf4b-1c2138e81cdf	urn:miriam:hgnc.symbol:ERO1A			entity_pool	process	nucleic acid feature	process
-pr_21b24eb2-a2ff-4529-bf4b-1c2138e81cdf	production	ERO1A			urn:miriam:hgnc.symbol:ERO1A	process	entity_pool	process	nucleic acid feature
-DDIT3	catalysis	pr_21b24eb2-a2ff-4529-bf4b-1c2138e81cdf	urn:miriam:hgnc.symbol:DDIT3	urn:miriam:pubmed:23850759|urn:miriam:pubmed:25387528|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
-ATF6	catalysis	pr_21b24eb2-a2ff-4529-bf4b-1c2138e81cdf	urn:miriam:hgnc.symbol:ATF6	urn:miriam:pubmed:23850759|urn:miriam:pubmed:25387528|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
-TRIB3	consumption	pr_726d17f2-c316-4477-8ec2-9d191fcfdb05	urn:miriam:hgnc.symbol:TRIB3			entity_pool	process	nucleic acid feature	process
-pr_726d17f2-c316-4477-8ec2-9d191fcfdb05	production	TRIB3			urn:miriam:hgnc.symbol:TRIB3	process	entity_pool	process	nucleic acid feature
-DDIT3	catalysis	pr_726d17f2-c316-4477-8ec2-9d191fcfdb05	urn:miriam:hgnc.symbol:DDIT3	urn:miriam:pubmed:23430059|urn:miriam:pubmed:18940792		entity_pool	process	macromolecule	process
-DDIT3	consumption	pr_52cab229-4ffc-460e-bc0b-6dc79bc591c3	urn:miriam:hgnc.symbol:DDIT3			entity_pool	process	nucleic acid feature	process
-pr_52cab229-4ffc-460e-bc0b-6dc79bc591c3	production	DDIT3			urn:miriam:hgnc.symbol:DDIT3	process	entity_pool	process	nucleic acid feature
-logicglyph_af87a2a9-0af1-4c02-8a9f-ac712408e777	catalysis	pr_52cab229-4ffc-460e-bc0b-6dc79bc591c3		urn:miriam:pubmed:22802018|urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781		logic	process	and	process
-ATF6	catalysis	pr_52cab229-4ffc-460e-bc0b-6dc79bc591c3	urn:miriam:hgnc.symbol:ATF6	urn:miriam:pubmed:22802018|urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781		entity_pool	process	macromolecule	process
-ATF4	logic arc	logicglyph_af87a2a9-0af1-4c02-8a9f-ac712408e777	urn:miriam:hgnc.symbol:ATF4			entity_pool	logic	macromolecule	and
-Persistant ER Stress	logic arc	logicglyph_af87a2a9-0af1-4c02-8a9f-ac712408e777	urn:miriam:obo.go:GO%3A0034976			entity_pool	logic	phenotype	and
-XBP1	catalysis	pr_52cab229-4ffc-460e-bc0b-6dc79bc591c3	urn:miriam:hgnc.symbol:XBP1	urn:miriam:pubmed:22802018|urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781		entity_pool	process	macromolecule	process
-DNAJC3	consumption	pr_c302419b-9ff2-415b-8688-4504e2deb9b5	urn:miriam:hgnc.symbol:DNAJC3			entity_pool	process	nucleic acid feature	process
-pr_c302419b-9ff2-415b-8688-4504e2deb9b5	production	DNAJC3			urn:miriam:hgnc.symbol:DNAJC3	process	entity_pool	process	nucleic acid feature
-ATF6	catalysis	pr_c302419b-9ff2-415b-8688-4504e2deb9b5	urn:miriam:hgnc.symbol:ATF6	urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
-HYOU1	consumption	pr_ae8599d4-bbff-43b3-a9c1-ea7e635eda77	urn:miriam:hgnc.symbol:HYOU1			entity_pool	process	nucleic acid feature	process
-pr_ae8599d4-bbff-43b3-a9c1-ea7e635eda77	production	HYOU1			urn:miriam:hgnc.symbol:HYOU1	process	entity_pool	process	nucleic acid feature
-ATF6	catalysis	pr_ae8599d4-bbff-43b3-a9c1-ea7e635eda77	urn:miriam:hgnc.symbol:ATF6	urn:miriam:taxonomy:10090|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
-PPP1R15A	consumption	pr_5db6ad91-7ec9-47e1-8c18-5a0db28021d1	urn:miriam:hgnc.symbol:PPP1R15A			entity_pool	process	nucleic acid feature	process
-pr_5db6ad91-7ec9-47e1-8c18-5a0db28021d1	production	PPP1R15A			urn:miriam:hgnc.symbol:PPP1R15A	process	entity_pool	process	nucleic acid feature
-ATF4	catalysis	pr_5db6ad91-7ec9-47e1-8c18-5a0db28021d1	urn:miriam:hgnc.symbol:ATF4	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26584763		entity_pool	process	macromolecule	process
-DDIT3	catalysis	pr_5db6ad91-7ec9-47e1-8c18-5a0db28021d1	urn:miriam:hgnc.symbol:DDIT3	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26584763		entity_pool	process	macromolecule	process
-BCL2	consumption	pr_26aa1d13-999e-4a48-884b-3e5eb0ca52e8	urn:miriam:hgnc.symbol:BCL2			entity_pool	process	nucleic acid feature	process
-pr_26aa1d13-999e-4a48-884b-3e5eb0ca52e8	production	BCL2			urn:miriam:hgnc.symbol:BCL2	process	entity_pool	process	nucleic acid feature
-DDIT3	inhibition	pr_26aa1d13-999e-4a48-884b-3e5eb0ca52e8	urn:miriam:hgnc.symbol:DDIT3	urn:miriam:pubmed:30662442|urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
-ACE2	consumption	pr_6c65bbdf-1bd7-49dd-bcac-66f077fb7066				entity_pool	process	nucleic acid feature	process
-pr_6c65bbdf-1bd7-49dd-bcac-66f077fb7066	production	ACE2				process	entity_pool	process	nucleic acid feature
-viral entry into host cell	inhibition	pr_6c65bbdf-1bd7-49dd-bcac-66f077fb7066		urn:miriam:pubmed:14647384|urn:miriam:taxonomy:9606|urn:miriam:pubmed:19411314|urn:miriam:uniprot:P59594		entity_pool	process	phenotype	process
-DNAJC3	consumption	pr_8c98ab3e-cd4d-4121-8677-1db3d3c26030	urn:miriam:hgnc.symbol:DNAJC3			entity_pool	process	nucleic acid feature	process
-pr_8c98ab3e-cd4d-4121-8677-1db3d3c26030	production	DNAJC3			urn:miriam:hgnc.symbol:DNAJC3	process	entity_pool	process	macromolecule
-TRIB3	consumption	pr_cf53956a-ed13-45e9-a782-32ffd403f82e	urn:miriam:hgnc.symbol:TRIB3			entity_pool	process	nucleic acid feature	process
-pr_cf53956a-ed13-45e9-a782-32ffd403f82e	production	TRIB3			urn:miriam:hgnc.symbol:TRIB3	process	entity_pool	process	macromolecule
-ERO1A	consumption	pr_be037372-50e7-4c12-8e54-ca5236b24fb5	urn:miriam:hgnc.symbol:ERO1A			entity_pool	process	nucleic acid feature	process
-pr_be037372-50e7-4c12-8e54-ca5236b24fb5	production	ERO1A			urn:miriam:hgnc.symbol:ERO1A	process	entity_pool	process	macromolecule
-MFN2	consumption	pr_39d610b1-31bd-44f6-8984-befbd0d105f6	urn:miriam:hgnc.symbol:MFN2			entity_pool	process	nucleic acid feature	process
-pr_39d610b1-31bd-44f6-8984-befbd0d105f6	production	MFN2			urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620	process	entity_pool	process	macromolecule
-ER stress	necessary stimulation	pr_39d610b1-31bd-44f6-8984-befbd0d105f6		urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090		entity_pool	process	phenotype	process
-DDIT3	consumption	pr_ca5a1290-310f-473d-a7fd-5196c3ed52d5	urn:miriam:hgnc.symbol:DDIT3			entity_pool	process	nucleic acid feature	process
-pr_ca5a1290-310f-473d-a7fd-5196c3ed52d5	production	DDIT3			urn:miriam:hgnc.symbol:DDIT3	process	entity_pool	process	macromolecule
-HYOU1	consumption	pr_63314839-73d0-4e68-bd97-017de4c16991	urn:miriam:hgnc.symbol:HYOU1			entity_pool	process	nucleic acid feature	process
-pr_63314839-73d0-4e68-bd97-017de4c16991	production	HYOU1			urn:miriam:hgnc.symbol:HYOU1	process	entity_pool	process	macromolecule
-ATF4	consumption	pr_87519891-ffaf-4152-bcde-788422dad9d8	urn:miriam:hgnc.symbol:ATF4			entity_pool	process	nucleic acid feature	process
-pr_87519891-ffaf-4152-bcde-788422dad9d8	production	ATF4			urn:miriam:hgnc.symbol:ATF4	process	entity_pool	process	macromolecule
-XBP1	consumption	pr_5b99c1ec-c467-44a8-8933-0a99480a1a51	urn:miriam:hgnc.symbol:XBP1			entity_pool	process	nucleic acid feature	process
-pr_5b99c1ec-c467-44a8-8933-0a99480a1a51	production	XBP1			urn:miriam:hgnc.symbol:XBP1	process	entity_pool	process	macromolecule
-PPP1R15A	consumption	pr_1cb29e65-74e3-4c62-83a0-5446f6025ca5	urn:miriam:hgnc.symbol:PPP1R15A			entity_pool	process	nucleic acid feature	process
-pr_1cb29e65-74e3-4c62-83a0-5446f6025ca5	production	PPP1R15A			urn:miriam:hgnc.symbol:PPP1R15A	process	entity_pool	process	macromolecule
-Ca2+	consumption	pr_3ed0d1d5-ed6b-485d-85fd-3c09ec71acf0	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
-pr_3ed0d1d5-ed6b-485d-85fd-3c09ec71acf0	production	Ca2+			urn:miriam:obo.chebi:CHEBI%3A29108	process	entity_pool	process	simple chemical
-Mitochondrial calcium uniporter complex	necessary stimulation	pr_3ed0d1d5-ed6b-485d-85fd-3c09ec71acf0	urn:miriam:pubmed:26968367|urn:miriam:taxonomy:9606	urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606		entity_pool	process	complex	process
-ERO1A	consumption	pr_8ba4604f-aeff-4493-9143-d4f67cf8753a	urn:miriam:hgnc.symbol:ERO1A			entity_pool	process	macromolecule	process
-pr_8ba4604f-aeff-4493-9143-d4f67cf8753a	production	ERO1A			urn:miriam:hgnc.symbol:ERO1A	process	entity_pool	process	macromolecule
-ATF6	consumption	pr_0e8e87b0-b837-4970-b7a9-f9da77c4c4fa	urn:miriam:hgnc.symbol:ATF6			entity_pool	process	macromolecule	process
-pr_0e8e87b0-b837-4970-b7a9-f9da77c4c4fa	production	ATF6			urn:miriam:hgnc.symbol:ATF6	process	entity_pool	process	macromolecule
-ER Stress	catalysis	pr_0e8e87b0-b837-4970-b7a9-f9da77c4c4fa	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:18360008		entity_pool	process	phenotype	process
-retrograde transport from ER to cytosol	inhibition	pr_0e8e87b0-b837-4970-b7a9-f9da77c4c4fa	urn:miriam:obo.go:GO%3A0030970	urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:18360008		entity_pool	process	phenotype	process
-Ca2+	consumption	pr_587d8e06-ac5b-457c-98bf-5574c785982c	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
-pr_587d8e06-ac5b-457c-98bf-5574c785982c	production	Ca2+			urn:miriam:obo.chebi:CHEBI%3A29108	process	entity_pool	process	simple chemical
-TMBIM6	catalysis	pr_587d8e06-ac5b-457c-98bf-5574c785982c	urn:miriam:hgnc.symbol:TMBIM6	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
-RYR1	catalysis	pr_587d8e06-ac5b-457c-98bf-5574c785982c	urn:miriam:hgnc.symbol:RYR1	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
-ITPR	catalysis	pr_587d8e06-ac5b-457c-98bf-5574c785982c	urn:miriam:hgnc.symbol:ITPR1|urn:miriam:hgnc.symbol:ITPR3|urn:miriam:hgnc.symbol:ITPR2	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
-Ca2+	consumption	pr_70a6e48b-970d-49e6-9845-1583beb0299a	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
-pr_70a6e48b-970d-49e6-9845-1583beb0299a	production	Ca2+			urn:miriam:obo.chebi:CHEBI%3A29108	process	entity_pool	process	simple chemical
-ITPR3:HSPA9:VDAC1	necessary stimulation	pr_70a6e48b-970d-49e6-9845-1583beb0299a	urn:miriam:pubmed:30590033|urn:miriam:pubmed:29491369|urn:miriam:taxonomy:9606	urn:miriam:pubmed:30590907|urn:miriam:pubmed:30590033|urn:miriam:taxonomy:9606		entity_pool	process	complex	process
-SIGMAR1:ITPR3	necessary stimulation	pr_70a6e48b-970d-49e6-9845-1583beb0299a	urn:miriam:pubmed:30590907|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029	urn:miriam:pubmed:30590907|urn:miriam:pubmed:30590033|urn:miriam:taxonomy:9606		entity_pool	process	complex	process
-PACS2-ADAM17 interaction	consumption	pr_c4bc0185-0770-43c4-8451-2aa7756ee48b	urn:miriam:pubmed:26108729|urn:miriam:pubmed:32264791|urn:miriam:taxonomy:9606			entity_pool	process	complex	process
-pr_c4bc0185-0770-43c4-8451-2aa7756ee48b	production	ADAM17			urn:miriam:pubmed:32264791|urn:miriam:hgnc:HGNC%3A195	process	entity_pool	process	macromolecule
-ATF6	consumption	pr_5d8f5397-d7c5-4964-9482-975893d891b0	urn:miriam:hgnc.symbol:ATF6			entity_pool	process	macromolecule	process
-pr_5d8f5397-d7c5-4964-9482-975893d891b0	production	ATF6			urn:miriam:hgnc.symbol:ATF6	process	entity_pool	process	macromolecule
 Unfolded protein	necessary stimulation	accumulation of misfolded protein in ER			urn:miriam:obo.go:GO%3A0006986	entity_pool	entity_pool	macromolecule	phenotype
 cleaved~CASP9	necessary stimulation	Apoptosis	urn:miriam:hgnc.symbol:CASP9		urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	macromolecule	phenotype
+ATF6	modulation	retrograde transport from ER to cytosol	urn:miriam:hgnc.symbol:ATF6		urn:miriam:obo.go:GO%3A0030970	entity_pool	entity_pool	macromolecule	phenotype
+MFN2	consumption	pr_d0712370-b295-4dc1-95ce-4b489c4a1a78	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620			entity_pool	process	macromolecule	process
+MFN2	consumption	pr_d0712370-b295-4dc1-95ce-4b489c4a1a78	urn:miriam:hgnc:16877			entity_pool	process	macromolecule	process
+pr_d0712370-b295-4dc1-95ce-4b489c4a1a78	production	MFN2:MFN2			urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606|urn:miriam:pubmed:29491369	process	entity_pool	process	complex
+CDK5	consumption	pr_438b539f-5650-486f-a5fe-6babd4a11e17	urn:miriam:hgnc.symbol:CDK5			entity_pool	process	macromolecule	uncertain process
+pr_438b539f-5650-486f-a5fe-6babd4a11e17	production	CDK5			urn:miriam:hgnc.symbol:CDK5	process	entity_pool	uncertain process	macromolecule
+ER Stress	catalysis	pr_438b539f-5650-486f-a5fe-6babd4a11e17	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:23850759		entity_pool	process	phenotype	uncertain process
+Met-tRNA	consumption	pr_0d669376-e1ca-4616-8675-98211a3d358e	urn:miriam:hgnc:34779			entity_pool	process	nucleic acid feature	process
+EIF2:GDP	consumption	pr_0d669376-e1ca-4616-8675-98211a3d358e				entity_pool	process	complex	process
+pr_0d669376-e1ca-4616-8675-98211a3d358e	production	EIF2:GDP:Met-tRNA				process	entity_pool	process	complex
+ATF6	consumption	pr_bf0cba91-09cc-4e33-97d5-5c9ff4f1d920	urn:miriam:hgnc.symbol:ATF6			entity_pool	process	macromolecule	process
+pr_bf0cba91-09cc-4e33-97d5-5c9ff4f1d920	production	ATF6			urn:miriam:hgnc.symbol:ATF6	process	entity_pool	process	macromolecule
+MBTPS2	catalysis	pr_bf0cba91-09cc-4e33-97d5-5c9ff4f1d920	urn:miriam:hgnc.symbol:MBTPS2	urn:miriam:pubmed:23850759|urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
 XBP1	necessary stimulation	UPR	urn:miriam:hgnc.symbol:XBP1		urn:miriam:obo.go:GO%3A0006986	entity_pool	entity_pool	macromolecule	phenotype
+Ca2+	consumption	pr_aa75e054-5cf7-48f9-a6c7-ebc3f3981601	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
+pr_aa75e054-5cf7-48f9-a6c7-ebc3f3981601	production	Ca2+			urn:miriam:obo.chebi:CHEBI%3A29108|urn:miriam:pubmed:24231807	process	entity_pool	process	simple chemical
+Mitochondrial calcium uniporter complex	necessary stimulation	pr_aa75e054-5cf7-48f9-a6c7-ebc3f3981601	urn:miriam:pubmed:26968367|urn:miriam:taxonomy:9606	urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606		entity_pool	process	complex	process
 ERO1A	necessary stimulation	hyperoxidation	urn:miriam:hgnc.symbol:ERO1A		urn:miriam:obo.go:GO%3A0018158	entity_pool	entity_pool	macromolecule	phenotype
-MFN2	necessary stimulation	Apoptosis	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620			entity_pool	entity_pool	macromolecule	phenotype
-MFN2	necessary stimulation	endoplasmic reticulum calcium ion homeostasis	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620			entity_pool	entity_pool	macromolecule	phenotype
+MAP3K4	consumption	pr_e60ca359-af60-4d0f-aaf0-934d7cb6dc98	urn:miriam:hgnc.symbol:MAP3K4			entity_pool	process	macromolecule	process
+pr_e60ca359-af60-4d0f-aaf0-934d7cb6dc98	production	MAP3K4			urn:miriam:hgnc.symbol:MAP3K4	process	entity_pool	process	macromolecule
+CDK5	catalysis	pr_e60ca359-af60-4d0f-aaf0-934d7cb6dc98	urn:miriam:hgnc.symbol:CDK5	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
+ERN1	consumption	pr_2d453986-7f41-4fe2-afa6-273001e06677	urn:miriam:hgnc.symbol:ERN1			entity_pool	process	macromolecule	process
+Unfolded protein	consumption	pr_2d453986-7f41-4fe2-afa6-273001e06677				entity_pool	process	macromolecule	process
+pr_2d453986-7f41-4fe2-afa6-273001e06677	production	ERN1:Unfolded protein				process	entity_pool	process	complex
+VAPB	inhibition	Ca2+ cytosolic concentration	urn:miriam:hgnc:12649		urn:miriam:pubmed:28132811|urn:miriam:obo.go:GO%3A0007204|urn:miriam:taxonomy:9606	entity_pool	entity_pool	macromolecule	phenotype
+MFN2	necessary stimulation	Apoptosis	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620		urn:miriam:obo.go:GO%3A0006915|urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606|urn:miriam:pubmed:15692567|urn:miriam:pubmed:22511781	entity_pool	entity_pool	macromolecule	phenotype
+RMDN3	inhibition	autophagy	urn:miriam:hgnc:25550		urn:miriam:obo.go:GO%3A0006914|urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606	entity_pool	entity_pool	macromolecule	phenotype
+BCAP31	consumption	pr_dc77eabe-130c-40ca-a4d0-57844f0f27c6	urn:miriam:hgnc:16695			entity_pool	process	macromolecule	process
+pr_dc77eabe-130c-40ca-a4d0-57844f0f27c6	production	p20			urn:miriam:hgnc.symbol:BCAP31	process	entity_pool	process	macromolecule
+PACS2	inhibition	pr_dc77eabe-130c-40ca-a4d0-57844f0f27c6	urn:miriam:pubmed:15692567|urn:miriam:hgnc:23794	urn:miriam:pubmed:15692567|urn:miriam:taxonomy:9606		entity_pool	process	macromolecule	process
+Apoptosis	stimulation	pr_dc77eabe-130c-40ca-a4d0-57844f0f27c6	urn:miriam:obo.go:GO%3A0006915|urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606|urn:miriam:pubmed:15692567|urn:miriam:pubmed:22511781	urn:miriam:pubmed:15692567|urn:miriam:taxonomy:9606		entity_pool	process	phenotype	process
+DDIT3	consumption	pr_078e776d-5137-4cf4-8b53-6f8b7d762c0c	urn:miriam:hgnc.symbol:DDIT3			entity_pool	process	macromolecule	process
+pr_078e776d-5137-4cf4-8b53-6f8b7d762c0c	production	DDIT3			urn:miriam:hgnc.symbol:DDIT3	process	entity_pool	process	macromolecule
+MAPK14	catalysis	pr_078e776d-5137-4cf4-8b53-6f8b7d762c0c	urn:miriam:hgnc.symbol:MAPK14	urn:miriam:pubmed:26137585|urn:miriam:pubmed:23850759|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
+MCU	consumption	pr_8ccf47ad-3512-4f45-a225-8aa984558cc4	urn:miriam:hgnc:23526|urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606			entity_pool	process	macromolecule	process
+SMDT1	consumption	pr_8ccf47ad-3512-4f45-a225-8aa984558cc4	urn:miriam:pubmed:24231807|urn:miriam:hgnc:25055|urn:miriam:taxonomy:9606			entity_pool	process	macromolecule	process
+pr_8ccf47ad-3512-4f45-a225-8aa984558cc4	production	MCU:MICU1:MICU2:SMDT1			urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
+CASP9	consumption	pr_e5e65c35-fe4f-4702-92c5-6196c9981ac3	urn:miriam:hgnc.symbol:CSAP9			entity_pool	process	macromolecule	process
+pr_e5e65c35-fe4f-4702-92c5-6196c9981ac3	production	cleaved~CASP9			urn:miriam:hgnc.symbol:CASP9	process	entity_pool	process	macromolecule
+cleaved~CASP4	catalysis	pr_e5e65c35-fe4f-4702-92c5-6196c9981ac3	urn:miriam:hgnc.symbol:CASP4	urn:miriam:pubmed:18955970|urn:miriam:pubmed:19931333|urn:miriam:pubmed:24373849		entity_pool	process	macromolecule	process
+VAPB	inhibition	autophagy	urn:miriam:hgnc:12649		urn:miriam:obo.go:GO%3A0006914|urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606	entity_pool	entity_pool	macromolecule	phenotype
+MFN2	necessary stimulation	endoplasmic reticulum calcium ion homeostasis	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620		urn:miriam:obo.go:GO%3A0032469|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	entity_pool	entity_pool	macromolecule	phenotype
+BCL2L11	consumption	pr_11b23ae0-bcf7-442b-863a-0efaf197f455	urn:miriam:hgnc.symbol:BCL2L11			entity_pool	process	macromolecule	process
+pr_11b23ae0-bcf7-442b-863a-0efaf197f455	production	BCL2L11			urn:miriam:hgnc.symbol:BCL2L11	process	entity_pool	process	macromolecule
+MAPK8	catalysis	pr_11b23ae0-bcf7-442b-863a-0efaf197f455	urn:miriam:hgnc.symbol:MAPK8	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
+HSPA5	consumption	pr_2c19beaa-a0ce-4c5e-b203-40b24b5c9cc3	urn:miriam:hgnc.symbol:HSPA5			entity_pool	process	nucleic acid feature	process
+pr_2c19beaa-a0ce-4c5e-b203-40b24b5c9cc3	production	HSPA5			urn:miriam:hgnc.symbol:HSPA5	process	entity_pool	process	nucleic acid feature
+ACE2	inhibition	pr_2c19beaa-a0ce-4c5e-b203-40b24b5c9cc3	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314	urn:miriam:pubmed:22511781|urn:miriam:pubmed:31775868|urn:miriam:pubmed:16940539|urn:miriam:taxonomy:9606|urn:miriam:uniprot:P59594|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
+S	necessary stimulation	pr_2c19beaa-a0ce-4c5e-b203-40b24b5c9cc3	urn:miriam:uniprot:P59594|urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:W6A028	urn:miriam:pubmed:22511781|urn:miriam:pubmed:31775868|urn:miriam:pubmed:16940539|urn:miriam:taxonomy:9606|urn:miriam:uniprot:P59594|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
+EIF2S1	consumption	pr_49b12516-259c-480f-8e3a-d429fc47a048	urn:miriam:hgnc.symbol:EIF2S1			entity_pool	process	macromolecule	process
+pr_49b12516-259c-480f-8e3a-d429fc47a048	production	EIF2S1			urn:miriam:hgnc.symbol:EIF2S1	process	entity_pool	process	macromolecule
+EIF2AK3:EIF2AK3	catalysis	pr_49b12516-259c-480f-8e3a-d429fc47a048		urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012|urn:miriam:pubmed:18360008		entity_pool	process	complex	process
+GCN2:ATP	catalysis	pr_49b12516-259c-480f-8e3a-d429fc47a048		urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012|urn:miriam:pubmed:18360008		entity_pool	process	complex	process
+EIF2AK2	catalysis	pr_49b12516-259c-480f-8e3a-d429fc47a048	urn:miriam:hgnc.symbol:EIF2AK2	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
+DNAJC3	inhibition	pr_49b12516-259c-480f-8e3a-d429fc47a048	urn:miriam:hgnc.symbol:DNAJC3	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
+DNAJC3	consumption	pr_0d2ff351-2f21-4d98-bd8b-414f43a8a7da	urn:miriam:hgnc.symbol:DNAJC3			entity_pool	process	nucleic acid feature	process
+pr_0d2ff351-2f21-4d98-bd8b-414f43a8a7da	production	DNAJC3			urn:miriam:hgnc.symbol:DNAJC3	process	entity_pool	process	macromolecule
 TRAF2:ERN1	necessary stimulation	UPR			urn:miriam:obo.go:GO%3A0006986	entity_pool	entity_pool	complex	phenotype
-ER stress	necessary stimulation	unfolded protein response (UPR)				entity_pool	entity_pool	phenotype	phenotype
-FIS1	necessary stimulation	Ca2+ mitochondrial concentration	urn:miriam:hgnc:21689			entity_pool	entity_pool	macromolecule	phenotype
+ER stress	necessary stimulation	unfolded protein response (UPR)	urn:miriam:obo.go:GO%3A0034976|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090		urn:miriam:obo.go:GO%3A0030968|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	entity_pool	entity_pool	phenotype	phenotype
+FIS1	necessary stimulation	Ca2+ mitochondrial concentration	urn:miriam:hgnc:21689		urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606|urn:miriam:obo.go:GO%3A0051561	entity_pool	entity_pool	macromolecule	phenotype
+EIF2AK3:EIF2AK3	consumption	pr_29578e4a-97f1-43d6-9783-b68bc57667c0				entity_pool	process	complex	process
+pr_29578e4a-97f1-43d6-9783-b68bc57667c0	production	retrograde transport from ER to cytosol			urn:miriam:obo.go:GO%3A0030970	process	entity_pool	process	phenotype
+SIGMAR1:HSPA5	consumption	pr_dd162286-b492-495f-97d9-075d6003f23e	urn:miriam:pubmed:30590907|urn:miriam:pubmed:25704011|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029			entity_pool	process	complex	process
+pr_dd162286-b492-495f-97d9-075d6003f23e	production	HSPA5			urn:miriam:hgnc:5238	process	entity_pool	process	macromolecule
+pr_dd162286-b492-495f-97d9-075d6003f23e	production	SIGMAR1			urn:miriam:hgnc:8157|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029|urn:miriam:pubmed:25704011	process	entity_pool	process	macromolecule
+ER stress	necessary stimulation	pr_dd162286-b492-495f-97d9-075d6003f23e	urn:miriam:obo.go:GO%3A0034976|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	urn:miriam:pubmed:30590907|urn:miriam:pubmed:25704011|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029		entity_pool	process	phenotype	process
+Ca2+ ER depletion	necessary stimulation	pr_dd162286-b492-495f-97d9-075d6003f23e	urn:miriam:obo.go:GO%3A0032471|urn:miriam:pubmed:17981125|urn:miriam:pubmed:30590907|urn:miriam:taxonomy:10029	urn:miriam:pubmed:30590907|urn:miriam:pubmed:25704011|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029		entity_pool	process	phenotype	process
+TRIB3	consumption	pr_1f0d775d-180d-46d0-904e-c2e165603d01	urn:miriam:hgnc.symbol:TRIB3			entity_pool	process	nucleic acid feature	process
+pr_1f0d775d-180d-46d0-904e-c2e165603d01	production	TRIB3			urn:miriam:hgnc.symbol:TRIB3	process	entity_pool	process	macromolecule
 cleaved~CASP3	necessary stimulation	Apoptosis	urn:miriam:hgnc.symbol:CASP3		urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	macromolecule	phenotype
-VAPB:RMDN3	necessary stimulation	mitochondrion-endoplasmic reticulum membrane tethering 	urn:miriam:pubmed:29491369|urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606			entity_pool	entity_pool	complex	phenotype
+CASP3	consumption	pr_1f071317-28d0-424b-9e71-e9fb7eb7df2b	urn:miriam:hgnc.symbol:CASP3			entity_pool	process	macromolecule	process
+pr_1f071317-28d0-424b-9e71-e9fb7eb7df2b	production	cleaved~CASP3			urn:miriam:hgnc.symbol:CASP3	process	entity_pool	process	macromolecule
+cleaved~CASP4	catalysis	pr_1f071317-28d0-424b-9e71-e9fb7eb7df2b	urn:miriam:hgnc.symbol:CASP4	urn:miriam:pubmed:18955970|urn:miriam:pubmed:19931333|urn:miriam:pubmed:24373849		entity_pool	process	macromolecule	process
+VAPB:RMDN3	necessary stimulation	mitochondrion-endoplasmic reticulum membrane tethering 	urn:miriam:pubmed:29491369|urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606		urn:miriam:obo.go:GO%3A1990456|urn:miriam:pubmed:27457486|urn:miriam:pubmed:29491369|urn:miriam:pubmed:19052620|urn:miriam:pubmed:30590907|urn:miriam:pubmed:28132811	entity_pool	entity_pool	complex	phenotype
+ERO1A	consumption	pr_ac38d3b2-c837-4ab2-8fcc-d0ed8056bf6c	urn:miriam:hgnc.symbol:ERO1A			entity_pool	process	macromolecule	process
+pr_ac38d3b2-c837-4ab2-8fcc-d0ed8056bf6c	production	ERO1A			urn:miriam:hgnc.symbol:ERO1A	process	entity_pool	process	macromolecule
 release of ER Ca2+	necessary stimulation	high Ca2+ cytosolic concentration	urn:miriam:obo.go:GO%3A0032471		urn:miriam:obo.go:GO%3A1902656	entity_pool	entity_pool	phenotype	phenotype
 XBP1	necessary stimulation	ERAD	urn:miriam:hgnc.symbol:XBP1		urn:miriam:obo.go:GO%3A0036503	entity_pool	entity_pool	macromolecule	phenotype
+BCL2L11	consumption	pr_63eddbd2-4243-42c8-9395-f43865685819	urn:miriam:hgnc.symbol:BCL2L11			entity_pool	process	macromolecule	process
+pr_63eddbd2-4243-42c8-9395-f43865685819	production	BCL2L11			urn:miriam:hgnc.symbol:BCL2L11	process	entity_pool	process	macromolecule
+PPP2CA	catalysis	pr_63eddbd2-4243-42c8-9395-f43865685819	urn:miriam:hgnc.symbol:PPP2CA	urn:miriam:pubmed:23850759|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
+AP-1	consumption	pr_c7726a56-392c-4588-895c-6ea4289d5728	urn:miriam:hgnc.symbol:JUNB|urn:miriam:hgnc.symbol:FOSL1|urn:miriam:hgnc.symbol:FOSL2|urn:miriam:hgnc.symbol:JUND|urn:miriam:hgnc.symbol:JUN|urn:miriam:hgnc.symbol:FOSB|urn:miriam:hgnc.symbol:FOS			entity_pool	process	macromolecule	process
+pr_c7726a56-392c-4588-895c-6ea4289d5728	production	AP-1			urn:miriam:hgnc.symbol:JUNB|urn:miriam:hgnc.symbol:FOSL1|urn:miriam:hgnc.symbol:FOSL2|urn:miriam:hgnc.symbol:JUND|urn:miriam:hgnc.symbol:JUN|urn:miriam:hgnc.symbol:FOSB|urn:miriam:hgnc.symbol:FOS	process	entity_pool	process	macromolecule
+MAPK8	catalysis	pr_c7726a56-392c-4588-895c-6ea4289d5728	urn:miriam:hgnc.symbol:MAPK8	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781		entity_pool	process	macromolecule	process
+DDIT3	catalysis	pr_c7726a56-392c-4588-895c-6ea4289d5728	urn:miriam:hgnc.symbol:DDIT3	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781		entity_pool	process	macromolecule	process
+Apoptosis	modulation	Cell survival	urn:miriam:obo.go:GO%3A0006921		urn:miriam:obo.go:GO%3A0043066	entity_pool	entity_pool	phenotype	phenotype
+MFN2	consumption	pr_6aceb12f-8071-4bc8-b835-6fc6663faade	urn:miriam:hgnc.symbol:MFN2			entity_pool	process	nucleic acid feature	process
+pr_6aceb12f-8071-4bc8-b835-6fc6663faade	production	MFN2			urn:miriam:hgnc.symbol:MFN2	process	entity_pool	process	nucleic acid feature
+ERO1A	consumption	pr_4d499d9f-6188-4403-b16a-20e0abc6d532	urn:miriam:hgnc.symbol:ERO1A			entity_pool	process	nucleic acid feature	process
+pr_4d499d9f-6188-4403-b16a-20e0abc6d532	production	ERO1A			urn:miriam:hgnc.symbol:ERO1A	process	entity_pool	process	macromolecule
+HSPA5	consumption	pr_09c75aaa-f197-4f15-8119-c8e15e3cbb29	urn:miriam:hgnc.symbol:HSPA5			entity_pool	process	nucleic acid feature	process
+pr_09c75aaa-f197-4f15-8119-c8e15e3cbb29	production	HSPA5			urn:miriam:hgnc:5238	process	entity_pool	process	macromolecule
+ER stress	necessary stimulation	pr_09c75aaa-f197-4f15-8119-c8e15e3cbb29	urn:miriam:obo.go:GO%3A0034976|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	urn:miriam:pubmed:31775868|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090		entity_pool	process	phenotype	process
+ACE2	inhibition	pr_09c75aaa-f197-4f15-8119-c8e15e3cbb29	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314	urn:miriam:pubmed:31775868|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
+ATF6	consumption	pr_b8cab5b4-ef61-4d58-8c06-aca79ed7de08	urn:miriam:hgnc.symbol:ATF6			entity_pool	process	macromolecule	process
+pr_b8cab5b4-ef61-4d58-8c06-aca79ed7de08	production	ATF6			urn:miriam:hgnc.symbol:ATF6	process	entity_pool	process	macromolecule
+ER Stress	catalysis	pr_b8cab5b4-ef61-4d58-8c06-aca79ed7de08	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:18360008		entity_pool	process	phenotype	process
+retrograde transport from ER to cytosol	inhibition	pr_b8cab5b4-ef61-4d58-8c06-aca79ed7de08	urn:miriam:obo.go:GO%3A0030970	urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:18360008		entity_pool	process	phenotype	process
+Ca2+	consumption	pr_271473fa-7870-4548-ab7a-6c27e1ab382c	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
+pr_271473fa-7870-4548-ab7a-6c27e1ab382c	production	Ca2+			urn:miriam:obo.chebi:CHEBI%3A29108	process	entity_pool	process	simple chemical
+TMBIM6	catalysis	pr_271473fa-7870-4548-ab7a-6c27e1ab382c	urn:miriam:hgnc.symbol:TMBIM6	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
+RYR1	catalysis	pr_271473fa-7870-4548-ab7a-6c27e1ab382c	urn:miriam:hgnc.symbol:RYR1	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
+ITPR	catalysis	pr_271473fa-7870-4548-ab7a-6c27e1ab382c	urn:miriam:hgnc.symbol:ITPR1|urn:miriam:hgnc.symbol:ITPR3|urn:miriam:hgnc.symbol:ITPR2	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
+EIF2S1	consumption	pr_70992a3e-472b-4d5d-b2bc-944f374fc440	urn:miriam:hgnc.symbol:EIF2S1			entity_pool	process	macromolecule	process
+pr_70992a3e-472b-4d5d-b2bc-944f374fc440	production	EIF2S1			urn:miriam:hgnc.symbol:EIF2S1	process	entity_pool	process	macromolecule
+PPP1R15A	catalysis	pr_70992a3e-472b-4d5d-b2bc-944f374fc440	urn:miriam:hgnc.symbol:PPP1R15A	urn:miriam:pubmed:23850759|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012		entity_pool	process	macromolecule	process
+EIF2AK1	catalysis	pr_70992a3e-472b-4d5d-b2bc-944f374fc440	urn:miriam:hgnc.symbol:EIF2AK1	urn:miriam:pubmed:23850759|urn:miriam:pubmed:12667446|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012		entity_pool	process	macromolecule	process
+MFN2	consumption	pr_aae9b262-5c8c-4c72-9be9-53fd1c43be05	urn:miriam:hgnc.symbol:MFN2			entity_pool	process	nucleic acid feature	process
+pr_aae9b262-5c8c-4c72-9be9-53fd1c43be05	production	MFN2			urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620	process	entity_pool	process	macromolecule
+ER stress	necessary stimulation	pr_aae9b262-5c8c-4c72-9be9-53fd1c43be05	urn:miriam:obo.go:GO%3A0034976|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090		entity_pool	process	phenotype	process
+XBP1	consumption	pr_2517abd3-05ea-4c05-8c9c-49310bebe7ad	urn:miriam:hgnc.symbol:XBP1			entity_pool	process	nucleic acid feature	process
+pr_2517abd3-05ea-4c05-8c9c-49310bebe7ad	production	XBP1			urn:miriam:hgnc.symbol:XBP1	process	entity_pool	process	nucleic acid feature
+ATF6	catalysis	pr_2517abd3-05ea-4c05-8c9c-49310bebe7ad	urn:miriam:hgnc.symbol:ATF6	urn:miriam:pubmed:26587781|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
+TRAF2:ERN1	catalysis	pr_2517abd3-05ea-4c05-8c9c-49310bebe7ad		urn:miriam:pubmed:26587781|urn:miriam:pubmed:23430059		entity_pool	process	complex	process
+ERN1:BBC3	catalysis	pr_2517abd3-05ea-4c05-8c9c-49310bebe7ad		urn:miriam:pubmed:26587781|urn:miriam:pubmed:23430059		entity_pool	process	complex	process
+ERN1:BCL2L11	catalysis	pr_2517abd3-05ea-4c05-8c9c-49310bebe7ad		urn:miriam:pubmed:26587781|urn:miriam:pubmed:23430059		entity_pool	process	complex	process
+DDIT3	consumption	pr_66992b00-f0dd-4f5b-b3a6-24c0c5012e12	urn:miriam:hgnc.symbol:DDIT3			entity_pool	process	nucleic acid feature	process
+pr_66992b00-f0dd-4f5b-b3a6-24c0c5012e12	production	DDIT3			urn:miriam:hgnc.symbol:DDIT3	process	entity_pool	process	macromolecule
 Ca2+	necessary stimulation	high Ca2+ cytosolic concentration	urn:miriam:obo.chebi:CHEBI%3A29108		urn:miriam:obo.go:GO%3A1902656	entity_pool	entity_pool	simple chemical	phenotype
+Ca2+	consumption	pr_24a7eabe-eb7b-424c-a9a0-dccf9ca29d4b	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
+pr_24a7eabe-eb7b-424c-a9a0-dccf9ca29d4b	production	Ca2+			urn:miriam:obo.chebi:CHEBI%3A29108	process	entity_pool	process	simple chemical
+ITPR3:HSPA9:VDAC1	necessary stimulation	pr_24a7eabe-eb7b-424c-a9a0-dccf9ca29d4b	urn:miriam:pubmed:30590033|urn:miriam:pubmed:29491369|urn:miriam:taxonomy:9606	urn:miriam:pubmed:30590907|urn:miriam:pubmed:30590033|urn:miriam:taxonomy:9606		entity_pool	process	complex	process
+SIGMAR1:ITPR3	necessary stimulation	pr_24a7eabe-eb7b-424c-a9a0-dccf9ca29d4b	urn:miriam:pubmed:30590907|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029	urn:miriam:pubmed:30590907|urn:miriam:pubmed:30590033|urn:miriam:taxonomy:9606		entity_pool	process	complex	process
 accumulation of misfolded protein in ER	necessary stimulation	ER Stress	urn:miriam:obo.go:GO%3A0006986		urn:miriam:obo.go:GO%3A0034976	entity_pool	entity_pool	phenotype	phenotype
 Ternary Complex	necessary stimulation	Translation initiation			urn:miriam:obo.go:GO%3A0006412	entity_pool	entity_pool	complex	phenotype
-MFN2:MFN2	necessary stimulation	mitochondrion-endoplasmic reticulum membrane tethering 	urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606|urn:miriam:pubmed:29491369			entity_pool	entity_pool	complex	phenotype
-MFN2	necessary stimulation	ER stress	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620			entity_pool	entity_pool	macromolecule	phenotype
-FIS1:BCAP31	necessary stimulation	mitochondrion-endoplasmic reticulum membrane tethering 	urn:miriam:pubmed:15692567			entity_pool	entity_pool	complex	phenotype
-MFN1:MFN2	necessary stimulation	mitochondrion-endoplasmic reticulum membrane tethering 	urn:miriam:pubmed:29491369|urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606			entity_pool	entity_pool	complex	phenotype
-ACE2	modulation	ER stress	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314			entity_pool	entity_pool	macromolecule	phenotype
+EIF2AK2	consumption	pr_c70ec9bf-1981-47b7-b414-dc313ec85049	urn:miriam:hgnc.symbol:EIF2AK2			entity_pool	process	macromolecule	process
+pr_c70ec9bf-1981-47b7-b414-dc313ec85049	production	EIF2AK2			urn:miriam:hgnc.symbol:EIF2AK2	process	entity_pool	process	macromolecule
+presence of dsRNA	catalysis	pr_c70ec9bf-1981-47b7-b414-dc313ec85049	urn:miriam:obo.go:GO%3A0071359	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12601012		entity_pool	process	phenotype	process
+DNAJC3	inhibition	pr_c70ec9bf-1981-47b7-b414-dc313ec85049	urn:miriam:hgnc.symbol:DNAJC3	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:12601012		entity_pool	process	macromolecule	process
+Ternary Complex	consumption	pr_018fb01c-1d53-4ad2-a272-0b4e33bc587f				entity_pool	process	complex	process
+pr_018fb01c-1d53-4ad2-a272-0b4e33bc587f	production	EIF2:GDP:Met-tRNA				process	entity_pool	process	complex
+GDP	consumption	pr_018fb01c-1d53-4ad2-a272-0b4e33bc587f	urn:miriam:obo.chebi:CHEBI%3A65180			entity_pool	process	simple chemical	process
+pr_018fb01c-1d53-4ad2-a272-0b4e33bc587f	production	GTP			urn:miriam:obo.chebi:CHEBI%3A57600	process	entity_pool	process	simple chemical
+ERO1A	consumption	pr_01baf561-b26f-42c7-a48a-386b616cbc0e	urn:miriam:hgnc.symbol:ERO1A			entity_pool	process	nucleic acid feature	process
+pr_01baf561-b26f-42c7-a48a-386b616cbc0e	production	ERO1A			urn:miriam:hgnc.symbol:ERO1A	process	entity_pool	process	nucleic acid feature
+DDIT3	catalysis	pr_01baf561-b26f-42c7-a48a-386b616cbc0e	urn:miriam:hgnc.symbol:DDIT3	urn:miriam:pubmed:23850759|urn:miriam:pubmed:25387528|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
+ATF6	catalysis	pr_01baf561-b26f-42c7-a48a-386b616cbc0e	urn:miriam:hgnc.symbol:ATF6	urn:miriam:pubmed:23850759|urn:miriam:pubmed:25387528|urn:miriam:taxonomy:10090		entity_pool	process	macromolecule	process
+EIF2S1	consumption	pr_773931f8-ff43-4f62-a20b-d973faa53121	urn:miriam:hgnc.symbol:EIF2S1			entity_pool	process	macromolecule	process
+EIF2S2	consumption	pr_773931f8-ff43-4f62-a20b-d973faa53121	urn:miriam:hgnc.symbol:EIF2S2			entity_pool	process	macromolecule	process
+pr_773931f8-ff43-4f62-a20b-d973faa53121	production	EIF2-P:GDP				process	entity_pool	process	complex
+EIF2S3:GDP	consumption	pr_773931f8-ff43-4f62-a20b-d973faa53121				entity_pool	process	complex	process
+ITPR3	inhibition	autophagy	urn:miriam:hgnc:6182|urn:miriam:pubmed:17981125		urn:miriam:obo.go:GO%3A0006914|urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606	entity_pool	entity_pool	macromolecule	phenotype
+ERN1:Unfolded protein	consumption	pr_f8a253fa-ab71-4067-9cf4-2828af077c9f				entity_pool	process	complex	process
+pr_f8a253fa-ab71-4067-9cf4-2828af077c9f	production	TRAF2:ERN1				process	entity_pool	process	complex
+BAK1:ERN1	catalysis	pr_f8a253fa-ab71-4067-9cf4-2828af077c9f		urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	complex	process
+BAX:ERN1	catalysis	pr_f8a253fa-ab71-4067-9cf4-2828af077c9f		urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	complex	process
+BCL2	inhibition	pr_f8a253fa-ab71-4067-9cf4-2828af077c9f	urn:miriam:hgnc.symbol:BCL2	urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
+BCL2L1	inhibition	pr_f8a253fa-ab71-4067-9cf4-2828af077c9f	urn:miriam:hgnc.symbol:BCL2L1	urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
+Persistant ER Stress	inhibition	pr_f8a253fa-ab71-4067-9cf4-2828af077c9f	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	phenotype	process
+BAX	catalysis	pr_f8a253fa-ab71-4067-9cf4-2828af077c9f	urn:miriam:hgnc.symbol:BAX	urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
+BAK1	catalysis	pr_f8a253fa-ab71-4067-9cf4-2828af077c9f	urn:miriam:hgnc.symbol:BAK1	urn:miriam:pubmed:30773986|urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
+TRAF2	consumption	pr_f8a253fa-ab71-4067-9cf4-2828af077c9f	urn:miriam:hgnc.symbol:TRAF2			entity_pool	process	macromolecule	process
+MFN2:MFN2	necessary stimulation	mitochondrion-endoplasmic reticulum membrane tethering 	urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606|urn:miriam:pubmed:29491369		urn:miriam:obo.go:GO%3A1990456|urn:miriam:pubmed:27457486|urn:miriam:pubmed:29491369|urn:miriam:pubmed:19052620|urn:miriam:pubmed:30590907|urn:miriam:pubmed:28132811	entity_pool	entity_pool	complex	phenotype
+MFN2	necessary stimulation	ER stress	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620		urn:miriam:obo.go:GO%3A0034976|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	entity_pool	entity_pool	macromolecule	phenotype
+FIS1:BCAP31	necessary stimulation	mitochondrion-endoplasmic reticulum membrane tethering 	urn:miriam:pubmed:15692567|urn:miriam:pubmed:21183955|urn:miriam:taxonomy:9606		urn:miriam:obo.go:GO%3A1990456|urn:miriam:pubmed:27457486|urn:miriam:pubmed:29491369|urn:miriam:pubmed:19052620|urn:miriam:pubmed:30590907|urn:miriam:pubmed:28132811	entity_pool	entity_pool	complex	phenotype
+MCU:MICU1:MICU2:SMDT1	consumption	pr_9862637a-46b4-490d-a319-85d67601a77d	urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606			entity_pool	process	complex	process
+pr_9862637a-46b4-490d-a319-85d67601a77d	production	Mitochondrial calcium uniporter complex			urn:miriam:pubmed:26968367|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
+ATF4	consumption	pr_6be31f2d-b5c2-41af-ae64-f2dc6471e0ae	urn:miriam:hgnc.symbol:ATF4			entity_pool	process	nucleic acid feature	process
+pr_6be31f2d-b5c2-41af-ae64-f2dc6471e0ae	production	ATF4			urn:miriam:hgnc.symbol:ATF4	process	entity_pool	process	nucleic acid feature
+EIF2-P:GDP	catalysis	pr_6be31f2d-b5c2-41af-ae64-f2dc6471e0ae		urn:miriam:pubmed:23850759|urn:miriam:taxonomy:10090|urn:miriam:pubmed:15277680		entity_pool	process	complex	process
+retrograde transport from ER to cytosol	consumption	pr_f02b3fad-0704-466e-9c38-5959bbb60422	urn:miriam:obo.go:GO%3A0030970			entity_pool	process	phenotype	process
+pr_f02b3fad-0704-466e-9c38-5959bbb60422	production	protein ubiquitination and destruction			urn:miriam:obo.go:GO%3A0006511	process	entity_pool	process	phenotype
+MFN1:MFN2	necessary stimulation	mitochondrion-endoplasmic reticulum membrane tethering 	urn:miriam:pubmed:29491369|urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606		urn:miriam:obo.go:GO%3A1990456|urn:miriam:pubmed:27457486|urn:miriam:pubmed:29491369|urn:miriam:pubmed:19052620|urn:miriam:pubmed:30590907|urn:miriam:pubmed:28132811	entity_pool	entity_pool	complex	phenotype
+EIF2AK3	consumption	pr_6cfd6808-0226-4b24-8f27-e88cdeacbba9	urn:miriam:hgnc.symbol:EIF2AK3			entity_pool	process	macromolecule	process
+pr_6cfd6808-0226-4b24-8f27-e88cdeacbba9	production	EIF2AK3:EIF2AK3				process	entity_pool	process	complex
+Unfolded protein	catalysis	pr_6cfd6808-0226-4b24-8f27-e88cdeacbba9		urn:miriam:pubmed:17991856		entity_pool	process	macromolecule	process
+Persistant ER Stress	catalysis	pr_6cfd6808-0226-4b24-8f27-e88cdeacbba9	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:17991856		entity_pool	process	phenotype	process
 CASP8:FADD:MAP1LC3A:SQSTM1:ATG5	necessary stimulation	Apoptosis			urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	complex	phenotype
-MFN2	necessary stimulation	unfolded protein response (UPR)	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620			entity_pool	entity_pool	macromolecule	phenotype
-HSPA5	necessary stimulation	endoplasmic reticulum calcium ion homeostasis	urn:miriam:hgnc:5238			entity_pool	entity_pool	macromolecule	phenotype
+MFN2	necessary stimulation	unfolded protein response (UPR)	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620		urn:miriam:obo.go:GO%3A0030968|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	entity_pool	entity_pool	macromolecule	phenotype
+ITPR	consumption	pr_95e12d56-166d-44be-823b-6ff8e26c674b	urn:miriam:hgnc.symbol:ITPR1|urn:miriam:hgnc.symbol:ITPR3|urn:miriam:hgnc.symbol:ITPR2			entity_pool	process	macromolecule	process
+pr_95e12d56-166d-44be-823b-6ff8e26c674b	production	ITPR			urn:miriam:hgnc.symbol:ITPR1|urn:miriam:hgnc.symbol:ITPR3|urn:miriam:hgnc.symbol:ITPR2	process	entity_pool	process	macromolecule
+TMBIM6	catalysis	pr_95e12d56-166d-44be-823b-6ff8e26c674b	urn:miriam:hgnc.symbol:TMBIM6	urn:miriam:pubmed:23850759|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
+ERO1A	catalysis	pr_95e12d56-166d-44be-823b-6ff8e26c674b	urn:miriam:hgnc.symbol:ERO1A	urn:miriam:pubmed:23850759|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
+HSPA5	necessary stimulation	endoplasmic reticulum calcium ion homeostasis	urn:miriam:hgnc:5238		urn:miriam:obo.go:GO%3A0032469|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	entity_pool	entity_pool	macromolecule	phenotype
+HYOU1	consumption	pr_4800ba38-0159-47d8-b1d4-f7eb96a2f31e	urn:miriam:hgnc.symbol:HYOU1			entity_pool	process	nucleic acid feature	process
+pr_4800ba38-0159-47d8-b1d4-f7eb96a2f31e	production	HYOU1			urn:miriam:hgnc.symbol:HYOU1	process	entity_pool	process	macromolecule
+MAP3K5	consumption	pr_40cc5a1e-4db8-4b50-86c5-970aae98fd4d	urn:miriam:hgnc.symbol:MAP3K5			entity_pool	process	macromolecule	process
+pr_40cc5a1e-4db8-4b50-86c5-970aae98fd4d	production	MAP3K5			urn:miriam:hgnc.symbol:MAP3K5	process	entity_pool	process	macromolecule
+TRAF2	catalysis	pr_40cc5a1e-4db8-4b50-86c5-970aae98fd4d	urn:miriam:hgnc.symbol:TRAF2	urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
+TRAF2:ERN1	catalysis	pr_40cc5a1e-4db8-4b50-86c5-970aae98fd4d		urn:miriam:pubmed:23850759		entity_pool	process	complex	process
 TRIB3	necessary stimulation	Apoptosis	urn:miriam:hgnc.symbol:TRIB3		urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	macromolecule	phenotype
-mitochondrial fission	necessary stimulation	mitochondria fragmentation				entity_pool	entity_pool	phenotype	phenotype
+mitochondrial fission	necessary stimulation	mitochondria fragmentation	urn:miriam:pubmed:15692567|urn:miriam:obo.go:GO%3A0000266|urn:miriam:taxonomy:9606		urn:miriam:pubmed:15692567|urn:miriam:obo.go:GO%3A0043653|urn:miriam:taxonomy:9606	entity_pool	entity_pool	phenotype	phenotype
+ATF4	consumption	pr_71afc618-f69d-45d0-b04c-5165c9806e9d	urn:miriam:hgnc.symbol:ATF4			entity_pool	process	nucleic acid feature	process
+pr_71afc618-f69d-45d0-b04c-5165c9806e9d	production	ATF4			urn:miriam:hgnc.symbol:ATF4	process	entity_pool	process	macromolecule
 BAX	necessary stimulation	release of ER Ca2+	urn:miriam:hgnc.symbol:BAX		urn:miriam:obo.go:GO%3A0032471	entity_pool	entity_pool	macromolecule	phenotype
-p20	necessary stimulation	unfolded protein response (UPR)	urn:miriam:hgnc.symbol:BCAP31			entity_pool	entity_pool	macromolecule	phenotype
-PACS2	necessary stimulation	mitochondrion-endoplasmic reticulum membrane tethering 	urn:miriam:pubmed:15692567|urn:miriam:hgnc:23794			entity_pool	entity_pool	macromolecule	phenotype
+p20	necessary stimulation	unfolded protein response (UPR)	urn:miriam:hgnc.symbol:BCAP31		urn:miriam:obo.go:GO%3A0030968|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	entity_pool	entity_pool	macromolecule	phenotype
+Cell survival	modulation	Apoptosis	urn:miriam:obo.go:GO%3A0043066		urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	phenotype	phenotype
+MCU2	consumption	pr_fb3b6844-3cfb-4117-8179-11ba798c1c31	urn:miriam:hgnc:31830|urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606			entity_pool	process	macromolecule	process
+MCU1	consumption	pr_fb3b6844-3cfb-4117-8179-11ba798c1c31	urn:miriam:hgnc:1530|urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606			entity_pool	process	macromolecule	process
+pr_fb3b6844-3cfb-4117-8179-11ba798c1c31	production	MCU:MICU1:MICU2:SMDT1			urn:miriam:pubmed:24231807|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
+ERN1	consumption	pr_5f6b9714-9751-4334-a750-7d0527a46fd5	urn:miriam:hgnc.symbol:ERN1			entity_pool	process	macromolecule	process
+BCL2L11	consumption	pr_5f6b9714-9751-4334-a750-7d0527a46fd5	urn:miriam:hgnc.symbol:BCL2L11			entity_pool	process	macromolecule	process
+pr_5f6b9714-9751-4334-a750-7d0527a46fd5	production	ERN1:BCL2L11				process	entity_pool	process	complex
+Persistant ER Stress	inhibition	pr_5f6b9714-9751-4334-a750-7d0527a46fd5	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:23430059		entity_pool	process	phenotype	process
+PACS2	necessary stimulation	mitochondrion-endoplasmic reticulum membrane tethering 	urn:miriam:pubmed:15692567|urn:miriam:hgnc:23794		urn:miriam:obo.go:GO%3A1990456|urn:miriam:pubmed:27457486|urn:miriam:pubmed:29491369|urn:miriam:pubmed:19052620|urn:miriam:pubmed:30590907|urn:miriam:pubmed:28132811	entity_pool	entity_pool	macromolecule	phenotype
+EIF2:GDP:Met-tRNA	consumption	pr_a32a84e7-c1e0-43a8-8a39-909eeed53178				entity_pool	process	complex	process
+pr_a32a84e7-c1e0-43a8-8a39-909eeed53178	production	Ternary Complex				process	entity_pool	process	complex
+EIF2B	catalysis	pr_a32a84e7-c1e0-43a8-8a39-909eeed53178		urn:miriam:pubmed:23850759		entity_pool	process	complex	process
+GTP	consumption	pr_a32a84e7-c1e0-43a8-8a39-909eeed53178	urn:miriam:obo.chebi:CHEBI%3A57600			entity_pool	process	simple chemical	process
+pr_a32a84e7-c1e0-43a8-8a39-909eeed53178	production	GDP			urn:miriam:obo.chebi:CHEBI%3A65180	process	entity_pool	process	simple chemical
+BAX	consumption	pr_1788b026-2c13-4497-ac10-ebe2a2b4cd7f	urn:miriam:hgnc.symbol:BAX			entity_pool	process	macromolecule	process
+pr_1788b026-2c13-4497-ac10-ebe2a2b4cd7f	production	BAX			urn:miriam:hgnc.symbol:BAX	process	entity_pool	process	macromolecule
+MAPK8	catalysis	pr_1788b026-2c13-4497-ac10-ebe2a2b4cd7f	urn:miriam:hgnc.symbol:MAPK8	urn:miriam:pubmed:18191217|urn:miriam:pubmed:23430059|urn:miriam:pubmed:29450140		entity_pool	process	macromolecule	process
+MAPK14	catalysis	pr_1788b026-2c13-4497-ac10-ebe2a2b4cd7f	urn:miriam:hgnc.symbol:MAPK14	urn:miriam:pubmed:18191217|urn:miriam:pubmed:23430059|urn:miriam:pubmed:29450140		entity_pool	process	macromolecule	process
 DDIT3	necessary stimulation	Apoptosis	urn:miriam:hgnc.symbol:DDIT3		urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	macromolecule	phenotype
-VAPB	necessary stimulation	Ca2+ mitochondrial concentration	urn:miriam:hgnc:12649			entity_pool	entity_pool	macromolecule	phenotype
+TRAF2	consumption	pr_68c0c571-9c78-4ef0-9ab6-c9aca60696b0	urn:miriam:hgnc.symbol:TRAF2			entity_pool	process	macromolecule	process
+pr_68c0c571-9c78-4ef0-9ab6-c9aca60696b0	production	TRAF2			urn:miriam:hgnc.symbol:TRAF2	process	entity_pool	process	macromolecule
+TRAF2:ERN1	catalysis	pr_68c0c571-9c78-4ef0-9ab6-c9aca60696b0		urn:miriam:pubmed:23850759		entity_pool	process	complex	process
+VAPB	necessary stimulation	Ca2+ mitochondrial concentration	urn:miriam:hgnc:12649		urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606|urn:miriam:obo.go:GO%3A0051561	entity_pool	entity_pool	macromolecule	phenotype
+MAPK14	consumption	pr_2c906043-0f98-4ad0-b7dd-2d16bac38666	urn:miriam:hgnc.symbol:MAPK14			entity_pool	process	macromolecule	process
+pr_2c906043-0f98-4ad0-b7dd-2d16bac38666	production	MAPK14			urn:miriam:hgnc.symbol:MAPK14	process	entity_pool	process	macromolecule
+MAP3K5	catalysis	pr_2c906043-0f98-4ad0-b7dd-2d16bac38666	urn:miriam:hgnc.symbol:MAP3K5	urn:miriam:pubmed:23850759|urn:miriam:taxonomy:10090|urn:miriam:pubmed:12215209		entity_pool	process	macromolecule	process
+CAPN1	consumption	pr_cacc4be6-0506-4b83-b469-a2b6351ef1b8	urn:miriam:hgnc.symbol:CAPN1			entity_pool	process	macromolecule	process
+Ca2+	consumption	pr_cacc4be6-0506-4b83-b469-a2b6351ef1b8	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
+pr_cacc4be6-0506-4b83-b469-a2b6351ef1b8	production	CAPN1:Ca2+				process	entity_pool	process	complex
+high Ca2+ cytosolic concentration	catalysis	pr_cacc4be6-0506-4b83-b469-a2b6351ef1b8	urn:miriam:obo.go:GO%3A1902656	urn:miriam:pubmed:19931333		entity_pool	process	phenotype	process
+PACS2	inhibition	mitochondrial fission	urn:miriam:pubmed:15692567|urn:miriam:hgnc:23794		urn:miriam:pubmed:15692567|urn:miriam:obo.go:GO%3A0000266|urn:miriam:taxonomy:9606	entity_pool	entity_pool	macromolecule	phenotype
+TRIB3	consumption	pr_4976508e-456b-4364-b1a7-becf087f6040	urn:miriam:hgnc.symbol:TRIB3			entity_pool	process	nucleic acid feature	process
+pr_4976508e-456b-4364-b1a7-becf087f6040	production	TRIB3			urn:miriam:hgnc.symbol:TRIB3	process	entity_pool	process	nucleic acid feature
+DDIT3	catalysis	pr_4976508e-456b-4364-b1a7-becf087f6040	urn:miriam:hgnc.symbol:DDIT3	urn:miriam:pubmed:23430059|urn:miriam:pubmed:18940792		entity_pool	process	macromolecule	process
 accumulation of misfolded protein in ER	necessary stimulation	UPR	urn:miriam:obo.go:GO%3A0006986		urn:miriam:obo.go:GO%3A0006986	entity_pool	entity_pool	phenotype	phenotype
+ATF6:HSPA5	consumption	pr_053e822c-24b1-48c6-96cf-aa85e9827d7d				entity_pool	process	complex	process
+pr_053e822c-24b1-48c6-96cf-aa85e9827d7d	production	ATF6			urn:miriam:hgnc.symbol:ATF6	process	entity_pool	process	macromolecule
+pr_053e822c-24b1-48c6-96cf-aa85e9827d7d	production	HSPA5			urn:miriam:hgnc:5238	process	entity_pool	process	macromolecule
+Unfolded protein	catalysis	pr_053e822c-24b1-48c6-96cf-aa85e9827d7d		urn:miriam:pubmed:23850759|urn:miriam:pubmed:17090218		entity_pool	process	macromolecule	process
+HSPA5	consumption	pr_452df600-98b6-4d47-a189-45f4f24d11e0	urn:miriam:hgnc:5238			entity_pool	process	macromolecule	process
+SIGMAR1	consumption	pr_452df600-98b6-4d47-a189-45f4f24d11e0	urn:miriam:hgnc:8157			entity_pool	process	macromolecule	process
+pr_452df600-98b6-4d47-a189-45f4f24d11e0	production	SIGMAR1:HSPA5			urn:miriam:pubmed:30590907|urn:miriam:pubmed:25704011|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029	process	entity_pool	process	complex
+ERN1	consumption	pr_13f6fcdd-8d83-4d79-a255-075108464ccc	urn:miriam:hgnc.symbol:ERN1			entity_pool	process	macromolecule	process
+BBC3	consumption	pr_13f6fcdd-8d83-4d79-a255-075108464ccc	urn:miriam:hgnc.symbol:BBC3			entity_pool	process	macromolecule	process
+pr_13f6fcdd-8d83-4d79-a255-075108464ccc	production	ERN1:BBC3				process	entity_pool	process	complex
+Persistant ER Stress	inhibition	pr_13f6fcdd-8d83-4d79-a255-075108464ccc	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:17991856|urn:miriam:pubmed:23430059		entity_pool	process	phenotype	process
+VAPB	consumption	pr_ef175e3b-08ee-4e08-8256-228a788a273f	urn:miriam:hgnc:12649			entity_pool	process	macromolecule	process
+RMDN3	consumption	pr_ef175e3b-08ee-4e08-8256-228a788a273f	urn:miriam:hgnc:25550			entity_pool	process	macromolecule	process
+pr_ef175e3b-08ee-4e08-8256-228a788a273f	production	VAPB:RMDN3			urn:miriam:pubmed:29491369|urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
+DDIT3	consumption	pr_e484fe63-6fdd-4a88-83a0-5cd7997ec4a7	urn:miriam:hgnc.symbol:DDIT3			entity_pool	process	nucleic acid feature	process
+pr_e484fe63-6fdd-4a88-83a0-5cd7997ec4a7	production	DDIT3			urn:miriam:hgnc.symbol:DDIT3	process	entity_pool	process	nucleic acid feature
+logicglyph_3a7586e7-ca2c-4054-8c03-adf8e29f00c0	catalysis	pr_e484fe63-6fdd-4a88-83a0-5cd7997ec4a7		urn:miriam:pubmed:22802018|urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781		logic	process	and	process
+ATF6	catalysis	pr_e484fe63-6fdd-4a88-83a0-5cd7997ec4a7	urn:miriam:hgnc.symbol:ATF6	urn:miriam:pubmed:22802018|urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781		entity_pool	process	macromolecule	process
+ATF4	logic arc	logicglyph_3a7586e7-ca2c-4054-8c03-adf8e29f00c0	urn:miriam:hgnc.symbol:ATF4			entity_pool	logic	macromolecule	and
+Persistant ER Stress	logic arc	logicglyph_3a7586e7-ca2c-4054-8c03-adf8e29f00c0	urn:miriam:obo.go:GO%3A0034976			entity_pool	logic	phenotype	and
+XBP1	catalysis	pr_e484fe63-6fdd-4a88-83a0-5cd7997ec4a7	urn:miriam:hgnc.symbol:XBP1	urn:miriam:pubmed:22802018|urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781		entity_pool	process	macromolecule	process
+mitochondrion-endoplasmic reticulum membrane tethering 	inhibition	autophagy	urn:miriam:obo.go:GO%3A1990456|urn:miriam:pubmed:27457486|urn:miriam:pubmed:29491369|urn:miriam:pubmed:19052620|urn:miriam:pubmed:30590907|urn:miriam:pubmed:28132811		urn:miriam:obo.go:GO%3A0006914|urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606	entity_pool	entity_pool	phenotype	phenotype
+RMDN3	inhibition	Ca2+ cytosolic concentration	urn:miriam:hgnc:25550		urn:miriam:pubmed:28132811|urn:miriam:obo.go:GO%3A0007204|urn:miriam:taxonomy:9606	entity_pool	entity_pool	macromolecule	phenotype
 BCL2L11	necessary stimulation	Apoptosis	urn:miriam:hgnc.symbol:BCL2L11		urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	macromolecule	phenotype
-FIS1	necessary stimulation	mitochondrial outer membrane depolarization	urn:miriam:hgnc:21689			entity_pool	entity_pool	macromolecule	phenotype
+CASP8:CASP8-ubq:FADD	consumption	pr_f60f330e-2d85-4116-aeed-aab36bb422e3				entity_pool	process	complex	process
+pr_f60f330e-2d85-4116-aeed-aab36bb422e3	production	CASP8:FADD:MAP1LC3A:SQSTM1:ATG5				process	entity_pool	process	complex
+TRIM13	catalysis	pr_f60f330e-2d85-4116-aeed-aab36bb422e3	urn:miriam:hgnc.symbol:TRIM13	urn:miriam:pubmed:17991856		entity_pool	process	macromolecule	process
+Persistant ER Stress	catalysis	pr_f60f330e-2d85-4116-aeed-aab36bb422e3	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:17991856		entity_pool	process	phenotype	process
+SQSTM1 	consumption	pr_f60f330e-2d85-4116-aeed-aab36bb422e3	urn:miriam:hgnc.symbol:SQSTM1			entity_pool	process	macromolecule	process
+MAP1LC3A	consumption	pr_f60f330e-2d85-4116-aeed-aab36bb422e3	urn:miriam:hgnc.symbol:MAP1LC3A			entity_pool	process	macromolecule	process
+ATG5	consumption	pr_f60f330e-2d85-4116-aeed-aab36bb422e3	urn:miriam:hgnc.symbol:ATG5			entity_pool	process	macromolecule	process
+ER Stress	modulation	Persistant ER Stress	urn:miriam:obo.go:GO%3A0034976		urn:miriam:obo.go:GO%3A0034976	entity_pool	entity_pool	phenotype	phenotype
+EIF2S2	consumption	pr_d58c3977-319c-4e3b-be4a-67edd5e284ac	urn:miriam:hgnc.symbol:EIF2S2			entity_pool	process	macromolecule	process
+EIF2S3:GDP	consumption	pr_d58c3977-319c-4e3b-be4a-67edd5e284ac				entity_pool	process	complex	process
+pr_d58c3977-319c-4e3b-be4a-67edd5e284ac	production	EIF2:GDP				process	entity_pool	process	complex
+EIF2S1	consumption	pr_d58c3977-319c-4e3b-be4a-67edd5e284ac	urn:miriam:hgnc.symbol:EIF2S1			entity_pool	process	macromolecule	process
+ERAD	modulation	accumulation of misfolded protein in ER	urn:miriam:obo.go:GO%3A0036503		urn:miriam:obo.go:GO%3A0006986	entity_pool	entity_pool	phenotype	phenotype
+FIS1	necessary stimulation	mitochondrial outer membrane depolarization	urn:miriam:hgnc:21689		urn:miriam:pubmed:21183955|urn:miriam:taxonomy:9606|urn:miriam:obo.go:GO%3A0051882	entity_pool	entity_pool	macromolecule	phenotype
+MAPK8	consumption	pr_6b57f118-a68a-4ba5-9123-f76abaace21d	urn:miriam:hgnc.symbol:MAPK8			entity_pool	process	macromolecule	process
+pr_6b57f118-a68a-4ba5-9123-f76abaace21d	production	MAPK8			urn:miriam:hgnc.symbol:MAPK8	process	entity_pool	process	macromolecule
+MAP3K4	catalysis	pr_6b57f118-a68a-4ba5-9123-f76abaace21d	urn:miriam:hgnc.symbol:MAP3K4	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:18191217		entity_pool	process	macromolecule	process
+MAP3K5	catalysis	pr_6b57f118-a68a-4ba5-9123-f76abaace21d	urn:miriam:hgnc.symbol:MAP3K5	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26587781|urn:miriam:pubmed:18191217		entity_pool	process	macromolecule	process
+DNAJC3	consumption	pr_f0005a46-36e1-4c7f-a0a0-80fd1be5ed82	urn:miriam:hgnc.symbol:DNAJC3			entity_pool	process	nucleic acid feature	process
+pr_f0005a46-36e1-4c7f-a0a0-80fd1be5ed82	production	DNAJC3			urn:miriam:hgnc.symbol:DNAJC3	process	entity_pool	process	nucleic acid feature
+ATF6	catalysis	pr_f0005a46-36e1-4c7f-a0a0-80fd1be5ed82	urn:miriam:hgnc.symbol:ATF6	urn:miriam:taxonomy:10090|urn:miriam:pubmed:12601012|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
+CASP4	consumption	pr_de43ef68-c353-4a7f-af22-0d96256cec50	urn:miriam:hgnc.symbol:CASP4			entity_pool	process	macromolecule	process
+pr_de43ef68-c353-4a7f-af22-0d96256cec50	production	cleaved~CASP4			urn:miriam:hgnc.symbol:CASP4	process	entity_pool	process	macromolecule
+CAPN1:Ca2+	catalysis	pr_de43ef68-c353-4a7f-af22-0d96256cec50		urn:miriam:pubmed:18955970|urn:miriam:pubmed:19931333|urn:miriam:pubmed:24373849		entity_pool	process	complex	process
+SIGMAR1	consumption	pr_16798bd3-f763-404b-80d3-762df4f62746	urn:miriam:hgnc:8157|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029|urn:miriam:pubmed:25704011			entity_pool	process	macromolecule	process
+ITPR3	consumption	pr_16798bd3-f763-404b-80d3-762df4f62746	urn:miriam:hgnc:6182|urn:miriam:pubmed:17981125			entity_pool	process	macromolecule	process
+pr_16798bd3-f763-404b-80d3-762df4f62746	production	SIGMAR1:ITPR3			urn:miriam:pubmed:30590907|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029	process	entity_pool	process	complex
+ER stress	necessary stimulation	pr_16798bd3-f763-404b-80d3-762df4f62746	urn:miriam:obo.go:GO%3A0034976|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	urn:miriam:pubmed:30590907|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029		entity_pool	process	phenotype	process
+Ca2+ ER depletion	necessary stimulation	pr_16798bd3-f763-404b-80d3-762df4f62746	urn:miriam:obo.go:GO%3A0032471|urn:miriam:pubmed:17981125|urn:miriam:pubmed:30590907|urn:miriam:taxonomy:10029	urn:miriam:pubmed:30590907|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029		entity_pool	process	phenotype	process
+DDIT3	consumption	pr_3516cab1-9cca-4410-b4f7-f8cfff3c0aae	urn:miriam:hgnc.symbol:DDIT3			entity_pool	process	macromolecule	process
+pr_3516cab1-9cca-4410-b4f7-f8cfff3c0aae	production	DDIT3			urn:miriam:hgnc.symbol:DDIT3	process	entity_pool	process	macromolecule
+MAPK14	catalysis	pr_3516cab1-9cca-4410-b4f7-f8cfff3c0aae	urn:miriam:hgnc.symbol:MAPK14	urn:miriam:pubmed:26137585|urn:miriam:pubmed:23850759|urn:miriam:pubmed:23430059		entity_pool	process	macromolecule	process
+HYOU1	consumption	pr_85df0fcb-456e-44cd-8d9a-fc00673c8221	urn:miriam:hgnc.symbol:HYOU1			entity_pool	process	nucleic acid feature	process
+pr_85df0fcb-456e-44cd-8d9a-fc00673c8221	production	HYOU1			urn:miriam:hgnc.symbol:HYOU1	process	entity_pool	process	nucleic acid feature
+ATF6	catalysis	pr_85df0fcb-456e-44cd-8d9a-fc00673c8221	urn:miriam:hgnc.symbol:ATF6	urn:miriam:taxonomy:10090|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
 BAX	necessary stimulation	Apoptosis	urn:miriam:hgnc.symbol:BAX		urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	macromolecule	phenotype
 ATF6	necessary stimulation	UPR	urn:miriam:hgnc.symbol:ATF6		urn:miriam:obo.go:GO%3A0006986	entity_pool	entity_pool	macromolecule	phenotype
-MFN2	necessary stimulation	endoplasmic reticulum organization	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620			entity_pool	entity_pool	macromolecule	phenotype
-ER stress	necessary stimulation	Apoptosis				entity_pool	entity_pool	phenotype	phenotype
+MFN2	necessary stimulation	endoplasmic reticulum organization	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620		urn:miriam:obo.go:GO%3A0007029|urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606	entity_pool	entity_pool	macromolecule	phenotype
+ER stress	necessary stimulation	Apoptosis	urn:miriam:obo.go:GO%3A0034976|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090		urn:miriam:obo.go:GO%3A0006915|urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606|urn:miriam:pubmed:15692567|urn:miriam:pubmed:22511781	entity_pool	entity_pool	phenotype	phenotype
 MAPK14	necessary stimulation	Apoptosis	urn:miriam:hgnc.symbol:MAPK14		urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	macromolecule	phenotype
-Mitochondrial calcium uniporter complex	necessary stimulation	mitochondrial calcium ion transmembrane transport	urn:miriam:pubmed:26968367|urn:miriam:taxonomy:9606			entity_pool	entity_pool	complex	phenotype
+BCAP31	consumption	pr_239d8a0b-90eb-48c3-8769-052a8c5d123b	urn:miriam:hgnc:16695			entity_pool	process	macromolecule	process
+FIS1	consumption	pr_239d8a0b-90eb-48c3-8769-052a8c5d123b	urn:miriam:hgnc:21689			entity_pool	process	macromolecule	process
+pr_239d8a0b-90eb-48c3-8769-052a8c5d123b	production	FIS1:BCAP31			urn:miriam:pubmed:15692567|urn:miriam:pubmed:21183955|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
+XBP1	consumption	pr_f205cd4d-0b8a-44d2-b976-3b911ae63590	urn:miriam:hgnc.symbol:XBP1			entity_pool	process	nucleic acid feature	process
+pr_f205cd4d-0b8a-44d2-b976-3b911ae63590	production	XBP1			urn:miriam:hgnc.symbol:XBP1	process	entity_pool	process	macromolecule
+BID	consumption	pr_edd7a9d6-016f-4956-b0bb-eb9d3197f027	urn:miriam:hgnc.symbol:BID			entity_pool	process	macromolecule	process
+pr_edd7a9d6-016f-4956-b0bb-eb9d3197f027	production	BID			urn:miriam:hgnc.symbol:BID	process	entity_pool	process	macromolecule
+MAPK8	catalysis	pr_edd7a9d6-016f-4956-b0bb-eb9d3197f027	urn:miriam:hgnc.symbol:MAPK8	urn:miriam:taxonomy:10090|urn:miriam:pubmed:23430059|urn:miriam:pubmed:11583631		entity_pool	process	macromolecule	process
+ACE2	inhibition	ER stress	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314		urn:miriam:obo.go:GO%3A0034976|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	entity_pool	entity_pool	macromolecule	phenotype
+Mitochondrial calcium uniporter complex	necessary stimulation	mitochondrial calcium ion transmembrane transport	urn:miriam:pubmed:26968367|urn:miriam:taxonomy:9606		urn:miriam:pubmed:24231807|urn:miriam:obo.go:GO%3A0006851|urn:miriam:taxonomy:9606	entity_pool	entity_pool	complex	phenotype
+PPP1R15A	consumption	pr_da146373-85da-419e-9ff9-54416d1c5719	urn:miriam:hgnc.symbol:PPP1R15A			entity_pool	process	nucleic acid feature	process
+pr_da146373-85da-419e-9ff9-54416d1c5719	production	PPP1R15A			urn:miriam:hgnc.symbol:PPP1R15A	process	entity_pool	process	nucleic acid feature
+ATF4	catalysis	pr_da146373-85da-419e-9ff9-54416d1c5719	urn:miriam:hgnc.symbol:ATF4	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26584763		entity_pool	process	macromolecule	process
+DDIT3	catalysis	pr_da146373-85da-419e-9ff9-54416d1c5719	urn:miriam:hgnc.symbol:DDIT3	urn:miriam:pubmed:23850759|urn:miriam:pubmed:26584763		entity_pool	process	macromolecule	process
+PPP1R15A	consumption	pr_8e678f3a-19ad-453c-bfb3-68613fb26033	urn:miriam:hgnc.symbol:PPP1R15A			entity_pool	process	nucleic acid feature	process
+pr_8e678f3a-19ad-453c-bfb3-68613fb26033	production	PPP1R15A			urn:miriam:hgnc.symbol:PPP1R15A	process	entity_pool	process	macromolecule
+BCL2	consumption	pr_206c8179-1f25-456d-af4b-7b13859e6791	urn:miriam:hgnc.symbol:BCL2			entity_pool	process	nucleic acid feature	process
+pr_206c8179-1f25-456d-af4b-7b13859e6791	production	BCL2			urn:miriam:hgnc.symbol:BCL2	process	entity_pool	process	nucleic acid feature
+DDIT3	inhibition	pr_206c8179-1f25-456d-af4b-7b13859e6791	urn:miriam:hgnc.symbol:DDIT3	urn:miriam:pubmed:30662442|urn:miriam:pubmed:23850759		entity_pool	process	macromolecule	process
+ATF6	consumption	pr_760025ef-c74f-4989-919f-664856009ba6	urn:miriam:hgnc.symbol:ATF6			entity_pool	process	macromolecule	process
+pr_760025ef-c74f-4989-919f-664856009ba6	production	ATF6			urn:miriam:hgnc.symbol:ATF6	process	entity_pool	process	macromolecule
+MBTPS1	catalysis	pr_760025ef-c74f-4989-919f-664856009ba6	urn:miriam:hgnc.symbol:MBTPS1	urn:miriam:pubmed:23850759|urn:miriam:pubmed:17991856|urn:miriam:pubmed:26587781|urn:miriam:taxonomy:10090|urn:miriam:pubmed:18360008		entity_pool	process	macromolecule	process
+MFN2	consumption	pr_4f50c7b7-1cbd-4996-a6bf-866aceb30e97	urn:miriam:pubmed:29491369|urn:miriam:pubmed:22511781|urn:miriam:hgnc:16877|urn:miriam:pubmed:19052620			entity_pool	process	macromolecule	process
+MFN1	consumption	pr_4f50c7b7-1cbd-4996-a6bf-866aceb30e97	urn:miriam:hgnc:1826			entity_pool	process	macromolecule	process
+pr_4f50c7b7-1cbd-4996-a6bf-866aceb30e97	production	MFN1:MFN2			urn:miriam:pubmed:29491369|urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
+PACS2	consumption	pr_ef99d04a-7b5c-4237-9e86-5c7a24939343	urn:miriam:pubmed:15692567|urn:miriam:hgnc:23794|urn:miriam:pubmed:26108729			entity_pool	process	macromolecule	process
+ADAM17	consumption	pr_ef99d04a-7b5c-4237-9e86-5c7a24939343	urn:miriam:hgnc:195|urn:miriam:pubmed:32264791|urn:miriam:pubmed:26108729			entity_pool	process	macromolecule	process
+pr_ef99d04a-7b5c-4237-9e86-5c7a24939343	production	PACS2-ADAM17 interaction			urn:miriam:pubmed:26108729|urn:miriam:pubmed:32264791|urn:miriam:taxonomy:9606	process	entity_pool	process	complex
 EIF2AK3:EIF2AK3	necessary stimulation	UPR			urn:miriam:obo.go:GO%3A0006986	entity_pool	entity_pool	complex	phenotype
 BID	necessary stimulation	Apoptosis	urn:miriam:hgnc.symbol:BID		urn:miriam:obo.go:GO%3A0006921	entity_pool	entity_pool	macromolecule	phenotype
-HSPA5-Spike interaction	necessary stimulation	viral entry into host cell	urn:miriam:pubmed:32340551			entity_pool	entity_pool	complex	phenotype
-ACE2	necessary stimulation	viral genome replication	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314			entity_pool	entity_pool	macromolecule	phenotype
-CDK5	consumption	pr_0636314c-c67b-496a-aac6-88e504828b32	urn:miriam:hgnc.symbol:CDK5			entity_pool	process	macromolecule	uncertain process
-pr_0636314c-c67b-496a-aac6-88e504828b32	production	CDK5			urn:miriam:hgnc.symbol:CDK5	process	entity_pool	uncertain process	macromolecule
-ER Stress	catalysis	pr_0636314c-c67b-496a-aac6-88e504828b32	urn:miriam:obo.go:GO%3A0034976	urn:miriam:pubmed:23850759		entity_pool	process	phenotype	uncertain process
-ACE2	inhibition	pulmonary fibrosis	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314			entity_pool	entity_pool	macromolecule	phenotype
+PACS2-ADAM17 interaction	consumption	pr_65ca7745-10f8-4737-bfcc-6045ed2fc028	urn:miriam:pubmed:26108729|urn:miriam:pubmed:32264791|urn:miriam:taxonomy:9606			entity_pool	process	complex	process
+pr_65ca7745-10f8-4737-bfcc-6045ed2fc028	production	ADAM17			urn:miriam:pubmed:32264791|urn:miriam:hgnc:HGNC%3A195	process	entity_pool	process	macromolecule
+RMDN3	stimulation	Ca2+ mitochondrial concentration	urn:miriam:hgnc:25550		urn:miriam:pubmed:28132811|urn:miriam:taxonomy:9606|urn:miriam:obo.go:GO%3A0051561	entity_pool	entity_pool	macromolecule	phenotype
+ATF6	consumption	pr_f568d866-1226-47bb-b88d-40a7f0e476d7	urn:miriam:hgnc.symbol:ATF6			entity_pool	process	macromolecule	process
+pr_f568d866-1226-47bb-b88d-40a7f0e476d7	production	ATF6			urn:miriam:hgnc.symbol:ATF6	process	entity_pool	process	macromolecule
+ACE2	consumption	pr_7faddd93-4bdf-42e3-8044-11ad69df4bd2	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314			entity_pool	process	macromolecule	process
+S	consumption	pr_7faddd93-4bdf-42e3-8044-11ad69df4bd2	urn:miriam:uniprot:P59594|urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:W6A028			entity_pool	process	macromolecule	process
+pr_7faddd93-4bdf-42e3-8044-11ad69df4bd2	production	ACE2:Spike				process	entity_pool	process	complex
+S	consumption	pr_4e781043-8a53-472a-ace2-74efdd6278a8	urn:miriam:uniprot:P59594|urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:W6A028			entity_pool	process	macromolecule	process
+HSPA5	consumption	pr_4e781043-8a53-472a-ace2-74efdd6278a8	urn:miriam:pubmed:32340551|urn:miriam:hgnc:HGNC%3A5238|urn:miriam:pubmed:32169481|urn:miriam:pubmed:30978349			entity_pool	process	macromolecule	process
+pr_4e781043-8a53-472a-ace2-74efdd6278a8	production	HSPA5-Spike interaction			urn:miriam:pubmed:32340551	process	entity_pool	process	complex
+SIGMAR1	inhibition	ER stress	urn:miriam:hgnc:8157|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029|urn:miriam:pubmed:25704011		urn:miriam:obo.go:GO%3A0034976|urn:miriam:pubmed:22511781|urn:miriam:taxonomy:10090	entity_pool	entity_pool	macromolecule	phenotype
+SIGMAR1	inhibition	Apoptosis	urn:miriam:hgnc:8157|urn:miriam:pubmed:17981125|urn:miriam:taxonomy:10029|urn:miriam:pubmed:25704011		urn:miriam:obo.go:GO%3A0006915|urn:miriam:pubmed:19052620|urn:miriam:taxonomy:9606|urn:miriam:pubmed:15692567|urn:miriam:pubmed:22511781	entity_pool	entity_pool	macromolecule	phenotype
+ACE2	consumption	pr_4f24a51a-0dcc-42de-b27e-cbb5af057e7c	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314			entity_pool	process	macromolecule	process
+pr_4f24a51a-0dcc-42de-b27e-cbb5af057e7c	production	ACE2, soluble			urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:hgnc.symbol:ACE2	process	entity_pool	process	macromolecule
+pr_4f24a51a-0dcc-42de-b27e-cbb5af057e7c	production	ACE2, membrane-bound			urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:hgnc.symbol:ACE2	process	entity_pool	process	macromolecule
+ADAM17	catalysis	pr_4f24a51a-0dcc-42de-b27e-cbb5af057e7c	urn:miriam:pubmed:32264791|urn:miriam:hgnc:HGNC%3A195	urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:taxonomy:9606|urn:miriam:pubmed:15983030		entity_pool	process	macromolecule	process
+ACE2	inhibition	pulmonary fibrosis	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314		urn:miriam:mesh:D011658|urn:miriam:pubmed:18441099|urn:miriam:taxonomy:9606	entity_pool	entity_pool	macromolecule	phenotype
+ACE2, membrane-bound	consumption	pr_fda54e5c-22b2-4cb0-a002-4fafa4dc9642	urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:hgnc.symbol:ACE2			entity_pool	process	macromolecule	process
+S	consumption	pr_fda54e5c-22b2-4cb0-a002-4fafa4dc9642	urn:miriam:uniprot:P59594|urn:miriam:uniprot:P0DTC2|urn:miriam:uniprot:W6A028			entity_pool	process	macromolecule	process
+pr_fda54e5c-22b2-4cb0-a002-4fafa4dc9642	production	ACE2-SARS-CoV interaction			urn:miriam:pubmed:19411314|urn:miriam:taxonomy:9606|urn:miriam:uniprot:P59594	process	entity_pool	process	complex
+ACE2, soluble	inhibition	pr_fda54e5c-22b2-4cb0-a002-4fafa4dc9642	urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:hgnc.symbol:ACE2	urn:miriam:pubmed:19411314|urn:miriam:taxonomy:9606|urn:miriam:uniprot:P59594|urn:miriam:pubmed:15983030|urn:miriam:taxonomy:694009		entity_pool	process	macromolecule	process
+ACE2-SARS-CoV interaction	logic arc	viral entry into host cell	urn:miriam:pubmed:19411314|urn:miriam:taxonomy:9606|urn:miriam:uniprot:P59594		urn:miriam:obo.go:GO%3A0046718|urn:miriam:pubmed:19411314	entity_pool	entity_pool	complex	phenotype
+ACE2, soluble	inhibition	viral entry into host cell	urn:miriam:pubmed:19411314|urn:miriam:pubmed:32264791|urn:miriam:hgnc.symbol:ACE2		urn:miriam:obo.go:GO%3A0046718|urn:miriam:pubmed:19411314	entity_pool	entity_pool	macromolecule	phenotype
+HSPA5-Spike interaction	necessary stimulation	viral entry into host cell	urn:miriam:pubmed:32340551		urn:miriam:obo.go:GO%3A0046718|urn:miriam:pubmed:19411314	entity_pool	entity_pool	complex	phenotype
+ACE2	consumption	pr_4bcf7f6a-5487-4bef-a7fe-30e55a798127				entity_pool	process	nucleic acid feature	process
+pr_4bcf7f6a-5487-4bef-a7fe-30e55a798127	production	ACE2				process	entity_pool	process	nucleic acid feature
+viral entry into host cell	inhibition	pr_4bcf7f6a-5487-4bef-a7fe-30e55a798127	urn:miriam:obo.go:GO%3A0046718|urn:miriam:pubmed:19411314	urn:miriam:pubmed:14647384|urn:miriam:taxonomy:9606|urn:miriam:pubmed:19411314|urn:miriam:uniprot:P59594		entity_pool	process	phenotype	process
+ACE2	necessary stimulation	viral RNA genome replication	urn:miriam:hgnc:HGNC%3A13557|urn:miriam:pubmed:15692567|urn:miriam:pubmed:32264791|urn:miriam:pubmed:19411314		urn:miriam:obo.go:GO%3A0039694|urn:miriam:pubmed:14647384	entity_pool	entity_pool	macromolecule	phenotype
