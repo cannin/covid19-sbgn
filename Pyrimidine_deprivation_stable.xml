@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner" level="2" version="4">
 <model metaid="pyrimidine_deprivation" id="pyrimidine_deprivation">
-  <notes>
-  <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-  <title/>
-  </head>
-  <body>
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>
   Author:
   Zsolt Bocskei, Sanofi R and D, France
   Description:
   Pyrimidine deprivation and immune response related to human coronavirus infection
-  </body>
-  </html>
-  </notes>
+  
+</body>
+</html>
+</notes>
 <annotation>
 <celldesigner:extension>
 <celldesigner:modelVersion>4.0</celldesigner:modelVersion>
@@ -1784,11 +1785,11 @@ Charge: 0
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa140" species="s_id_sa140" compartmentAlias="ca10">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1785.0" y="560.0" w="180.0" h="30.0"/>
+<celldesigner:bounds x="1800.0" y="560.0" w="180.0" h="30.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="1701.0" y="432.0"/>
+<celldesigner:innerPosition x="1716.0" y="432.0"/>
 <celldesigner:boxSize width="180.0" height="30.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffcc99ff" scheme="Color"/>
@@ -3627,12 +3628,12 @@ Charge: 0
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa162" species="s128" compartmentAlias="ca10">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1805.0" y="451.5" w="140.0" h="35.0"/>
+<celldesigner:bounds x="1805.0" y="451.5" w="170.0" h="35.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="1721.0" y="323.5"/>
-<celldesigner:boxSize width="140.0" height="35.0"/>
+<celldesigner:boxSize width="170.0" height="35.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffcc99ff" scheme="Color"/>
 </celldesigner:usualView>
@@ -3924,7 +3925,7 @@ Charge: 0
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="0.0"/>
+<celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="3fff0000" scheme="Color"/>
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -7258,17 +7259,6 @@ Charge: 0
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s128" id="s128" name="RTC&amp;transcription pw" compartment="s_id_ca10" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PHENOTYPE</celldesigner:class>
-<celldesigner:name>RTC&amp;transcription pw</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s_id_sa14" id="s_id_sa14" name="Pi" compartment="s_id_ca10" initialAmount="0">
 <annotation>
 <celldesigner:extension>
@@ -7693,6 +7683,17 @@ Charge: 0
 </rdf:RDF>
 </annotation>
 </species>
+<species metaid="s128" id="s128" name="RTC and transcription pw" compartment="s_id_ca10" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PHENOTYPE</celldesigner:class>
+<celldesigner:name>RTC and transcription pw</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
 </listOfSpecies>
 <listOfReactions>
 <reaction metaid="re71" id="re71" reversible="false">
@@ -7718,7 +7719,7 @@ Charge: 0
 <celldesigner:lineDirection index="1" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.3728522457139256,0.1647841041174125</celldesigner:editPoints>
+<celldesigner:editPoints>0.3728522457139274,0.1647841041174125</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -9611,7 +9612,7 @@ Charge: 0
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s_id_sa19" aliases="sa19" targetLineIndex="0,2" editPoints="0.528288477346738,-0.20864433663275816">
+<celldesigner:modification type="CATALYSIS" modifiers="s_id_sa19" aliases="sa19" targetLineIndex="0,2" editPoints="0.5282884773467384,-0.20864433663275816">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -11218,7 +11219,7 @@ Charge: 0
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s129" aliases="sa163" targetLineIndex="-1,4" editPoints="0.27372205704109165,0.19750920170443553 0.7770031554825425,0.16273064255000946">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s129" aliases="sa163" targetLineIndex="-1,4" editPoints="0.27372205704109076,0.19750920170443553 0.7770031554825425,0.16273064255000946">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -11351,9 +11352,7 @@ Charge: 0
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s129" alias="sa163">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:baseProduct>
+<celldesigner:baseProduct species="s129" alias="sa163"/>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
@@ -11398,14 +11397,10 @@ Charge: 0
 <celldesigner:extension>
 <celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s_id_sa41" alias="sa41">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:baseReactant>
+<celldesigner:baseReactant species="s_id_sa41" alias="sa41"/>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s128" alias="sa162">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:baseProduct>
+<celldesigner:baseProduct species="s128" alias="sa162"/>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
@@ -11450,9 +11445,7 @@ Charge: 0
 <celldesigner:baseReactant species="s128" alias="sa162"/>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s_id_sa140" alias="sa140">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:baseProduct>
+<celldesigner:baseProduct species="s_id_sa140" alias="sa140"/>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
@@ -11499,9 +11492,7 @@ Charge: 0
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s150" alias="sa177">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:baseProduct>
+<celldesigner:baseProduct species="s150" alias="sa177"/>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
