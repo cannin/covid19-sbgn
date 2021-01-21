@@ -10,10 +10,10 @@ RAF1 [annotation=urn_miriam_uniprot_P04049, bipartite=0, cls=macromolecule, font
 "T cell receptor signaling pathway" [annotation="urn_miriam_kegg.pathway_hsa04660", bipartite=0, cls=phenotype, fontsize=4, label="T cell receptor signaling pathway", shape=circle];
 "PHB-RAF1" [annotation="", bipartite=0, cls=complex, fontsize=4, label="PHB-RAF1", shape=circle];
 MFN2 [annotation=urn_miriam_uniprot_O95140, bipartite=0, cls=macromolecule, fontsize=4, label=MFN2, shape=circle];
-"MFN2-STOML2" [annotation="", bipartite=0, cls=complex, fontsize=4, label="MFN2-STOML2", shape=circle];
 "Orf3b-STOML2" [annotation="", bipartite=0, cls=complex, fontsize=4, label="Orf3b-STOML2", shape=circle];
-"TCR complex" [annotation="urn_miriam_uniprot_P07766|urn_miriam_uniprot_P04234|urn_miriam_uniprot_P09693|urn_miriam_uniprot_P20963|urn_miriam_uniprot_P01848|urn_miriam_uniprot_Q9UJZ1|urn_miriam_uniprot_P0DSE2", bipartite=0, cls=complex, fontsize=4, label="TCR complex", shape=circle];
 STOML2 [annotation=urn_miriam_pubmed_18641330, bipartite=0, cls="macromolecule multimer", fontsize=4, label=STOML2, shape=circle];
+"TCR complex" [annotation="urn_miriam_uniprot_P07766|urn_miriam_uniprot_P04234|urn_miriam_uniprot_P09693|urn_miriam_uniprot_P20963|urn_miriam_uniprot_P01848|urn_miriam_uniprot_Q9UJZ1|urn_miriam_uniprot_P0DSE2", bipartite=0, cls=complex, fontsize=4, label="TCR complex", shape=circle];
+"MFN2-STOML2" [annotation="", bipartite=0, cls=complex, fontsize=4, label="MFN2-STOML2", shape=circle];
 "STOML2-PHB" [annotation="", bipartite=0, cls=complex, fontsize=4, label="STOML2-PHB", shape=circle];
 Orf3b -> IFNB1  [annotation="", interaction_type=inhibition];
 Orf3b -> "Orf3b-STOML2"  [annotation="", interaction_type=production];
@@ -26,8 +26,8 @@ RAF1 -> "MAPK Signaling Pathway"  [annotation="", interaction_type=stimulation];
 RAF1 -> "T cell receptor signaling pathway"  [annotation="", interaction_type=stimulation];
 RAF1 -> "PHB-RAF1"  [annotation="", interaction_type=production];
 MFN2 -> "MFN2-STOML2"  [annotation="", interaction_type=production];
-STOML2 -> "Orf3b-STOML2"  [annotation="", interaction_type=production];
 STOML2 -> "MFN2-STOML2"  [annotation="", interaction_type=production];
+STOML2 -> "Orf3b-STOML2"  [annotation="", interaction_type=production];
 STOML2 -> "STOML2-PHB"  [annotation="", interaction_type=production];
 STOML2 -> "TCR complex"  [annotation="", interaction_type=production];
 }
