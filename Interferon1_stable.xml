@@ -2378,12 +2378,11 @@ SIGNOR-SCISOVG
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
 </celldesigner:speciesAlias>
-<celldesigner:speciesAlias id="sa51" species="s2532" compartmentAlias="ca2">
+<celldesigner:speciesAlias id="sa51" species="s2496" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
 <celldesigner:bounds x="1180.363636363636" y="2087.3333333333335" w="110.0" h="70.0"/>
 <celldesigner:font size="30"/>
 <celldesigner:view state="usual"/>
-<celldesigner:structuralState angle="1.5707963267948966"/>
 <celldesigner:usualView>
 <celldesigner:innerPosition x="977.863636363636" y="1872.8333333333335"/>
 <celldesigner:boxSize width="110.0" height="70.0"/>
@@ -5043,18 +5042,18 @@ SIGNOR-SCISOVG
 <celldesigner:gene id="gn2" name="IFNB1" type="GENE"/>
 <celldesigner:gene id="gn3" name="IFNA1" type="GENE"/>
 <celldesigner:gene id="gn4" name="OAS1" type="GENE"/>
-<celldesigner:gene id="gn5" name="EIF2AK" type="GENE"/>
 <celldesigner:gene id="gn6" name="OAS2" type="GENE"/>
 <celldesigner:gene id="gn7" name="OAS3" type="GENE"/>
+<celldesigner:gene id="gn5" name="EIF2AK" type="GENE"/>
 </celldesigner:listOfGenes>
 <celldesigner:listOfRNAs>
 <celldesigner:RNA id="rn2" name="IFNB1" type="RNA"/>
 <celldesigner:RNA id="rn3" name="IFNA1" type="RNA"/>
 <celldesigner:RNA id="rn4" name="OAS1" type="RNA"/>
-<celldesigner:RNA id="rn5" name="EIF2AK" type="RNA"/>
 <celldesigner:RNA id="rn6" name="OAS2" type="RNA"/>
 <celldesigner:RNA id="rn7" name="OAS3" type="RNA"/>
 <celldesigner:RNA id="rn8" name="Viral dsRNA" type="RNA"/>
+<celldesigner:RNA id="rn5" name="EIF2AK" type="RNA"/>
 </celldesigner:listOfRNAs>
 <celldesigner:listOfAntisenseRNAs/>
 <celldesigner:listOfLayers/>
@@ -5308,34 +5307,6 @@ SIGNOR-SCISOVG
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s37" id="s37" name="EIF2AK" compartment="c3" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>GENE</celldesigner:class>
-<celldesigner:geneReference>gn5</celldesigner:geneReference>
-</celldesigner:speciesIdentity>
-<celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re17"/>
-</celldesigner:listOfCatalyzedReactions>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s37">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:31226023"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:wikipathways:WP4868"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-</species>
 <species metaid="s2496" id="s2496" name="EIF2AK" compartment="c2" initialAmount="0">
 <annotation>
 <celldesigner:extension>
@@ -5357,49 +5328,23 @@ SIGNOR-SCISOVG
 <rdf:li rdf:resource="urn:miriam:wikipathways:WP4868"/>
 </rdf:Bag>
 </bqbiol:isDescribedBy>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc.symbol:EIF2AK1"/>
+</rdf:Bag>
+</bqmodel:is>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc.symbol:EIF2AK2"/>
+</rdf:Bag>
+</bqmodel:is>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc.symbol:EIF2AK3"/>
+</rdf:Bag>
+</bqmodel:is>
 </rdf:Description>
 </rdf:RDF>
-</annotation>
-</species>
-<species metaid="s38" id="s38" name="EIF2AK" compartment="c3" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>RNA</celldesigner:class>
-<celldesigner:rnaReference>rn5</celldesigner:rnaReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s38">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:31226023"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:wikipathways:WP4868"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-</species>
-<species metaid="s2532" id="s2532" name="EIF2AK" compartment="c2" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr7</celldesigner:proteinReference>
-<celldesigner:state>
-<celldesigner:listOfStructuralStates>
-<celldesigner:structuralState structuralState="active"/>
-</celldesigner:listOfStructuralStates>
-</celldesigner:state>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
 </annotation>
 </species>
 <species metaid="s73" id="s73" name="FOS" compartment="c2" initialAmount="0">
@@ -7651,6 +7596,11 @@ SIGNOR-SCISOVG
 <rdf:li rdf:resource="urn:miriam:pubmed:31226023"/>
 </rdf:Bag>
 </bqbiol:isDescribedBy>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc.symbol:TICAM1"/>
+</rdf:Bag>
+</bqmodel:is>
 </rdf:Description>
 </rdf:RDF>
 </annotation>
@@ -8313,6 +8263,89 @@ SIGNOR-SCISOVG
 </rdf:RDF>
 </annotation>
 </species>
+<species metaid="s38" id="s38" name="EIF2AK" compartment="c3" initialAmount="0" charge="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>RNA</celldesigner:class>
+<celldesigner:rnaReference>rn5</celldesigner:rnaReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s38">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31226023"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:wikipathways:WP4868"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc.symbol:EIF2AK1"/>
+</rdf:Bag>
+</bqmodel:is>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc.symbol:EIF2AK2"/>
+</rdf:Bag>
+</bqmodel:is>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc.symbol:EIF2AK3"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s37" id="s37" name="EIF2AK" compartment="c3" initialAmount="0" charge="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>GENE</celldesigner:class>
+<celldesigner:geneReference>gn5</celldesigner:geneReference>
+</celldesigner:speciesIdentity>
+<celldesigner:listOfCatalyzedReactions>
+<celldesigner:catalyzed reaction="re17"/>
+</celldesigner:listOfCatalyzedReactions>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s37">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31226023"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:wikipathways:WP4868"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc.symbol:EIF2AK1"/>
+</rdf:Bag>
+</bqmodel:is>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc.symbol:EIF2AK2"/>
+</rdf:Bag>
+</bqmodel:is>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc.symbol:EIF2AK3"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
 </listOfSpecies>
 <listOfReactions>
 <reaction metaid="re8" id="re8" reversible="false">
@@ -8430,7 +8463,7 @@ SIGNOR-SCISOVG
 <celldesigner:editPoints>0.6107784222030019,1.599561710419195E-6</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s2444" aliases="sa170" targetLineIndex="-1,2" editPoints="0.7148766893469167,-0.18004327512470886 0.7745228946096983,0.05678690762346095">
+<celldesigner:modification type="INHIBITION" modifiers="s2444" aliases="sa170" targetLineIndex="-1,2" editPoints="0.714876689346917,-0.18004327512470886 0.7745228946096983,0.05678690762346095">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -9015,7 +9048,7 @@ SIGNOR-SCISOVG
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s2532" alias="sa51">
+<celldesigner:baseProduct species="s2496" alias="sa51">
 <celldesigner:linkAnchor position="E"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
@@ -9048,7 +9081,7 @@ SIGNOR-SCISOVG
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00083" species="s2532">
+<speciesReference metaid="CDMT00083" species="s2496">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa51</celldesigner:alias>
@@ -9356,7 +9389,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s98" aliases="sa115" targetLineIndex="-1,0" editPoints="0.9875602419404621,-0.05689198573592291">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s98" aliases="sa115" targetLineIndex="-1,0" editPoints="0.9875602419404625,-0.05689198573592247">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -9365,7 +9398,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s2476" aliases="csa34" targetLineIndex="-1,0" editPoints="0.9834793627063472,-0.11175609957962918 0.9993786420616111,8.83293297575527E-5">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s2476" aliases="csa34" targetLineIndex="-1,0" editPoints="0.9834793627063467,-0.11175609957963006 0.9993786420616111,8.832932975710861E-5">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -9715,7 +9748,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2414" aliases="csa20" targetLineIndex="-1,3" editPoints="0.42049595024482755,0.007048205669541119 0.4208080314666862,-0.009708212680742179">
+<celldesigner:modification type="CATALYSIS" modifiers="s2414" aliases="csa20" targetLineIndex="-1,3" editPoints="0.42052715749023406,0.007048728754448064 0.4208080314666862,-0.009708212680742179">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -9728,7 +9761,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s2510" aliases="sa123" targetLineIndex="-1,4" editPoints="0.11141560151393648,0.2293082653715559 0.9204270738624682,-0.1637717645930712">
+<celldesigner:modification type="INHIBITION" modifiers="s2510" aliases="sa123" targetLineIndex="-1,4" editPoints="0.1114156015139347,0.22930826537155502 0.9204270738624682,-0.16377176459307208">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -9741,7 +9774,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s2538" aliases="sa204" targetLineIndex="-1,5" editPoints="0.019408075096247313,-0.016576282256633657 0.3431119582225386,0.36164901848682907 0.9013343161887963,-0.11512424839943847">
+<celldesigner:modification type="INHIBITION" modifiers="s2538" aliases="sa204" targetLineIndex="-1,5" editPoints="0.019408075096247313,-0.016576282256633657 0.3431119582225386,0.36164901848682907 0.9013343161887966,-0.11512424839943858">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -9873,7 +9906,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2479" aliases="sa151" targetLineIndex="-1,6" editPoints="0.1250447193023878,0.10119456741649113 0.5207833875778194,-0.3878142000989988">
+<celldesigner:modification type="CATALYSIS" modifiers="s2479" aliases="sa151" targetLineIndex="-1,6" editPoints="0.12504471930238825,0.10119456741649202 0.5207833875778194,-0.3878142000989988">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10237,7 +10270,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s2510" aliases="sa123" targetLineIndex="-1,3" editPoints="0.6280973812591204,-0.16921003136113555 0.6957632743907574,0.08196166298026952">
+<celldesigner:modification type="INHIBITION" modifiers="s2510" aliases="sa123" targetLineIndex="-1,3" editPoints="0.6280973812591222,-0.16921003136113555 0.6957632743907565,0.08196166298026952">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10319,7 +10352,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2522" aliases="sa59" targetLineIndex="-1,3" editPoints="0.32170033095611394,-0.0016086625210327554 0.3217253353313385,0.003391712494590138">
+<celldesigner:modification type="CATALYSIS" modifiers="s2522" aliases="sa59" targetLineIndex="-1,3" editPoints="0.3217003309558244,-0.0016086625210327554 0.3217253353313403,0.003391712494590138">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10520,7 +10553,7 @@ SIGNOR-SCISOVG
 <celldesigner:editPoints>0.553086419753086,0.0</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s2510" aliases="sa123" targetLineIndex="-1,6" editPoints="-0.003778590823714012,0.0531138687121544 0.9911858071385442,0.12389695108258181">
+<celldesigner:modification type="INHIBITION" modifiers="s2510" aliases="sa123" targetLineIndex="-1,6" editPoints="-0.003778590823714012,0.05311386871215795 0.9911858071385442,0.12389695108258181">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10658,7 +10691,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2436" aliases="csa19" targetLineIndex="-1,4" editPoints="0.09238770334603608,-0.0673979054277023 0.440734721262924,0.4079905333736846">
+<celldesigner:modification type="CATALYSIS" modifiers="s2436" aliases="csa19" targetLineIndex="-1,4" editPoints="0.0933964677877821,-0.06813381083482106 0.440734721262924,0.4079905333736846">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10671,7 +10704,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s2510" aliases="sa123" targetLineIndex="-1,5" editPoints="0.005277527231987378,0.028247821790859495 0.9715495390654896,-0.15228032277593928">
+<celldesigner:modification type="INHIBITION" modifiers="s2510" aliases="sa123" targetLineIndex="-1,5" editPoints="0.0052775272319953714,0.028247821790898575 0.9715495390654896,-0.15228032277593928">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10684,7 +10717,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s2412" aliases="sa140" targetLineIndex="-1,5" editPoints="0.007611357725036072,0.11942485438396322 1.0035658380624688,0.055949241482417866">
+<celldesigner:modification type="INHIBITION" modifiers="s2412" aliases="sa140" targetLineIndex="-1,5" editPoints="0.00761135772503696,0.11942485438396955 1.0035658380624688,0.055949241482417866">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10697,7 +10730,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2468" aliases="csa26" targetLineIndex="-1,4" editPoints="0.035089654479193655,-0.14487033174168928 0.9795867919417889,0.08427749623635306">
+<celldesigner:modification type="CATALYSIS" modifiers="s2468" aliases="csa26" targetLineIndex="-1,4" editPoints="0.03500335658778386,-0.14451404427340986 0.9795867919417889,0.0842774962363535">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10721,7 +10754,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2498" aliases="sa61" targetLineIndex="-1,4" editPoints="0.12242936325575116,0.11285071153961912 0.5817850293472944,-0.3854945885497161">
+<celldesigner:modification type="CATALYSIS" modifiers="s2498" aliases="sa61" targetLineIndex="-1,4" editPoints="0.12242936325575826,0.11285071153962623 0.5817850293472944,-0.3854945885497161">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10746,7 +10779,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s2457" aliases="sa184" targetLineIndex="-1,5" editPoints="0.02355477448509724,-0.09435829578945398 0.9648944974230664,0.14062946763033946">
+<celldesigner:modification type="INHIBITION" modifiers="s2457" aliases="sa184" targetLineIndex="-1,5" editPoints="0.023554774485099017,-0.09435829578945576 0.9648944974230664,0.14062946763033946">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -10759,7 +10792,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2479" aliases="sa151" targetLineIndex="-1,7" editPoints="0.6633596657312912,0.3363870601069756 0.8679073585746151,-0.06698365548328233">
+<celldesigner:modification type="CATALYSIS" modifiers="s2479" aliases="sa151" targetLineIndex="-1,7" editPoints="0.6633596657312921,0.3363870601069765 0.8679073585746151,-0.06698365548328145">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -11080,7 +11113,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s2538" aliases="sa204" targetLineIndex="-1,5" editPoints="0.21493782915722837,-0.08585911180204064 0.35254804325634503,0.25863129891314074">
+<celldesigner:modification type="INHIBITION" modifiers="s2538" aliases="sa204" targetLineIndex="-1,5" editPoints="0.2149378291572248,-0.08585911180203709 0.3525480432563415,0.25863129891314074">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -11403,7 +11436,7 @@ SIGNOR-SCISOVG
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s2532" alias="sa51">
+<celldesigner:baseProduct species="s2496" alias="sa51">
 <celldesigner:linkAnchor position="W"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
@@ -11452,7 +11485,7 @@ SIGNOR-SCISOVG
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00190" species="s2532">
+<speciesReference metaid="CDMT00190" species="s2496">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa51</celldesigner:alias>
@@ -11586,7 +11619,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s2443" aliases="sa168" targetLineIndex="-1,2" editPoints="0.25401555163311684,-0.002387958277253688 0.2541039195213628,0.007012045947170975">
+<celldesigner:modification type="INHIBITION" modifiers="s2443" aliases="sa168" targetLineIndex="-1,2" editPoints="0.25401555163306,-0.002387958277253688 0.2541039195213628,0.007012045947170975">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -11669,7 +11702,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2479" aliases="sa151" targetLineIndex="-1,2" editPoints="0.3818586673557751,-0.2095814130437983 0.6133558406314756,0.21220790882320806">
+<celldesigner:modification type="CATALYSIS" modifiers="s2479" aliases="sa151" targetLineIndex="-1,2" editPoints="0.38185866735580754,-0.20958141304381606 0.6133558406314752,0.21220790882320806">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -11773,7 +11806,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2448" aliases="sa172" targetLineIndex="-1,3" editPoints="0.05898356304986274,-0.04659603957065883 0.44324802631649574,0.43982485383035375">
+<celldesigner:modification type="CATALYSIS" modifiers="s2448" aliases="sa172" targetLineIndex="-1,3" editPoints="0.0589835630498623,-0.04659603957065883 0.4432480263164953,0.43982485383035375">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -12319,7 +12352,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2436" aliases="csa19" targetLineIndex="-1,3" editPoints="0.6446222628027197,-0.2409355654026406 0.7673883507937146,0.08694148876752195">
+<celldesigner:modification type="CATALYSIS" modifiers="s2436" aliases="csa19" targetLineIndex="-1,3" editPoints="0.6448135174700799,-0.24100704920652927 0.7673883507937146,0.08694148876752195">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -12415,7 +12448,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2476" aliases="csa34" targetLineIndex="-1,3" editPoints="0.10360989793085285,0.17258723949239851 0.9516172434635353,-0.08081851018974195">
+<celldesigner:modification type="CATALYSIS" modifiers="s2476" aliases="csa34" targetLineIndex="-1,3" editPoints="0.10360989793085285,0.17258723949239896 0.9516172434635353,-0.08081851018974195">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -12499,7 +12532,6 @@ SIGNOR-SCISOVG
 </celldesigner:baseProducts>
 <celldesigner:listOfReactantLinks>
 <celldesigner:reactantLink reactant="s57" alias="sa70" targetLineIndex="-1,0">
-<celldesigner:linkAnchor position="INACTIVE"/>
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -12508,7 +12540,6 @@ SIGNOR-SCISOVG
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 <celldesigner:reactantLink reactant="s56" alias="sa69" targetLineIndex="-1,0">
-<celldesigner:linkAnchor position="INACTIVE"/>
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -12656,10 +12687,10 @@ SIGNOR-SCISOVG
 <celldesigner:lineDirection index="1" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.710852815272655,-0.4533663974001545</celldesigner:editPoints>
+<celldesigner:editPoints>0.7108610036484171,-0.4533625890392612</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
-<celldesigner:reactantLink reactant="s2532" alias="sa51" targetLineIndex="-1,0">
+<celldesigner:reactantLink reactant="s2496" alias="sa51" targetLineIndex="-1,0">
 <celldesigner:linkAnchor position="SSW"/>
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
@@ -12678,7 +12709,7 @@ SIGNOR-SCISOVG
 <celldesigner:lineDirection index="1" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.7046976594965526,-0.45617854859323614</celldesigner:editPoints>
+<celldesigner:editPoints>0.704711512564355,-0.4561723321548712</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -12722,7 +12753,7 @@ SIGNOR-SCISOVG
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00283" species="s2532">
+<speciesReference metaid="CDMT00283" species="s2496">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa51</celldesigner:alias>
@@ -12776,7 +12807,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2305" aliases="csa2" targetLineIndex="-1,7" editPoints="0.3236811971383631,0.24412706349371227 0.6861837102534176,-0.2366867460008084">
+<celldesigner:modification type="CATALYSIS" modifiers="s2305" aliases="csa2" targetLineIndex="-1,7" editPoints="0.32359373084030274,0.24406109459997083 0.6861837102534167,-0.2366867460008084">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -12789,7 +12820,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2393" aliases="csa3" targetLineIndex="-1,6" editPoints="0.35743104427936645,-0.2097365646382734 0.6140820089557744,0.22645238842336735">
+<celldesigner:modification type="CATALYSIS" modifiers="s2393" aliases="csa3" targetLineIndex="-1,6" editPoints="0.3579518531496415,-0.21004216949558163 0.6140820089557741,0.22645238842336735">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -12897,7 +12928,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2465" aliases="sa55" targetLineIndex="-1,6" editPoints="0.2820979385994882,0.34547756405809604">
+<celldesigner:modification type="CATALYSIS" modifiers="s2465" aliases="sa55" targetLineIndex="-1,6" editPoints="0.2820979385994882,0.34547756405809515">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -13597,7 +13628,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2498" aliases="sa61" targetLineIndex="-1,4" editPoints="-0.0170743202417456,0.07919853691733514 0.9384722421458083,0.2853939912607584">
+<celldesigner:modification type="CATALYSIS" modifiers="s2498" aliases="sa61" targetLineIndex="-1,4" editPoints="-0.017113521536552323,0.07938037052183677 0.9384722421458083,0.2853939912607584">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -13717,7 +13748,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s52" aliases="csa8" targetLineIndex="-1,6" editPoints="0.42419534452616325,-0.2616221502122984 0.6993413916325864,0.18543096386119884">
+<celldesigner:modification type="CATALYSIS" modifiers="s52" aliases="csa8" targetLineIndex="-1,6" editPoints="0.4237797959562828,-0.2613658609536522 0.6993413916325864,0.18543096386119884">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -13827,7 +13858,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2515" aliases="sa193" targetLineIndex="-1,5" editPoints="0.3486987606627072,0.4140927134589951">
+<celldesigner:modification type="CATALYSIS" modifiers="s2515" aliases="sa193" targetLineIndex="-1,5" editPoints="0.3486987606627081,0.4140927134589951">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -13845,7 +13876,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2403" aliases="sa131" targetLineIndex="-1,5" editPoints="0.22736548365329656,-0.19901685777680278 0.7480845224429717,0.2338424231258429">
+<celldesigner:modification type="CATALYSIS" modifiers="s2403" aliases="sa131" targetLineIndex="-1,5" editPoints="0.22736548365329678,-0.19901685777680278 0.7480845224429722,0.2338424231258429">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -13867,7 +13898,7 @@ SIGNOR-SCISOVG
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s2472" aliases="csa33" targetLineIndex="-1,4" editPoints="0.10271700181506094,-0.08978588746258076 0.5358451355556413,0.40572208775374463">
+<celldesigner:modification type="INHIBITION" modifiers="s2472" aliases="csa33" targetLineIndex="-1,4" editPoints="0.1027170018150605,-0.08978588746258076 0.5358451355556408,0.40572208775374463">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -13880,7 +13911,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2516" aliases="sa194" targetLineIndex="-1,6" editPoints="0.4007059442935075,0.4593300047848494">
+<celldesigner:modification type="CATALYSIS" modifiers="s2516" aliases="sa194" targetLineIndex="-1,6" editPoints="0.40070594429351103,0.45933000478484587">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -14040,7 +14071,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s2510" aliases="sa123" targetLineIndex="-1,6" editPoints="0.017849148895681566,-0.10153451028847815 0.9879379958388892,0.06861445846823688">
+<celldesigner:modification type="INHIBITION" modifiers="s2510" aliases="sa123" targetLineIndex="-1,6" editPoints="0.017915098394934326,-0.10190966263604917 0.9879379958388892,0.06861445846823688">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -14065,7 +14096,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2479" aliases="sa151" targetLineIndex="-1,7" editPoints="0.7238291225158915,0.36961154076413294 0.9306484284440133,-0.035413249370412014">
+<celldesigner:modification type="CATALYSIS" modifiers="s2479" aliases="sa151" targetLineIndex="-1,7" editPoints="0.723829122515891,0.3696115407641325 0.9306484284440129,-0.03541324937041246">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -14194,7 +14225,7 @@ SIGNOR-SCISOVG
 <celldesigner:lineDirection index="1" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.7134620375419587,0.1933549689304499</celldesigner:editPoints>
+<celldesigner:editPoints>0.7134620375419605,0.19335496893044812</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -14229,7 +14260,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s2498" aliases="sa61" targetLineIndex="-1,5" editPoints="0.30780024721315713,-0.33296110249630795 0.8470328288650812,0.16547133541303571">
+<celldesigner:modification type="CATALYSIS" modifiers="s2498" aliases="sa61" targetLineIndex="-1,5" editPoints="0.30782615804682045,-0.3329891313878415 0.8470328288650815,0.16547133541303571">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -14367,7 +14398,7 @@ SIGNOR-SCISOVG
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s2412" aliases="sa140" targetLineIndex="-1,6" editPoints="0.28977594044427235,-0.2016987539876105 0.6156294096443284,0.26754142882035126">
+<celldesigner:modification type="INHIBITION" modifiers="s2412" aliases="sa140" targetLineIndex="-1,6" editPoints="0.28926296772228177,-0.20134169895158038 0.6156294096443293,0.26754142882035126">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>

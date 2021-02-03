@@ -244,7 +244,7 @@
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s106" name="TGFB">
+<celldesigner:species id="s106" name="TGFB1">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1827,13 +1827,13 @@
 <celldesigner:protein id="pr8" name="RHOA" type="GENERIC"/>
 <celldesigner:protein id="pr15" name="BAMBI" type="GENERIC"/>
 <celldesigner:protein id="pr9" name="PPP2CA" type="GENERIC"/>
-<celldesigner:protein id="pr18" name="BMPR1" type="GENERIC"/>
-<celldesigner:protein id="pr14" name="TGFBR2" type="GENERIC"/>
-<celldesigner:protein id="pr13" name="TGFBR1" type="GENERIC"/>
+<celldesigner:protein id="pr18" name="BMPR1" type="RECEPTOR"/>
+<celldesigner:protein id="pr14" name="TGFBR2" type="RECEPTOR"/>
+<celldesigner:protein id="pr13" name="TGFBR1" type="RECEPTOR"/>
 <celldesigner:protein id="pr11" name="LTBP1" type="GENERIC"/>
-<celldesigner:protein id="pr16" name="ACVR1" type="GENERIC"/>
-<celldesigner:protein id="pr19" name="BMPR2" type="GENERIC"/>
-<celldesigner:protein id="pr12" name="TGFB" type="GENERIC"/>
+<celldesigner:protein id="pr16" name="ACVR1" type="RECEPTOR"/>
+<celldesigner:protein id="pr19" name="BMPR2" type="RECEPTOR"/>
+<celldesigner:protein id="pr12" name="TGFB1" type="GENERIC"/>
 <celldesigner:protein id="pr7" name="RBX1" type="GENERIC"/>
 <celldesigner:protein id="pr6" name="SMAD3" type="GENERIC">
 <celldesigner:listOfModificationResidues>
@@ -1860,25 +1860,25 @@
 <celldesigner:modificationResidue angle="0.74" id="rs1" side="none"/>
 </celldesigner:listOfModificationResidues>
 </celldesigner:protein>
-<celldesigner:protein id="pr17" name="ACVR1B" type="GENERIC"/>
+<celldesigner:protein id="pr17" name="ACVR1B" type="RECEPTOR"/>
 <celldesigner:protein id="pr4" name="MAPK3" type="GENERIC"/>
 <celldesigner:protein id="pr25" name="RPS6KB1" type="GENERIC">
 <celldesigner:listOfModificationResidues>
 <celldesigner:modificationResidue angle="2.4" id="rs1" name="rs1" side="none"/>
 </celldesigner:listOfModificationResidues>
 </celldesigner:protein>
-<celldesigner:protein id="pr22" name="ACTR2" type="GENERIC"/>
+<celldesigner:protein id="pr22" name="ACTR2" type="RECEPTOR"/>
 <celldesigner:protein id="pr27" name="CUL2" type="GENERIC"/>
 <celldesigner:protein id="pr28" name="ELOC" type="GENERIC"/>
 <celldesigner:protein id="pr29" name="ELOB" type="GENERIC"/>
-<celldesigner:protein id="pr32" name="3a" type="GENERIC"/>
-<celldesigner:protein id="pr33" name="7b" type="GENERIC"/>
-<celldesigner:protein id="pr34" name="nsp4" type="GENERIC"/>
-<celldesigner:protein id="pr35" name="8" type="GENERIC"/>
-<celldesigner:protein id="pr36" name="nsp7" type="GENERIC"/>
+<celldesigner:protein id="pr32" name="Orf3a" type="GENERIC"/>
+<celldesigner:protein id="pr33" name="Nsp7b" type="GENERIC"/>
+<celldesigner:protein id="pr34" name="E" type="GENERIC"/>
+<celldesigner:protein id="pr35" name="Orf8" type="GENERIC"/>
+<celldesigner:protein id="pr36" name="Nsp7" type="GENERIC"/>
 <celldesigner:protein id="pr37" name="Orf10" type="GENERIC"/>
 <celldesigner:protein id="pr38" name="PPP2R1A" type="GENERIC"/>
-<celldesigner:protein id="pr39" name="7a" type="GENERIC"/>
+<celldesigner:protein id="pr39" name="Orf7a" type="GENERIC"/>
 </celldesigner:listOfProteins>
 <celldesigner:listOfGenes/>
 <celldesigner:listOfRNAs/>
@@ -1972,17 +1972,6 @@
 <celldesigner:listOfCatalyzedReactions>
 <celldesigner:catalyzed reaction="re32"/>
 </celldesigner:listOfCatalyzedReactions>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s12" id="s12" name="TGFB" compartment="default" initialAmount="0" charge="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr12</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
 </species>
@@ -2119,7 +2108,7 @@
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s85" id="s85" name="7b" compartment="default" initialAmount="0">
+<species metaid="s85" id="s85" name="Nsp7b" compartment="default" initialAmount="0">
 <annotation>
 <celldesigner:extension>
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
@@ -2131,9 +2120,18 @@
 <celldesigner:catalyzed reaction="re6"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s85">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q7TFA1"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </species>
-<species metaid="s90" id="s90" name="nsp4" compartment="c1" initialAmount="0">
+<species metaid="s90" id="s90" name="E" compartment="c1" initialAmount="0">
 <annotation>
 <celldesigner:extension>
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
@@ -2145,9 +2143,18 @@
 <celldesigner:catalyzed reaction="re3"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s90">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P59637"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </species>
-<species metaid="s92" id="s92" name="8" compartment="default" initialAmount="0">
+<species metaid="s92" id="s92" name="Orf8" compartment="default" initialAmount="0">
 <annotation>
 <celldesigner:extension>
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
@@ -2159,9 +2166,23 @@
 <celldesigner:catalyzed reaction="re32"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s92">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q80H93"/>
+</rdf:Bag>
+</bqmodel:is>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q7TFA0"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </species>
-<species metaid="s96" id="s96" name="nsp7" compartment="c1" initialAmount="0">
+<species metaid="s96" id="s96" name="Nsp7" compartment="c1" initialAmount="0">
 <annotation>
 <celldesigner:extension>
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
@@ -2173,9 +2194,18 @@
 <celldesigner:catalyzed reaction="re7"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s96">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q7TFA1"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </species>
-<species metaid="s104" id="s104" name="7a" compartment="c1" initialAmount="0">
+<species metaid="s104" id="s104" name="Orf7a" compartment="c1" initialAmount="0">
 <annotation>
 <celldesigner:extension>
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
@@ -2187,9 +2217,18 @@
 <celldesigner:catalyzed reaction="re8"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s104">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P59635"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </species>
-<species metaid="s105" id="s105" name="3a" compartment="c1" initialAmount="0">
+<species metaid="s105" id="s105" name="Orf3a" compartment="c1" initialAmount="0">
 <annotation>
 <celldesigner:extension>
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
@@ -2203,6 +2242,15 @@
 <celldesigner:catalyzed reaction="re20"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s105">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P59632"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </species>
 <species metaid="s109" id="s109" name="TGFB/TGFBR" compartment="c1" initialAmount="0">
@@ -2221,7 +2269,7 @@
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s110" id="s110" name="7b" compartment="c1" initialAmount="0">
+<species metaid="s110" id="s110" name="Nsp7b" compartment="c1" initialAmount="0">
 <annotation>
 <celldesigner:extension>
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
@@ -2233,6 +2281,15 @@
 <celldesigner:catalyzed reaction="re3"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s110">
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q7TFA1"/>
+</rdf:Bag>
+</bqmodel:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </species>
 <species metaid="s111" id="s111" name="E3 ubiquitin ligase complex" compartment="c1" initialAmount="0">
@@ -2360,6 +2417,17 @@
 </rdf:RDF>
 </annotation>
 </species>
+<species metaid="s12" id="s12" name="TGFB1" compartment="default" initialAmount="0" charge="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr12</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
 </listOfSpecies>
 <listOfReactions>
 <reaction metaid="re3" id="re3" reversible="false">
@@ -2408,7 +2476,7 @@
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s4" aliases="sa18" targetLineIndex="-1,7" editPoints="0.23340242777306575,-0.1047249599597384 0.4009856359219717,0.2687707916833375">
+<celldesigner:modification type="INHIBITION" modifiers="s4" aliases="sa18" targetLineIndex="-1,7" editPoints="0.2334024277730662,-0.1047249599597384 0.4009856359219721,0.2687707916833375">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -2565,7 +2633,7 @@
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s112" aliases="sa11" targetLineIndex="-1,7" editPoints="0.09184632204263199,0.15977199932434916 0.8434646434096145,-0.27230232339393146">
+<celldesigner:modification type="INHIBITION" modifiers="s112" aliases="sa11" targetLineIndex="-1,7" editPoints="0.09184632204263199,0.15977199932435004 0.8434646434096145,-0.27230232339393146">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -2622,7 +2690,7 @@
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s105" aliases="sa65" targetLineIndex="-1,2" editPoints="0.4512675818513239,0.09517758911275331 0.493856778824588,-0.1067515006054881">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s105" aliases="sa65" targetLineIndex="-1,2" editPoints="0.45126758185132276,0.09517758911275306 0.493856778824588,-0.10675150060548816">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -3154,7 +3222,7 @@
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.0837004405286344,0.32158590308370094</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.08370044052863462,0.3215859030837014</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
 <celldesigner:modification type="INHIBITION" modifiers="s11" aliases="sa7" targetLineIndex="2,7">
@@ -3168,7 +3236,7 @@
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s15" aliases="sa33" targetLineIndex="2,2" editPoints="-0.05757143428102651,-0.11680770270178176 0.7469827304677037,-0.5133512195245928">
+<celldesigner:modification type="INHIBITION" modifiers="s15" aliases="sa33" targetLineIndex="2,2" editPoints="-0.057571434281026734,-0.1168077027017822 0.7469827304677037,-0.5133512195245928">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
