@@ -1,123 +1,123 @@
 PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	ANNOTATION_SOURCE	ANNOTATION_INTERACTION	ANNOTATION_TARGET	SOURCE_TYPE	TARGET_TYPE	SOURCE_CLASS	TARGET_CLASS
-Thioredoxin:TXNIP	consumption	pr_e438612a-79aa-4fa9-97b6-fd9f987c166c	urn:miriam:uniprot:P10599|urn:miriam:uniprot:Q9H3M7			entity_pool	process	complex	process
-pr_e438612a-79aa-4fa9-97b6-fd9f987c166c	production	TXNIP			urn:miriam:uniprot:Q9H3M7	process	entity_pool	process	macromolecule
-pr_e438612a-79aa-4fa9-97b6-fd9f987c166c	production	TXN			urn:miriam:uniprot:P10599	process	entity_pool	process	macromolecule multimer
-TXN	consumption	pr_c50fc339-096b-431b-b0c0-9e590c4aa647	urn:miriam:uniprot:P10599			entity_pool	process	macromolecule	process
-pr_c50fc339-096b-431b-b0c0-9e590c4aa647	production	TXN			urn:miriam:uniprot:P10599	process	entity_pool	process	macromolecule multimer
-Reactive Oxygen Species	necessary stimulation	pr_c50fc339-096b-431b-b0c0-9e590c4aa647	urn:miriam:obo.chebi:CHEBI%3A26523			entity_pool	process	simple chemical	process
-TXNIP	consumption	pr_00b57861-f124-45a2-b69d-ddbecf6f1b2c	urn:miriam:uniprot:Q9H3M7			entity_pool	process	macromolecule	process
-TXN	consumption	pr_00b57861-f124-45a2-b69d-ddbecf6f1b2c	urn:miriam:uniprot:P10599			entity_pool	process	macromolecule	process
-pr_00b57861-f124-45a2-b69d-ddbecf6f1b2c	production	Thioredoxin:TXNIP			urn:miriam:uniprot:P10599|urn:miriam:uniprot:Q9H3M7	process	entity_pool	process	complex
-HSP90AB1	consumption	pr_ed39a157-f998-4240-9432-45453eab89b7	urn:miriam:uniprot:P08238			entity_pool	process	macromolecule	process
-SUGT1	consumption	pr_ed39a157-f998-4240-9432-45453eab89b7	urn:miriam:uniprot:Q9Y2Z0			entity_pool	process	macromolecule	process
-pr_ed39a157-f998-4240-9432-45453eab89b7	production	SUGT1:HSP90AB1			urn:miriam:uniprot:P08238|urn:miriam:uniprot:Q9Y2Z0	process	entity_pool	process	complex
-NLRP3	consumption	pr_f83308cb-c759-4160-9678-4c38ca4d2cbe	urn:miriam:uniprot:Q96P20			entity_pool	process	macromolecule	process
-TXNIP	consumption	pr_f83308cb-c759-4160-9678-4c38ca4d2cbe	urn:miriam:uniprot:Q9H3M7			entity_pool	process	macromolecule	process
-pr_f83308cb-c759-4160-9678-4c38ca4d2cbe	production	TXNIP:NLRP3			urn:miriam:uniprot:Q9H3M7|urn:miriam:uniprot:Q96P20	process	entity_pool	process	complex
-NLRP3 oligomer:ASC:proCaspase1	consumption	pr_ffd3d396-68f9-43d7-8dfb-db8b78b98133	urn:miriam:uniprot:P29466|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q96P20			entity_pool	process	complex	process
-pr_ffd3d396-68f9-43d7-8dfb-db8b78b98133	production	CASP1				process	entity_pool	process	macromolecule
-CTSG	catalysis	pr_ffd3d396-68f9-43d7-8dfb-db8b78b98133	urn:miriam:uniprot:P08311			entity_pool	process	macromolecule	process
-pr_ffd3d396-68f9-43d7-8dfb-db8b78b98133	production	NLRP3 oligomer:ASC			urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q96P20	process	entity_pool	process	complex
-CASP1	consumption	pr_5fb9cf66-adae-4114-8cb4-664efa06b0db				entity_pool	process	macromolecule	process
-pr_5fb9cf66-adae-4114-8cb4-664efa06b0db	production	CASP1(120-197):CASP1(317-404)			urn:miriam:uniprot:P29466	process	entity_pool	process	complex
-CASP1(120-197):CASP1(317-404)	consumption	pr_e9101efa-bbe0-4a22-b747-8cd96d1d0f81	urn:miriam:uniprot:P29466			entity_pool	process	complex	process
-pr_e9101efa-bbe0-4a22-b747-8cd96d1d0f81	production	Caspase-1 Tetramer			urn:miriam:uniprot:P29466	process	entity_pool	process	complex multimer
-proIL-1B	consumption	pr_b793ef1a-29d6-4888-b523-3acf10faaee8	urn:miriam:uniprot:P01584			entity_pool	process	macromolecule	process
-pr_b793ef1a-29d6-4888-b523-3acf10faaee8	production	IL-1B			urn:miriam:uniprot:P01584	process	entity_pool	process	macromolecule
-Caspase-1 Tetramer	catalysis	pr_b793ef1a-29d6-4888-b523-3acf10faaee8	urn:miriam:uniprot:P29466			entity_pool	process	complex multimer	process
-pr_b793ef1a-29d6-4888-b523-3acf10faaee8	production	proIL-1B			urn:miriam:uniprot:P01584	process	entity_pool	process	macromolecule
-IL-1B	consumption	pr_1695904d-d48f-4693-aaf7-119951729da5	urn:miriam:uniprot:P01584			entity_pool	process	macromolecule	omitted process
-pr_1695904d-d48f-4693-aaf7-119951729da5	production	IL-1B			urn:miriam:uniprot:P01584	process	entity_pool	omitted process	macromolecule
-proIL-18	consumption	pr_ea939a11-48c1-4f4f-9c23-2f5767a66556	urn:miriam:uniprot:Q14116			entity_pool	process	macromolecule	process
-pr_ea939a11-48c1-4f4f-9c23-2f5767a66556	production	IL-18			urn:miriam:uniprot:Q14116	process	entity_pool	process	macromolecule
-Caspase-1 Tetramer	catalysis	pr_ea939a11-48c1-4f4f-9c23-2f5767a66556	urn:miriam:uniprot:P29466			entity_pool	process	complex multimer	process
-pr_ea939a11-48c1-4f4f-9c23-2f5767a66556	production	proIL-18			urn:miriam:uniprot:Q14116	process	entity_pool	process	macromolecule
-IL-18	consumption	pr_f841cab2-a9e8-44b3-affb-afdf45b3791c	urn:miriam:uniprot:Q14116			entity_pool	process	macromolecule	omitted process
-pr_f841cab2-a9e8-44b3-affb-afdf45b3791c	production	IL-18			urn:miriam:uniprot:Q14116	process	entity_pool	omitted process	macromolecule
-CASP1	consumption	pr_c5c5808a-04c1-422a-b446-e73f3b61cd78	urn:miriam:uniprot:P29466			entity_pool	process	macromolecule	process
-NLRP3 oligomer:ASC	consumption	pr_c5c5808a-04c1-422a-b446-e73f3b61cd78	urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q96P20			entity_pool	process	complex	process
-pr_c5c5808a-04c1-422a-b446-e73f3b61cd78	production	NLRP3 oligomer:ASC:proCaspase1			urn:miriam:uniprot:P29466|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q96P20	process	entity_pool	process	complex
-proIL-1B	consumption	pr_f262e745-30b6-479a-b998-53e479b1870b	urn:miriam:ncbigene:3553			entity_pool	process	nucleic acid feature	process
-pr_f262e745-30b6-479a-b998-53e479b1870b	production	proIL-1B			urn:miriam:ncbigene:3553	process	entity_pool	process	nucleic acid feature
-Nf-KB Complex	catalysis	pr_f262e745-30b6-479a-b998-53e479b1870b	urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653	urn:miriam:pubmed:31034780		entity_pool	process	complex	process
-proIL-18	consumption	pr_e9031f06-690f-4551-a519-7d1aa56d7192	urn:miriam:ncbigene:3606			entity_pool	process	nucleic acid feature	process
-pr_e9031f06-690f-4551-a519-7d1aa56d7192	production	proIL-18			urn:miriam:ncbigene:3606	process	entity_pool	process	nucleic acid feature
-Nf-KB Complex	catalysis	pr_e9031f06-690f-4551-a519-7d1aa56d7192	urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653	urn:miriam:pubmed:31034780		entity_pool	process	complex	process
-p50	consumption	pr_6d8f764e-2653-4e9a-a8f3-9af49161a35c	urn:miriam:uniprot:P19838			entity_pool	process	macromolecule	process
-pr_6d8f764e-2653-4e9a-a8f3-9af49161a35c	production	Nf-KB Complex			urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653	process	entity_pool	process	complex
-p65	consumption	pr_6d8f764e-2653-4e9a-a8f3-9af49161a35c	urn:miriam:uniprot:Q00653			entity_pool	process	macromolecule	process
-Orf3a	consumption	pr_f413462f-8d57-416f-b464-5267255a8b27	urn:miriam:uniprot:P59632|urn:miriam:taxonomy:694009			entity_pool	process	macromolecule	process
-TRAF3	consumption	pr_f413462f-8d57-416f-b464-5267255a8b27	urn:miriam:uniprot:Q13114			entity_pool	process	macromolecule	process
-pr_f413462f-8d57-416f-b464-5267255a8b27	production	TRAF3:SARS Orf3a			urn:miriam:uniprot:P59632|urn:miriam:uniprot:Q13114|urn:miriam:taxonomy:694009	process	entity_pool	process	complex
-p105	consumption	pr_e25c8388-9392-44b2-8e88-90e4c2f71191	urn:miriam:uniprot:P19838			entity_pool	process	macromolecule	omitted process
-pr_e25c8388-9392-44b2-8e88-90e4c2f71191	production	p50			urn:miriam:uniprot:P19838	process	entity_pool	omitted process	macromolecule
-ASC	consumption	pr_743bc65c-2340-4945-8519-5f03b9211062	urn:miriam:uniprot:Q9ULZ3			entity_pool	process	macromolecule	process
-NLRP3	consumption	pr_743bc65c-2340-4945-8519-5f03b9211062	urn:miriam:uniprot:Q96P20			entity_pool	process	macromolecule multimer	process
-pr_743bc65c-2340-4945-8519-5f03b9211062	production	NLRP3 oligomer:ASC			urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q96P20	process	entity_pool	process	complex
-IKBA	consumption	pr_b451bd21-72a9-4e6f-b993-0efba507bba1				entity_pool	process	macromolecule	process
-Nf-KB Complex	consumption	pr_b451bd21-72a9-4e6f-b993-0efba507bba1	urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653			entity_pool	process	complex	process
-pr_b451bd21-72a9-4e6f-b993-0efba507bba1	production	NF-KB COMPLEX:IKBA			urn:miriam:uniprot:P19838	process	entity_pool	process	complex
-Nf-KB Complex	consumption	pr_f783e348-c206-4a58-9a74-14fb2a18a5cb	urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653			entity_pool	process	complex	process
-pr_f783e348-c206-4a58-9a74-14fb2a18a5cb	production	Nf-KB Complex			urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653	process	entity_pool	process	complex
-NF-KB COMPLEX:IKBA	inhibition	pr_f783e348-c206-4a58-9a74-14fb2a18a5cb	urn:miriam:uniprot:P19838			entity_pool	process	complex	process
-NLRP3:SUGT1:HSP90	consumption	pr_2f604e5e-9b25-4a53-806c-f59ebeb29be2	urn:miriam:uniprot:P08238|urn:miriam:uniprot:Q96P20|urn:miriam:uniprot:Q9Y2Z0			entity_pool	process	complex	omitted process
-pr_2f604e5e-9b25-4a53-806c-f59ebeb29be2	production	NLRP3			urn:miriam:uniprot:Q96P20	process	entity_pool	omitted process	macromolecule multimer
-logicglyph_47bd17be-4ce5-427e-b0f7-9a457a2f187d	necessary stimulation	pr_2f604e5e-9b25-4a53-806c-f59ebeb29be2		urn:miriam:pubmed:25847972|urn:miriam:pubmed:29789363|urn:miriam:pubmed:26331680|urn:miriam:doi:10.1016%2Fj.immuni.2009.02.005|urn:miriam:doi:10.3389%2Ffimmu.2020.01030|urn:miriam:pubmed:25770182|urn:miriam:pubmed:28356568|urn:miriam:pubmed:28741645		logic	process	or	omitted process
-DAMPs	logic arc	logicglyph_47bd17be-4ce5-427e-b0f7-9a457a2f187d	urn:miriam:obo.go:GO%3A0002221			entity_pool	logic	phenotype	or
-PAMPs	logic arc	logicglyph_47bd17be-4ce5-427e-b0f7-9a457a2f187d	urn:miriam:obo.go:GO%3A0002221			entity_pool	logic	phenotype	or
-NLRP3 Elicitor Small Molecules	logic arc	logicglyph_47bd17be-4ce5-427e-b0f7-9a457a2f187d	urn:miriam:obo.chebi:CHEBI%3A46661|urn:miriam:obo.chebi:CHEBI%3A16336|urn:miriam:obo.chebi:CHEBI%3A30563			entity_pool	logic	simple chemical	or
-NLRP3 Elicitor Proteins	logic arc	logicglyph_47bd17be-4ce5-427e-b0f7-9a457a2f187d	urn:miriam:uniprot:P05067|urn:miriam:uniprot:P09616			entity_pool	logic	macromolecule	or
-Reactive Oxygen Species	logic arc	logicglyph_47bd17be-4ce5-427e-b0f7-9a457a2f187d	urn:miriam:obo.chebi:CHEBI%3A26523			entity_pool	logic	simple chemical	or
-TXNIP:NLRP3	logic arc	logicglyph_47bd17be-4ce5-427e-b0f7-9a457a2f187d	urn:miriam:uniprot:Q9H3M7|urn:miriam:uniprot:Q96P20			entity_pool	logic	complex	or
-Ca2+	logic arc	logicglyph_47bd17be-4ce5-427e-b0f7-9a457a2f187d	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	logic	simple chemical	or
-pr_2f604e5e-9b25-4a53-806c-f59ebeb29be2	production	SUGT1:HSP90AB1			urn:miriam:uniprot:P08238|urn:miriam:uniprot:Q9Y2Z0	process	entity_pool	omitted process	complex
-ASC	consumption	pr_39e58a8f-0ff1-4856-9dba-0b4e168ccbb7	urn:miriam:uniprot:Q9ULZ3			entity_pool	process	macromolecule	process
-pr_39e58a8f-0ff1-4856-9dba-0b4e168ccbb7	production	ASC:MAVS			urn:miriam:uniprot:Q9ULZ3	process	entity_pool	process	complex
-MAVS	consumption	pr_39e58a8f-0ff1-4856-9dba-0b4e168ccbb7	urn:miriam:uniprot:Q7Z434			entity_pool	process	macromolecule	process
-ASC:MAVS	consumption	pr_7203c6f2-b0e9-4c20-a1fd-7a68edf6036a	urn:miriam:uniprot:Q9ULZ3			entity_pool	process	complex	process
-pr_7203c6f2-b0e9-4c20-a1fd-7a68edf6036a	production	ASC:MAVS:TRAF3			urn:miriam:pubmed:25847972|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q13114	process	entity_pool	process	complex
-TRAF3	consumption	pr_7203c6f2-b0e9-4c20-a1fd-7a68edf6036a	urn:miriam:uniprot:Q13114			entity_pool	process	macromolecule	process
-ASC:MAVS:TRAF3	consumption	pr_17d127d5-f615-484a-9036-4388959dd8fe	urn:miriam:pubmed:25847972|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q13114			entity_pool	process	complex	process
-pr_17d127d5-f615-484a-9036-4388959dd8fe	production	ASC			urn:miriam:uniprot:Q9ULZ3	process	entity_pool	process	macromolecule
-pr_17d127d5-f615-484a-9036-4388959dd8fe	production	TRAF3			urn:miriam:uniprot:Q13114	process	entity_pool	process	macromolecule
-pr_17d127d5-f615-484a-9036-4388959dd8fe	production	MAVS			urn:miriam:uniprot:Q7Z434	process	entity_pool	process	macromolecule
-ASC:MAVS:TRAF3	consumption	pr_9d6a595d-a9a8-41ce-8562-88362b40ee3b	urn:miriam:pubmed:25847972|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q13114			entity_pool	process	complex	omitted process
-pr_9d6a595d-a9a8-41ce-8562-88362b40ee3b	production	ASC:MAVS:TRAF3			urn:miriam:pubmed:25847972|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q13114	process	entity_pool	omitted process	complex
-TRAF3:SARS Orf3a	catalysis	pr_9d6a595d-a9a8-41ce-8562-88362b40ee3b	urn:miriam:uniprot:P59632|urn:miriam:uniprot:Q13114|urn:miriam:taxonomy:694009	urn:miriam:pubmed:25847972|urn:miriam:pubmed:31034780|urn:miriam:taxonomy:9606		entity_pool	process	complex	omitted process
-NLRP3	consumption	pr_f4219a09-ceb1-48bf-b548-4c8fb4dcec87	urn:miriam:uniprot:Q96P20			entity_pool	process	macromolecule	process
-SUGT1:HSP90AB1	consumption	pr_f4219a09-ceb1-48bf-b548-4c8fb4dcec87	urn:miriam:uniprot:P08238|urn:miriam:uniprot:Q9Y2Z0			entity_pool	process	complex	process
-pr_f4219a09-ceb1-48bf-b548-4c8fb4dcec87	production	NLRP3:SUGT1:HSP90			urn:miriam:uniprot:P08238|urn:miriam:uniprot:Q96P20|urn:miriam:uniprot:Q9Y2Z0	process	entity_pool	process	complex
-proIL-1B	consumption	pr_85faed18-5bf0-430d-8b04-1782c34d8bac	urn:miriam:ncbigene:3553			entity_pool	process	nucleic acid feature	process
-pr_85faed18-5bf0-430d-8b04-1782c34d8bac	production	proIL-1B			urn:miriam:uniprot:P01584	process	entity_pool	process	macromolecule
-proIL-18	consumption	pr_7da7c32a-2782-495d-9e11-611cd4af2f07	urn:miriam:ncbigene:3606			entity_pool	process	nucleic acid feature	process
-pr_7da7c32a-2782-495d-9e11-611cd4af2f07	production	proIL-18			urn:miriam:uniprot:Q14116	process	entity_pool	process	macromolecule
-Ca2+	consumption	pr_9ef90537-a9c4-4e76-99bb-c22152df92d4	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
-pr_9ef90537-a9c4-4e76-99bb-c22152df92d4	production	Ca2+			urn:miriam:obo.chebi:CHEBI%3A29108	process	entity_pool	process	simple chemical
-E	catalysis	pr_9ef90537-a9c4-4e76-99bb-c22152df92d4	urn:miriam:uniprot:P59637	urn:miriam:pubmed:26331680|urn:miriam:doi:10.1016%2Fj.bbrc.2020.05.206|urn:miriam:taxonomy:392815		entity_pool	process	macromolecule	process
-Ca2+	consumption	pr_8aca13f9-f221-4091-8046-69cb0db189c6	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
-pr_8aca13f9-f221-4091-8046-69cb0db189c6	production	Ca2+			urn:miriam:obo.chebi:CHEBI%3A29108	process	entity_pool	process	simple chemical
-E	catalysis	pr_8aca13f9-f221-4091-8046-69cb0db189c6	urn:miriam:uniprot:P59637|urn:miriam:taxonomy:694009	urn:miriam:pubmed:26331680|urn:miriam:doi:10.1016%2Fj.bbrc.2020.05.206|urn:miriam:taxonomy:392815		entity_pool	process	macromolecule	process
-Orf3a	consumption	pr_5c7a0f35-af6d-4f07-a223-5a01cc5d4108	urn:miriam:uniprot:P59632|urn:miriam:taxonomy:694009			entity_pool	process	macromolecule	process
-TRAF3	consumption	pr_5c7a0f35-af6d-4f07-a223-5a01cc5d4108	urn:miriam:uniprot:Q13114			entity_pool	process	macromolecule	process
-pr_5c7a0f35-af6d-4f07-a223-5a01cc5d4108	production	TRAF3:SARS Orf3a			urn:miriam:uniprot:P59632|urn:miriam:uniprot:Q13114|urn:miriam:taxonomy:694009	process	entity_pool	process	complex
-p105	consumption	pr_88faafb7-7226-49cb-af65-d6eb38b43602	urn:miriam:uniprot:P19838			entity_pool	process	macromolecule	omitted process
-pr_88faafb7-7226-49cb-af65-d6eb38b43602	production	p105			urn:miriam:uniprot:P19838	process	entity_pool	omitted process	macromolecule
-TRAF3:SARS Orf3a	catalysis	pr_88faafb7-7226-49cb-af65-d6eb38b43602	urn:miriam:uniprot:P59632|urn:miriam:uniprot:Q13114|urn:miriam:taxonomy:694009	urn:miriam:pubmed:31034780|urn:miriam:taxonomy:9606		entity_pool	process	complex	omitted process
-Heme	consumption	pr_7dc2b69e-0fe9-424a-bf88-6077cd702246	urn:miriam:obo.chebi:CHEBI%3A30413			entity_pool	process	simple chemical	process
-pr_7dc2b69e-0fe9-424a-bf88-6077cd702246	production	Biliverdin			urn:miriam:obo.chebi:CHEBI%3A17033	process	entity_pool	process	simple chemical
-HMOX1	catalysis	pr_7dc2b69e-0fe9-424a-bf88-6077cd702246	urn:miriam:uniprot:P09601			entity_pool	process	macromolecule	process
-O2	consumption	pr_7dc2b69e-0fe9-424a-bf88-6077cd702246	urn:miriam:obo.chebi:CHEBI%3A15379			entity_pool	process	simple chemical	process
-NADPH	consumption	pr_7dc2b69e-0fe9-424a-bf88-6077cd702246	urn:miriam:obo.chebi:CHEBI%3A16474			entity_pool	process	simple chemical	process
-pr_7dc2b69e-0fe9-424a-bf88-6077cd702246	production	H2O			urn:miriam:obo.chebi:CHEBI%3A15377	process	entity_pool	process	simple chemical
-pr_7dc2b69e-0fe9-424a-bf88-6077cd702246	production	NADP+			urn:miriam:obo.chebi:CHEBI%3A18009	process	entity_pool	process	simple chemical
-pr_7dc2b69e-0fe9-424a-bf88-6077cd702246	production	CO			urn:miriam:obo.chebi:CHEBI%3A17245	process	entity_pool	process	simple chemical
-pr_7dc2b69e-0fe9-424a-bf88-6077cd702246	production	Fe2+			urn:miriam:obo.chebi:CHEBI%3A29033	process	entity_pool	process	simple chemical
-s876	consumption	pr_c76c3f47-1f0f-4222-9020-d2796791c3c2				entity_pool	process	source and sink	process
-pr_c76c3f47-1f0f-4222-9020-d2796791c3c2	production	Reactive Oxygen Species			urn:miriam:obo.chebi:CHEBI%3A26523	process	entity_pool	process	simple chemical
-CO	inhibition	pr_c76c3f47-1f0f-4222-9020-d2796791c3c2	urn:miriam:obo.chebi:CHEBI%3A17245	urn:miriam:pubmed:28356568|urn:miriam:pubmed:25770182		entity_pool	process	simple chemical	process
-MAVS	consumption	pr_a6a7b0f4-54ef-4a6b-8b24-b6e72df48b8a	urn:miriam:uniprot:Q7Z434			entity_pool	process	macromolecule	process
-pr_a6a7b0f4-54ef-4a6b-8b24-b6e72df48b8a	production	s878				process	entity_pool	process	source and sink
-Orf9b	catalysis	pr_a6a7b0f4-54ef-4a6b-8b24-b6e72df48b8a	urn:miriam:taxonomy:694009|urn:miriam:uniprot:P59636	urn:miriam:doi:10.4049%2Fjimmunol.1303196		entity_pool	process	macromolecule	process
-TRAF3	consumption	pr_505daf5a-32b4-4c86-9b22-6847e15406f0	urn:miriam:uniprot:Q13114			entity_pool	process	macromolecule	process
-pr_505daf5a-32b4-4c86-9b22-6847e15406f0	production	s878				process	entity_pool	process	source and sink
-Orf9b	catalysis	pr_505daf5a-32b4-4c86-9b22-6847e15406f0	urn:miriam:taxonomy:694009|urn:miriam:uniprot:P59636	urn:miriam:doi:10.4049%2Fjimmunol.1303196		entity_pool	process	macromolecule	process
+Thioredoxin:TXNIP	consumption	pr_2427069c-1d2a-4876-b18e-6146bf72d61d	urn:miriam:uniprot:P10599|urn:miriam:uniprot:Q9H3M7			entity_pool	process	complex	process
+pr_2427069c-1d2a-4876-b18e-6146bf72d61d	production	TXNIP			urn:miriam:uniprot:Q9H3M7	process	entity_pool	process	macromolecule
+pr_2427069c-1d2a-4876-b18e-6146bf72d61d	production	TXN			urn:miriam:uniprot:P10599	process	entity_pool	process	macromolecule multimer
+TXN	consumption	pr_2a38d549-9419-48f8-bd2b-50af14a0dcdd	urn:miriam:uniprot:P10599			entity_pool	process	macromolecule	process
+pr_2a38d549-9419-48f8-bd2b-50af14a0dcdd	production	TXN			urn:miriam:uniprot:P10599	process	entity_pool	process	macromolecule multimer
+Reactive Oxygen Species	necessary stimulation	pr_2a38d549-9419-48f8-bd2b-50af14a0dcdd	urn:miriam:obo.chebi:CHEBI%3A26523			entity_pool	process	simple chemical	process
+TXNIP	consumption	pr_ddc52e6e-8144-47c0-839b-5e6ca6219b61	urn:miriam:uniprot:Q9H3M7			entity_pool	process	macromolecule	process
+TXN	consumption	pr_ddc52e6e-8144-47c0-839b-5e6ca6219b61	urn:miriam:uniprot:P10599			entity_pool	process	macromolecule	process
+pr_ddc52e6e-8144-47c0-839b-5e6ca6219b61	production	Thioredoxin:TXNIP			urn:miriam:uniprot:P10599|urn:miriam:uniprot:Q9H3M7	process	entity_pool	process	complex
+HSP90AB1	consumption	pr_e6a9fa82-460f-46e0-9858-bf9a58c43fe0	urn:miriam:uniprot:P08238			entity_pool	process	macromolecule	process
+SUGT1	consumption	pr_e6a9fa82-460f-46e0-9858-bf9a58c43fe0	urn:miriam:uniprot:Q9Y2Z0			entity_pool	process	macromolecule	process
+pr_e6a9fa82-460f-46e0-9858-bf9a58c43fe0	production	SUGT1:HSP90AB1			urn:miriam:uniprot:P08238|urn:miriam:uniprot:Q9Y2Z0	process	entity_pool	process	complex
+NLRP3	consumption	pr_e0c79357-bd3b-4b41-863d-9c1ca410e936	urn:miriam:uniprot:Q96P20			entity_pool	process	macromolecule	process
+TXNIP	consumption	pr_e0c79357-bd3b-4b41-863d-9c1ca410e936	urn:miriam:uniprot:Q9H3M7			entity_pool	process	macromolecule	process
+pr_e0c79357-bd3b-4b41-863d-9c1ca410e936	production	TXNIP:NLRP3			urn:miriam:uniprot:Q9H3M7|urn:miriam:uniprot:Q96P20	process	entity_pool	process	complex
+NLRP3 oligomer:ASC:proCaspase1	consumption	pr_8e6f4be4-3b76-4bbf-a272-8304698a59cd	urn:miriam:uniprot:P29466|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q96P20			entity_pool	process	complex	process
+pr_8e6f4be4-3b76-4bbf-a272-8304698a59cd	production	CASP1				process	entity_pool	process	macromolecule
+CTSG	catalysis	pr_8e6f4be4-3b76-4bbf-a272-8304698a59cd	urn:miriam:uniprot:P08311			entity_pool	process	macromolecule	process
+pr_8e6f4be4-3b76-4bbf-a272-8304698a59cd	production	NLRP3 oligomer:ASC			urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q96P20	process	entity_pool	process	complex
+CASP1	consumption	pr_26cd19c3-d612-488d-89cc-8b6a9df7a5e1				entity_pool	process	macromolecule	process
+pr_26cd19c3-d612-488d-89cc-8b6a9df7a5e1	production	CASP1(120-197):CASP1(317-404)			urn:miriam:uniprot:P29466	process	entity_pool	process	complex
+CASP1(120-197):CASP1(317-404)	consumption	pr_6607d05c-6d19-432a-8206-8ed3b33a177c	urn:miriam:uniprot:P29466			entity_pool	process	complex	process
+pr_6607d05c-6d19-432a-8206-8ed3b33a177c	production	Caspase-1 Tetramer			urn:miriam:uniprot:P29466	process	entity_pool	process	complex multimer
+proIL-1B	consumption	pr_572f6486-7bf7-4b2d-b39f-b9ba143bf29d	urn:miriam:uniprot:P01584			entity_pool	process	macromolecule	process
+pr_572f6486-7bf7-4b2d-b39f-b9ba143bf29d	production	IL-1B			urn:miriam:uniprot:P01584	process	entity_pool	process	macromolecule
+Caspase-1 Tetramer	catalysis	pr_572f6486-7bf7-4b2d-b39f-b9ba143bf29d	urn:miriam:uniprot:P29466			entity_pool	process	complex multimer	process
+pr_572f6486-7bf7-4b2d-b39f-b9ba143bf29d	production	proIL-1B			urn:miriam:uniprot:P01584	process	entity_pool	process	macromolecule
+IL-1B	consumption	pr_c0f1b3ef-e96f-4e92-9a83-503901214435	urn:miriam:uniprot:P01584			entity_pool	process	macromolecule	omitted process
+pr_c0f1b3ef-e96f-4e92-9a83-503901214435	production	IL-1B			urn:miriam:uniprot:P01584	process	entity_pool	omitted process	macromolecule
+proIL-18	consumption	pr_efc1a227-5a54-46f9-b186-10644f95021a	urn:miriam:uniprot:Q14116			entity_pool	process	macromolecule	process
+pr_efc1a227-5a54-46f9-b186-10644f95021a	production	IL-18			urn:miriam:uniprot:Q14116	process	entity_pool	process	macromolecule
+Caspase-1 Tetramer	catalysis	pr_efc1a227-5a54-46f9-b186-10644f95021a	urn:miriam:uniprot:P29466			entity_pool	process	complex multimer	process
+pr_efc1a227-5a54-46f9-b186-10644f95021a	production	proIL-18			urn:miriam:uniprot:Q14116	process	entity_pool	process	macromolecule
+IL-18	consumption	pr_9c37da09-6d12-49a6-8c8f-b8176bd33720	urn:miriam:uniprot:Q14116			entity_pool	process	macromolecule	omitted process
+pr_9c37da09-6d12-49a6-8c8f-b8176bd33720	production	IL-18			urn:miriam:uniprot:Q14116	process	entity_pool	omitted process	macromolecule
+CASP1	consumption	pr_0d116d30-676a-4319-a7b1-f3ec755bf436	urn:miriam:uniprot:P29466			entity_pool	process	macromolecule	process
+NLRP3 oligomer:ASC	consumption	pr_0d116d30-676a-4319-a7b1-f3ec755bf436	urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q96P20			entity_pool	process	complex	process
+pr_0d116d30-676a-4319-a7b1-f3ec755bf436	production	NLRP3 oligomer:ASC:proCaspase1			urn:miriam:uniprot:P29466|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q96P20	process	entity_pool	process	complex
+proIL-1B	consumption	pr_f390ac04-d897-460e-a272-8fd7dc843573	urn:miriam:ncbigene:3553			entity_pool	process	nucleic acid feature	process
+pr_f390ac04-d897-460e-a272-8fd7dc843573	production	proIL-1B			urn:miriam:ncbigene:3553	process	entity_pool	process	nucleic acid feature
+Nf-KB Complex	catalysis	pr_f390ac04-d897-460e-a272-8fd7dc843573	urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653	urn:miriam:pubmed:31034780		entity_pool	process	complex	process
+proIL-18	consumption	pr_39ee987a-472e-4860-a768-032f3d580ce7	urn:miriam:ncbigene:3606			entity_pool	process	nucleic acid feature	process
+pr_39ee987a-472e-4860-a768-032f3d580ce7	production	proIL-18			urn:miriam:ncbigene:3606	process	entity_pool	process	nucleic acid feature
+Nf-KB Complex	catalysis	pr_39ee987a-472e-4860-a768-032f3d580ce7	urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653	urn:miriam:pubmed:31034780		entity_pool	process	complex	process
+p50	consumption	pr_b84a7284-5655-4586-ab9d-3d97a4e1562e	urn:miriam:uniprot:P19838			entity_pool	process	macromolecule	process
+pr_b84a7284-5655-4586-ab9d-3d97a4e1562e	production	Nf-KB Complex			urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653	process	entity_pool	process	complex
+p65	consumption	pr_b84a7284-5655-4586-ab9d-3d97a4e1562e	urn:miriam:uniprot:Q00653			entity_pool	process	macromolecule	process
+Orf3a	consumption	pr_15fd2224-659c-42b8-a780-0cd355634ecb	urn:miriam:uniprot:P59632|urn:miriam:taxonomy:694009			entity_pool	process	macromolecule	process
+TRAF3	consumption	pr_15fd2224-659c-42b8-a780-0cd355634ecb	urn:miriam:uniprot:Q13114			entity_pool	process	macromolecule	process
+pr_15fd2224-659c-42b8-a780-0cd355634ecb	production	TRAF3:SARS Orf3a			urn:miriam:uniprot:P59632|urn:miriam:uniprot:Q13114|urn:miriam:taxonomy:694009	process	entity_pool	process	complex
+p105	consumption	pr_12a1c16c-ad42-49b0-9460-0184c1a2a56f	urn:miriam:uniprot:P19838			entity_pool	process	macromolecule	omitted process
+pr_12a1c16c-ad42-49b0-9460-0184c1a2a56f	production	p50			urn:miriam:uniprot:P19838	process	entity_pool	omitted process	macromolecule
+ASC	consumption	pr_89a76b7c-31e7-48b1-a9cb-afc3f284afd2	urn:miriam:uniprot:Q9ULZ3			entity_pool	process	macromolecule	process
+NLRP3	consumption	pr_89a76b7c-31e7-48b1-a9cb-afc3f284afd2	urn:miriam:uniprot:Q96P20			entity_pool	process	macromolecule multimer	process
+pr_89a76b7c-31e7-48b1-a9cb-afc3f284afd2	production	NLRP3 oligomer:ASC			urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q96P20	process	entity_pool	process	complex
+IKBA	consumption	pr_62dd5907-bdf5-4d85-aff4-acea0bfe92fd				entity_pool	process	macromolecule	process
+Nf-KB Complex	consumption	pr_62dd5907-bdf5-4d85-aff4-acea0bfe92fd	urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653			entity_pool	process	complex	process
+pr_62dd5907-bdf5-4d85-aff4-acea0bfe92fd	production	NF-KB COMPLEX:IKBA			urn:miriam:uniprot:P19838	process	entity_pool	process	complex
+Nf-KB Complex	consumption	pr_2b5fbb4a-36d1-493d-a293-889dfe4c27ce	urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653			entity_pool	process	complex	process
+pr_2b5fbb4a-36d1-493d-a293-889dfe4c27ce	production	Nf-KB Complex			urn:miriam:uniprot:P19838|urn:miriam:uniprot:Q00653	process	entity_pool	process	complex
+NF-KB COMPLEX:IKBA	inhibition	pr_2b5fbb4a-36d1-493d-a293-889dfe4c27ce	urn:miriam:uniprot:P19838			entity_pool	process	complex	process
+NLRP3:SUGT1:HSP90	consumption	pr_4e566f8c-8260-4204-bb8c-71d62bb189af	urn:miriam:uniprot:P08238|urn:miriam:uniprot:Q96P20|urn:miriam:uniprot:Q9Y2Z0			entity_pool	process	complex	omitted process
+pr_4e566f8c-8260-4204-bb8c-71d62bb189af	production	NLRP3			urn:miriam:uniprot:Q96P20	process	entity_pool	omitted process	macromolecule multimer
+logicglyph_9e414e7a-c88c-4f6b-ae14-a5428b924721	necessary stimulation	pr_4e566f8c-8260-4204-bb8c-71d62bb189af		urn:miriam:pubmed:25847972|urn:miriam:pubmed:29789363|urn:miriam:pubmed:26331680|urn:miriam:doi:10.1016%2Fj.immuni.2009.02.005|urn:miriam:doi:10.3389%2Ffimmu.2020.01030|urn:miriam:pubmed:25770182|urn:miriam:pubmed:28356568|urn:miriam:pubmed:28741645		logic	process	or	omitted process
+DAMPs	logic arc	logicglyph_9e414e7a-c88c-4f6b-ae14-a5428b924721	urn:miriam:obo.go:GO%3A0002221			entity_pool	logic	phenotype	or
+PAMPs	logic arc	logicglyph_9e414e7a-c88c-4f6b-ae14-a5428b924721	urn:miriam:obo.go:GO%3A0002221			entity_pool	logic	phenotype	or
+NLRP3 Elicitor Small Molecules	logic arc	logicglyph_9e414e7a-c88c-4f6b-ae14-a5428b924721	urn:miriam:obo.chebi:CHEBI%3A46661|urn:miriam:obo.chebi:CHEBI%3A16336|urn:miriam:obo.chebi:CHEBI%3A30563			entity_pool	logic	simple chemical	or
+NLRP3 Elicitor Proteins	logic arc	logicglyph_9e414e7a-c88c-4f6b-ae14-a5428b924721	urn:miriam:uniprot:P05067|urn:miriam:uniprot:P09616			entity_pool	logic	macromolecule	or
+Reactive Oxygen Species	logic arc	logicglyph_9e414e7a-c88c-4f6b-ae14-a5428b924721	urn:miriam:obo.chebi:CHEBI%3A26523			entity_pool	logic	simple chemical	or
+TXNIP:NLRP3	logic arc	logicglyph_9e414e7a-c88c-4f6b-ae14-a5428b924721	urn:miriam:uniprot:Q9H3M7|urn:miriam:uniprot:Q96P20			entity_pool	logic	complex	or
+Ca2+	logic arc	logicglyph_9e414e7a-c88c-4f6b-ae14-a5428b924721	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	logic	simple chemical	or
+pr_4e566f8c-8260-4204-bb8c-71d62bb189af	production	SUGT1:HSP90AB1			urn:miriam:uniprot:P08238|urn:miriam:uniprot:Q9Y2Z0	process	entity_pool	omitted process	complex
+ASC	consumption	pr_dcddf310-a017-4c89-98af-b0655dd77df1	urn:miriam:uniprot:Q9ULZ3			entity_pool	process	macromolecule	process
+pr_dcddf310-a017-4c89-98af-b0655dd77df1	production	ASC:MAVS			urn:miriam:uniprot:Q9ULZ3	process	entity_pool	process	complex
+MAVS	consumption	pr_dcddf310-a017-4c89-98af-b0655dd77df1	urn:miriam:uniprot:Q7Z434			entity_pool	process	macromolecule	process
+ASC:MAVS	consumption	pr_cb94a955-d04f-4520-a61a-275e7ebfadd3	urn:miriam:uniprot:Q9ULZ3			entity_pool	process	complex	process
+pr_cb94a955-d04f-4520-a61a-275e7ebfadd3	production	ASC:MAVS:TRAF3			urn:miriam:pubmed:25847972|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q13114	process	entity_pool	process	complex
+TRAF3	consumption	pr_cb94a955-d04f-4520-a61a-275e7ebfadd3	urn:miriam:uniprot:Q13114			entity_pool	process	macromolecule	process
+ASC:MAVS:TRAF3	consumption	pr_c6417daa-3069-465f-8356-6dbe41764396	urn:miriam:pubmed:25847972|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q13114			entity_pool	process	complex	process
+pr_c6417daa-3069-465f-8356-6dbe41764396	production	ASC			urn:miriam:uniprot:Q9ULZ3	process	entity_pool	process	macromolecule
+pr_c6417daa-3069-465f-8356-6dbe41764396	production	TRAF3			urn:miriam:uniprot:Q13114	process	entity_pool	process	macromolecule
+pr_c6417daa-3069-465f-8356-6dbe41764396	production	MAVS			urn:miriam:uniprot:Q7Z434	process	entity_pool	process	macromolecule
+ASC:MAVS:TRAF3	consumption	pr_d11f6934-1277-4690-a53b-903b606be766	urn:miriam:pubmed:25847972|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q13114			entity_pool	process	complex	omitted process
+pr_d11f6934-1277-4690-a53b-903b606be766	production	ASC:MAVS:TRAF3			urn:miriam:pubmed:25847972|urn:miriam:uniprot:Q9ULZ3|urn:miriam:uniprot:Q13114	process	entity_pool	omitted process	complex
+TRAF3:SARS Orf3a	catalysis	pr_d11f6934-1277-4690-a53b-903b606be766	urn:miriam:uniprot:P59632|urn:miriam:uniprot:Q13114|urn:miriam:taxonomy:694009	urn:miriam:pubmed:25847972|urn:miriam:pubmed:31034780|urn:miriam:taxonomy:9606		entity_pool	process	complex	omitted process
+NLRP3	consumption	pr_a67280c9-e2e3-4424-9be1-be42e1c23982	urn:miriam:uniprot:Q96P20			entity_pool	process	macromolecule	process
+SUGT1:HSP90AB1	consumption	pr_a67280c9-e2e3-4424-9be1-be42e1c23982	urn:miriam:uniprot:P08238|urn:miriam:uniprot:Q9Y2Z0			entity_pool	process	complex	process
+pr_a67280c9-e2e3-4424-9be1-be42e1c23982	production	NLRP3:SUGT1:HSP90			urn:miriam:uniprot:P08238|urn:miriam:uniprot:Q96P20|urn:miriam:uniprot:Q9Y2Z0	process	entity_pool	process	complex
+proIL-1B	consumption	pr_ca30d84c-6d9e-48f2-9592-cf1f4ff28b11	urn:miriam:ncbigene:3553			entity_pool	process	nucleic acid feature	process
+pr_ca30d84c-6d9e-48f2-9592-cf1f4ff28b11	production	proIL-1B			urn:miriam:uniprot:P01584	process	entity_pool	process	macromolecule
+proIL-18	consumption	pr_2e8362f8-7c0d-47df-96f7-d8323283391a	urn:miriam:ncbigene:3606			entity_pool	process	nucleic acid feature	process
+pr_2e8362f8-7c0d-47df-96f7-d8323283391a	production	proIL-18			urn:miriam:uniprot:Q14116	process	entity_pool	process	macromolecule
+Ca2+	consumption	pr_d604aa82-d3ca-429f-86f1-a17558c7114d	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
+pr_d604aa82-d3ca-429f-86f1-a17558c7114d	production	Ca2+			urn:miriam:obo.chebi:CHEBI%3A29108	process	entity_pool	process	simple chemical
+E	catalysis	pr_d604aa82-d3ca-429f-86f1-a17558c7114d	urn:miriam:uniprot:P59637	urn:miriam:pubmed:26331680|urn:miriam:doi:10.1016%2Fj.bbrc.2020.05.206|urn:miriam:taxonomy:392815		entity_pool	process	macromolecule	process
+Ca2+	consumption	pr_6211a810-3d00-4fc7-a946-450807f72dc8	urn:miriam:obo.chebi:CHEBI%3A29108			entity_pool	process	simple chemical	process
+pr_6211a810-3d00-4fc7-a946-450807f72dc8	production	Ca2+			urn:miriam:obo.chebi:CHEBI%3A29108	process	entity_pool	process	simple chemical
+E	catalysis	pr_6211a810-3d00-4fc7-a946-450807f72dc8	urn:miriam:uniprot:P59637|urn:miriam:taxonomy:694009	urn:miriam:pubmed:26331680|urn:miriam:doi:10.1016%2Fj.bbrc.2020.05.206|urn:miriam:taxonomy:392815		entity_pool	process	macromolecule	process
+Orf3a	consumption	pr_f865d18d-8c4b-48b1-9258-d2eab660ddb0	urn:miriam:uniprot:P59632|urn:miriam:taxonomy:694009			entity_pool	process	macromolecule	process
+TRAF3	consumption	pr_f865d18d-8c4b-48b1-9258-d2eab660ddb0	urn:miriam:uniprot:Q13114			entity_pool	process	macromolecule	process
+pr_f865d18d-8c4b-48b1-9258-d2eab660ddb0	production	TRAF3:SARS Orf3a			urn:miriam:uniprot:P59632|urn:miriam:uniprot:Q13114|urn:miriam:taxonomy:694009	process	entity_pool	process	complex
+p105	consumption	pr_e0874ad8-bbd4-49eb-bc21-08050fa05740	urn:miriam:uniprot:P19838			entity_pool	process	macromolecule	omitted process
+pr_e0874ad8-bbd4-49eb-bc21-08050fa05740	production	p105			urn:miriam:uniprot:P19838	process	entity_pool	omitted process	macromolecule
+TRAF3:SARS Orf3a	catalysis	pr_e0874ad8-bbd4-49eb-bc21-08050fa05740	urn:miriam:uniprot:P59632|urn:miriam:uniprot:Q13114|urn:miriam:taxonomy:694009	urn:miriam:pubmed:31034780|urn:miriam:taxonomy:9606		entity_pool	process	complex	omitted process
+Heme	consumption	pr_4577de59-3516-4c7f-8fb9-f83a05f7b46a	urn:miriam:obo.chebi:CHEBI%3A30413			entity_pool	process	simple chemical	process
+pr_4577de59-3516-4c7f-8fb9-f83a05f7b46a	production	Biliverdin			urn:miriam:obo.chebi:CHEBI%3A17033	process	entity_pool	process	simple chemical
+HMOX1	catalysis	pr_4577de59-3516-4c7f-8fb9-f83a05f7b46a	urn:miriam:uniprot:P09601			entity_pool	process	macromolecule	process
+O2	consumption	pr_4577de59-3516-4c7f-8fb9-f83a05f7b46a	urn:miriam:obo.chebi:CHEBI%3A15379			entity_pool	process	simple chemical	process
+NADPH	consumption	pr_4577de59-3516-4c7f-8fb9-f83a05f7b46a	urn:miriam:obo.chebi:CHEBI%3A16474			entity_pool	process	simple chemical	process
+pr_4577de59-3516-4c7f-8fb9-f83a05f7b46a	production	H2O			urn:miriam:obo.chebi:CHEBI%3A15377	process	entity_pool	process	simple chemical
+pr_4577de59-3516-4c7f-8fb9-f83a05f7b46a	production	NADP+			urn:miriam:obo.chebi:CHEBI%3A18009	process	entity_pool	process	simple chemical
+pr_4577de59-3516-4c7f-8fb9-f83a05f7b46a	production	CO			urn:miriam:obo.chebi:CHEBI%3A17245	process	entity_pool	process	simple chemical
+pr_4577de59-3516-4c7f-8fb9-f83a05f7b46a	production	Fe2+			urn:miriam:obo.chebi:CHEBI%3A29033	process	entity_pool	process	simple chemical
+s876	consumption	pr_47b5f1c3-f037-4d4e-bea2-320f0e25dc6a				entity_pool	process	source and sink	process
+pr_47b5f1c3-f037-4d4e-bea2-320f0e25dc6a	production	Reactive Oxygen Species			urn:miriam:obo.chebi:CHEBI%3A26523	process	entity_pool	process	simple chemical
+CO	inhibition	pr_47b5f1c3-f037-4d4e-bea2-320f0e25dc6a	urn:miriam:obo.chebi:CHEBI%3A17245	urn:miriam:pubmed:28356568|urn:miriam:pubmed:25770182		entity_pool	process	simple chemical	process
+MAVS	consumption	pr_f549b748-b87a-4ad1-8c76-dd9b7a24950b	urn:miriam:uniprot:Q7Z434			entity_pool	process	macromolecule	process
+pr_f549b748-b87a-4ad1-8c76-dd9b7a24950b	production	s878				process	entity_pool	process	source and sink
+Orf9b	catalysis	pr_f549b748-b87a-4ad1-8c76-dd9b7a24950b	urn:miriam:taxonomy:694009|urn:miriam:uniprot:P59636	urn:miriam:doi:10.4049%2Fjimmunol.1303196		entity_pool	process	macromolecule	process
+TRAF3	consumption	pr_6a0ac0ac-de4f-4991-9ab3-68d473f1a86a	urn:miriam:uniprot:Q13114			entity_pool	process	macromolecule	process
+pr_6a0ac0ac-de4f-4991-9ab3-68d473f1a86a	production	s878				process	entity_pool	process	source and sink
+Orf9b	catalysis	pr_6a0ac0ac-de4f-4991-9ab3-68d473f1a86a	urn:miriam:taxonomy:694009|urn:miriam:uniprot:P59636	urn:miriam:doi:10.4049%2Fjimmunol.1303196		entity_pool	process	macromolecule	process
