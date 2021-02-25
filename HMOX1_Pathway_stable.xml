@@ -1639,7 +1639,7 @@ Description:
 <celldesigner:compartmentAlias id="ca1" compartment="c1">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="109.1875" y="170.875" w="4690.8125" h="1649.125"/>
-<celldesigner:namePoint x="147.1875" y="273.375"/>
+<celldesigner:namePoint x="158.1875" y="273.375"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -1647,7 +1647,7 @@ Description:
 <celldesigner:compartmentAlias id="ca3" compartment="c3">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="2135.4375" y="302.625" w="475.25" h="503.5"/>
-<celldesigner:namePoint x="2166.4375" y="322.625"/>
+<celldesigner:namePoint x="2165.4375" y="322.625"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -1655,7 +1655,7 @@ Description:
 <celldesigner:compartmentAlias id="ca4" compartment="c4">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="2088.6875" y="264.625" w="714.0" h="754.0"/>
-<celldesigner:namePoint x="2180.1875" y="277.125"/>
+<celldesigner:namePoint x="2179.6875" y="277.125"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -1663,7 +1663,7 @@ Description:
 <celldesigner:compartmentAlias id="ca5" compartment="c5">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="354.6875" y="1156.625" w="406.0" h="451.0"/>
-<celldesigner:namePoint x="392.1875" y="1179.125"/>
+<celldesigner:namePoint x="413.1875" y="1179.125"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -1671,7 +1671,7 @@ Description:
 <celldesigner:compartmentAlias id="ca6" compartment="c6">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="950.8125" y="720.875" w="780.0" h="770.0"/>
-<celldesigner:namePoint x="1317.3125" y="1455.375"/>
+<celldesigner:namePoint x="1318.3125" y="1455.375"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -7053,7 +7053,7 @@ Description:
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="0.0"/>
+<celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="3fff0000" scheme="Color"/>
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -7247,39 +7247,84 @@ Description:
 </listOfUnitDefinitions>
 <listOfCompartments>
 <compartment metaid="default" id="default" size="1" units="volume"/>
-<compartment metaid="c1" id="c1" name="Cytosol" size="1" units="volume" outside="default">
+<compartment metaid="c3" id="c3" name="mitochondrial matrix" size="1" units="volume" outside="c4">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Cytosol</celldesigner:name>
+<celldesigner:name>mitochondrial matrix</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c3">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005759"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c3" id="c3" name="Mitochondrial Matrix" size="1" units="volume" outside="c4">
+<compartment metaid="c4" id="c4" name="mitochondrion" size="1" units="volume" outside="c1">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Mitochondrial Matrix</celldesigner:name>
+<celldesigner:name>mitochondrion</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c4">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005739"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c5" id="c5" name="Endosome Lumen" size="1" units="volume" outside="c1">
+<compartment metaid="c6" id="c6" name="nucleus" size="1" units="volume" outside="c1">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Endosome Lumen</celldesigner:name>
+<celldesigner:name>nucleus</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c6">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005634"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c4" id="c4" name="Mitochondrion" size="1" units="volume" outside="c1">
+<compartment metaid="c5" id="c5" name="endosome" size="1" units="volume" outside="c1">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Mitochondrion</celldesigner:name>
+<celldesigner:name>endosome</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c5">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005768"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c6" id="c6" name="Nucleus" size="1" units="volume" outside="c1">
+<compartment metaid="c1" id="c1" name="cell" size="1" units="volume" outside="default">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Nucleus</celldesigner:name>
+<celldesigner:name>cell</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c1">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005737"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
 </listOfCompartments>
@@ -11315,7 +11360,7 @@ Description:
 <celldesigner:lineDirection index="2" value="vertical"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.33567955257706306,-0.11316766847492055 0.43773674943347674,0.18955584469545528</celldesigner:editPoints>
+<celldesigner:editPoints>0.3356795525770684,-0.11316766847492232 0.4377367494334803,0.18955584469546416</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:productLink>
 <celldesigner:productLink product="s15" alias="sa27" targetLineIndex="-1,1">
@@ -11944,7 +11989,7 @@ Description:
 <celldesigner:editPoints>0.6609330220524257,-0.4733926091660854</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s48" aliases="sa48" targetLineIndex="-1,3" editPoints="0.4086600189780505,0.0677181317407527 0.43558482950042077,-0.09352796725246293">
+<celldesigner:modification type="INHIBITION" modifiers="s48" aliases="sa48" targetLineIndex="-1,3" editPoints="0.4088596205730113,0.06775120727169615 0.43558482950042077,-0.09352796725246293">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -12316,7 +12361,7 @@ Description:
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s11" aliases="sa23" targetLineIndex="-1,3" editPoints="0.3700251557663288,-0.2600844790606036 0.7007012034490243,0.21037210679152984">
+<celldesigner:modification type="INHIBITION" modifiers="s11" aliases="sa23" targetLineIndex="-1,3" editPoints="0.37002515576633055,-0.2600844790606036 0.7007012034490243,0.21037210679152984">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -13527,7 +13572,7 @@ Description:
 <celldesigner:editPoints>0.1135425268373158,-8.881784197001252E-16 0.1135425268373158,-8.881784197001252E-16</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s132" aliases="csa11" targetLineIndex="-1,3" editPoints="0.5835094361369286,-0.014869007970865766 0.5842514710034479,0.01059411863575832">
+<celldesigner:modification type="CATALYSIS" modifiers="s132" aliases="csa11" targetLineIndex="-1,3" editPoints="0.5836025582484758,-0.014871380911785081 0.5842514710034443,0.01059411863575832">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -13619,7 +13664,7 @@ Description:
 <celldesigner:editPoints>0.470637478968714,-0.11367732408892994 0.5257625295461774,0.11454686257036872</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s239" aliases="csa12" targetLineIndex="-1,3" editPoints="0.2541854468429392,0.042301717822333273 0.2811349053219985,-0.11963402612180118">
+<celldesigner:modification type="CATALYSIS" modifiers="s239" aliases="csa12" targetLineIndex="-1,3" editPoints="0.2541854468429463,0.042301717822333273 0.2811349053219985,-0.11963402612180118">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -13819,7 +13864,7 @@ PMID: 30692038
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,2" editPoints="0.857247099658021,0.3031013536351279 0.968323773849638,-0.01119992943464898">
+<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,2" editPoints="0.8572004522088759,0.3030848602518488 0.968323773849638,-0.01119992943464898">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -13893,7 +13938,7 @@ PMID: 30692038
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,2" editPoints="0.8322726979561557,0.32465842243608 0.9642907926495763,-0.013929683087408273">
+<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,2" editPoints="0.8322201133070211,0.3246379098693766 0.9642907926495763,-0.013929683087408273">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -13967,7 +14012,7 @@ PMID: 30692038
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,2" editPoints="0.8018095492463471,0.35110823690078696 0.962649905664402,-0.016355412307792694">
+<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,2" editPoints="0.8017507560414869,0.3510824916617592 0.962649905664402,-0.016355412307792694">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -14129,7 +14174,7 @@ PMID: 30692038
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,3" editPoints="0.08756837413008922,-0.155728102703951 0.8471127381633781,0.27188860647394897">
+<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,3" editPoints="0.0873492471328805,-0.1553384159949589 0.8471127381633781,0.27188860647394897">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -14299,7 +14344,7 @@ PMID: 30692038
 <celldesigner:editPoints>0.13692281069086576,-9.9995792888663E-4 0.136969663859567,0.006302777624394906</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,2" editPoints="0.6866300751697403,0.4003868622731859 0.940339452318582,-0.03478918321740765">
+<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,2" editPoints="0.6865928155568297,0.4003651354947608 0.940339452318582,-0.03478918321740765">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -14373,7 +14418,7 @@ PMID: 30692038
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,2" editPoints="0.7658377787299173,0.38247060054859694 0.965398469724402,-0.017280510875757882">
+<celldesigner:modification type="CATALYSIS" modifiers="s560" aliases="sa43" targetLineIndex="-1,2" editPoints="0.765773054483283,0.38243827631209704 0.965398469724402,-0.017280510875757882">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -14754,7 +14799,7 @@ PMID: 30692038
 <celldesigner:editPoints>0.2848950163017364,-0.31346648414010225 0.4662158725902853,-0.1491273012096479 0.6383807308983805,-0.3390824839881317</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s170" aliases="sa164" targetLineIndex="-1,2" editPoints="0.45814719974834883,0.1389911126072061 0.5424275840557451,-0.1388167366850528">
+<celldesigner:modification type="CATALYSIS" modifiers="s170" aliases="sa164" targetLineIndex="-1,2" editPoints="0.4581471997483506,0.1389911126072061 0.5424275840557433,-0.1388167366850528">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -15511,9 +15556,6 @@ https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3
 <celldesigner:lineDirection index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:linkTarget species="s794" alias="sa526">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
 </celldesigner:listOfModification>
@@ -15714,7 +15756,7 @@ https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s223" aliases="sa198" targetLineIndex="-1,2" editPoints="0.03306483688410511,-0.12129437886159655 0.9638942415524592,0.13244963401971566">
+<celldesigner:modification type="CATALYSIS" modifiers="s223" aliases="sa198" targetLineIndex="-1,2" editPoints="0.03306483688410533,-0.12129437886159655 0.9638942415524592,0.13244963401971566">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -15924,7 +15966,7 @@ https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s238" aliases="csa22" targetLineIndex="-1,2" editPoints="0.23671109120188571,-0.5571840798416332 1.0838209287490987,-0.1973024872615916">
+<celldesigner:modification type="CATALYSIS" modifiers="s238" aliases="csa22" targetLineIndex="-1,2" editPoints="0.2367110912018866,-0.557184079841635 1.0838209287490992,-0.19730248726159338">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -16377,7 +16419,7 @@ https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3
 <celldesigner:editPoints>0.2728749162518138,-0.11362614809223803 0.420644882243689,0.24124566417612892</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s282" aliases="sa241" targetLineIndex="-1,2" editPoints="0.44814884571918867,0.17283447474291425 0.5776268334410641,-0.1628937463189577">
+<celldesigner:modification type="CATALYSIS" modifiers="s282" aliases="sa241" targetLineIndex="-1,2" editPoints="0.44814884571918867,0.1728344747429147 0.5776268334410641,-0.16289374631895726">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -16610,7 +16652,7 @@ https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3
 <celldesigner:lineDirection index="1" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.8332456121358867,-0.37275643789501345</celldesigner:editPoints>
+<celldesigner:editPoints>0.8322017694447639,-0.3736870139271202</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:productLink>
 </celldesigner:listOfProductLinks>
@@ -16689,9 +16731,6 @@ https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3
 <celldesigner:lineDirection index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:linkTarget species="s171" alias="sa493">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
 </celldesigner:listOfModification>
@@ -17476,7 +17515,7 @@ https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3
 <celldesigner:lineDirection index="2" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.09882622726663914,-0.46556476271574887 1.0557097468160954,-0.262445463868751</celldesigner:editPoints>
+<celldesigner:editPoints>0.09866123535015614,-0.46535293680604184 1.0556449667941497,-0.26245919812610197</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:productLink>
 </celldesigner:listOfProductLinks>
@@ -17847,7 +17886,7 @@ Elicitor Proteins:
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="TRIGGER" modifiers="s522" aliases="sa471" targetLineIndex="-1,0">
+<celldesigner:modification type="BOOLEAN_LOGIC_GATE_OR" modifiers="s522,s830,s829,s779,s171,s537,s538" aliases="sa471,sa528,sa527,sa469,sa524,sa494,sa495" modificationType="TRIGGER" targetLineIndex="-1,2" editPoints="3980.8125,330.875">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -17855,7 +17894,7 @@ Elicitor Proteins:
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="BOOLEAN_LOGIC_GATE_OR" modifiers="s522,s830,s829,s779,s171,s537,s538" aliases="sa471,sa528,sa527,sa469,sa524,sa494,sa495" modificationType="TRIGGER" targetLineIndex="-1,2" editPoints="3980.8125,330.875">
+<celldesigner:modification type="TRIGGER" modifiers="s522" aliases="sa471" targetLineIndex="-1,0">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -17869,53 +17908,38 @@ Elicitor Proteins:
 <celldesigner:lineDirection index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:linkTarget species="s830" alias="sa528">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="TRIGGER" modifiers="s829" aliases="sa527">
+<celldesigner:modification type="TRIGGER" modifiers="s829" aliases="sa527" targetLineIndex="-1,0">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:linkTarget species="s829" alias="sa527">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="TRIGGER" modifiers="s779" aliases="sa469">
+<celldesigner:modification type="TRIGGER" modifiers="s779" aliases="sa469" targetLineIndex="-1,0">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:linkTarget species="s779" alias="sa469">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="TRIGGER" modifiers="s171" aliases="sa524">
+<celldesigner:modification type="TRIGGER" modifiers="s171" aliases="sa524" targetLineIndex="-1,0">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:linkTarget species="s171" alias="sa524">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="TRIGGER" modifiers="s537" aliases="sa494">
+<celldesigner:modification type="TRIGGER" modifiers="s537" aliases="sa494" targetLineIndex="-1,0">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:linkTarget species="s537" alias="sa494">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
 <celldesigner:modification type="TRIGGER" modifiers="s538" aliases="sa495" targetLineIndex="-1,0">
@@ -17924,9 +17948,6 @@ Elicitor Proteins:
 <celldesigner:lineDirection index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:linkTarget species="s538" alias="sa495">
-<celldesigner:linkAnchor position="INACTIVE"/>
-</celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
 </celldesigner:listOfModification>
@@ -18206,7 +18227,7 @@ Elicitor Proteins:
 <celldesigner:editPoints>0.009224670275215452,-0.09560112830677742</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s19" aliases="sa31" targetLineIndex="-1,3" editPoints="0.3836606732288709,0.4682987192456536 0.4610922405303074,0.4415081769590432">
+<celldesigner:modification type="INHIBITION" modifiers="s19" aliases="sa31" targetLineIndex="-1,3" editPoints="0.3836606732288709,0.4682987192456536 0.4610922405303076,0.4415081769590432">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -18280,7 +18301,7 @@ Elicitor Proteins:
 <celldesigner:lineDirection index="1" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.16301079236232674,-0.36937551886357234</celldesigner:editPoints>
+<celldesigner:editPoints>0.15978287609782704,-0.3664045695726701</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:productLink>
 </celldesigner:listOfProductLinks>

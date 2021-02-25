@@ -689,7 +689,7 @@
 <celldesigner:compartmentAlias id="ca1" compartment="c1">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="2411.5" y="1180.0" w="485.0" h="320.0"/>
-<celldesigner:namePoint x="2773.5" y="1198.5"/>
+<celldesigner:namePoint x="2789.0" y="1198.5"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -697,7 +697,7 @@
 <celldesigner:compartmentAlias id="ca2" compartment="c2">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="454.0" y="340.0" w="2640.0" h="2160.0"/>
-<celldesigner:namePoint x="482.5" y="1358.5"/>
+<celldesigner:namePoint x="493.5" y="1358.5"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -705,7 +705,7 @@
 <celldesigner:compartmentAlias id="ca3" compartment="c3">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="900.875" y="1177.1875" w="146.25" h="145.625"/>
-<celldesigner:namePoint x="917.875" y="1204.0625"/>
+<celldesigner:namePoint x="886.375" y="1204.0625"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -713,7 +713,7 @@
 <celldesigner:compartmentAlias id="ca4" compartment="c4">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="1070.875" y="1046.6875" w="146.25" h="150.625"/>
-<celldesigner:namePoint x="1084.875" y="1074.5625"/>
+<celldesigner:namePoint x="1012.375" y="1074.5625"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -721,7 +721,7 @@
 <celldesigner:compartmentAlias id="ca5" compartment="c5">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="834.0" y="1410.0" w="140.0" h="150.0"/>
-<celldesigner:namePoint x="885.0" y="1523.5"/>
+<celldesigner:namePoint x="843.5" y="1523.5"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -729,7 +729,7 @@
 <celldesigner:compartmentAlias id="ca6" compartment="c6">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="794.0" y="1380.0" w="220.0" h="210.0"/>
-<celldesigner:namePoint x="862.5" y="1553.5"/>
+<celldesigner:namePoint x="862.0" y="1554.5"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -3023,46 +3023,100 @@
 </listOfUnitDefinitions>
 <listOfCompartments>
 <compartment metaid="default" id="default" size="1" units="volume"/>
-<compartment metaid="c1" id="c1" name="Nucleoplasm" size="1" units="volume" outside="c2">
+<compartment metaid="c5" id="c5" name="mitochondrial matrix" size="1" units="volume" outside="c6">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Nucleoplasm</celldesigner:name>
+<celldesigner:name>mitochondrial matrix</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c5">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005759"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c2" id="c2" name="Cytosol" size="1" units="volume" outside="default">
+<compartment metaid="c6" id="c6" name="mitochondrion" size="1" units="volume" outside="c2">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Cytosol</celldesigner:name>
+<celldesigner:name>mitochondrion</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c6">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005739"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c3" id="c3" name="Golgi" size="1" units="volume" outside="c2">
+<compartment metaid="c3" id="c3" name="Golgi apparatus" size="1" units="volume" outside="c2">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Golgi</celldesigner:name>
+<celldesigner:name>Golgi apparatus</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c3">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005794"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c4" id="c4" name="ERGIC" size="1" units="volume" outside="c2">
+<compartment metaid="c4" id="c4" name="endoplasmic reticulum-Golgi intermediate compartment" size="1" units="volume" outside="c2">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>ERGIC</celldesigner:name>
+<celldesigner:name>endoplasmic reticulum-Golgi intermediate compartment</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c4">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005793"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c5" id="c5" name="Matrix" size="1" units="volume" outside="c6">
+<compartment metaid="c1" id="c1" name="nucleus" size="1" units="volume" outside="c2">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Matrix</celldesigner:name>
+<celldesigner:name>nucleus</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c1">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005634"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c6" id="c6" name="Mitochondrion" size="1" units="volume" outside="c2">
+<compartment metaid="c2" id="c2" name="cell" size="1" units="volume" outside="default">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Mitochondrion</celldesigner:name>
+<celldesigner:name>cell</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c2">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005737"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
 </listOfCompartments>
@@ -6485,7 +6539,7 @@ https://identifiers.org/reactome:R-HSA-844612.2
 <celldesigner:lineDirection index="3" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.011535894963253579,-0.04269850397662012 0.011836428044637248,-0.04261730867147051 0.0683274279638395,-0.25171085471848986</celldesigner:editPoints>
+<celldesigner:editPoints>0.011535894963254023,-0.04269850397662012 0.011836428044637692,-0.04261730867147051 0.0683274279638395,-0.25171085471848986</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:productLink>
 <celldesigner:productLink product="s832" alias="sa102" targetLineIndex="-1,1">

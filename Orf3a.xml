@@ -668,7 +668,7 @@ P105
 <celldesigner:compartmentAlias id="ca1" compartment="c1">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="118.0" y="82.0" w="1546.0" h="2239.0"/>
-<celldesigner:namePoint x="855.0" y="1902.5"/>
+<celldesigner:namePoint x="896.5" y="1902.5"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -676,7 +676,7 @@ P105
 <celldesigner:compartmentAlias id="ca2" compartment="c2">
 <celldesigner:class>OVAL</celldesigner:class>
 <celldesigner:bounds x="465.0" y="1943.0" w="949.0" h="307.0"/>
-<celldesigner:namePoint x="931.9497262921177" y="2193.8195892988188"/>
+<celldesigner:namePoint x="932.9497262921177" y="2193.8195892988188"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -684,7 +684,7 @@ P105
 <celldesigner:compartmentAlias id="ca3" compartment="c3">
 <celldesigner:class>OVAL</celldesigner:class>
 <celldesigner:bounds x="1141.0" y="246.0" w="485.0" h="443.0"/>
-<celldesigner:namePoint x="1179.0" y="568.9011718641787"/>
+<celldesigner:namePoint x="1182.4404042240837" y="568.6058252249876"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -2736,25 +2736,43 @@ P105
 </listOfUnitDefinitions>
 <listOfCompartments>
 <compartment metaid="default" id="default" size="1" units="volume"/>
-<compartment metaid="c1" id="c1" name="Sars Cov 2(Orf3a)" size="1" units="volume" outside="default">
+<compartment metaid="c1" id="c1" name="cell" size="1" units="volume" outside="default">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Sars Cov 2(Orf3a)</celldesigner:name>
+<celldesigner:name>cell</celldesigner:name>
 </celldesigner:extension>
 </annotation>
 </compartment>
-<compartment metaid="c2" id="c2" name="Nucleus" size="1" units="volume" outside="c1">
+<compartment metaid="c3" id="c3" name="endosome" size="1" units="volume" outside="c1">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Nucleus</celldesigner:name>
+<celldesigner:name>endosome</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c3">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005768"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c3" id="c3" name="ENDOSOME" size="1" units="volume" outside="c1">
+<compartment metaid="c2" id="c2" name="nucleus" size="1" units="volume" outside="c1">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>ENDOSOME</celldesigner:name>
+<celldesigner:name>nucleus</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c2">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005634"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
 </listOfCompartments>

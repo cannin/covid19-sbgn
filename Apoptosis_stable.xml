@@ -389,7 +389,7 @@ MESH Id is provided for the phenotype &apos;Apoptosis&apos;.
 <celldesigner:compartmentAlias id="ca4" compartment="c4">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="80.0" y="75.0" w="1220.0" h="135.0"/>
-<celldesigner:namePoint x="1145.5" y="82.0"/>
+<celldesigner:namePoint x="1156.5" y="82.0"/>
 <celldesigner:doubleLine thickness="6.0" outerWidth="5.0" innerWidth="2.0"/>
 <celldesigner:paint color="ffff6666" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -397,7 +397,7 @@ MESH Id is provided for the phenotype &apos;Apoptosis&apos;.
 <celldesigner:compartmentAlias id="ca5" compartment="c5">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="80.0" y="210.0" w="1220.0" h="885.0"/>
-<celldesigner:namePoint x="1209.5" y="1064.0"/>
+<celldesigner:namePoint x="1230.0" y="1064.0"/>
 <celldesigner:doubleLine thickness="6.0" outerWidth="5.0" innerWidth="2.0"/>
 <celldesigner:paint color="ffff6666" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -405,7 +405,7 @@ MESH Id is provided for the phenotype &apos;Apoptosis&apos;.
 <celldesigner:compartmentAlias id="ca6" compartment="c6">
 <celldesigner:class>OVAL</celldesigner:class>
 <celldesigner:bounds x="910.0" y="866.25" w="380.0" h="187.5"/>
-<celldesigner:namePoint x="1080.5" y="1008.0"/>
+<celldesigner:namePoint x="1080.0" y="1008.0"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ff333300" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -1829,32 +1829,59 @@ MESH Id is provided for the phenotype &apos;Apoptosis&apos;.
 </listOfUnitDefinitions>
 <listOfCompartments>
 <compartment metaid="default" id="default" size="1" units="volume"/>
-<compartment metaid="c4" id="c4" name="Plasma membrane" size="1" units="volume" outside="c7">
+<compartment metaid="c7" id="c7" name="extracellular space" size="1" units="volume" outside="default">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Plasma membrane</celldesigner:name>
+<celldesigner:name>extracellular space</celldesigner:name>
 </celldesigner:extension>
 </annotation>
 </compartment>
-<compartment metaid="c5" id="c5" name="Cytoplasm" size="0.5" units="volume" outside="c7">
+<compartment metaid="c6" id="c6" name="mitochondrion" size="1" units="volume" outside="c5">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Cytoplasm</celldesigner:name>
+<celldesigner:name>mitochondrion</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c6">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005739"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c7" id="c7" name="Extracellular space" size="1" units="volume" outside="default">
+<compartment metaid="c4" id="c4" name="cell membrane" size="1" units="volume" outside="c7">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Extracellular space</celldesigner:name>
+<celldesigner:name>cell membrane</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c4">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005886"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c6" id="c6" name="Mitochondrion" size="1" units="volume" outside="c5">
+<compartment metaid="c5" id="c5" name="cell" size="0.5" units="volume" outside="c7">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Mitochondrion</celldesigner:name>
+<celldesigner:name>cell</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c5">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005737"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
 </listOfCompartments>
@@ -3017,7 +3044,7 @@ MESH Id is provided for the phenotype &apos;Apoptosis&apos;.
 </celldesigner:linkTarget>
 <celldesigner:line width="3.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s156" aliases="csa11" targetLineIndex="-1,2" editPoints="0.07210651322633832,0.0028511662646293345 0.07366756609033964,-0.03662814449375329">
+<celldesigner:modification type="INHIBITION" modifiers="s156" aliases="csa11" targetLineIndex="-1,2" editPoints="0.07210651322633854,0.0028511662646293345 0.07366756609033986,-0.03662814449375329">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>

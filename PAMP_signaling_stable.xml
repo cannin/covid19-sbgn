@@ -1085,7 +1085,7 @@ The pathway of PAMP signalling affected by human coronavirus proteins
 <celldesigner:compartmentAlias id="ca1" compartment="c1">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="85.0" y="75.0" w="1840.0" h="2495.0"/>
-<celldesigner:namePoint x="137.5" y="2528.0"/>
+<celldesigner:namePoint x="138.5" y="2528.0"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -5023,18 +5023,20 @@ cytoplasmic pattern recognition receptor (PRR)
 </listOfUnitDefinitions>
 <listOfCompartments>
 <compartment metaid="default" id="default" size="1" units="volume" sboTerm="SBO:0000240"/>
-<compartment metaid="c1" id="c1" name="Cell" size="1" units="volume" outside="default" sboTerm="SBO:0000240">
-<annotation>
-<celldesigner:extension>
-<celldesigner:name>Cell</celldesigner:name>
-</celldesigner:extension>
-</annotation>
-</compartment>
 <compartment metaid="c2" id="c2" name="endosome" size="1" units="volume" outside="c1" sboTerm="SBO:0000240">
 <annotation>
 <celldesigner:extension>
 <celldesigner:name>endosome</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c2">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005768"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
 <compartment metaid="c3" id="c3" name="nucleus" size="1" units="volume" outside="c1" sboTerm="SBO:0000240">
@@ -5042,6 +5044,31 @@ cytoplasmic pattern recognition receptor (PRR)
 <celldesigner:extension>
 <celldesigner:name>nucleus</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c3">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005634"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</compartment>
+<compartment metaid="c1" id="c1" name="cell" size="1" units="volume" outside="default" sboTerm="SBO:0000240">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>cell</celldesigner:name>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c1">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005737"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
 </listOfCompartments>
@@ -7924,7 +7951,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s478" aliases="csa56" targetLineIndex="-1,2" editPoints="0.5841217826430815,-0.4930679754846157">
+<celldesigner:modification type="CATALYSIS" modifiers="s478" aliases="csa56" targetLineIndex="-1,2" editPoints="0.5841217826430815,-0.4930679754846148">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -8015,7 +8042,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s481" aliases="sa331" targetLineIndex="-1,0" editPoints="0.3213513513513586,-0.10189189189189563 0.4127027027027097,0.18621621621621287">
+<celldesigner:modification type="CATALYSIS" modifiers="s481" aliases="sa331" targetLineIndex="-1,0" editPoints="0.3213513513513604,-0.10189189189189563 0.4127027027027115,0.18621621621621287">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -9030,7 +9057,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 <celldesigner:editPoints>0.9063583815028906,0.29132947976878576</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s588" aliases="csa90" targetLineIndex="-1,7" editPoints="0.06418650937624815,0.1854546422275709 0.9572129566132377,-0.1236249782139418">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s588" aliases="csa90" targetLineIndex="-1,7" editPoints="0.06418650937624815,0.18545464222757047 0.9572129566132377,-0.12362497821394225">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -9126,7 +9153,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 <celldesigner:editPoints>0.478598030712746,-0.003724299780609286</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s64" aliases="sa337" targetLineIndex="-1,2" editPoints="0.43543966258790867,0.21337965997874342 0.6290738993733678,-0.18176590703419038">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s64" aliases="sa337" targetLineIndex="-1,2" editPoints="0.4354396625879078,0.21337965997874164 0.6290738993733678,-0.18176590703419038">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -9582,7 +9609,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s613" aliases="csa94" targetLineIndex="-1,5" editPoints="0.08362790380068574,-0.13044800498108877 0.7923519148629081,0.32390239636802143">
+<celldesigner:modification type="PHYSICAL_STIMULATION" modifiers="s613" aliases="csa94" targetLineIndex="-1,5" editPoints="0.08362790380068663,-0.13044800498109055 0.792351914862909,0.32390239636801965">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -9675,7 +9702,7 @@ Infection of macrophages with N15m1, which expresses an unstable nsp15, or N15m3
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s665" aliases="sa452" targetLineIndex="-1,4" editPoints="0.08889283950615212,3.950968465282756E-6 0.08890864338001414,-0.35556740705616274 1.0000158018983774,-0.3555269116048754">
+<celldesigner:modification type="CATALYSIS" modifiers="s665" aliases="sa452" targetLineIndex="-1,4" editPoints="0.08889283950615123,3.950968465282756E-6 0.08890864338001325,-0.35556740705616274 1.0000158018983774,-0.3555269116048754">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>

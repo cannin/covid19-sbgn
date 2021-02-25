@@ -245,15 +245,15 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 <celldesigner:compartmentAlias id="ca1" compartment="c1">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="57.0" y="358.0" w="5937.0" h="2499.0"/>
-<celldesigner:namePoint x="2133.5" y="2813.5"/>
+<celldesigner:namePoint x="2143.5" y="2813.5"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
 </celldesigner:compartmentAlias>
 <celldesigner:compartmentAlias id="ca2" compartment="c2">
 <celldesigner:class>SQUARE</celldesigner:class>
-<celldesigner:bounds x="1759.0" y="815.0" w="524.0" h="1050.0"/>
-<celldesigner:namePoint x="2169.0" y="1736.5"/>
+<celldesigner:bounds x="1759.0" y="815.0" w="524.0" h="1055.0"/>
+<celldesigner:namePoint x="2165.0" y="1736.5"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -1382,11 +1382,11 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa80" species="s61" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1884.0" y="1808.0" w="80.0" h="40.0"/>
+<celldesigner:bounds x="1884.0" y="1801.0" w="80.0" h="40.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="125.0" y="993.0"/>
+<celldesigner:innerPosition x="125.0" y="986.0"/>
 <celldesigner:boxSize width="80.0" height="40.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
@@ -7427,18 +7427,36 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 </listOfUnitDefinitions>
 <listOfCompartments>
 <compartment metaid="default" id="default" size="1" units="volume"/>
-<compartment metaid="c1" id="c1" name="cytosol" size="1" units="volume" outside="default">
+<compartment metaid="c1" id="c1" name="cell" size="1" units="volume" outside="default">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>cytosol</celldesigner:name>
+<celldesigner:name>cell</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c1">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005737"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c2" id="c2" name="Mitochondria" size="1" units="volume" outside="c1">
+<compartment metaid="c2" id="c2" name="mitochondrion" size="1" units="volume" outside="c1">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Mitochondria</celldesigner:name>
+<celldesigner:name>mitochondrion</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c2">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005739"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
 </listOfCompartments>
@@ -13438,7 +13456,7 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 <celldesigner:lineDirection index="4" value="vertical"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.524279717818656,0.010754456757060993 0.5104648484058965,0.22407921327330094 0.9365342984514049,0.23477069667908435 0.9481905302011189,-5.025690818349915E-4</celldesigner:editPoints>
+<celldesigner:editPoints>0.524279717818656,0.010754456757060993 0.5104648484058965,0.22407921327330094 0.9365342984514031,0.2347706966790839 0.9481905302011189,-5.025690818349915E-4</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -13692,7 +13710,7 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 <celldesigner:lineDirection index="1" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.30566684990557347,-0.4606892952678354</celldesigner:editPoints>
+<celldesigner:editPoints>0.305666849905573,-0.4606892952678372</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:productLink>
 <celldesigner:productLink product="s85" alias="sa116" targetLineIndex="-1,1">
@@ -13703,7 +13721,7 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 <celldesigner:lineDirection index="1" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.3773460607764214,-0.4847226126280235</celldesigner:editPoints>
+<celldesigner:editPoints>0.3773460607764212,-0.4847226126280244</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:productLink>
 </celldesigner:listOfProductLinks>
@@ -14144,7 +14162,7 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 <celldesigner:lineDirection index="2" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.24871404607137243,0.17422018637011227 0.5778782251199432,-0.29568950950756534</celldesigner:editPoints>
+<celldesigner:editPoints>0.24871404607137176,0.17422018637011183 0.5778782251199426,-0.29568950950756534</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 <celldesigner:reactantLink reactant="s28" alias="sa134" targetLineIndex="-1,0">
@@ -14166,7 +14184,7 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 <celldesigner:lineDirection index="2" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.18779772750950408,0.08147600907220998 0.346206746071963,-0.2836480813416351</celldesigner:editPoints>
+<celldesigner:editPoints>0.18779772750950274,0.0814760090722082 0.34620674607196167,-0.2836480813416369</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -16227,7 +16245,7 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s132" aliases="sa213" targetLineIndex="-1,7" editPoints="0.48838794429575216,0.09570106029903513 0.5253656507051687,-0.09300600273284232">
+<celldesigner:modification type="INHIBITION" modifiers="s132" aliases="sa213" targetLineIndex="-1,7" editPoints="0.4883879442957664,0.09570106029903869 0.5253656507051829,-0.09300600273283877">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -18423,7 +18441,7 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s165" aliases="sa290" targetLineIndex="-1,7" editPoints="0.3912819121836151,0.2711735917785134 0.7157445105009046,-0.19700011595237044">
+<celldesigner:modification type="CATALYSIS" modifiers="s165" aliases="sa290" targetLineIndex="-1,7" editPoints="0.39128191218360087,0.2711735917785134 0.7157445105008904,-0.19700011595237044">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -18947,7 +18965,7 @@ Metabolic interactions of the SARS-CoV-2 Nsp14 with the human galactose, nicotin
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s75" aliases="sa275" targetLineIndex="-1,2" editPoints="0.3752999022833716,-0.22561476254875856 0.6407574258721684,0.21596176169013148">
+<celldesigner:modification type="CATALYSIS" modifiers="s75" aliases="sa275" targetLineIndex="-1,2" editPoints="0.3752999022833805,-0.22561476254875856 0.6407574258721773,0.21596176169013148">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>

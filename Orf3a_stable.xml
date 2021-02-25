@@ -695,7 +695,7 @@ HGNC ID:11850
 <celldesigner:compartmentAlias id="ca1" compartment="c1">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="117.0" y="90.0" w="1563.0" h="2239.0"/>
-<celldesigner:namePoint x="876.0" y="1910.5"/>
+<celldesigner:namePoint x="895.5" y="1910.5"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -711,7 +711,7 @@ HGNC ID:11850
 <celldesigner:compartmentAlias id="ca3" compartment="c3">
 <celldesigner:class>OVAL</celldesigner:class>
 <celldesigner:bounds x="1140.0" y="254.0" w="485.0" h="443.0"/>
-<celldesigner:namePoint x="1181.966062977603" y="576.2504641756453"/>
+<celldesigner:namePoint x="1162.966062977603" y="430.25046417564533"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -3126,7 +3126,39 @@ HGNC ID:11850
 </listOfUnitDefinitions>
 <listOfCompartments>
 <compartment metaid="default" id="default" size="1" units="volume"/>
-<compartment metaid="c1" id="c1" name="cytoplasm" size="1" units="volume" outside="default">
+<compartment metaid="c2" id="c2" name="nucleus" size="1" units="volume" outside="c1">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>nucleus</celldesigner:name>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c2">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005634"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</compartment>
+<compartment metaid="c3" id="c3" name="endosome" size="1" units="volume" outside="c1">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>endosome</celldesigner:name>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c3">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005768"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</compartment>
+<compartment metaid="c1" id="c1" name="cell" size="1" units="volume" outside="default">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3139,22 +3171,17 @@ ORF3A Map
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>cytoplasm</celldesigner:name>
+<celldesigner:name>cell</celldesigner:name>
 </celldesigner:extension>
-</annotation>
-</compartment>
-<compartment metaid="c2" id="c2" name="nucleus" size="1" units="volume" outside="c1">
-<annotation>
-<celldesigner:extension>
-<celldesigner:name>nucleus</celldesigner:name>
-</celldesigner:extension>
-</annotation>
-</compartment>
-<compartment metaid="c3" id="c3" name="endosome" size="1" units="volume" outside="c1">
-<annotation>
-<celldesigner:extension>
-<celldesigner:name>endosome</celldesigner:name>
-</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c1">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005737"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
 </listOfCompartments>
@@ -4564,7 +4591,7 @@ A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Pote
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="TRIGGER" modifiers="s65" aliases="sa48" targetLineIndex="-1,2" editPoints="0.5608071049046649,0.3716571055310225 0.8670162530214037,-0.08819804694783961">
+<celldesigner:modification type="TRIGGER" modifiers="s65" aliases="sa48" targetLineIndex="-1,2" editPoints="0.5608071049046648,0.37165710553102227 0.8670162530214037,-0.08819804694783961">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -4793,7 +4820,7 @@ A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Pote
 <celldesigner:lineDirection index="1" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.5089837392604943,-0.30821051473580763</celldesigner:editPoints>
+<celldesigner:editPoints>0.5089837392604946,-0.30821051473580763</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 <celldesigner:reactantLink reactant="s196" alias="sa10" targetLineIndex="-1,0">
