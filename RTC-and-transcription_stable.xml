@@ -828,7 +828,7 @@ Assembly of the Replication Transcription Complex and Transcription of SARS-CoV-
 <celldesigner:compartmentAlias id="ca2" compartment="c2">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="3.0" y="3.0" w="2443.0" h="1438.0"/>
-<celldesigner:namePoint x="32.0" y="1415.0"/>
+<celldesigner:namePoint x="56.0" y="1415.0"/>
 <celldesigner:doubleLine thickness="2.5" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -2377,11 +2377,20 @@ Assembly of the Replication Transcription Complex and Transcription of SARS-CoV-
 </rdf:RDF>
 </annotation>
 </compartment>
-<compartment metaid="c2" id="c2" name="human host" size="1" units="volume" outside="default">
+<compartment metaid="c2" id="c2" name="cell" size="1" units="volume" outside="default">
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>human host</celldesigner:name>
+<celldesigner:name>cell</celldesigner:name>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#c2">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0005737"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </compartment>
 </listOfCompartments>
@@ -3090,7 +3099,7 @@ Assembly of the Replication Transcription Complex and Transcription of SARS-CoV-
 <celldesigner:lineDirection index="3" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.16113785465633557,-0.11019659830081086 0.35715302369354457,-0.1999980063873052 0.8287628735005614,-0.17007599070792595</celldesigner:editPoints>
+<celldesigner:editPoints>0.1611378546563355,-0.11019659830081086 0.35715302369354457,-0.1999980063873052 0.8287628735005614,-0.17007599070792606</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -3327,7 +3336,7 @@ Assembly of the Replication Transcription Complex and Transcription of SARS-CoV-
 <celldesigner:lineDirection index="1" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.6915269275130872,-0.15274598527194194</celldesigner:editPoints>
+<celldesigner:editPoints>0.6915269275130873,-0.1527459852719435</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:productLink>
 <celldesigner:productLink product="s_id_glyph52" alias="glyph52" targetLineIndex="-1,1">
