@@ -1,49 +1,49 @@
 PARTICIPANT_A	INTERACTION_TYPE	PARTICIPANT_B	ANNOTATION_SOURCE	ANNOTATION_INTERACTION	ANNOTATION_TARGET	SOURCE_TYPE	TARGET_TYPE	SOURCE_CLASS	TARGET_CLASS
-Angiotensin II	consumption	pr_abe7e34d-1680-4811-85d8-9f91567ef4ba				entity_pool	process	simple chemical	process
-pr_abe7e34d-1680-4811-85d8-9f91567ef4ba	production	s2				process	entity_pool	process	source and sink
-ACE2	catalysis	pr_abe7e34d-1680-4811-85d8-9f91567ef4ba				entity_pool	process	macromolecule	process
-ACE2	consumption	pr_77363d79-74e1-4d5f-b049-d0ce7f90dd91				entity_pool	process	macromolecule	process
-pr_77363d79-74e1-4d5f-b049-d0ce7f90dd91	production	SARS-CoV-2:ACE2				process	entity_pool	process	complex
-SARS-CoV-2 proteins	consumption	pr_77363d79-74e1-4d5f-b049-d0ce7f90dd91				entity_pool	process	macromolecule	process
-SARS-CoV-2:ACE2	consumption	pr_6a9d5f98-7928-47ae-bb9e-2bea095ab798				entity_pool	process	complex	process
-pr_6a9d5f98-7928-47ae-bb9e-2bea095ab798	production	SARS-CoV-2:ACE2				process	entity_pool	process	complex
-TMPRSS2	consumption	pr_6a9d5f98-7928-47ae-bb9e-2bea095ab798				entity_pool	process	macromolecule	process
-NFKB1	consumption	pr_378d2f8a-33af-45e1-963c-ce48b98e2771				entity_pool	process	macromolecule	process
-pr_378d2f8a-33af-45e1-963c-ce48b98e2771	production	NFKB1				process	entity_pool	process	macromolecule
-logicglyph_7bef4064-d901-4022-9485-dd266ef9ce1c	stimulation	pr_378d2f8a-33af-45e1-963c-ce48b98e2771				logic	process	and	process
-SARS-CoV-2:ACE2	stimulation	pr_378d2f8a-33af-45e1-963c-ce48b98e2771				entity_pool	process	complex	process
-TLR	logic arc	logicglyph_7bef4064-d901-4022-9485-dd266ef9ce1c				entity_pool	logic	macromolecule	and
-NFKB1	consumption	pr_ad158b34-b4b2-4ece-a430-8fc411e43fd3				entity_pool	process	macromolecule	process
-pr_ad158b34-b4b2-4ece-a430-8fc411e43fd3	production	NFKB1				process	entity_pool	process	macromolecule
-EGF:EGFR	stimulation	pr_ad158b34-b4b2-4ece-a430-8fc411e43fd3				entity_pool	process	complex	process
-TNF	stimulation	pr_ad158b34-b4b2-4ece-a430-8fc411e43fd3				entity_pool	process	macromolecule	process
-AGTR1	consumption	pr_94525e66-8c95-4ba7-adb9-159bdc8fa582				entity_pool	process	macromolecule	process
-pr_94525e66-8c95-4ba7-adb9-159bdc8fa582	production	AGTR1				process	entity_pool	process	macromolecule
-Angiotensin II	catalysis	pr_94525e66-8c95-4ba7-adb9-159bdc8fa582				entity_pool	process	simple chemical	process
-ADAM17	consumption	pr_06563087-5c44-407f-a334-16052c993776				entity_pool	process	macromolecule	process
-pr_06563087-5c44-407f-a334-16052c993776	production	ADAM17				process	entity_pool	process	macromolecule
-AGTR1	catalysis	pr_06563087-5c44-407f-a334-16052c993776				entity_pool	process	macromolecule	process
-IL6R	consumption	pr_b3b74135-e81c-4e8c-8516-d14b4c403dcc				entity_pool	process	macromolecule	process
-pr_b3b74135-e81c-4e8c-8516-d14b4c403dcc	production	IL6R				process	entity_pool	process	macromolecule
-ADAM17	catalysis	pr_b3b74135-e81c-4e8c-8516-d14b4c403dcc				entity_pool	process	macromolecule	process
-EGFR	consumption	pr_2ae26a1d-1861-4dc0-949f-40c3b8cd90d8				entity_pool	process	macromolecule	process
-pr_2ae26a1d-1861-4dc0-949f-40c3b8cd90d8	production	EGF:EGFR				process	entity_pool	process	complex
-ADAM17	stimulation	pr_2ae26a1d-1861-4dc0-949f-40c3b8cd90d8				entity_pool	process	macromolecule	process
-EGF	consumption	pr_2ae26a1d-1861-4dc0-949f-40c3b8cd90d8				entity_pool	process	macromolecule	process
-TNF	consumption	pr_7d4bed6e-814e-4904-a53b-7fda9ae801be				entity_pool	process	macromolecule	process
-pr_7d4bed6e-814e-4904-a53b-7fda9ae801be	production	TNF				process	entity_pool	process	macromolecule
-ADAM17	catalysis	pr_7d4bed6e-814e-4904-a53b-7fda9ae801be				entity_pool	process	macromolecule	process
-IL6R	consumption	pr_0cc9f954-e032-497f-92a7-48c69b3232fb				entity_pool	process	macromolecule	process
-pr_0cc9f954-e032-497f-92a7-48c69b3232fb	production	IL6:IL6R				process	entity_pool	process	complex
-IL6	consumption	pr_0cc9f954-e032-497f-92a7-48c69b3232fb				entity_pool	process	macromolecule	process
-IL6:IL6R	consumption	pr_9107d59a-7900-41c8-90aa-c170763f99aa				entity_pool	process	complex	process
-pr_9107d59a-7900-41c8-90aa-c170763f99aa	production	IL6:IL6R:IL6ST				process	entity_pool	process	complex
-IL6ST	consumption	pr_9107d59a-7900-41c8-90aa-c170763f99aa				entity_pool	process	macromolecule	process
-STAT3	consumption	pr_ee68ff56-9a5b-4907-8452-96970f9bf222				entity_pool	process	macromolecule	process
-pr_ee68ff56-9a5b-4907-8452-96970f9bf222	production	STAT3				process	entity_pool	process	macromolecule
-IL6:IL6R:IL6ST	catalysis	pr_ee68ff56-9a5b-4907-8452-96970f9bf222				entity_pool	process	complex	process
-IL6	consumption	pr_06b332e5-9bbb-48ce-b020-45bd0dfaef95				entity_pool	process	macromolecule	process
-pr_06b332e5-9bbb-48ce-b020-45bd0dfaef95	production	IL6				process	entity_pool	process	macromolecule
-NFKB1	stimulation	pr_06b332e5-9bbb-48ce-b020-45bd0dfaef95				entity_pool	process	macromolecule	process
-STAT3	stimulation	pr_06b332e5-9bbb-48ce-b020-45bd0dfaef95				entity_pool	process	macromolecule	process
+Angiotensin II	consumption	pr_c252c756-0168-4cf4-90da-6f5617f05ff5				entity_pool	process	simple chemical	process
+pr_c252c756-0168-4cf4-90da-6f5617f05ff5	production	s2				process	entity_pool	process	source and sink
+ACE2	catalysis	pr_c252c756-0168-4cf4-90da-6f5617f05ff5				entity_pool	process	macromolecule	process
+ACE2	consumption	pr_0fa16364-5b2c-4c15-8f03-84e3bfdb40bd				entity_pool	process	macromolecule	process
+pr_0fa16364-5b2c-4c15-8f03-84e3bfdb40bd	production	SARS-CoV-2:ACE2				process	entity_pool	process	complex
+SARS-CoV-2 proteins	consumption	pr_0fa16364-5b2c-4c15-8f03-84e3bfdb40bd				entity_pool	process	macromolecule	process
+SARS-CoV-2:ACE2	consumption	pr_580f3ab1-64f3-4766-a2ae-29c4dddd18b7				entity_pool	process	complex	process
+pr_580f3ab1-64f3-4766-a2ae-29c4dddd18b7	production	SARS-CoV-2:ACE2				process	entity_pool	process	complex
+TMPRSS2	consumption	pr_580f3ab1-64f3-4766-a2ae-29c4dddd18b7				entity_pool	process	macromolecule	process
+NFKB1	consumption	pr_0565a3db-ff64-4515-b9ec-0f5c5e0e249d				entity_pool	process	macromolecule	process
+pr_0565a3db-ff64-4515-b9ec-0f5c5e0e249d	production	NFKB1				process	entity_pool	process	macromolecule
+logicglyph_f887c266-216a-40e3-90cf-7e082831b4f0	stimulation	pr_0565a3db-ff64-4515-b9ec-0f5c5e0e249d				logic	process	and	process
+SARS-CoV-2:ACE2	stimulation	pr_0565a3db-ff64-4515-b9ec-0f5c5e0e249d				entity_pool	process	complex	process
+TLR	logic arc	logicglyph_f887c266-216a-40e3-90cf-7e082831b4f0				entity_pool	logic	macromolecule	and
+NFKB1	consumption	pr_cae02d16-4634-492c-ae24-e25607f6bb95				entity_pool	process	macromolecule	process
+pr_cae02d16-4634-492c-ae24-e25607f6bb95	production	NFKB1				process	entity_pool	process	macromolecule
+EGF:EGFR	stimulation	pr_cae02d16-4634-492c-ae24-e25607f6bb95				entity_pool	process	complex	process
+TNF	stimulation	pr_cae02d16-4634-492c-ae24-e25607f6bb95				entity_pool	process	macromolecule	process
+AGTR1	consumption	pr_44eea628-ae8a-4fc7-865c-b2e04ae25569				entity_pool	process	macromolecule	process
+pr_44eea628-ae8a-4fc7-865c-b2e04ae25569	production	AGTR1				process	entity_pool	process	macromolecule
+Angiotensin II	catalysis	pr_44eea628-ae8a-4fc7-865c-b2e04ae25569				entity_pool	process	simple chemical	process
+ADAM17	consumption	pr_de0ded81-73c7-4571-abb4-ca273a3acf6f				entity_pool	process	macromolecule	process
+pr_de0ded81-73c7-4571-abb4-ca273a3acf6f	production	ADAM17				process	entity_pool	process	macromolecule
+AGTR1	catalysis	pr_de0ded81-73c7-4571-abb4-ca273a3acf6f				entity_pool	process	macromolecule	process
+IL6R	consumption	pr_f6ea70ea-f884-43a8-9e56-36aec8a0beb9				entity_pool	process	macromolecule	process
+pr_f6ea70ea-f884-43a8-9e56-36aec8a0beb9	production	IL6R				process	entity_pool	process	macromolecule
+ADAM17	catalysis	pr_f6ea70ea-f884-43a8-9e56-36aec8a0beb9				entity_pool	process	macromolecule	process
+EGFR	consumption	pr_03b5e62e-510b-4a7b-a9f1-d551122ffee4				entity_pool	process	macromolecule	process
+pr_03b5e62e-510b-4a7b-a9f1-d551122ffee4	production	EGF:EGFR				process	entity_pool	process	complex
+ADAM17	stimulation	pr_03b5e62e-510b-4a7b-a9f1-d551122ffee4				entity_pool	process	macromolecule	process
+EGF	consumption	pr_03b5e62e-510b-4a7b-a9f1-d551122ffee4				entity_pool	process	macromolecule	process
+TNF	consumption	pr_172ce3ba-31b2-4eba-ae0a-c4918ca823a8				entity_pool	process	macromolecule	process
+pr_172ce3ba-31b2-4eba-ae0a-c4918ca823a8	production	TNF				process	entity_pool	process	macromolecule
+ADAM17	catalysis	pr_172ce3ba-31b2-4eba-ae0a-c4918ca823a8				entity_pool	process	macromolecule	process
+IL6R	consumption	pr_9ade6765-07ba-4061-9961-1c4552652f9b				entity_pool	process	macromolecule	process
+pr_9ade6765-07ba-4061-9961-1c4552652f9b	production	IL6:IL6R				process	entity_pool	process	complex
+IL6	consumption	pr_9ade6765-07ba-4061-9961-1c4552652f9b				entity_pool	process	macromolecule	process
+IL6:IL6R	consumption	pr_085d710d-35fb-4971-81c2-077fd24aaac6				entity_pool	process	complex	process
+pr_085d710d-35fb-4971-81c2-077fd24aaac6	production	IL6:IL6R:IL6ST				process	entity_pool	process	complex
+IL6ST	consumption	pr_085d710d-35fb-4971-81c2-077fd24aaac6				entity_pool	process	macromolecule	process
+STAT3	consumption	pr_96157a4e-57f4-4ed7-8ef7-11de5dabfcf1				entity_pool	process	macromolecule	process
+pr_96157a4e-57f4-4ed7-8ef7-11de5dabfcf1	production	STAT3				process	entity_pool	process	macromolecule
+IL6:IL6R:IL6ST	catalysis	pr_96157a4e-57f4-4ed7-8ef7-11de5dabfcf1				entity_pool	process	complex	process
+IL6	consumption	pr_52cb44ce-a16d-4983-8244-2a3172cfde06				entity_pool	process	macromolecule	process
+pr_52cb44ce-a16d-4983-8244-2a3172cfde06	production	IL6				process	entity_pool	process	macromolecule
+NFKB1	stimulation	pr_52cb44ce-a16d-4983-8244-2a3172cfde06				entity_pool	process	macromolecule	process
+STAT3	stimulation	pr_52cb44ce-a16d-4983-8244-2a3172cfde06				entity_pool	process	macromolecule	process
 IL6	stimulation	CRS				entity_pool	entity_pool	macromolecule	phenotype
